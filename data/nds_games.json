@@ -3157,5 +3157,83 @@
     "testo_completo": "Nome: 100 Classic Book Collection\nFormato: .nds\nPeso: 48.1MB\nRegione: 🇪🇺\nLingue: En\n#NDS #GAME\n\n✅ Aggiunto al database\n⚙️ Guida installazione (Emulatore-PC)\n⚙️ Guida installazione (DSi)\n\n👥 Gruppo pubb",
     "cover_local": "game_covers/nds_100 Classic Book Collection_7804.jpg",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/nds_100%20Classic%20Book%20Collection_7804.webp"
+  },
+  {
+    "nome": "Castlevania - Portrait of Ruin",
+    "formato": ".nds",
+    "peso": "26.9MB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It",
+    "link": "https://t.me/c/2332511567/10034",
+    "message_id": 10034,
+    "data": "2025-10-23 11:00:21",
+    "testo_completo": "Nome: Castlevania - Portrait of Ruin\nFormato: .nds\nPeso: 26.9MB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It\n#NDS #GAME\n\n🔖 GUIDE UTILI\n🎮 Installazione (DSi)\n💻 Installazione (Emulatore)\n\nℹ️ INFO GENERALI\n📄 Lista",
+    "cover_local": "../../nromsdb/covers/nds_Castlevania - Portrait of Ruin_10034.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/nds_Castlevania%20-%20Portrait%20of%20Ruin_10034.webp"
+  },
+  {
+    "nome": "Castlevania: Order of Ecclesia",
+    "formato": ".nds",
+    "peso": "29.2MB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It",
+    "link": "https://t.me/c/2332511567/10031",
+    "message_id": 10031,
+    "data": "2025-10-23 11:00:17",
+    "testo_completo": "Nome: Castlevania: Order of Ecclesia\nFormato: .nds\nPeso: 29.2MB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It\n#NDS #GAME\n\n🔖 GUIDE UTILI\n🎮 Installazione (DSi)\n💻 Installazione (Emulatore)\n\nℹ️ INFO GENERALI\n📄 Lista",
+    "cover_local": "../../nromsdb/covers/nds_Castlevania Order of Ecclesia_10031.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/nds_Castlevania%20Order%20of%20Ecclesia_10031.webp"
+  },
+  {
+    "nome": "Castlevania - Dawn of Sorrow",
+    "formato": ".nds",
+    "peso": "24.2MB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It",
+    "link": "https://t.me/c/2332511567/10028",
+    "message_id": 10028,
+    "data": "2025-10-23 11:00:11",
+    "testo_completo": "Nome: Castlevania - Dawn of Sorrow\nFormato: .nds\nPeso: 24.2MB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It\n#NDS #GAME\n\n🔖 GUIDE UTILI\n🎮 Installazione (DSi)\n💻 Installazione (Emulatore)\n\nℹ️ INFO GENERALI\n📄 Lista G",
+    "cover_local": "../../nromsdb/covers/nds_Castlevania - Dawn of Sorrow_10028.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/nds_Castlevania%20-%20Dawn%20of%20Sorrow_10028.webp"
+  },
+  {
+    "nome": "Contra 4",
+    "formato": ".nds",
+    "peso": "15.7MB",
+    "regione": "🇺🇸",
+    "lingue": "En",
+    "link": "https://t.me/c/2332511567/10025",
+    "message_id": 10025,
+    "data": "2025-10-23 11:00:05",
+    "testo_completo": "Nome: Contra 4\nFormato: .nds\nPeso: 15.7MB\nRegione: 🇺🇸\nLingue: En\n#NDS #GAME\n\n🔖 GUIDE UTILI\n🎮 Installazione (DSi)\n💻 Installazione (Emulatore)\n\nℹ️ INFO GENERALI\n📄 Lista Giochi\n\n💬 COMMUNITY\n🔔 Richieste G",
+    "cover_local": "../../nromsdb/covers/nds_Contra 4_10025.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/nds_Contra%204_10025.webp"
+  },
+  {
+    "nome": "Etrian Odyssey",
+    "formato": ".nds",
+    "peso": "11.4MB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It",
+    "link": "https://t.me/c/2332511567/10022",
+    "message_id": 10022,
+    "data": "2025-10-23 11:00:00",
+    "testo_completo": "Nome: Etrian Odyssey\nFormato: .nds\nPeso: 11.4MB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It\n#NDS #GAME\n\n🔖 GUIDE UTILI\n🎮 Installazione (DSi)\n💻 Installazione (Emulatore)\n\nℹ️ INFO GENERALI\n📄 Lista Giochi\n\n💬 COMMU",
+    "cover_local": "../../nromsdb/covers/nds_Etrian Odyssey_10022.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/nds_Etrian%20Odyssey_10022.webp"
+  },
+  {
+    "nome": "Enchanted Folk and the School of Wizardry",
+    "formato": ".nds",
+    "peso": "63.8MB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It",
+    "link": "https://t.me/c/2332511567/10019",
+    "message_id": 10019,
+    "data": "2025-10-23 10:59:44",
+    "testo_completo": "Nome: Enchanted Folk and the School of Wizardry \nFormato: .nds\nPeso: 63.8MB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It\n#NDS #GAME\n\n🔖 GUIDE UTILI\n🎮 Installazione (DSi)\n💻 Installazione (Emulatore)\n\nℹ️ INFO GENE",
+    "cover_local": "../../nromsdb/covers/nds_Enchanted Folk and the School of Wizardry_10019.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/nds_Enchanted%20Folk%20and%20the%20School%20of%20Wizardry_10019.webp"
   }
 ]
