@@ -12894,5 +12894,18 @@
     "testo_completo": "Nome: ABZÛ\nFormato: .nsp\nPeso: 1.3GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Pr,Ru,Zh\nVersione: 1.0.0\nFW-Base: 6.0.1\nPrezzo: €19,99\nUscita: 29/11/2018\nGenere: Rompicapo, Avventura\nProduttore: 505 Games",
     "cover_local": "game_covers/switch_ABZÛ_25.jpg",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_ABZ%C3%9B_25.webp"
+  },
+  {
+    "nome": "Plants vs. Zombies™: Replanted",
+    "formato": "NSP",
+    "peso": "3GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,Jp,Pr,Zh",
+    "link": "https://t.me/c/2332511567/10039",
+    "message_id": 10039,
+    "data": "2025-10-24 11:53:09",
+    "testo_completo": "Nome: Plants vs. Zombies™: Replanted\nFormato: NSP\nPeso: 3GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,Jp,Pr,Zh\nVersione: 1.1.0\n⚙ FIRMWARE RICHIESTO\nBase: 20.4.0\nUpdate: 20.5.0\nPrezzo: €19,99\nUscita: 23/10/2025",
+    "cover_local": "../../nromsdb/covers/switch_Plants vs. Zombies™ Replanted_10039.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Plants%20vs.%20Zombies%E2%84%A2%20Replanted_10039.webp"
   }
 ]
