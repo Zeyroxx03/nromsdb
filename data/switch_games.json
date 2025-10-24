@@ -12907,5 +12907,18 @@
     "testo_completo": "Nome: Plants vs. Zombies™: Replanted\nFormato: NSP\nPeso: 3GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,Jp,Pr,Zh\nVersione: 1.1.0\n⚙ FIRMWARE RICHIESTO\nBase: 20.4.0\nUpdate: 20.5.0\nPrezzo: €19,99\nUscita: 23/10/2025",
     "cover_local": "../../nromsdb/covers/switch_Plants vs. Zombies™ Replanted_10039.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Plants%20vs.%20Zombies%E2%84%A2%20Replanted_10039.webp"
+  },
+  {
+    "nome": "Teenage Mutant Ninja Turtles: Tactical Takedown",
+    "formato": "NSP",
+    "peso": "794MB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It",
+    "link": "https://t.me/c/2332511567/10044",
+    "message_id": 10044,
+    "data": "2025-10-24 12:08:56",
+    "testo_completo": "Nome: Teenage Mutant Ninja Turtles: Tactical Takedown\nFormato: NSP\nPeso: 794MB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It\nVersione: 25.31.c\n⚙ FIRMWARE RICHIESTO\nBase: 20.2.0\nUpdate: 20.3.0\nPrezzo: €17,51\nUsci",
+    "cover_local": "../../nromsdb/covers/switch_Teenage Mutant Ninja Turtles Tactical Takedown_10044.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Teenage%20Mutant%20Ninja%20Turtles%20Tactical%20Takedown_10044.webp"
   }
 ]
