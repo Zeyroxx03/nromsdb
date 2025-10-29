@@ -12367,11 +12367,11 @@
     "formato": ".nsp",
     "peso": "9.6GB",
     "regione": "🇪🇺",
-    "lingue": "",
+    "lingue": "De,En,Es,Fr,It,Jp,Pr,Ru",
     "link": "https://t.me/c/2332511567/286",
     "message_id": 286,
     "data": "2025-01-23 20:21:15",
-    "testo_completo": "Nome: Batman Arkham Asylum\nFormato: .nsp\nPeso: 9.6GB\nRegione: 🇪🇺\nVersione: 1.0.1\nFW-Base: 17.0.0\nFW-Update: 17.0.1\nPrezzo: €24,99\nUscita: 01/12/2023\nGenere: Azione\nProduttore: WB Games\n#SWITCH #GAME #",
+    "testo_completo": "Nome: Batman Arkham Asylum\nFormato: .nsp\nPeso: 9.6GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Pr,Ru\nVersione: 1.0.1\nFW-Base: 17.0.0\nFW-Update: 17.0.1\nPrezzo: €24,99\nUscita: 01/12/2023\nGenere: Azione\nProduttore: WB Games\n#SWITCH #GAME #",
     "cover_local": "game_covers/switch_Batman Arkham Asylum_286.jpg",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Batman%20Arkham%20Asylum_286.webp"
   },
