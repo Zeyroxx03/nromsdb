@@ -1919,8 +1919,9 @@
     "link": "https://t.me/c/2332511567/8931",
     "message_id": 8931,
     "data": "2025-05-09 09:57:00",
+    "edit_date": "2025-05-09 09:57:03",
     "testo_completo": "Nome: NBA 2K25\nFormato: .nsp\nPeso: 60.3GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Zh\nVersione: 1.08\nFW-Base: 18.1.0\nFW-Update: 19.0.1\nPrezzo: €59,99\nUscita: 06/09/2024\nGenere: Sport\nProduttore: 2K\n#S",
-    "cover_local": "game_covers/switch_NBA 2K25_8931.jpg",
+    "cover_local": "../../nromsdb/covers/switch_NBA 2K25_8931.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_NBA%202K25_8931.webp"
   },
   {
