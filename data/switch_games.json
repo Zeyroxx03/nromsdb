@@ -12683,8 +12683,9 @@
     "link": "https://t.me/c/2332511567/129",
     "message_id": 129,
     "data": "2025-01-23 12:44:47",
+    "edit_date": "2025-10-30 18:05:54",
     "testo_completo": "Nome: ARMS\nFormato: .nsp\nPeso: 3.3GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Nl,Ru\nVersione: 5.4.1\nFW-Base: 0.0.0\nFW-Update: 14.1.2\nPrezzo: €59,99\nUscita: 16/06/2017\nGenere: Picchiaduro\nProduttore: N",
-    "cover_local": "game_covers/switch_ARMS_129.jpg",
+    "cover_local": "../../nromsdb/covers/switch_ARMS_129.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_ARMS_129.webp"
   },
   {
