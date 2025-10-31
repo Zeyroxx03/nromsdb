@@ -12963,5 +12963,19 @@
     "testo_completo": "Nome: Alien Hominid Invasion\nFormato: NSP\nPeso: 1.6GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Pr,Ru,Zh\nVersione: 1.2.0\n⚙ FIRMWARE RICHIESTO\nBase: 16.1.0\nUpdate: 17.0.0\nPrezzo: €19,50\nUscita: 01/11/20",
     "cover_local": "../../nromsdb/covers/switch_Alien Hominid Invasion_10061.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Alien%20Hominid%20Invasion_10061.webp"
+  },
+  {
+    "nome": "DRAGON QUEST I & II HD-2D Remake",
+    "formato": "NSP",
+    "peso": "8.4GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Zh",
+    "link": "https://t.me/c/2332511567/10065",
+    "message_id": 10065,
+    "data": "2025-10-31 11:50:25",
+    "edit_date": "2025-10-31 11:50:29",
+    "testo_completo": "Nome: DRAGON QUEST I & II HD-2D Remake\nFormato: NSP\nPeso: 8.4GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Zh\nVersione: 1.0.1\n⚙ FIRMWARE RICHIESTO\nBase: 20.2.0\nUpdate: 20.4.0\nPrezzo: €69,99\nUscita: 30/1",
+    "cover_local": "../../nromsdb/covers/switch_DRAGON QUEST I & II HD-2D Remake_10065.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_DRAGON%20QUEST%20I%20%26%20II%20HD-2D%20Remake_10065.webp"
   }
 ]
