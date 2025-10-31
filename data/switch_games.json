@@ -12977,5 +12977,19 @@
     "testo_completo": "Nome: DRAGON QUEST I & II HD-2D Remake\nFormato: NSP\nPeso: 8.4GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Zh\nVersione: 1.0.1\n⚙ FIRMWARE RICHIESTO\nBase: 20.2.0\nUpdate: 20.4.0\nPrezzo: €69,99\nUscita: 30/1",
     "cover_local": "../../nromsdb/covers/switch_DRAGON QUEST I & II HD-2D Remake_10065.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_DRAGON%20QUEST%20I%20%26%20II%20HD-2D%20Remake_10065.webp"
+  },
+  {
+    "nome": "Double Dragon Revive",
+    "formato": "NSP",
+    "peso": "4.8GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Pr,Zh",
+    "link": "https://t.me/c/2332511567/10070",
+    "message_id": 10070,
+    "data": "2025-10-31 11:59:21",
+    "edit_date": "2025-10-31 11:59:24",
+    "testo_completo": "Nome: Double Dragon Revive\nFormato: NSP\nPeso: 4.8GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Pr,Zh\nVersione: N1.10\n⚙ FIRMWARE RICHIESTO\nBase: 20.2.0\nUpdate: 20.5.0\nPrezzo: €34,99\nUscita: 23/10/2025\nGe",
+    "cover_local": "../../nromsdb/covers/switch_Double Dragon Revive_10070.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Double%20Dragon%20Revive_10070.webp"
   }
 ]
