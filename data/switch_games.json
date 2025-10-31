@@ -12949,5 +12949,19 @@
     "testo_completo": "Nome: Teenage Mutant Ninja Turtles: Tactical Takedown\nFormato: NSP\nPeso: 794MB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It\nVersione: 25.31.c\n⚙ FIRMWARE RICHIESTO\nBase: 20.2.0\nUpdate: 20.3.0\nPrezzo: €17,51\nUsci",
     "cover_local": "../../nromsdb/covers/switch_Teenage Mutant Ninja Turtles Tactical Takedown_10044.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Teenage%20Mutant%20Ninja%20Turtles%20Tactical%20Takedown_10044.webp"
+  },
+  {
+    "nome": "Alien Hominid Invasion",
+    "formato": "NSP",
+    "peso": "1.6GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Pr,Ru,Zh",
+    "link": "https://t.me/c/2332511567/10061",
+    "message_id": 10061,
+    "data": "2025-10-31 11:41:28",
+    "edit_date": "2025-10-31 11:41:31",
+    "testo_completo": "Nome: Alien Hominid Invasion\nFormato: NSP\nPeso: 1.6GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Pr,Ru,Zh\nVersione: 1.2.0\n⚙ FIRMWARE RICHIESTO\nBase: 16.1.0\nUpdate: 17.0.0\nPrezzo: €19,50\nUscita: 01/11/20",
+    "cover_local": "../../nromsdb/covers/switch_Alien Hominid Invasion_10061.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Alien%20Hominid%20Invasion_10061.webp"
   }
 ]
