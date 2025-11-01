@@ -13019,5 +13019,33 @@
     "testo_completo": "Nome: Mortal Kombat: Legacy Kollection\nFormato: NSP\nPeso: 11.6GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Pr\nVersione: 1.0.2\n⚙ FIRMWARE RICHIESTO\nBase: 20.3.0\nUpdate: 20.5.0\nPrezzo: €48,99\nUscita: 30/10/202",
     "cover_local": "../../nromsdb/covers/switch_Mortal Kombat Legacy Kollection_10087.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Mortal%20Kombat%20Legacy%20Kollection_10087.webp"
+  },
+  {
+    "nome": "Tales of Xillia Remastered",
+    "formato": "NSP",
+    "peso": "14.3GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Ru",
+    "link": "https://t.me/c/2332511567/10075",
+    "message_id": 10075,
+    "data": "2025-10-31 12:35:18",
+    "edit_date": "2025-10-31 12:35:21",
+    "testo_completo": "Nome: Tales of Xillia Remastered\nFormato: NSP\nPeso: 14.3GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Ru\nVersione: 1.0.1\n⚙ FIRMWARE RICHIESTO\nBase: 20.3.0\nUpdate: 20.5.0\nPrezzo: €39,99\nUscita: 31/10/2025\nGene",
+    "cover_local": "../../nromsdb/covers/switch_Tales of Xillia Remastered_10075.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Tales%20of%20Xillia%20Remastered_10075.webp"
+  },
+  {
+    "nome": "Atelier Resleriana: The Red Alchemist & the White Guardian",
+    "formato": "NSP",
+    "peso": "4.8GB",
+    "regione": "🇺🇸",
+    "lingue": "En,Jp",
+    "link": "https://t.me/c/2332511567/10093",
+    "message_id": 10093,
+    "data": "2025-11-01 21:23:38",
+    "edit_date": "2025-11-01 21:23:41",
+    "testo_completo": "Nome: Atelier Resleriana: The Red Alchemist & the White Guardian\nFormato: NSP\nPeso: 4.8GB\nRegione: 🇺🇸\nLingue: En,Jp\nVersione: 1.2\n⚙ FIRMWARE RICHIESTO\nBase: 20.2.0\nUpdate: 20.4.0\nPrezzo: €59,99\nUscita",
+    "cover_local": "../../nromsdb/covers/switch_Atelier Resleriana The Red Alchemist & the White Guardian_10093.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Atelier%20Resleriana%20The%20Red%20Alchemist%20%26%20the%20White%20Guardian_10093.webp"
   }
 ]
