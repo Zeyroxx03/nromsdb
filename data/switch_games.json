@@ -12994,20 +12994,6 @@
   },
   {
     "nome": "Tales of Xillia Remastered",
-    "formato": "NSP",
-    "peso": "14.3GB",
-    "regione": "🇪🇺",
-    "lingue": "De,En,Es,Fr,It,Ru",
-    "link": "https://t.me/c/2332511567/10075",
-    "message_id": 10075,
-    "data": "2025-10-31 12:35:18",
-    "edit_date": "2025-10-31 12:35:21",
-    "testo_completo": "Nome: Tales of Xillia Remastered\nFormato: NSP\nPeso: 14.3GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Ru\nVersione: 1.0.1\n⚙ FIRMWARE RICHIESTO\nBase: 20.3.0\nUpdate: 20.5.0\nPrezzo: €39,99\nUscita: 31/10/2025\nGene",
-    "cover_local": "../../nromsdb/covers/switch_Tales of Xillia Remastered_10075.webp",
-    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Tales%20of%20Xillia%20Remastered_10075.webp"
-  },
-  {
-    "nome": "Tales of Xillia Remastered",
     "formato": "XCI",
     "peso": "14.3GB",
     "regione": "🇪🇺",
