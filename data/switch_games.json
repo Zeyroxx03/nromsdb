@@ -13033,5 +13033,19 @@
     "testo_completo": "Nome: Atelier Resleriana: The Red Alchemist & the White Guardian\nFormato: NSP\nPeso: 4.8GB\nRegione: 🇺🇸\nLingue: En,Jp\nVersione: 1.2\n⚙ FIRMWARE RICHIESTO\nBase: 20.2.0\nUpdate: 20.4.0\nPrezzo: €59,99\nUscita",
     "cover_local": "../../nromsdb/covers/switch_Atelier Resleriana The Red Alchemist & the White Guardian_10093.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Atelier%20Resleriana%20The%20Red%20Alchemist%20%26%20the%20White%20Guardian_10093.webp"
+  },
+  {
+    "nome": "Chicken Run: Eggstraction",
+    "formato": "XCI",
+    "peso": "2.6GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Zh",
+    "link": "https://t.me/c/2332511567/10099",
+    "message_id": 10099,
+    "data": "2025-11-02 11:36:56",
+    "edit_date": "2025-11-02 11:36:59",
+    "testo_completo": "Nome: Chicken Run: Eggstraction\nFormato: XCI\nPeso: 2.6GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Zh\nVersione: 1.0.1\n⚙ FIRMWARE RICHIESTO\nBase: 18.0.0\nUpdate: 20.5.0\nPrezzo: €39,99\nUscita: 24/10/2025",
+    "cover_local": "../../nromsdb/covers/switch_Chicken Run Eggstraction_10099.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Chicken%20Run%20Eggstraction_10099.webp"
   }
 ]
