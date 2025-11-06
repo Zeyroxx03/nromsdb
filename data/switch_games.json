@@ -13103,5 +13103,19 @@
     "testo_completo": "Nome: Fast & Furious: Arcade Edition\nFormato: NSP\nPeso: 1.6GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Nl,Zh\nVersione: 1.908\n⚙ FIRMWARE RICHIESTO\nBase: 20.2.0\nUpdate: 20.4.0\nPrezzo: €29,99\nUscita: 24/",
     "cover_local": "../../nromsdb/covers/switch_Fast & Furious Arcade Edition_10120.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Fast%20%26%20Furious%20Arcade%20Edition_10120.webp"
+  },
+  {
+    "nome": "Hot Wheels Let's Race™: Ultimate Speed",
+    "formato": "NSP",
+    "peso": "2.3GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It",
+    "link": "https://t.me/c/2332511567/10124",
+    "message_id": 10124,
+    "data": "2025-11-06 11:40:33",
+    "edit_date": "2025-11-06 11:40:36",
+    "testo_completo": "Nome: Hot Wheels Let's Race™: Ultimate Speed\nFormato: NSP\nPeso: 2.3GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It\nVersione: 0.1.0.19498\n⚙ FIRMWARE RICHIESTO\nBase: 20.3.0\nUpdate: 20.4.0\nPrezzo: €39,99\nUscita: 2",
+    "cover_local": "../../nromsdb/covers/switch_Hot Wheels Let's Race™ Ultimate Speed_10124.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Hot%20Wheels%20Let%27s%20Race%E2%84%A2%20Ultimate%20Speed_10124.webp"
   }
 ]
