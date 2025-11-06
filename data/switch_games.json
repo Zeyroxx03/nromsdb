@@ -13075,5 +13075,19 @@
     "testo_completo": "Nome: Dinkum\nFormato: NSP\nPeso: 642MB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Pr,Ru,Zh\nVersione: 1.0.0\n⚙ FIRMWARE RICHIESTO\nBase: 20.3.0\nPrezzo: €19,99\nUscita: 06/11/2025\nGenere: Comunicazione, Avven",
     "cover_local": "../../nromsdb/covers/switch_Dinkum_10113.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Dinkum_10113.webp"
+  },
+  {
+    "nome": "Biped 2",
+    "formato": "NSP",
+    "peso": "4.1GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Pr,Ru,Zh",
+    "link": "https://t.me/c/2332511567/10116",
+    "message_id": 10116,
+    "data": "2025-11-06 11:24:06",
+    "edit_date": "2025-11-06 11:24:09",
+    "testo_completo": "Nome: Biped 2\nFormato: NSP\nPeso: 4.1GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Pr,Ru,Zh\nVersione: 1.0.0\n⚙ FIRMWARE RICHIESTO\nBase: 20.4.0\nPrezzo: €18,49\nUscita: 05/11/2025\nGenere: Rompicapo, Platform",
+    "cover_local": "../../nromsdb/covers/switch_Biped 2_10116.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Biped%202_10116.webp"
   }
 ]
