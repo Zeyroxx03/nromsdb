@@ -13061,5 +13061,19 @@
     "testo_completo": "Nome: HOT WHEELS UNLEASHED™ 2 - Turbocharged\nFormato: NSP\nPeso: 7.9GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Pr,Zh\nVersione: 1.0.11\n⚙ FIRMWARE RICHIESTO\nBase: 16.0.3\nUpdate: 19.0.0\nPrezzo: €49,99\nUscit",
     "cover_local": "../../nromsdb/covers/switch_HOT WHEELS UNLEASHED™ 2 - Turbocharged_10105.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_HOT%20WHEELS%20UNLEASHED%E2%84%A2%202%20-%20Turbocharged_10105.webp"
+  },
+  {
+    "nome": "Dinkum",
+    "formato": "NSP",
+    "peso": "642MB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Pr,Ru,Zh",
+    "link": "https://t.me/c/2332511567/10113",
+    "message_id": 10113,
+    "data": "2025-11-06 11:18:13",
+    "edit_date": "2025-11-06 11:20:21",
+    "testo_completo": "Nome: Dinkum\nFormato: NSP\nPeso: 642MB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Pr,Ru,Zh\nVersione: 1.0.0\n⚙ FIRMWARE RICHIESTO\nBase: 20.3.0\nPrezzo: €19,99\nUscita: 06/11/2025\nGenere: Comunicazione, Avven",
+    "cover_local": "../../nromsdb/covers/switch_Dinkum_10113.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Dinkum_10113.webp"
   }
 ]
