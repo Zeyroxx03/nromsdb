@@ -13089,5 +13089,19 @@
     "testo_completo": "Nome: Biped 2\nFormato: NSP\nPeso: 4.1GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Pr,Ru,Zh\nVersione: 1.0.0\n⚙ FIRMWARE RICHIESTO\nBase: 20.4.0\nPrezzo: €18,49\nUscita: 05/11/2025\nGenere: Rompicapo, Platform",
     "cover_local": "../../nromsdb/covers/switch_Biped 2_10116.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Biped%202_10116.webp"
+  },
+  {
+    "nome": "Fast & Furious: Arcade Edition",
+    "formato": "NSP",
+    "peso": "1.6GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Nl,Zh",
+    "link": "https://t.me/c/2332511567/10120",
+    "message_id": 10120,
+    "data": "2025-11-06 11:30:18",
+    "edit_date": "2025-11-06 11:30:21",
+    "testo_completo": "Nome: Fast & Furious: Arcade Edition\nFormato: NSP\nPeso: 1.6GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Nl,Zh\nVersione: 1.908\n⚙ FIRMWARE RICHIESTO\nBase: 20.2.0\nUpdate: 20.4.0\nPrezzo: €29,99\nUscita: 24/",
+    "cover_local": "../../nromsdb/covers/switch_Fast & Furious Arcade Edition_10120.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Fast%20%26%20Furious%20Arcade%20Edition_10120.webp"
   }
 ]
