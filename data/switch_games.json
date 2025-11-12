@@ -13131,5 +13131,19 @@
     "testo_completo": "Nome: Once Upon A KATAMARI\nFormato: XCI\nPeso: 3.7GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It\nVersione: 1.0.2\n⚙ FIRMWARE RICHIESTO\nBase: 19.0.0\nUpdate: 20.4.0\nPrezzo: €39,99\nUscita: 24/10/2025\nGenere: Azione",
     "cover_local": "../../nromsdb/covers/switch_Once Upon A KATAMARI_10131.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Once%20Upon%20A%20KATAMARI_10131.webp"
+  },
+  {
+    "nome": "DRAGON BALL: Sparking! ZERO",
+    "formato": "NSP",
+    "peso": "6.8GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Pr,Ru,Zh",
+    "link": "https://t.me/c/2332511567/10135",
+    "message_id": 10135,
+    "data": "2025-11-12 19:13:34",
+    "edit_date": "2025-11-12 19:13:37",
+    "testo_completo": "Nome: DRAGON BALL: Sparking! ZERO\nFormato: NSP\nPeso: 6.8GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Pr,Ru,Zh\nVersione: 2.0.73\n⚙ FIRMWARE RICHIESTO\nBase: 14.0.0\nUpdate: 20.5.0\nPrezzo: €69,99\nUscita: 14",
+    "cover_local": "../../nromsdb/covers/switch_DRAGON BALL Sparking! ZERO_10135.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_DRAGON%20BALL%20Sparking%21%20ZERO_10135.webp"
   }
 ]
