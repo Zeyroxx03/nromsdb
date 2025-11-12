@@ -13145,5 +13145,19 @@
     "testo_completo": "Nome: DRAGON BALL: Sparking! ZERO\nFormato: NSP\nPeso: 6.8GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Pr,Ru,Zh\nVersione: 2.0.73\n⚙ FIRMWARE RICHIESTO\nBase: 14.0.0\nUpdate: 20.5.0\nPrezzo: €69,99\nUscita: 14",
     "cover_local": "../../nromsdb/covers/switch_DRAGON BALL Sparking! ZERO_10135.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_DRAGON%20BALL%20Sparking%21%20ZERO_10135.webp"
+  },
+  {
+    "nome": "Wreckfest",
+    "formato": "NSP",
+    "peso": "10.9GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Pr,Ru,Zh",
+    "link": "https://t.me/c/2332511567/10141",
+    "message_id": 10141,
+    "data": "2025-11-12 19:46:29",
+    "edit_date": "2025-11-12 19:46:32",
+    "testo_completo": "Nome: Wreckfest\nFormato: NSP\nPeso: 10.9GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Pr,Ru,Zh\nVersione: 1.0.1\n⚙ FIRMWARE RICHIESTO\nBase: 13.2.1\nUpdate: 14.1.1\nPrezzo: €39,99\nUscita: 21/06/2022\nGenere: A",
+    "cover_local": "../../nromsdb/covers/switch_Wreckfest_10141.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Wreckfest_10141.webp"
   }
 ]
