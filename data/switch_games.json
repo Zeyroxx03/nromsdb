@@ -13117,5 +13117,19 @@
     "testo_completo": "Nome: Hot Wheels Let's Race™: Ultimate Speed\nFormato: NSP\nPeso: 2.3GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It\nVersione: 0.1.0.19498\n⚙ FIRMWARE RICHIESTO\nBase: 20.3.0\nUpdate: 20.4.0\nPrezzo: €39,99\nUscita: 2",
     "cover_local": "../../nromsdb/covers/switch_Hot Wheels Let's Race™ Ultimate Speed_10124.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Hot%20Wheels%20Let%27s%20Race%E2%84%A2%20Ultimate%20Speed_10124.webp"
+  },
+  {
+    "nome": "Once Upon A KATAMARI",
+    "formato": "XCI",
+    "peso": "3.7GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It",
+    "link": "https://t.me/c/2332511567/10131",
+    "message_id": 10131,
+    "data": "2025-11-12 18:55:44",
+    "edit_date": "2025-11-12 18:55:47",
+    "testo_completo": "Nome: Once Upon A KATAMARI\nFormato: XCI\nPeso: 3.7GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It\nVersione: 1.0.2\n⚙ FIRMWARE RICHIESTO\nBase: 19.0.0\nUpdate: 20.4.0\nPrezzo: €39,99\nUscita: 24/10/2025\nGenere: Azione",
+    "cover_local": "../../nromsdb/covers/switch_Once Upon A KATAMARI_10131.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Once%20Upon%20A%20KATAMARI_10131.webp"
   }
 ]
