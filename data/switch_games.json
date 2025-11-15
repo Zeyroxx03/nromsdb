@@ -13159,5 +13159,19 @@
     "testo_completo": "Nome: Wreckfest\nFormato: NSP\nPeso: 10.9GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Pr,Ru,Zh\nVersione: 1.0.1\n⚙ FIRMWARE RICHIESTO\nBase: 13.2.1\nUpdate: 14.1.1\nPrezzo: €39,99\nUscita: 21/06/2022\nGenere: A",
     "cover_local": "../../nromsdb/covers/switch_Wreckfest_10141.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Wreckfest_10141.webp"
+  },
+  {
+    "nome": "INAZUMA ELEVEN: Victory Road",
+    "formato": "NSP",
+    "peso": "30.9GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Pr,Zh",
+    "link": "https://t.me/c/2332511567/10149",
+    "message_id": 10149,
+    "data": "2025-11-14 12:44:38",
+    "edit_date": "2025-11-14 12:44:41",
+    "testo_completo": "Nome: INAZUMA ELEVEN: Victory Road\nFormato: NSP\nPeso: 30.9GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Pr,Zh\nVersione: 1.2.0\n⚙ FIRMWARE RICHIESTO\nBase: 20.1.5\nUpdate: 20.5.0\nPrezzo: €69,99\nUscita: 13/11/2",
+    "cover_local": "../../nromsdb/covers/switch_INAZUMA ELEVEN Victory Road_10149.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_INAZUMA%20ELEVEN%20Victory%20Road_10149.webp"
   }
 ]
