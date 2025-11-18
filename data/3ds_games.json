@@ -2494,5 +2494,47 @@
     "testo_completo": "Nome: Mario Kart 7\nFormato: .cia\nPeso: 1.2GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Nl,Pt,Ru\nVersione: 1.2\n#3DS #CITRA \n#GAME #UPDATE \n\n✅ Aggiunto al database\n⚙️ Guida installazione (SD)\n⚙️ Guida installa",
     "cover_local": "game_covers/3ds_Mario Kart 7_6847.jpg",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/3ds_Mario%20Kart%207_6847.webp"
+  },
+  {
+    "nome": "Rune Factory 4",
+    "formato": "CIA/CCI",
+    "peso": "2.8GB",
+    "regione": "🇪🇺",
+    "lingue": "En",
+    "link": "https://t.me/c/2332511567/10173",
+    "message_id": 10173,
+    "data": "2025-11-18 11:49:59",
+    "edit_date": "2025-11-18 11:50:02",
+    "testo_completo": "Nome: Rune Factory 4\nFormato: CIA/CCI\nPeso: 2.8GB\nRegione: 🇪🇺\nLingue: En\nVersione: 1.0\n#3DS #CITRA\n#GAME\n\n🔖 GUIDE UTILI\n🎮 Installazione (2DS/3DS)\n💻 Installazione (Emulatore)\n\nℹ️ INFO GENERALI\n📄 Lista",
+    "cover_local": "../../nromsdb/covers/3ds_Rune Factory 4_10173.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/3ds_Rune%20Factory%204_10173.webp"
+  },
+  {
+    "nome": "Brain Training infernale del Dr. Kawashima: Sai mantenere la concentrazione?",
+    "formato": "CIA/CCI",
+    "peso": "1.4GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Nl",
+    "link": "https://t.me/c/2332511567/10169",
+    "message_id": 10169,
+    "data": "2025-11-18 11:44:11",
+    "edit_date": "2025-11-18 11:44:59",
+    "testo_completo": "Nome: Brain Training infernale del Dr. Kawashima: Sai mantenere la concentrazione?\nFormato: CIA/CCI\nPeso: 1.4GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Nl\nVersione: 1.0\n#3DS #CITRA\n#GAME\n\n🔖 GUIDE UTILI\n🎮 I",
+    "cover_local": "../../nromsdb/covers/3ds_Brain Training infernale del Dr. Kawashima Sai mantenere la concentrazione_10169.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/3ds_Brain%20Training%20infernale%20del%20Dr.%20Kawashima%20Sai%20mantenere%20la%20concentrazione_10169.webp"
+  },
+  {
+    "nome": "Fantasy Life",
+    "formato": "CIA/CCI",
+    "peso": "1.7GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It",
+    "link": "https://t.me/c/2332511567/10164",
+    "message_id": 10164,
+    "data": "2025-11-18 11:40:51",
+    "edit_date": "2025-11-18 11:43:07",
+    "testo_completo": "Nome: Fantasy Life\nFormato: CIA/CCI\nPeso: 1.7GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It\nVersione: 1.0\n#3DS #CITRA\n#GAME #DLC\n\n🔖 GUIDE UTILI\n🎮 Installazione (2DS/3DS)\n💻 Installazione (Emulatore)\n\nℹ️ INFO GE",
+    "cover_local": "../../nromsdb/covers/3ds_Fantasy Life_10164.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/3ds_Fantasy%20Life_10164.webp"
   }
 ]
