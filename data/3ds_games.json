@@ -2550,5 +2550,19 @@
     "testo_completo": "Nome: Donkey Kong Country Returns 3D\nFormato: CIA/CCI\nPeso: 4.4GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It\nVersione: 1.0\n#3DS #CITRA\n#GAME\n\n🔖 GUIDE UTILI\n🎮 Installazione (2DS/3DS)\n💻 Installazione (Emulatore",
     "cover_local": "../../nromsdb/covers/3ds_Donkey Kong Country Returns 3D_10177.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/3ds_Donkey%20Kong%20Country%20Returns%203D_10177.webp"
+  },
+  {
+    "nome": "Yoshi's New Island",
+    "formato": "CIA/CCI",
+    "peso": "841MB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Nl,Pt,Ru",
+    "link": "https://t.me/c/2332511567/10181",
+    "message_id": 10181,
+    "data": "2025-11-18 12:00:56",
+    "edit_date": "2025-11-18 12:00:59",
+    "testo_completo": "Nome: Yoshi's New Island\nFormato: CIA/CCI\nPeso: 841MB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Nl,Pt,Ru\nVersione: 1.0\n#3DS #CITRA\n#GAME\n\n🔖 GUIDE UTILI\n🎮 Installazione (2DS/3DS)\n💻 Installazione (Emulatore)",
+    "cover_local": "../../nromsdb/covers/3ds_Yoshi's New Island_10181.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/3ds_Yoshi%27s%20New%20Island_10181.webp"
   }
 ]
