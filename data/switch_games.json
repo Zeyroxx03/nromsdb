@@ -13188,5 +13188,19 @@
     "testo_completo": "Nome: Hitman: Absolution\nFormato: NSP\nPeso: 14.8GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ru\nVersione: 1.0.0\n⚙ FIRMWARE RICHIESTO\nBase: 20.5.0\nPrezzo: €21,99\nUscita: 13/11/2025\nGenere: Azione, Avventur",
     "cover_local": "../../nromsdb/covers/switch_Hitman Absolution_10187.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Hitman%20Absolution_10187.webp"
+  },
+  {
+    "nome": "Tomb Raider: Definitive Edition",
+    "formato": "NSP",
+    "peso": "27.8GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Nl,Pr,Ru,Zh",
+    "link": "https://t.me/c/2332511567/10218",
+    "message_id": 10218,
+    "data": "2025-11-20 12:43:59",
+    "edit_date": "2025-11-20 12:44:02",
+    "testo_completo": "Nome: Tomb Raider: Definitive Edition\nFormato: NSP\nPeso: 27.8GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Nl,Pr,Ru,Zh\nVersione: 1.0.1\n⚙ FIRMWARE RICHIESTO\nBase: 20.5.0\nUpdate: 20.5.0\nPrezzo: €18,19\nUsc",
+    "cover_local": "../../nromsdb/covers/switch_Tomb Raider Definitive Edition_10218.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Tomb%20Raider%20Definitive%20Edition_10218.webp"
   }
 ]
