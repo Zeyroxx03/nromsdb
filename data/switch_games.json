@@ -13160,5 +13160,33 @@
     "testo_completo": "Nome: INAZUMA ELEVEN: Victory Road\nFormato: NSP\nPeso: 30.9GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Pr,Zh\nVersione: 1.2.0\n⚙ FIRMWARE RICHIESTO\nBase: 20.1.5\nUpdate: 20.5.0\nPrezzo: €69,99\nUscita: 13/11/2",
     "cover_local": "../../nromsdb/covers/switch_INAZUMA ELEVEN Victory Road_10149.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_INAZUMA%20ELEVEN%20Victory%20Road_10149.webp"
+  },
+  {
+    "nome": "Classic Board Game Bundle - Ticket to Ride, Cluedo, Topini in trappola, Affonda la Flotta and Il Gioco Della Vita 2",
+    "formato": "NSP",
+    "peso": "6.5GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It",
+    "link": "https://t.me/c/2332511567/10193",
+    "message_id": 10193,
+    "data": "2025-11-20 11:48:55",
+    "edit_date": "2025-11-20 11:51:13",
+    "testo_completo": "Nome: Classic Board Game Bundle - Ticket to Ride, Cluedo, Topini in trappola, Affonda la Flotta and Il Gioco Della Vita 2\nFormato: NSP\nPeso: 6.5GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It\nPrezzo: €79,99\nUsc",
+    "cover_local": "../../nromsdb/covers/switch_Classic Board Game Bundle - Ticket to Ride, Cluedo, Topini in trappola, Affonda la Flotta and Il Gio_10193.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Classic%20Board%20Game%20Bundle%20-%20Ticket%20to%20Ride%2C%20Cluedo%2C%20Topini%20in%20trappola%2C%20Affonda%20la%20Flotta%20and%20Il%20Gio_10193.webp"
+  },
+  {
+    "nome": "Hitman: Absolution",
+    "formato": "NSP",
+    "peso": "14.8GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ru",
+    "link": "https://t.me/c/2332511567/10187",
+    "message_id": 10187,
+    "data": "2025-11-19 17:02:51",
+    "edit_date": "2025-11-19 17:02:54",
+    "testo_completo": "Nome: Hitman: Absolution\nFormato: NSP\nPeso: 14.8GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ru\nVersione: 1.0.0\n⚙ FIRMWARE RICHIESTO\nBase: 20.5.0\nPrezzo: €21,99\nUscita: 13/11/2025\nGenere: Azione, Avventur",
+    "cover_local": "../../nromsdb/covers/switch_Hitman Absolution_10187.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Hitman%20Absolution_10187.webp"
   }
 ]
