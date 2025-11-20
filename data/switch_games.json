@@ -13202,5 +13202,19 @@
     "testo_completo": "Nome: Tomb Raider: Definitive Edition\nFormato: NSP\nPeso: 27.8GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Nl,Pr,Ru,Zh\nVersione: 1.0.1\n⚙ FIRMWARE RICHIESTO\nBase: 20.5.0\nUpdate: 20.5.0\nPrezzo: €18,19\nUsc",
     "cover_local": "../../nromsdb/covers/switch_Tomb Raider Definitive Edition_10218.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Tomb%20Raider%20Definitive%20Edition_10218.webp"
+  },
+  {
+    "nome": "Winter Burrow",
+    "formato": "NSP",
+    "peso": "1.9GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Pr,Ru,Zh",
+    "link": "https://t.me/c/2332511567/10228",
+    "message_id": 10228,
+    "data": "2025-11-20 15:51:29",
+    "edit_date": "2025-11-20 15:51:32",
+    "testo_completo": "Nome: Winter Burrow\nFormato: NSP\nPeso: 1.9GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Pr,Ru,Zh\nVersione: 1.0.2\n⚙ FIRMWARE RICHIESTO\nBase: 20.5.0\nUpdate: 20.5.0\nPrezzo: €19,50\nUscita: 12/11/2025\nGenere",
+    "cover_local": "../../nromsdb/covers/switch_Winter Burrow_10228.webp",
+    "cover_url": null
   }
 ]
