@@ -13216,5 +13216,19 @@
     "testo_completo": "Nome: Winter Burrow\nFormato: NSP\nPeso: 1.9GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Pr,Ru,Zh\nVersione: 1.0.2\n⚙ FIRMWARE RICHIESTO\nBase: 20.5.0\nUpdate: 20.5.0\nPrezzo: €19,50\nUscita: 12/11/2025\nGenere",
     "cover_local": "../../nromsdb/covers/switch_Winter Burrow_10228.webp",
     "cover_url": null
+  },
+  {
+    "nome": "Nickelodeon All-Star Brawl 2",
+    "formato": "NSP",
+    "peso": "7.7GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Nl",
+    "link": "https://t.me/c/2332511567/10233",
+    "message_id": 10233,
+    "data": "2025-11-23 20:53:50",
+    "edit_date": "2025-11-23 20:53:53",
+    "testo_completo": "Nome: Nickelodeon All-Star Brawl 2\nFormato: NSP\nPeso: 7.7GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Nl\nVersione: 1.14.0\n⚙ FIRMWARE RICHIESTO\nBase: 17.0.0\nUpdate: 18.1.0\nPrezzo: €49,99\nUscita: 07/11/2023\nGe",
+    "cover_local": "../../nromsdb/covers/switch_Nickelodeon All-Star Brawl 2_10233.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Nickelodeon%20All-Star%20Brawl%202_10233.webp"
   }
 ]
