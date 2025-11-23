@@ -13230,5 +13230,19 @@
     "testo_completo": "Nome: Nickelodeon All-Star Brawl 2\nFormato: NSP\nPeso: 7.7GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Nl\nVersione: 1.14.0\n⚙ FIRMWARE RICHIESTO\nBase: 17.0.0\nUpdate: 18.1.0\nPrezzo: €49,99\nUscita: 07/11/2023\nGe",
     "cover_local": "../../nromsdb/covers/switch_Nickelodeon All-Star Brawl 2_10233.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Nickelodeon%20All-Star%20Brawl%202_10233.webp"
+  },
+  {
+    "nome": "Morsels",
+    "formato": "NSP",
+    "peso": "1.1GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Zh",
+    "link": "https://t.me/c/2332511567/10239",
+    "message_id": 10239,
+    "data": "2025-11-23 20:54:51",
+    "edit_date": "2025-11-23 20:54:54",
+    "testo_completo": "Nome: Morsels\nFormato: NSP\nPeso: 1.1GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Zh\nVersione: 1.0.726\n⚙ FIRMWARE RICHIESTO\nBase: 20.4.0\nUpdate: 20.5.0\nPrezzo: €14,99\nUscita: 18/11/2025\nGenere: Azione,",
+    "cover_local": "../../nromsdb/covers/switch_Morsels_10239.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Morsels_10239.webp"
   }
 ]
