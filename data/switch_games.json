@@ -13244,5 +13244,19 @@
     "testo_completo": "Nome: Morsels\nFormato: NSP\nPeso: 1.1GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Zh\nVersione: 1.0.726\n⚙ FIRMWARE RICHIESTO\nBase: 20.4.0\nUpdate: 20.5.0\nPrezzo: €14,99\nUscita: 18/11/2025\nGenere: Azione,",
     "cover_local": "../../nromsdb/covers/switch_Morsels_10239.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Morsels_10239.webp"
+  },
+  {
+    "nome": "Dreamed Away",
+    "formato": "NSP",
+    "peso": "736MB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Pr,Ru,Zh",
+    "link": "https://t.me/c/2332511567/10244",
+    "message_id": 10244,
+    "data": "2025-11-25 12:54:47",
+    "edit_date": "2025-11-25 12:54:50",
+    "testo_completo": "Nome: Dreamed Away\nFormato: NSP\nPeso: 736MB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Pr,Ru,Zh\nVersione: 1.2.0\n⚙ FIRMWARE RICHIESTO\nBase: 20.3.0\nUpdate: 20.5.0\nPrezzo: €18,49\nUscita: 23/10/2025\nGenere:",
+    "cover_local": "../../nromsdb/covers/switch_Dreamed Away_10244.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Dreamed%20Away_10244.webp"
   }
 ]
