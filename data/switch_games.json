@@ -13258,5 +13258,33 @@
     "testo_completo": "Nome: Dreamed Away\nFormato: NSP\nPeso: 736MB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Pr,Ru,Zh\nVersione: 1.2.0\n⚙ FIRMWARE RICHIESTO\nBase: 20.3.0\nUpdate: 20.5.0\nPrezzo: €18,49\nUscita: 23/10/2025\nGenere:",
     "cover_local": "../../nromsdb/covers/switch_Dreamed Away_10244.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Dreamed%20Away_10244.webp"
+  },
+  {
+    "nome": "Terrifier: The ARTcade Game",
+    "formato": "NSP",
+    "peso": "784MB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Pr",
+    "link": "https://t.me/c/2332511567/10256",
+    "message_id": 10256,
+    "data": "2025-11-29 18:05:43",
+    "edit_date": "2025-11-29 18:05:46",
+    "testo_completo": "Nome: Terrifier: The ARTcade Game\nFormato: NSP\nPeso: 784MB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Pr\nVersione: 1.0.1\n⚙ FIRMWARE RICHIESTO\nBase: 20.2.0\nUpdate: 20.5.0\nPrezzo: €19,99\nUscita: 21/11/2025\nGene",
+    "cover_local": "../../nromsdb/covers/switch_Terrifier The ARTcade Game_10256.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Terrifier%20The%20ARTcade%20Game_10256.webp"
+  },
+  {
+    "nome": "Darkwood",
+    "formato": "NSP",
+    "peso": "3.2GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,It,Pr,Ru",
+    "link": "https://t.me/c/2332511567/10252",
+    "message_id": 10252,
+    "data": "2025-11-29 17:58:21",
+    "edit_date": "2025-11-29 17:58:24",
+    "testo_completo": "Nome: Darkwood\nFormato: NSP\nPeso: 3.2GB\nRegione: 🇪🇺\nLingue: De,En,Es,It,Pr,Ru\nVersione: 1.0.5\n⚙ FIRMWARE RICHIESTO\nBase: 7.0.1\nUpdate: 10.1.0\nPrezzo: €14,99\nUscita: 16/05/2019\nGenere: Avventura, RPG\nP",
+    "cover_local": "../../nromsdb/covers/switch_Darkwood_10252.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Darkwood_10252.webp"
   }
 ]
