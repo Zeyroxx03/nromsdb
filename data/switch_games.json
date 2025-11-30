@@ -13286,5 +13286,19 @@
     "testo_completo": "Nome: Darkwood\nFormato: NSP\nPeso: 3.2GB\nRegione: 🇪🇺\nLingue: De,En,Es,It,Pr,Ru\nVersione: 1.0.5\n⚙ FIRMWARE RICHIESTO\nBase: 7.0.1\nUpdate: 10.1.0\nPrezzo: €14,99\nUscita: 16/05/2019\nGenere: Avventura, RPG\nP",
     "cover_local": "../../nromsdb/covers/switch_Darkwood_10252.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Darkwood_10252.webp"
+  },
+  {
+    "nome": "NBA 2K26",
+    "formato": "XCI",
+    "peso": "62GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Zh",
+    "link": "https://t.me/c/2332511567/10260",
+    "message_id": 10260,
+    "data": "2025-11-30 11:48:37",
+    "edit_date": "2025-11-30 11:48:40",
+    "testo_completo": "Nome: NBA 2K26\nFormato: XCI\nPeso: 62GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Zh\nVersione: 1.04\n⚙ FIRMWARE RICHIESTO\nBase: 19.0.0\nUpdate: 21.0.0 (da verificare)\nPrezzo: €59,99\nUscita: 05/09/2025\nGen",
+    "cover_local": "../../nromsdb/covers/switch_NBA 2K26_10260.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_NBA%202K26_10260.webp"
   }
 ]
