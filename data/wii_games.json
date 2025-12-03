@@ -7083,5 +7083,47 @@
     "testo_completo": "Nome: 007 - Quantum of Solace\nFormato: .wbfs\nPeso: 3.6GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It\n#WII #GAME\n\n⚙️ Guida installazione (USB)\n✅ Aggiunto al database\n\n👥 Gruppo pubblico\n🛎 Topic richieste\n↪️ Cond",
     "cover_local": "game_covers/wii_007 - Quantum of Solace_5117.jpg",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/wii_007%20-%20Quantum%20of%20Solace_5117.webp"
+  },
+  {
+    "nome": "UNO",
+    "formato": ".wad",
+    "peso": "37MB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It",
+    "link": "https://t.me/c/2332511567/10330",
+    "message_id": 10330,
+    "data": "2025-12-02 11:55:02",
+    "edit_date": "2025-12-02 12:07:21",
+    "testo_completo": "Nome: UNO\nFormato: .wad\nPeso: 37MB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It\n#WII #GAME\n#WARE\n\n🔖 GUIDE UTILI\n🎮 Installazione (Wii)\n\nℹ️ INFO GENERALI\n📄 Lista Giochi\n\n💬 COMMUNITY\n🔔 Richieste Giochi\n💬 Gruppo Pu",
+    "cover_local": "../../nromsdb/covers/wii_UNO_10330.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/wii_UNO_10330.webp"
+  },
+  {
+    "nome": "Castle of Shikigami III",
+    "formato": ".wbfs",
+    "peso": "1.7GB",
+    "regione": "🇺🇸",
+    "lingue": "En",
+    "link": "https://t.me/c/2332511567/10327",
+    "message_id": 10327,
+    "data": "2025-12-02 11:54:53",
+    "edit_date": "2025-12-02 11:54:56",
+    "testo_completo": "Nome: Castle of Shikigami III\nFormato: .wbfs\nPeso: 1.7GB\nRegione: 🇺🇸\nLingue: En\nID: RS4EXS\n#WII #GAME\n\n🔖 GUIDE UTILI\n🎮 Installazione (Wii)\n\nℹ️ INFO GENERALI\n📄 Lista Giochi\n\n💬 COMMUNITY\n🔔 Richieste Gio",
+    "cover_local": "../../nromsdb/covers/wii_Castle of Shikigami III_10327.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/wii_Castle%20of%20Shikigami%20III_10327.webp"
+  },
+  {
+    "nome": "Geometry Wars: Galaxies",
+    "formato": ".wbfs",
+    "peso": "368MB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It",
+    "link": "https://t.me/c/2332511567/10324",
+    "message_id": 10324,
+    "data": "2025-12-02 11:54:37",
+    "edit_date": "2025-12-02 12:07:00",
+    "testo_completo": "Nome: Geometry Wars: Galaxies\nFormato: .wbfs\nPeso: 368MB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It\nID: RGLP7D\n#WII #GAME\n\n🔖 GUIDE UTILI\n🎮 Installazione (Wii)\n\nℹ️ INFO GENERALI\n📄 Lista Giochi\n\n💬 COMMUNITY\n🔔 R",
+    "cover_local": "../../nromsdb/covers/wii_Geometry Wars Galaxies_10324.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/wii_Geometry%20Wars%20Galaxies_10324.webp"
   }
 ]
