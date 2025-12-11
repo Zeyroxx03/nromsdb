@@ -13342,5 +13342,19 @@
     "testo_completo": "Nome: DC Super Hero Girls: Teen Power\nFormato: NSP\nPeso: 2GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp\nVersione: 1.0.1\n⚙ FIRMWARE RICHIESTO\nBase: 10.0.0\nUpdate: 12.0.2\nPrezzo: €59,99\nUscita: 04/06/2021\nGe",
     "cover_local": "../../nromsdb/covers/switch_DC Super Hero Girls Teen Power_10335.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_DC%20Super%20Hero%20Girls%20Teen%20Power_10335.webp"
+  },
+  {
+    "nome": "Football Manager 26 Touch",
+    "formato": "XCI",
+    "peso": "3.7GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,Jp,Ko",
+    "link": "https://t.me/c/2332511567/10360",
+    "message_id": 10360,
+    "data": "2025-12-11 17:05:07",
+    "edit_date": "2025-12-11 17:06:06",
+    "testo_completo": "Nome: Football Manager 26 Touch\nFormato: XCI\nPeso: 3.7GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,Jp,Ko\nVersione: 1.0.2\n⚙ FIRMWARE RICHIESTO\nBase: 20.0.0\nUpdate: 21.1.0\nPrezzo: €49,99\nUscita: 04/12/2025\nGenere",
+    "cover_local": "../../nromsdb/covers/switch_Football Manager 26 Touch_10360.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Football%20Manager%2026%20Touch_10360.webp"
   }
 ]
