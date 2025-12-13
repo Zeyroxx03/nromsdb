@@ -13356,5 +13356,47 @@
     "testo_completo": "Nome: Football Manager 26 Touch\nFormato: XCI\nPeso: 3.7GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,Jp,Ko\nVersione: 1.0.2\n⚙ FIRMWARE RICHIESTO\nBase: 20.0.0\nUpdate: 21.1.0\nPrezzo: €49,99\nUscita: 04/12/2025\nGenere",
     "cover_local": "../../nromsdb/covers/switch_Football Manager 26 Touch_10360.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Football%20Manager%2026%20Touch_10360.webp"
+  },
+  {
+    "nome": "Old School Rally",
+    "formato": "NSP",
+    "peso": "1.2GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,It,Jp,Ru,Zh",
+    "link": "https://t.me/c/2332511567/10380",
+    "message_id": 10380,
+    "data": "2025-12-13 13:51:44",
+    "edit_date": "2025-12-13 13:51:47",
+    "testo_completo": "Nome: Old School Rally\nFormato: NSP\nPeso: 1.2GB\nRegione: 🇪🇺\nLingue: De,En,Es,It,Jp,Ru,Zh\nVersione: 1.0.988\n⚙ FIRMWARE RICHIESTO\nBase: 20.1.1\nUpdate: 20.5.0\nPrezzo: €19,99\nUscita: 04/12/2025\nGenere: Co",
+    "cover_local": "../../nromsdb/covers/switch_Old School Rally_10380.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Old%20School%20Rally_10380.webp"
+  },
+  {
+    "nome": "KIBORG",
+    "formato": "NSP",
+    "peso": "7.9GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Pr,Ru,Zh",
+    "link": "https://t.me/c/2332511567/10374",
+    "message_id": 10374,
+    "data": "2025-12-13 13:51:26",
+    "edit_date": "2025-12-13 13:51:29",
+    "testo_completo": "Nome: KIBORG\nFormato: NSP\nPeso: 7.9GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Pr,Ru,Zh\nVersione: 1.0.0\n⚙ FIRMWARE RICHIESTO\nBase: 20.5.0\nPrezzo: €24,99\nUscita: 09/12/2025\nGenere: Azione, Picchiaduro,",
+    "cover_local": "../../nromsdb/covers/switch_KIBORG_10374.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_KIBORG_10374.webp"
+  },
+  {
+    "nome": "Terminator 2D: NO FATE",
+    "formato": "NSP",
+    "peso": "675MB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Nl,Pr,Ru,Zh",
+    "link": "https://t.me/c/2332511567/10369",
+    "message_id": 10369,
+    "data": "2025-12-13 13:51:11",
+    "edit_date": "2025-12-13 13:51:14",
+    "testo_completo": "Nome: Terminator 2D: NO FATE\nFormato: NSP\nPeso: 675MB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Nl,Pr,Ru,Zh\nVersione: 1.0.3\n⚙ FIRMWARE RICHIESTO\nBase: 20.0.1\nUpdate: 20.5.0\nPrezzo: €29,99\nUscita: 12/12",
+    "cover_local": "../../nromsdb/covers/switch_Terminator 2D NO FATE_10369.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Terminator%202D%20NO%20FATE_10369.webp"
   }
 ]
