@@ -13398,5 +13398,61 @@
     "testo_completo": "Nome: Terminator 2D: NO FATE\nFormato: NSP\nPeso: 675MB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Nl,Pr,Ru,Zh\nVersione: 1.0.3\n⚙ FIRMWARE RICHIESTO\nBase: 20.0.1\nUpdate: 20.5.0\nPrezzo: €29,99\nUscita: 12/12",
     "cover_local": "../../nromsdb/covers/switch_Terminator 2D NO FATE_10369.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Terminator%202D%20NO%20FATE_10369.webp"
+  },
+  {
+    "nome": "Secret Neighbor + Hello Engineer",
+    "formato": "XCI",
+    "peso": "4.6GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Zh",
+    "link": "https://t.me/c/2332511567/10404",
+    "message_id": 10404,
+    "data": "2025-12-13 16:42:59",
+    "edit_date": "2025-12-13 16:44:19",
+    "testo_completo": "Nome: Secret Neighbor + Hello Engineer\nFormato: XCI\nPeso: 4.6GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Zh\n🆚 VERSIONI:\nHello Engineer: 1.3.15\nSecret Neighbor: 1.0.8\n⚙ FIRMWARE RICHIESTO\nBase: 19.0.0",
+    "cover_local": "../../nromsdb/covers/switch_Secret Neighbor + Hello Engineer_10404.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Secret%20Neighbor%20%2B%20Hello%20Engineer_10404.webp"
+  },
+  {
+    "nome": "Wizard of Legend 2",
+    "formato": "NSP",
+    "peso": "3.4GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,Jp,Ko,Pr,Ru,Zh",
+    "link": "https://t.me/c/2332511567/10395",
+    "message_id": 10395,
+    "data": "2025-12-13 16:13:20",
+    "edit_date": "2025-12-13 16:13:23",
+    "testo_completo": "Nome: Wizard of Legend 2\nFormato: NSP\nPeso: 3.4GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,Jp,Ko,Pr,Ru,Zh\nVersione: 1.1.0b\n⚙ FIRMWARE RICHIESTO\nBase: 19.0.1\nUpdate: 20.5.0\nPrezzo: €24,99\nUscita: 25/11/2025\nGen",
+    "cover_local": "../../nromsdb/covers/switch_Wizard of Legend 2_10395.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Wizard%20of%20Legend%202_10395.webp"
+  },
+  {
+    "nome": "Wizard of Legend",
+    "formato": "NSP",
+    "peso": "966MB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,Jp,Ko,Ru,Zh",
+    "link": "https://t.me/c/2332511567/10390",
+    "message_id": 10390,
+    "data": "2025-12-13 16:09:32",
+    "edit_date": "2025-12-13 16:09:35",
+    "testo_completo": "Nome: Wizard of Legend\nFormato: NSP\nPeso: 966MB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,Jp,Ko,Ru,Zh\nVersione: 1.23.4\n⚙ FIRMWARE RICHIESTO\nBase: 5.0.1\nUpdate: 12.1.0\nPrezzo: €15,99\nUscita: 15/05/2018\nGenere: A",
+    "cover_local": "../../nromsdb/covers/switch_Wizard of Legend_10390.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Wizard%20of%20Legend_10390.webp"
+  },
+  {
+    "nome": "Viewfinder",
+    "formato": "NSP",
+    "peso": "3.7GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Pr,Ru,Zh",
+    "link": "https://t.me/c/2332511567/10385",
+    "message_id": 10385,
+    "data": "2025-12-13 16:05:54",
+    "edit_date": "2025-12-13 16:05:59",
+    "testo_completo": "Nome: Viewfinder\nFormato: NSP\nPeso: 3.7GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Pr,Ru,Zh\nVersione: 1.1.8\n⚙ FIRMWARE RICHIESTO\nBase: 20.4.0\nUpdate: 20.5.0\nPrezzo: €19,99\nUscita: 03/12/2025\nGenere: P",
+    "cover_local": "../../nromsdb/covers/switch_Viewfinder_10385.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Viewfinder_10385.webp"
   }
 ]
