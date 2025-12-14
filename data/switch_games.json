@@ -13454,5 +13454,33 @@
     "testo_completo": "Nome: Viewfinder\nFormato: NSP\nPeso: 3.7GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Pr,Ru,Zh\nVersione: 1.1.8\n⚙ FIRMWARE RICHIESTO\nBase: 20.4.0\nUpdate: 20.5.0\nPrezzo: €19,99\nUscita: 03/12/2025\nGenere: P",
     "cover_local": "../../nromsdb/covers/switch_Viewfinder_10385.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Viewfinder_10385.webp"
+  },
+  {
+    "nome": "Kholat",
+    "formato": "NSP",
+    "peso": "5.6GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Pr,Ru,Zh",
+    "link": "https://t.me/c/2332511567/10416",
+    "message_id": 10416,
+    "data": "2025-12-14 15:27:44",
+    "edit_date": "2025-12-14 15:27:47",
+    "testo_completo": "Nome: Kholat\nFormato: NSP\nPeso: 5.6GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Pr,Ru,Zh\nVersione: 1.0.1\n⚙ FIRMWARE RICHIESTO\nBase: 9.2.0\nUpdate: 10.2.0\nPrezzo: €14,99\nUscita: 14/05/2020\nGenere: Avvent",
+    "cover_local": "../../nromsdb/covers/switch_Kholat_10416.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Kholat_10416.webp"
+  },
+  {
+    "nome": "Towa and the Guardians of the Sacred Tree",
+    "formato": "NSP",
+    "peso": "6GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Zh",
+    "link": "https://t.me/c/2332511567/10410",
+    "message_id": 10410,
+    "data": "2025-12-14 15:05:09",
+    "edit_date": "2025-12-14 15:05:12",
+    "testo_completo": "Nome: Towa and the Guardians of the Sacred Tree\nFormato: NSP\nPeso: 6GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Zh\nVersione: 1.2\n⚙ FIRMWARE RICHIESTO\nBase: 19.0.1\nUpdate: 20.3.0\nPrezzo: €29,99\nUscita:",
+    "cover_local": "../../nromsdb/covers/switch_Towa and the Guardians of the Sacred Tree_10410.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Towa%20and%20the%20Guardians%20of%20the%20Sacred%20Tree_10410.webp"
   }
 ]
