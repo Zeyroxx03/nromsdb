@@ -143,7 +143,7 @@
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/gamecube_The%20Legend%20of%20Zelda%20The%20Wind%20Waker_8868.webp"
   },
   {
-    "nome": "The Legend of Zelda: Four Swords Adventures",
+    "nome": "The Legend of Zelda:",
     "formato": ".iso",
     "peso": "1.4GB",
     "regione": "🇪🇺",
@@ -151,8 +151,9 @@
     "link": "https://t.me/c/2332511567/8865",
     "message_id": 8865,
     "data": "2025-05-07 13:34:47",
+    "edit_date": "2025-05-07 13:34:50",
     "testo_completo": "Nome: The Legend of Zelda: \nFour Swords Adventures\nFormato: .iso\nPeso: 1.4GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It\n#GAMECUBE #GAME\n\n✅ Aggiunto al database\n\n👥 Gruppo pubblico\n🛎 Richieste giochi\n↪️ Condivi",
-    "cover_local": "../../nromsdb/covers/gamecube_The Legend of Zelda_8865.webp",
+    "cover_local": "nromsdb/covers/gamecube_The Legend of Zelda_8865.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/gamecube_The%20Legend%20of%20Zelda_8865.webp"
   },
   {
