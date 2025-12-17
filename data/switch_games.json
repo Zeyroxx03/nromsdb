@@ -13482,5 +13482,33 @@
     "testo_completo": "Nome: Towa and the Guardians of the Sacred Tree\nFormato: NSP\nPeso: 6GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Zh\nVersione: 1.2\n⚙ FIRMWARE RICHIESTO\nBase: 19.0.1\nUpdate: 20.3.0\nPrezzo: €29,99\nUscita:",
     "cover_local": "../../nromsdb/covers/switch_Towa and the Guardians of the Sacred Tree_10410.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Towa%20and%20the%20Guardians%20of%20the%20Sacred%20Tree_10410.webp"
+  },
+  {
+    "nome": "Mistonia's Hope -The Lost Delight-",
+    "formato": "NSP",
+    "peso": "5.7GB",
+    "regione": "🇺🇸",
+    "lingue": "En",
+    "link": "https://t.me/c/2332511567/10527",
+    "message_id": 10527,
+    "data": "2025-12-17 11:10:30",
+    "edit_date": "2025-12-17 11:10:33",
+    "testo_completo": "Nome: Mistonia's Hope -The Lost Delight-\nFormato: NSP\nPeso: 5.7GB\nRegione: 🇺🇸\nLingue: En\nVersione: 1.0.0\n⚙ FIRMWARE RICHIESTO\nBase: 16.0.0\nPrezzo: €49,99\nUscita: 13/11/2025\nGenere: Avventura\nProduttor",
+    "cover_local": "nromsdb/covers/switch_Mistonia's Hope -The Lost Delight-_10527.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Mistonia%27s%20Hope%20-The%20Lost%20Delight-_10527.webp"
+  },
+  {
+    "nome": "The Rogue Prince of Persia™",
+    "formato": "NSP",
+    "peso": "1.5GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Pr,Ru,Zh",
+    "link": "https://t.me/c/2332511567/10522",
+    "message_id": 10522,
+    "data": "2025-12-17 10:58:01",
+    "edit_date": "2025-12-17 10:58:05",
+    "testo_completo": "Nome: The Rogue Prince of Persia™\nFormato: NSP\nPeso: 1.5GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Pr,Ru,Zh\nVersione: 1.0.4\n⚙ FIRMWARE RICHIESTO\nBase: 20.1.5\nUpdate: 20.4.0\nPrezzo: €29,99\nUscita: 16/",
+    "cover_local": "nromsdb/covers/switch_The Rogue Prince of Persia™_10522.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_The%20Rogue%20Prince%20of%20Persia%E2%84%A2_10522.webp"
   }
 ]
