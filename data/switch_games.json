@@ -13510,5 +13510,19 @@
     "testo_completo": "Nome: The Rogue Prince of Persia™\nFormato: NSP\nPeso: 1.5GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Pr,Ru,Zh\nVersione: 1.0.4\n⚙ FIRMWARE RICHIESTO\nBase: 20.1.5\nUpdate: 20.4.0\nPrezzo: €29,99\nUscita: 16/",
     "cover_local": "nromsdb/covers/switch_The Rogue Prince of Persia™_10522.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_The%20Rogue%20Prince%20of%20Persia%E2%84%A2_10522.webp"
+  },
+  {
+    "nome": "Eternights",
+    "formato": "NSP",
+    "peso": "4.4GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Pr,Zh",
+    "link": "https://t.me/c/2332511567/10533",
+    "message_id": 10533,
+    "data": "2025-12-17 11:35:15",
+    "edit_date": "2025-12-17 11:35:18",
+    "testo_completo": "Nome: Eternights\nFormato: NSP\nPeso: 4.4GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Pr,Zh\nVersione: 1.0.2\n⚙ FIRMWARE RICHIESTO\nBase: 18.0.0\nUpdate: 18.1.0\nPrezzo: €29,99\nUscita: 17/10/2024\nGenere: Azio",
+    "cover_local": "nromsdb/covers/switch_Eternights_10533.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Eternights_10533.webp"
   }
 ]
