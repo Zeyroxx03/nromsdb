@@ -13524,5 +13524,47 @@
     "testo_completo": "Nome: Eternights\nFormato: NSP\nPeso: 4.4GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Pr,Zh\nVersione: 1.0.2\n⚙ FIRMWARE RICHIESTO\nBase: 18.0.0\nUpdate: 18.1.0\nPrezzo: €29,99\nUscita: 17/10/2024\nGenere: Azio",
     "cover_local": "nromsdb/covers/switch_Eternights_10533.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Eternights_10533.webp"
+  },
+  {
+    "nome": "Camper Van Simulator 2",
+    "formato": "NSP",
+    "peso": "710MB",
+    "regione": "🇺🇸",
+    "lingue": "En",
+    "link": "https://t.me/c/2332511567/10563",
+    "message_id": 10563,
+    "data": "2026-01-02 15:53:00",
+    "edit_date": "2026-01-02 15:53:03",
+    "testo_completo": "Nome: Camper Van Simulator 2\nFormato: NSP\nPeso: 710MB\nRegione: 🇺🇸\nLingue: En\nVersione: 1.0.0\n⚙ FIRMWARE RICHIESTO\nBase: 15.0.0\nPrezzo: €12,99\nUscita: 18/11/2022\nGenere: Azione, Simulazione, Sport, Cor",
+    "cover_local": "nromsdb/covers/switch_Camper Van Simulator 2_10563.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Camper%20Van%20Simulator%202_10563.webp"
+  },
+  {
+    "nome": "Hotshot Racing",
+    "formato": "NSP",
+    "peso": "3.4GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,Jp,Ko,Pr,Ru,Zh",
+    "link": "https://t.me/c/2332511567/10558",
+    "message_id": 10558,
+    "data": "2026-01-02 15:52:26",
+    "edit_date": "2026-01-02 15:52:29",
+    "testo_completo": "Nome: Hotshot Racing\nFormato: NSP\nPeso: 3.4GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,Jp,Ko,Pr,Ru,Zh\nVersione: 1.0.5\n⚙ FIRMWARE RICHIESTO\nBase: 10.0.4\nUpdate: 11.0.1\nPrezzo: €19,99\nUscita: 10/09/2020\nGenere:",
+    "cover_local": "nromsdb/covers/switch_Hotshot Racing_10558.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Hotshot%20Racing_10558.webp"
+  },
+  {
+    "nome": "THE LAST REMNANT Remastered",
+    "formato": "NSP",
+    "peso": "12.4GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Nl,Pr,Ru,Zh",
+    "link": "https://t.me/c/2332511567/10550",
+    "message_id": 10550,
+    "data": "2026-01-02 15:51:11",
+    "edit_date": "2026-01-02 15:51:14",
+    "testo_completo": "Nome: THE LAST REMNANT Remastered\nFormato: NSP\nPeso: 12.4GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Nl,Pr,Ru,Zh\nVersione: 1.0.1\n⚙ FIRMWARE RICHIESTO\nBase: 8.0.1\nUpdate: 9.1.0\nPrezzo: €19,99\nUscita: 1",
+    "cover_local": "nromsdb/covers/switch_THE LAST REMNANT Remastered_10550.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_THE%20LAST%20REMNANT%20Remastered_10550.webp"
   }
 ]
