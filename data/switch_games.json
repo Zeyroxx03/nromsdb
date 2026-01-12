@@ -13566,5 +13566,33 @@
     "testo_completo": "Nome: THE LAST REMNANT Remastered\nFormato: NSP\nPeso: 12.4GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Nl,Pr,Ru,Zh\nVersione: 1.0.1\n⚙ FIRMWARE RICHIESTO\nBase: 8.0.1\nUpdate: 9.1.0\nPrezzo: €19,99\nUscita: 1",
     "cover_local": "nromsdb/covers/switch_THE LAST REMNANT Remastered_10550.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_THE%20LAST%20REMNANT%20Remastered_10550.webp"
+  },
+  {
+    "nome": "Tombi! 2: The Evil Swine Return Special Edition",
+    "formato": "NSP",
+    "peso": "2.7GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It",
+    "link": "https://t.me/c/2332511567/10665",
+    "message_id": 10665,
+    "data": "2026-01-12 16:12:17",
+    "edit_date": "2026-01-12 16:12:21",
+    "testo_completo": "Nome: Tombi! 2: The Evil Swine Return Special Edition\nFormato: NSP\nPeso: 2.7GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It\nVersione: 1.0.1\n⚙ FIRMWARE RICHIESTO\nBase: 20.5.0\nUpdate: 21.1.0\nPrezzo: €19,99\nUscita",
+    "cover_local": "nromsdb/covers/switch_Tombi! 2 The Evil Swine Return Special Edition_10665.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Tombi%21%202%20The%20Evil%20Swine%20Return%20Special%20Edition_10665.webp"
+  },
+  {
+    "nome": "Blood: Refreshed Supply™",
+    "formato": "NSP",
+    "peso": "893MB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It",
+    "link": "https://t.me/c/2332511567/10660",
+    "message_id": 10660,
+    "data": "2026-01-12 16:11:48",
+    "edit_date": "2026-01-12 16:11:51",
+    "testo_completo": "Nome: Blood: Refreshed Supply™\nFormato: NSP\nPeso: 893MB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It\nVersione: 1.0.1\n⚙ FIRMWARE RICHIESTO\nBase: 20.5.0\nUpdate: 21.0.1\nPrezzo: €27,99\nUscita: 04/12/2025\nGenere: Az",
+    "cover_local": "nromsdb/covers/switch_Blood Refreshed Supply™_10660.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Blood%20Refreshed%20Supply%E2%84%A2_10660.webp"
   }
 ]
