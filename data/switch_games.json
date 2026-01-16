@@ -13581,5 +13581,47 @@
     "testo_completo": "Nome: Blood: Refreshed Supply™\nFormato: NSP\nPeso: 893MB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It\nVersione: 1.0.1\n⚙ FIRMWARE RICHIESTO\nBase: 20.5.0\nUpdate: 21.0.1\nPrezzo: €27,99\nUscita: 04/12/2025\nGenere: Az",
     "cover_local": "nromsdb/covers/switch_Blood Refreshed Supply™_10660.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Blood%20Refreshed%20Supply%E2%84%A2_10660.webp"
+  },
+  {
+    "nome": "I Puffi - Village Party",
+    "formato": "NSP",
+    "peso": "1.6GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Nl,Ru,Zh",
+    "link": "https://t.me/c/2332511567/10730",
+    "message_id": 10730,
+    "data": "2026-01-16 15:22:58",
+    "edit_date": "2026-01-16 15:23:01",
+    "testo_completo": "Nome: I Puffi - Village Party\nFormato: NSP\nPeso: 1.6GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Nl,Ru,Zh\nVersione: 1.2.1\n⚙ FIRMWARE RICHIESTO\nBase: 17.0.1\nUpdate: 19.0.0\nPrezzo: €39,99\nUscita: 06/06/2024",
+    "cover_local": "nromsdb/covers/switch_I Puffi - Village Party_10730.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_I%20Puffi%20-%20Village%20Party_10730.webp"
+  },
+  {
+    "nome": "Shadow Labyrinth",
+    "formato": "NSP",
+    "peso": "4.7GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr",
+    "link": "https://t.me/c/2332511567/10725",
+    "message_id": 10725,
+    "data": "2026-01-16 15:22:35",
+    "edit_date": "2026-01-16 15:22:38",
+    "testo_completo": "Nome: Shadow Labyrinth\nFormato: NSP\nPeso: 4.7GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr\nVersione: 1.0.4\n⚙ FIRMWARE RICHIESTO\nBase: 19.0.1\nUpdate: 20.3.0\nPrezzo: €29,99\nUscita: 18/07/2025\nGenere: Azione\nProdut",
+    "cover_local": "nromsdb/covers/switch_Shadow Labyrinth_10725.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Shadow%20Labyrinth_10725.webp"
+  },
+  {
+    "nome": "Untitled Goose Game & Thank Goodness You're Here! Bundle",
+    "formato": "NSP",
+    "peso": "2.4GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Pr,Ru,Zh",
+    "link": "https://t.me/c/2332511567/10717",
+    "message_id": 10717,
+    "data": "2026-01-16 15:22:07",
+    "edit_date": "2026-01-16 15:22:10",
+    "testo_completo": "Nome: Untitled Goose Game & Thank Goodness You're Here! Bundle\nFormato: NSP\nPeso: 2.4GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Pr,Ru,Zh\n🆚 VERSIONI:\nUntitled Goose Game: v1.1.2\nThank Goodness You're",
+    "cover_local": "nromsdb/covers/switch_Untitled Goose Game & Thank Goodness You're Here! Bundle_10717.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Untitled%20Goose%20Game%20%26%20Thank%20Goodness%20You%27re%20Here%21%20Bundle_10717.webp"
   }
 ]
