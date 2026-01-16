@@ -702,19 +702,6 @@
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Batman%20-%20The%20Telltale%20Series_9552.webp"
   },
   {
-    "nome": "Shadow Labyrinth",
-    "formato": ".xci",
-    "peso": "5GB",
-    "regione": "🇯🇵",
-    "lingue": "En,Jp",
-    "link": "https://t.me/c/2332511567/9548",
-    "message_id": 9548,
-    "data": "2025-07-29 19:11:09",
-    "testo_completo": "Nome: Shadow Labyrinth\nFormato: .xci\nPeso: 5GB\nRegione: 🇯🇵\nLingue: En,Jp\nVersione: 1.0.3\nFW-Base: 18.0.0\nFW-Update: 20.1.5\nPrezzo: €29,99\nUscita: 18/07/2025\nGenere: Azione\nProduttore: BANDAI NAMCO Ent",
-    "cover_local": "game_covers/switch_Shadow Labyrinth_9548.jpg",
-    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Shadow%20Labyrinth_9548.webp"
-  },
-  {
     "nome": "Syberia Trilogy",
     "formato": ".nsp",
     "peso": "9.8GB",
