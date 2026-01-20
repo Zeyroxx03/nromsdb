@@ -13651,5 +13651,19 @@
     "testo_completo": "Nome: The Legend of Heroes: Trails beyond the Horizon\nFormato: XCI\nPeso: 12.5GB\nRegione: 🇺🇸\nLingue: En\nVersione: 1.0.5\n⚙ FIRMWARE RICHIESTO\nBase: 20.0.0\nUpdate: 21.1.0\nPrezzo: €59,99\nUscita: 15/01/202",
     "cover_local": "nromsdb/covers/switch_The Legend of Heroes Trails beyond the Horizon_10778.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_The%20Legend%20of%20Heroes%20Trails%20beyond%20the%20Horizon_10778.webp"
+  },
+  {
+    "nome": "Ys vs. Trails in the Sky: Alternative Saga",
+    "formato": "NSP",
+    "peso": "3.4GB",
+    "regione": "🇺🇸",
+    "lingue": "En",
+    "link": "https://t.me/c/2332511567/10786",
+    "message_id": 10786,
+    "data": "2026-01-20 21:11:57",
+    "edit_date": "2026-01-20 21:12:00",
+    "testo_completo": "Nome: Ys vs. Trails in the Sky: Alternative Saga\nFormato: NSP\nPeso: 3.4GB\nRegione: 🇺🇸\nLingue: En\nVersione: 1.0.7\n⚙ FIRMWARE RICHIESTO\nBase: 20.3.0\nUpdate: 21.1.0\nPrezzo: €34,99\nUscita: 10/10/2025\nGene",
+    "cover_local": "nromsdb/covers/switch_Ys vs. Trails in the Sky Alternative Saga_10786.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Ys%20vs.%20Trails%20in%20the%20Sky%20Alternative%20Saga_10786.webp"
   }
 ]
