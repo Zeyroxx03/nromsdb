@@ -13637,5 +13637,19 @@
     "testo_completo": "Nome: EA SPORTS FC 24\nFormato: XCI\nPeso: 38.6GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Nl,Pr,Ru,Zh\nVersione: 1.59.4045\n⚙ FIRMWARE RICHIESTO\nBase: 15.0.0\nUpdate: 18.1.0\nPrezzo: €59,99\nUscita: 29/09/2",
     "cover_local": "nromsdb/covers/switch_EA SPORTS FC 24_10764.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_EA%20SPORTS%20FC%2024_10764.webp"
+  },
+  {
+    "nome": "The Legend of Heroes: Trails beyond the Horizon",
+    "formato": "XCI",
+    "peso": "12.5GB",
+    "regione": "🇺🇸",
+    "lingue": "En",
+    "link": "https://t.me/c/2332511567/10778",
+    "message_id": 10778,
+    "data": "2026-01-20 21:02:02",
+    "edit_date": "2026-01-20 21:02:05",
+    "testo_completo": "Nome: The Legend of Heroes: Trails beyond the Horizon\nFormato: XCI\nPeso: 12.5GB\nRegione: 🇺🇸\nLingue: En\nVersione: 1.0.5\n⚙ FIRMWARE RICHIESTO\nBase: 20.0.0\nUpdate: 21.1.0\nPrezzo: €59,99\nUscita: 15/01/202",
+    "cover_local": "nromsdb/covers/switch_The Legend of Heroes Trails beyond the Horizon_10778.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_The%20Legend%20of%20Heroes%20Trails%20beyond%20the%20Horizon_10778.webp"
   }
 ]
