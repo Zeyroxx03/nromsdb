@@ -13652,5 +13652,19 @@
     "testo_completo": "Nome: Ys vs. Trails in the Sky: Alternative Saga\nFormato: NSP\nPeso: 3.4GB\nRegione: 🇺🇸\nLingue: En\nVersione: 1.0.7\n⚙ FIRMWARE RICHIESTO\nBase: 20.3.0\nUpdate: 21.1.0\nPrezzo: €34,99\nUscita: 10/10/2025\nGene",
     "cover_local": "nromsdb/covers/switch_Ys vs. Trails in the Sky Alternative Saga_10786.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Ys%20vs.%20Trails%20in%20the%20Sky%20Alternative%20Saga_10786.webp"
+  },
+  {
+    "nome": "Donkey Kong Country Returns HD",
+    "formato": ".nsp",
+    "peso": "8.5GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Nl,Zh",
+    "link": "https://t.me/c/2332511567/10790",
+    "message_id": 10790,
+    "data": "2026-01-21 16:59:24",
+    "edit_date": "2026-01-21 16:59:27",
+    "testo_completo": "Nome: Donkey Kong Country Returns HD\nFormato: .nsp\nPeso: 8.5GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Nl,Zh\nVersione: 1.1.0\n⚙ FIRMWARE RICHIESTO\nBase: 19.0.0\nUpdate: 20.4.0\nPrezzo: €59,99\nUscita: 16",
+    "cover_local": "nromsdb/covers/switch_Donkey Kong Country Returns HD_10790.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Donkey%20Kong%20Country%20Returns%20HD_10790.webp"
   }
 ]
