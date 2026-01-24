@@ -13695,5 +13695,47 @@
     "testo_completo": "Nome: Cult of the Lamb\nFormato: NSP\nPeso: 2.6GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,Jp,Ko,Pr,Ru,Zh\nVersione: 1.4.6\n⚙ FIRMWARE RICHIESTO\nBase: 14.1.1\nUpdate: 19.0.1\nPrezzo: €24,99\nUscita: 11/08/2022\nGenere",
     "cover_local": "nromsdb/covers/switch_Cult of the Lamb_10870.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Cult%20of%20the%20Lamb_10870.webp"
+  },
+  {
+    "nome": "TEMPUS",
+    "formato": "NSP",
+    "peso": "2.2GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Ru,Zh",
+    "link": "https://t.me/c/2332511567/10885",
+    "message_id": 10885,
+    "data": "2026-01-24 17:02:04",
+    "edit_date": "2026-01-24 17:02:07",
+    "testo_completo": "Nome: TEMPUS\nFormato: NSP\nPeso: 2.2GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Ru,Zh\nVersione: 1.0.0\n⚙ FIRMWARE RICHIESTO\nBase: 14.1.2\nPrezzo: €6,99\nUscita: 20/10/2022\nGenere: Rompicapo, Avventura\nProduttor",
+    "cover_local": "nromsdb/covers/switch_TEMPUS_10885.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_TEMPUS_10885.webp"
+  },
+  {
+    "nome": "Little Big Adventure – Twinsen’s Quest",
+    "formato": "NSP",
+    "peso": "2.2GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Nl,Pr,Ru,Zh",
+    "link": "https://t.me/c/2332511567/10880",
+    "message_id": 10880,
+    "data": "2026-01-24 16:40:14",
+    "edit_date": "2026-01-24 16:40:17",
+    "testo_completo": "Nome: Little Big Adventure – Twinsen’s Quest\nFormato: NSP\nPeso: 2.2GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Nl,Pr,Ru,Zh\nVersione: 1.1.2\n⚙ FIRMWARE RICHIESTO\nBase: 19.0.0\nUpdate: 19.0.1\nPrezzo: €29,",
+    "cover_local": "nromsdb/covers/switch_Little Big Adventure – Twinsen’s Quest_10880.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Little%20Big%20Adventure%20%E2%80%93%20Twinsen%E2%80%99s%20Quest_10880.webp"
+  },
+  {
+    "nome": "DreamWorks Dragons Dawn of New Riders",
+    "formato": "NSP",
+    "peso": "656MB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Pr",
+    "link": "https://t.me/c/2332511567/10875",
+    "message_id": 10875,
+    "data": "2026-01-24 16:34:31",
+    "edit_date": "2026-01-24 16:34:34",
+    "testo_completo": "Nome: DreamWorks Dragons Dawn of New Riders\nFormato: NSP\nPeso: 656MB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Pr\nVersione: 1.0.0.20313\n⚙ FIRMWARE RICHIESTO\nBase: 6.1.0\nUpdate: 7.0.1\nPrezzo: €29,99\nUscita: 0",
+    "cover_local": "nromsdb/covers/switch_DreamWorks Dragons Dawn of New Riders_10875.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_DreamWorks%20Dragons%20Dawn%20of%20New%20Riders_10875.webp"
   }
 ]
