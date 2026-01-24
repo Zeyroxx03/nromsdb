@@ -13666,5 +13666,33 @@
     "testo_completo": "Nome: Donkey Kong Country Returns HD\nFormato: .nsp\nPeso: 8.5GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Nl,Zh\nVersione: 1.1.0\n⚙ FIRMWARE RICHIESTO\nBase: 19.0.0\nUpdate: 20.4.0\nPrezzo: €59,99\nUscita: 16",
     "cover_local": "nromsdb/covers/switch_Donkey Kong Country Returns HD_10790.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Donkey%20Kong%20Country%20Returns%20HD_10790.webp"
+  },
+  {
+    "nome": "Wall Of Insanity 2",
+    "formato": "NSP",
+    "peso": "2.1GB",
+    "regione": "🇪🇺",
+    "lingue": "En,Es,Pr,Ru",
+    "link": "https://t.me/c/2332511567/10867",
+    "message_id": 10867,
+    "data": "2026-01-24 16:15:39",
+    "edit_date": "2026-01-24 16:15:42",
+    "testo_completo": "Nome: Wall Of Insanity 2\nFormato: NSP\nPeso: 2.1GB\nRegione: 🇪🇺\nLingue: En,Es,Pr,Ru\nVersione: 1.2\n⚙ FIRMWARE RICHIESTO\nBase: 20.5.0\nPrezzo: €6,89\nUscita: 20/01/2026\nGenere: Azione, Sparatutto in prima p",
+    "cover_local": "nromsdb/covers/switch_Wall Of Insanity 2_10867.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Wall%20Of%20Insanity%202_10867.webp"
+  },
+  {
+    "nome": "MIO: Memories in Orbit",
+    "formato": "NSP",
+    "peso": "4.3GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Nl,Pr,Ru,Zh",
+    "link": "https://t.me/c/2332511567/10863",
+    "message_id": 10863,
+    "data": "2026-01-24 16:14:53",
+    "edit_date": "2026-01-24 16:14:56",
+    "testo_completo": "Nome: MIO: Memories in Orbit\nFormato: NSP\nPeso: 4.3GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Nl,Pr,Ru,Zh\nVersione: 1.1.0.0\n⚙ FIRMWARE RICHIESTO\nBase: 20.5.0\nUpdate: 21.1.0\nPrezzo: €19,99\nUscita: 20/",
+    "cover_local": "nromsdb/covers/switch_MIO Memories in Orbit_10863.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_MIO%20Memories%20in%20Orbit_10863.webp"
   }
 ]
