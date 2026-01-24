@@ -13681,5 +13681,19 @@
     "testo_completo": "Nome: MIO: Memories in Orbit\nFormato: NSP\nPeso: 4.3GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Nl,Pr,Ru,Zh\nVersione: 1.1.0.0\n⚙ FIRMWARE RICHIESTO\nBase: 20.5.0\nUpdate: 21.1.0\nPrezzo: €19,99\nUscita: 20/",
     "cover_local": "nromsdb/covers/switch_MIO Memories in Orbit_10863.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_MIO%20Memories%20in%20Orbit_10863.webp"
+  },
+  {
+    "nome": "Cult of the Lamb",
+    "formato": "NSP",
+    "peso": "2.6GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,Jp,Ko,Pr,Ru,Zh",
+    "link": "https://t.me/c/2332511567/10870",
+    "message_id": 10870,
+    "data": "2026-01-24 16:22:07",
+    "edit_date": "2026-01-24 16:22:10",
+    "testo_completo": "Nome: Cult of the Lamb\nFormato: NSP\nPeso: 2.6GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,Jp,Ko,Pr,Ru,Zh\nVersione: 1.4.6\n⚙ FIRMWARE RICHIESTO\nBase: 14.1.1\nUpdate: 19.0.1\nPrezzo: €24,99\nUscita: 11/08/2022\nGenere",
+    "cover_local": "nromsdb/covers/switch_Cult of the Lamb_10870.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Cult%20of%20the%20Lamb_10870.webp"
   }
 ]
