@@ -13793,5 +13793,47 @@
     "testo_completo": "Nome: SAINTS ROW®: THE THIRD™ - THE FULL PACKAGE\nFormato: NSP\nPeso: 7.3GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Nl,Ru\nVersione: 1.6.1\n⚙ FIRMWARE RICHIESTO\nBase: 6.2.0\nUpdate: 10.1.0\nPrezzo: €19,99\nUscita",
     "cover_local": "nromsdb/covers/switch_SAINTS ROW® THE THIRD™ - THE FULL PACKAGE_10905.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_SAINTS%20ROW%C2%AE%20THE%20THIRD%E2%84%A2%20-%20THE%20FULL%20PACKAGE_10905.webp"
+  },
+  {
+    "nome": "The Hundred Line -Last Defense Academy-",
+    "formato": "NSP",
+    "peso": "14.9GB",
+    "regione": "🇪🇺",
+    "lingue": "En,Jp",
+    "link": "https://t.me/c/2332511567/10956",
+    "message_id": 10956,
+    "data": "2026-01-30 12:44:39",
+    "edit_date": "2026-01-30 12:44:42",
+    "testo_completo": "Nome: The Hundred Line -Last Defense Academy-\nFormato: NSP\nPeso: 14.9GB\nRegione: 🇪🇺\nLingue: En,Jp\nVersione: 1.1.2\n⚙ FIRMWARE RICHIESTO\nBase: 19.0.1\nUpdate: 20.3.0\nPrezzo: €59,99\nUscita: 23/04/2025\nGen",
+    "cover_local": "nromsdb/covers/switch_The Hundred Line -Last Defense Academy-_10956.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_The%20Hundred%20Line%20-Last%20Defense%20Academy-_10956.webp"
+  },
+  {
+    "nome": "I Hate This Place",
+    "formato": "NSP",
+    "peso": "1.1GB",
+    "regione": "🇺🇸",
+    "lingue": "En",
+    "link": "https://t.me/c/2332511567/10951",
+    "message_id": 10951,
+    "data": "2026-01-30 11:54:06",
+    "edit_date": "2026-01-30 12:02:12",
+    "testo_completo": "Nome: I Hate This Place\nFormato: NSP\nPeso: 1.1GB\nRegione: 🇺🇸\nLingue: En\nVersione: 1.0.0\n⚙ FIRMWARE RICHIESTO\nBase: 21.1.0\nPrezzo: €29,99\nUscita: 29/01/2026\nGenere: Azione, Avventura, Altro, Sparatutto",
+    "cover_local": "nromsdb/covers/switch_I Hate This Place_10951.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_I%20Hate%20This%20Place_10951.webp"
+  },
+  {
+    "nome": "Dispatch",
+    "formato": "NSP",
+    "peso": "11.2GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Pr,Ru,Zh",
+    "link": "https://t.me/c/2332511567/10943",
+    "message_id": 10943,
+    "data": "2026-01-30 11:19:52",
+    "edit_date": "2026-01-30 11:19:55",
+    "testo_completo": "Nome: Dispatch\nFormato: NSP\nPeso: 11.2GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Pr,Ru,Zh\nVersione: 1.0.4\n⚙ FIRMWARE RICHIESTO\nBase: 20.5.0\nUpdate: 21.2.0\nPrezzo: €28,99\nUscita: 29/01/2026\nGenere: Az",
+    "cover_local": "nromsdb/covers/switch_Dispatch_10943.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Dispatch_10943.webp"
   }
 ]
