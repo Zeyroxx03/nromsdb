@@ -13835,5 +13835,19 @@
     "testo_completo": "Nome: Dispatch\nFormato: NSP\nPeso: 11.2GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Pr,Ru,Zh\nVersione: 1.0.4\n⚙ FIRMWARE RICHIESTO\nBase: 20.5.0\nUpdate: 21.2.0\nPrezzo: €28,99\nUscita: 29/01/2026\nGenere: Az",
     "cover_local": "nromsdb/covers/switch_Dispatch_10943.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Dispatch_10943.webp"
+  },
+  {
+    "nome": "DRAGON QUEST VII Reimagined",
+    "formato": "NSP",
+    "peso": "4.4GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It",
+    "link": "https://t.me/c/2332511567/10969",
+    "message_id": 10969,
+    "data": "2026-02-02 19:10:25",
+    "edit_date": "2026-02-02 19:10:39",
+    "testo_completo": "Nome: DRAGON QUEST VII Reimagined\nFormato: NSP\nPeso: 4.4GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It\nVersione: 1.1.0\n⚙ FIRMWARE RICHIESTO\nBase: 19.1.0\nUpdate: 20.5.0\nPrezzo: €59,99\nUscita: 03/02/2026\nGenere:",
+    "cover_local": "nromsdb/covers/switch_DRAGON QUEST VII Reimagined_10969.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_DRAGON%20QUEST%20VII%20Reimagined_10969.webp"
   }
 ]
