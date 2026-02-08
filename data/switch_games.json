@@ -14129,5 +14129,47 @@
     "testo_completo": "Nome: Snow Bros. Classic Collection\nFormato: NSP\nPeso: 745MB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Zh\nVersione: 1.0.0\n⚙️ FIRMWARE RICHIESTO\nBase: 20.5.0\nPrezzo: €14,99\nUscita: 06/02/2026\nGenere: Pl",
     "cover_local": "nromsdb/covers/switch_Snow Bros. Classic Collection_11088.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Snow%20Bros.%20Classic%20Collection_11088.webp"
+  },
+  {
+    "nome": "Leap Year",
+    "formato": "NSP",
+    "peso": "69MB",
+    "regione": "🇪🇺",
+    "lingue": "En,Es,Fr,Jp,Zh",
+    "link": "https://t.me/c/2332511567/11121",
+    "message_id": 11121,
+    "data": "2026-02-08 22:17:49",
+    "edit_date": "2026-02-08 22:17:53",
+    "testo_completo": "Nome: Leap Year\nFormato: NSP\nPeso: 69MB\nRegione: 🇪🇺\nLingue: En,Es,Fr,Jp,Zh\nVersione: 1.0.0\n⚙️ FIRMWARE RICHIESTO\nBase: 20.4.0\nPrezzo: €4,99\nUscita: 05/02/2026\nGenere: Puzzle, Platform\nProduttore: Dani",
+    "cover_local": "nromsdb/covers/switch_Leap Year_11121.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Leap%20Year_11121.webp"
+  },
+  {
+    "nome": "Pin Strike 3",
+    "formato": "NSP",
+    "peso": "350MB",
+    "regione": "🇺🇸",
+    "lingue": "En",
+    "link": "https://t.me/c/2332511567/11116",
+    "message_id": 11116,
+    "data": "2026-02-08 22:14:30",
+    "edit_date": "2026-02-08 22:14:33",
+    "testo_completo": "Nome: Pin Strike 3\nFormato: NSP\nPeso: 350MB\nRegione: 🇺🇸\nLingue: En\nVersione: 1.0.0\n⚙️ FIRMWARE RICHIESTO\nBase: 21.0.1\nPrezzo: €4,99\nUscita: 05/02/2026\nGenere: Simulazione, Strategia, Corsa, Arcade\nPro",
+    "cover_local": "nromsdb/covers/switch_Pin Strike 3_11116.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Pin%20Strike%203_11116.webp"
+  },
+  {
+    "nome": "Leo And Tig",
+    "formato": "NSP",
+    "peso": "1.1GB",
+    "regione": "🇺🇸",
+    "lingue": "En,Ru",
+    "link": "https://t.me/c/2332511567/11111",
+    "message_id": 11111,
+    "data": "2026-02-08 22:12:16",
+    "edit_date": "2026-02-08 22:12:19",
+    "testo_completo": "Nome: Leo And Tig\nFormato: NSP\nPeso: 1.1GB\nRegione: 🇺🇸\nLingue: En,Ru\nVersione: 1.0.0\n⚙️ FIRMWARE RICHIESTO\nBase: 21.1.0\nPrezzo: €11,2\nUscita: 05/02/2026\nGenere: Puzzle, Avventura, Arcade\nProduttore: V",
+    "cover_local": "nromsdb/covers/switch_Leo And Tig_11111.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Leo%20And%20Tig_11111.webp"
   }
 ]
