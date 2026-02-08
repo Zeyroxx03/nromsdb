@@ -14073,5 +14073,61 @@
     "testo_completo": "Nome: Hot Springs Story 2\nFormato: NSP\nPeso: 270MB\nRegione: 🇺🇸\nLingue: En,Jp,Ko,Zh\nVersione: 1.48\n⚙️ FIRMWARE RICHIESTO\nBase: 13.2.1\nUpdate: 19.0.0\nPrezzo: €13,00\nUscita: 27/10/2022\nGenere: Avventura,",
     "cover_local": "nromsdb/covers/switch_Hot Springs Story 2_11073.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Hot%20Springs%20Story%202_11073.webp"
+  },
+  {
+    "nome": "Is this potato?",
+    "formato": "NSP",
+    "peso": "169MB",
+    "regione": "🇺🇸",
+    "lingue": "En,Jp,Ko,Zh",
+    "link": "https://t.me/c/2332511567/11106",
+    "message_id": 11106,
+    "data": "2026-02-08 22:09:43",
+    "edit_date": "2026-02-08 22:09:47",
+    "testo_completo": "Nome: Is this potato?\nFormato: NSP\nPeso: 169MB\nRegione: 🇺🇸\nLingue: En,Jp,Ko,Zh\nVersione: 1.0.0\n⚙️ FIRMWARE RICHIESTO\nBase: 21.1.0\nPrezzo: €2,49\nUscita: 05/02/2026\nGenere: Training, Study, Comunicazion",
+    "cover_local": "nromsdb/covers/switch_Is this potato_11106.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Is%20this%20potato_11106.webp"
+  },
+  {
+    "nome": "Find the Four-Leaf Clover",
+    "formato": "NSP",
+    "peso": "177MB",
+    "regione": "🇺🇸",
+    "lingue": "En,Jp,Ko,Zh",
+    "link": "https://t.me/c/2332511567/11098",
+    "message_id": 11098,
+    "data": "2026-02-08 22:06:39",
+    "edit_date": "2026-02-08 22:06:42",
+    "testo_completo": "Nome: Find the Four-Leaf Clover\nFormato: NSP\nPeso: 177MB\nRegione: 🇺🇸\nLingue: En,Jp,Ko,Zh\nVersione: 1.0.0\n⚙️ FIRMWARE RICHIESTO\nBase: 21.1.0\nPrezzo: €2,49\nUscita: 05/02/2026\nGenere: Training, Study, Co",
+    "cover_local": "nromsdb/covers/switch_Find the Four-Leaf Clover_11098.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Find%20the%20Four-Leaf%20Clover_11098.webp"
+  },
+  {
+    "nome": "4PGP",
+    "formato": "NSP",
+    "peso": "468MB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Pr,Zh",
+    "link": "https://t.me/c/2332511567/11093",
+    "message_id": 11093,
+    "data": "2026-02-08 22:04:25",
+    "edit_date": "2026-02-08 22:04:28",
+    "testo_completo": "Nome: 4PGP\nFormato: NSP\nPeso: 468MB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Pr,Zh\nVersione: 1.0.0\n⚙️ FIRMWARE RICHIESTO\nBase: 20.4.0\nPrezzo: €19,99\nUscita: 05/02/2026\nGenere: Party, Sport, Corsa, Arc",
+    "cover_local": "nromsdb/covers/switch_4PGP_11093.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_4PGP_11093.webp"
+  },
+  {
+    "nome": "Snow Bros. Classic Collection",
+    "formato": "NSP",
+    "peso": "745MB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Zh",
+    "link": "https://t.me/c/2332511567/11088",
+    "message_id": 11088,
+    "data": "2026-02-08 21:29:55",
+    "edit_date": "2026-02-08 21:29:58",
+    "testo_completo": "Nome: Snow Bros. Classic Collection\nFormato: NSP\nPeso: 745MB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Zh\nVersione: 1.0.0\n⚙️ FIRMWARE RICHIESTO\nBase: 20.5.0\nPrezzo: €14,99\nUscita: 06/02/2026\nGenere: Pl",
+    "cover_local": "nromsdb/covers/switch_Snow Bros. Classic Collection_11088.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Snow%20Bros.%20Classic%20Collection_11088.webp"
   }
 ]
