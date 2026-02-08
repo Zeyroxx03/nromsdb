@@ -14031,5 +14031,47 @@
     "testo_completo": "Nome: Doraemon Dorayaki Shop Story\nFormato: NSP\nPeso: 176MB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Pr,Ru,Th,Zh\nVersione: 1.19\n⚙️ FIRMWARE RICHIESTO\nBase: 18.1.0\nUpdate: 19.0.1\nPrezzo: €20,00\nUscita:",
     "cover_local": "nromsdb/covers/switch_Doraemon Dorayaki Shop Story_11035.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Doraemon%20Dorayaki%20Shop%20Story_11035.webp"
+  },
+  {
+    "nome": "Tiny Bookshop",
+    "formato": "NSP",
+    "peso": "1.2GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,Jp,Ru,Zh",
+    "link": "https://t.me/c/2332511567/11083",
+    "message_id": 11083,
+    "data": "2026-02-08 21:18:36",
+    "edit_date": "2026-02-08 21:18:39",
+    "testo_completo": "Nome: Tiny Bookshop\nFormato: NSP\nPeso: 1.2GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,Jp,Ru,Zh\nVersione: 1.0.2\n⚙️ FIRMWARE RICHIESTO\nBase: 20.1.0\nUpdate: 20.3.0\nPrezzo: €19,99\nUscita: 07/08/2025\nGenere: Traini",
+    "cover_local": "nromsdb/covers/switch_Tiny Bookshop_11083.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Tiny%20Bookshop_11083.webp"
+  },
+  {
+    "nome": "Game Dev Story",
+    "formato": "NSP",
+    "peso": "259MB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Pr,Ru,Th,Zh",
+    "link": "https://t.me/c/2332511567/11078",
+    "message_id": 11078,
+    "data": "2026-02-08 21:18:11",
+    "edit_date": "2026-02-08 21:18:14",
+    "testo_completo": "Nome: Game Dev Story\nFormato: NSP\nPeso: 259MB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Pr,Ru,Th,Zh\nVersione: 2.68\n⚙️ FIRMWARE RICHIESTO\nBase: 5.1.0\nUpdate: 21.0.1\nPrezzo: €13,00\nUscita: 11/10/2018\nGen",
+    "cover_local": "nromsdb/covers/switch_Game Dev Story_11078.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Game%20Dev%20Story_11078.webp"
+  },
+  {
+    "nome": "Hot Springs Story 2",
+    "formato": "NSP",
+    "peso": "270MB",
+    "regione": "🇺🇸",
+    "lingue": "En,Jp,Ko,Zh",
+    "link": "https://t.me/c/2332511567/11073",
+    "message_id": 11073,
+    "data": "2026-02-08 21:17:54",
+    "edit_date": "2026-02-08 21:17:57",
+    "testo_completo": "Nome: Hot Springs Story 2\nFormato: NSP\nPeso: 270MB\nRegione: 🇺🇸\nLingue: En,Jp,Ko,Zh\nVersione: 1.48\n⚙️ FIRMWARE RICHIESTO\nBase: 13.2.1\nUpdate: 19.0.0\nPrezzo: €13,00\nUscita: 27/10/2022\nGenere: Avventura,",
+    "cover_local": "nromsdb/covers/switch_Hot Springs Story 2_11073.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Hot%20Springs%20Story%202_11073.webp"
   }
 ]
