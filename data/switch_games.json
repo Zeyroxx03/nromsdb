@@ -14171,5 +14171,47 @@
     "testo_completo": "Nome: Leo And Tig\nFormato: NSP\nPeso: 1.1GB\nRegione: 🇺🇸\nLingue: En,Ru\nVersione: 1.0.0\n⚙️ FIRMWARE RICHIESTO\nBase: 21.1.0\nPrezzo: €11,2\nUscita: 05/02/2026\nGenere: Puzzle, Avventura, Arcade\nProduttore: V",
     "cover_local": "nromsdb/covers/switch_Leo And Tig_11111.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Leo%20And%20Tig_11111.webp"
+  },
+  {
+    "nome": "Cute Bonfire",
+    "formato": "NSP",
+    "peso": "92MB",
+    "regione": "🇺🇸",
+    "lingue": "En,Pr",
+    "link": "https://t.me/c/2332511567/11136",
+    "message_id": 11136,
+    "data": "2026-02-08 22:28:31",
+    "edit_date": "2026-02-08 22:28:34",
+    "testo_completo": "Nome: Cute Bonfire\nFormato: NSP\nPeso: 92MB\nRegione: 🇺🇸\nLingue: En,Pr\nVersione: 1.0.0\n⚙️ FIRMWARE RICHIESTO\nBase: 21.0.1\nPrezzo: €4,99\nUscita: 05/02/2026\nGenere: Puzzle, Strategia, Altro\nProduttore: Af",
+    "cover_local": "nromsdb/covers/switch_Cute Bonfire_11136.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Cute%20Bonfire_11136.webp"
+  },
+  {
+    "nome": "DunHero",
+    "formato": "NSP",
+    "peso": "184MB",
+    "regione": "🇺🇸",
+    "lingue": "En",
+    "link": "https://t.me/c/2332511567/11131",
+    "message_id": 11131,
+    "data": "2026-02-08 22:26:48",
+    "edit_date": "2026-02-08 22:26:51",
+    "testo_completo": "Nome: DunHero\nFormato: NSP\nPeso: 184MB\nRegione: 🇺🇸\nLingue: En\nVersione: 1.0.0\n⚙️ FIRMWARE RICHIESTO\nBase: 21.0.1\nPrezzo: €7,99\nUscita: 03/02/2026\nGenere: Azione, Avventura, RPG\nProduttore: REDDEER.GAM",
+    "cover_local": "nromsdb/covers/switch_DunHero_11131.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_DunHero_11131.webp"
+  },
+  {
+    "nome": "Magic Rune Stone",
+    "formato": "NSP",
+    "peso": "391MB",
+    "regione": "🇺🇸",
+    "lingue": "En,Jp,Ko,Zh",
+    "link": "https://t.me/c/2332511567/11126",
+    "message_id": 11126,
+    "data": "2026-02-08 22:25:04",
+    "edit_date": "2026-02-08 22:25:07",
+    "testo_completo": "Nome: Magic Rune Stone\nFormato: NSP\nPeso: 391MB\nRegione: 🇺🇸\nLingue: En,Jp,Ko,Zh\nVersione: 1.0.0\n⚙️ FIRMWARE RICHIESTO\nBase: 21.0.1\nPrezzo: €8,3\nUscita: 05/02/2026\nGenere: Azione, Avventura, Arcade, RP",
+    "cover_local": "nromsdb/covers/switch_Magic Rune Stone_11126.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Magic%20Rune%20Stone_11126.webp"
   }
 ]
