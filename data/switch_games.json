@@ -14283,5 +14283,33 @@
     "testo_completo": "Nome: Dark Quest 2\nFormato: NSP\nPeso: 1.6GB\nRegione: 🇺🇸\nLingue: En\nVersione: 1.0.0\n⚙️ FIRMWARE RICHIESTO\nBase: 7.0.0\nPrezzo: €9,99\nUscita: 27/02/2019\nGenere: Avventura, Strategia, RPG\nProduttore: Brai",
     "cover_local": "nromsdb/covers/switch_Dark Quest 2_11141.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Dark%20Quest%202_11141.webp"
+  },
+  {
+    "nome": "Forgive Me Father 2",
+    "formato": "NSP",
+    "peso": "5.2GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,Ru,Zh",
+    "link": "https://t.me/c/2332511567/11171",
+    "message_id": 11171,
+    "data": "2026-02-10 11:53:39",
+    "edit_date": "2026-02-12 15:42:03",
+    "testo_completo": "Nome: Forgive Me Father 2\nFormato: NSP\nPeso: 5.2GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,Ru,Zh\nVersione: 1.0.0\n⚙️ FIRMWARE RICHIESTO\nBase: 21.0.1\nPrezzo: €29,99\nUscita: 22/01/2026\nGenere: Azione, Sparatutto",
+    "cover_local": "nromsdb/covers/switch_Forgive Me Father 2_11171.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Forgive%20Me%20Father%202_11171.webp"
+  },
+  {
+    "nome": "Forgive Me Father",
+    "formato": "NSP",
+    "peso": "5.7GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,Pr,Ru,Zh",
+    "link": "https://t.me/c/2332511567/11166",
+    "message_id": 11166,
+    "data": "2026-02-10 11:31:19",
+    "edit_date": "2026-02-10 11:31:22",
+    "testo_completo": "Nome: Forgive Me Father\nFormato: NSP\nPeso: 5.7GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,Pr,Ru,Zh\nVersione: 1.5.4.3\n⚙️ FIRMWARE RICHIESTO\nBase: 16.0.3\nUpdate: 17.0.0\nPrezzo: €24,99\nUscita: 28/09/2023\nGenere:",
+    "cover_local": "nromsdb/covers/switch_Forgive Me Father_11166.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Forgive%20Me%20Father_11166.webp"
   }
 ]
