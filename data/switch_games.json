@@ -14311,5 +14311,33 @@
     "testo_completo": "Nome: Forgive Me Father\nFormato: NSP\nPeso: 5.7GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,Pr,Ru,Zh\nVersione: 1.5.4.3\n⚙️ FIRMWARE RICHIESTO\nBase: 16.0.3\nUpdate: 17.0.0\nPrezzo: €24,99\nUscita: 28/09/2023\nGenere:",
     "cover_local": "nromsdb/covers/switch_Forgive Me Father_11166.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Forgive%20Me%20Father_11166.webp"
+  },
+  {
+    "nome": "DEATH FOREST REMAKE",
+    "formato": "NSP",
+    "peso": "1GB",
+    "regione": "🇺🇸",
+    "lingue": "En,Jp,Zh",
+    "link": "https://t.me/c/2332511567/11378",
+    "message_id": 11378,
+    "data": "2026-02-15 20:06:07",
+    "edit_date": "2026-02-15 20:06:19",
+    "testo_completo": "Nome: DEATH FOREST REMAKE\nFormato: NSP\nPeso: 1GB\nRegione: 🇺🇸\nLingue: En,Jp,Zh\nVersione: 1.0.0\n⚙ FIRMWARE RICHIESTO\nBase: 20.3.0\nPrezzo: €6,28\nUscita: 15/01/2026\nGenere: Azione, Avventura\nProduttore: L",
+    "cover_local": "nromsdb/covers/switch_DEATH FOREST REMAKE_11378.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_DEATH%20FOREST%20REMAKE_11378.webp"
+  },
+  {
+    "nome": "Rayman: 30th Anniversary Edition",
+    "formato": "NSP",
+    "peso": "3GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Pr,Zh",
+    "link": "https://t.me/c/2332511567/11373",
+    "message_id": 11373,
+    "data": "2026-02-15 20:01:23",
+    "edit_date": "2026-02-15 20:01:26",
+    "testo_completo": "Nome: Rayman: 30th Anniversary Edition\nFormato: NSP\nPeso: 3GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Pr,Zh\nVersione: 1.0.0\n⚙ FIRMWARE RICHIESTO\nBase: 21.1.0\nPrezzo: €19,99\nUscita: 13/02/2026\nGenere: Azion",
+    "cover_local": "nromsdb/covers/switch_Rayman 30th Anniversary Edition_11373.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Rayman%2030th%20Anniversary%20Edition_11373.webp"
   }
 ]
