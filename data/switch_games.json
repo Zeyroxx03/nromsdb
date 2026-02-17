@@ -14326,5 +14326,33 @@
     "testo_completo": "Nome: Rayman: 30th Anniversary Edition\nFormato: NSP\nPeso: 3GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Pr,Zh\nVersione: 1.0.0\n⚙ FIRMWARE RICHIESTO\nBase: 21.1.0\nPrezzo: €19,99\nUscita: 13/02/2026\nGenere: Azion",
     "cover_local": "nromsdb/covers/switch_Rayman 30th Anniversary Edition_11373.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Rayman%2030th%20Anniversary%20Edition_11373.webp"
+  },
+  {
+    "nome": "Hot Lap Racing",
+    "formato": "NSP",
+    "peso": "3.2GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Pr",
+    "link": "https://t.me/c/2332511567/11388",
+    "message_id": 11388,
+    "data": "2026-02-17 11:20:56",
+    "edit_date": "2026-02-17 11:20:59",
+    "testo_completo": "Nome: Hot Lap Racing\nFormato: NSP\nPeso: 3.2GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Pr\nVersione: 1.1.3\n⚙️ FIRMWARE RICHIESTO\nBase: 18.1.0\nUpdate: 19.0.1\nPrezzo: €34,99\nUscita: 16/07/2024\nGenere: Party, C",
+    "cover_local": "nromsdb/covers/switch_Hot Lap Racing_11388.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Hot%20Lap%20Racing_11388.webp"
+  },
+  {
+    "nome": "Minecraft",
+    "formato": "NSP",
+    "peso": "1.4GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Nl,Pr,Ru,Zh",
+    "link": "https://t.me/c/2332511567/11383",
+    "message_id": 11383,
+    "data": "2026-02-17 10:40:18",
+    "edit_date": "2026-02-17 10:40:21",
+    "testo_completo": "Nome: Minecraft\nFormato: NSP\nPeso: 1.4GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Nl,Pr,Ru,Zh\nVersione: 1.21.132\n⚙ FIRMWARE RICHIESTO\nBase: 6.2.0\nUpdate: 21.0.0\nUscita: 21/06/2018\nGenere: Avventura, A",
+    "cover_local": "nromsdb/covers/switch_Minecraft_11383.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Minecraft_11383.webp"
   }
 ]
