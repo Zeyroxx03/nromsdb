@@ -1794,19 +1794,6 @@
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Capcom%20Fighting%20Collection%202_9050.webp"
   },
   {
-    "nome": "Minecraft",
-    "formato": ".nsp",
-    "peso": "1.4GB",
-    "regione": "🇪🇺",
-    "lingue": "De,En,Es,Fr,It,Jp,Ko,Nl,Pr,Ru,Zh",
-    "link": "https://t.me/c/2332511567/9046",
-    "message_id": 9046,
-    "data": "2025-05-15 11:41:11",
-    "testo_completo": "Nome: Minecraft\nFormato: .nsp\nPeso: 1.4GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Nl,Pr,Ru,Zh\nVersione: 1.21.101\nFW-Base: 6.2.0\nFW-Update: 20.3.0\nUscita: 21/06/2018\nGenere: Avventura, Azione\nProdutto",
-    "cover_local": "game_covers/switch_Minecraft_9046.jpg",
-    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Minecraft_9046.webp"
-  },
-  {
     "nome": "High On Life",
     "formato": ".nsp",
     "peso": "9.8GB",
