@@ -14354,5 +14354,33 @@
     "testo_completo": "Nome: Minecraft\nFormato: NSP\nPeso: 1.4GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Nl,Pr,Ru,Zh\nVersione: 1.21.132\n⚙ FIRMWARE RICHIESTO\nBase: 6.2.0\nUpdate: 21.0.0\nUscita: 21/06/2018\nGenere: Avventura, A",
     "cover_local": "nromsdb/covers/switch_Minecraft_11383.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Minecraft_11383.webp"
+  },
+  {
+    "nome": "Musician Simulator",
+    "formato": "NSP",
+    "peso": "1.9GB",
+    "regione": "🇺🇸",
+    "lingue": "En",
+    "link": "https://t.me/c/2332511567/11398",
+    "message_id": 11398,
+    "data": "2026-02-17 11:27:13",
+    "edit_date": "2026-02-18 11:57:39",
+    "testo_completo": "Nome: Musician Simulator\nFormato: NSP\nPeso: 1.9GB\nRegione: 🇺🇸\nLingue: En\nVersione: 1.0.0\n⚙️ FIRMWARE RICHIESTO\nBase: 20.5.0\nPrezzo: €4,99\nUscita: 24/11/2025\nGenere: Musica, Simulazione\nProduttore: Eat",
+    "cover_local": "nromsdb/covers/switch_Musician Simulator_11398.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Musician%20Simulator_11398.webp"
+  },
+  {
+    "nome": "Nickelodeon Splat Pack",
+    "formato": "NSP",
+    "peso": "1.5GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It",
+    "link": "https://t.me/c/2332511567/11393",
+    "message_id": 11393,
+    "data": "2026-02-17 11:23:31",
+    "edit_date": "2026-02-17 11:23:34",
+    "testo_completo": "Nome: Nickelodeon Splat Pack\nFormato: NSP\nPeso: 1.5GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It\nVersione: 1.0.0\n⚙️ FIRMWARE RICHIESTO\nBase: 20.5.0\nPrezzo: €14,99\nUscita: 30/01/2026\nGenere: Azione, Sport\nProd",
+    "cover_local": "nromsdb/covers/switch_Nickelodeon Splat Pack_11393.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Nickelodeon%20Splat%20Pack_11393.webp"
   }
 ]
