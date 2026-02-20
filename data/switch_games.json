@@ -14382,5 +14382,19 @@
     "testo_completo": "Nome: Nickelodeon Splat Pack\nFormato: NSP\nPeso: 1.5GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It\nVersione: 1.0.0\n⚙️ FIRMWARE RICHIESTO\nBase: 20.5.0\nPrezzo: €14,99\nUscita: 30/01/2026\nGenere: Azione, Sport\nProd",
     "cover_local": "nromsdb/covers/switch_Nickelodeon Splat Pack_11393.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Nickelodeon%20Splat%20Pack_11393.webp"
+  },
+  {
+    "nome": "Diablo II: Resurrected",
+    "formato": "NSP",
+    "peso": "8.7GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Pr,Ru,Zh",
+    "link": "https://t.me/c/2332511567/11481",
+    "message_id": 11481,
+    "data": "2026-02-20 14:18:19",
+    "edit_date": "2026-02-20 14:52:25",
+    "testo_completo": "Nome: Diablo II: Resurrected\nFormato: NSP\nPeso: 8.7GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Pr,Ru,Zh\nVersione: 1.0.31.0\n⚙️ FIRMWARE RICHIESTO\nBase: 12.1.0\nUpdate: 21.2.0\nPrezzo: €39,99\nUscita: 23/0",
+    "cover_local": "nromsdb/covers/switch_Diablo II Resurrected_11481.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Diablo%20II%20Resurrected_11481.webp"
   }
 ]
