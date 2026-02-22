@@ -14453,5 +14453,33 @@
     "testo_completo": "Nome: Inertial Drift\nFormato: NSP\nPeso: 3.1GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,Jp,Ru\nVersione: 1.0.2\n⚙️ FIRMWARE RICHIESTO\nBase: 10.0.4\nUpdate: 10.1.0\nPrezzo: €19,99\nUscita: 11/09/2020\nGenere: Altro, C",
     "cover_local": "nromsdb/covers/switch_Inertial Drift_11488.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Inertial%20Drift_11488.webp"
+  },
+  {
+    "nome": "PARANORMASIGHT: The Mermaid",
+    "formato": "NSP",
+    "peso": "842MB",
+    "regione": "🇺🇸",
+    "lingue": "En,Jp,Zh",
+    "link": "https://t.me/c/2332511567/11523",
+    "message_id": 11523,
+    "data": "2026-02-22 11:43:51",
+    "edit_date": "2026-02-22 11:43:54",
+    "testo_completo": "Nome: PARANORMASIGHT: The Mermaid\nFormato: NSP\nPeso: 842MB\nRegione: 🇺🇸\nLingue: En,Jp,Zh\nVersione: 1.0.0\n⚙️ FIRMWARE RICHIESTO\nBase: 21.1.0\nPrezzo: €24,99\nUscita: 19/02/2026\nGenere: Avventura\nProduttor",
+    "cover_local": "nromsdb/covers/switch_PARANORMASIGHT The Mermaid_11523.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_PARANORMASIGHT%20The%20Mermaid_11523.webp"
+  },
+  {
+    "nome": "PEAK The Adventure Begins",
+    "formato": "NSP",
+    "peso": "373MB",
+    "regione": "🇺🇸",
+    "lingue": "En",
+    "link": "https://t.me/c/2332511567/11518",
+    "message_id": 11518,
+    "data": "2026-02-22 11:32:50",
+    "edit_date": "2026-02-22 11:32:53",
+    "testo_completo": "Nome: PEAK The Adventure Begins\nFormato: NSP\nPeso: 373MB\nRegione: 🇺🇸\nLingue: En\nVersione: 1.0.0\n⚙️ FIRMWARE RICHIESTO\nBase: 20.4.0\nPrezzo: €6,99\nUscita: 09/10/2025\nGenere: Azione, Avventura, Simulazio",
+    "cover_local": "nromsdb/covers/switch_PEAK The Adventure Begins_11518.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_PEAK%20The%20Adventure%20Begins_11518.webp"
   }
 ]
