@@ -14482,5 +14482,33 @@
     "testo_completo": "Nome: METAL GEAR SOLID - Master Collection Version\nFormato: NSP\nPeso: 11.1GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp\nVersione: 3.0.0\n⚙️ FIRMWARE RICHIESTO\nBase: 16.0.3\nUpdate: 21.1.0\nPrezzo: €19,99\nUsci",
     "cover_local": "nromsdb/covers/switch_METAL GEAR SOLID - Master Collection Version_11528.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_METAL%20GEAR%20SOLID%20-%20Master%20Collection%20Version_11528.webp"
+  },
+  {
+    "nome": "Path of Mystery: A Brush with Death",
+    "formato": "XCI",
+    "peso": "3.8GB",
+    "regione": "🇺🇸",
+    "lingue": "En,Zh",
+    "link": "https://t.me/c/2332511567/11540",
+    "message_id": 11540,
+    "data": "2026-02-25 17:53:11",
+    "edit_date": "2026-02-25 17:53:14",
+    "testo_completo": "Nome: Path of Mystery: A Brush with Death\nFormato: XCI\nPeso: 3.8GB\nRegione: 🇺🇸\nLingue: En,Zh\nVersione: 1.0.0\n⚙️ FIRMWARE RICHIESTO\nBase: 20.0.0\nPrezzo: €39,99\nUscita: 26/02/2026\nGenere: Avventura\nProd",
+    "cover_local": "nromsdb/covers/switch_Path of Mystery A Brush with Death_11540.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Path%20of%20Mystery%20A%20Brush%20with%20Death_11540.webp"
+  },
+  {
+    "nome": "Caves of Qud",
+    "formato": "NSP",
+    "peso": "1.3GB",
+    "regione": "🇺🇸",
+    "lingue": "En",
+    "link": "https://t.me/c/2332511567/11535",
+    "message_id": 11535,
+    "data": "2026-02-25 17:51:20",
+    "edit_date": "2026-02-25 17:51:23",
+    "testo_completo": "Nome: Caves of Qud\nFormato: NSP\nPeso: 1.3GB\nRegione: 🇺🇸\nLingue: En\nVersione: 2.0.4\n⚙️ FIRMWARE RICHIESTO\nBase: 21.1.0\nPrezzo: €25,5\nUscita: 16/02/2026\nGenere: Avventura, Strategia, RPG\nProduttore: Kit",
+    "cover_local": "nromsdb/covers/switch_Caves of Qud_11535.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Caves%20of%20Qud_11535.webp"
   }
 ]
