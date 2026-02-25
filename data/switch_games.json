@@ -14481,5 +14481,19 @@
     "testo_completo": "Nome: PEAK The Adventure Begins\nFormato: NSP\nPeso: 373MB\nRegione: 🇺🇸\nLingue: En\nVersione: 1.0.0\n⚙️ FIRMWARE RICHIESTO\nBase: 20.4.0\nPrezzo: €6,99\nUscita: 09/10/2025\nGenere: Azione, Avventura, Simulazio",
     "cover_local": "nromsdb/covers/switch_PEAK The Adventure Begins_11518.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_PEAK%20The%20Adventure%20Begins_11518.webp"
+  },
+  {
+    "nome": "METAL GEAR SOLID - Master Collection Version",
+    "formato": "NSP",
+    "peso": "11.1GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp",
+    "link": "https://t.me/c/2332511567/11528",
+    "message_id": 11528,
+    "data": "2026-02-25 17:33:58",
+    "edit_date": "2026-02-25 17:34:01",
+    "testo_completo": "Nome: METAL GEAR SOLID - Master Collection Version\nFormato: NSP\nPeso: 11.1GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp\nVersione: 3.0.0\n⚙️ FIRMWARE RICHIESTO\nBase: 16.0.3\nUpdate: 21.1.0\nPrezzo: €19,99\nUsci",
+    "cover_local": "nromsdb/covers/switch_METAL GEAR SOLID - Master Collection Version_11528.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_METAL%20GEAR%20SOLID%20-%20Master%20Collection%20Version_11528.webp"
   }
 ]
