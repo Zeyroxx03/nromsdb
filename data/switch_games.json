@@ -14510,5 +14510,33 @@
     "testo_completo": "Nome: Caves of Qud\nFormato: NSP\nPeso: 1.3GB\nRegione: 🇺🇸\nLingue: En\nVersione: 2.0.4\n⚙️ FIRMWARE RICHIESTO\nBase: 21.1.0\nPrezzo: €25,5\nUscita: 16/02/2026\nGenere: Avventura, Strategia, RPG\nProduttore: Kit",
     "cover_local": "nromsdb/covers/switch_Caves of Qud_11535.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Caves%20of%20Qud_11535.webp"
+  },
+  {
+    "nome": "Pokemon FireRed Version",
+    "formato": "NSP",
+    "peso": "34MB",
+    "regione": "🇺🇸",
+    "lingue": "En",
+    "link": "https://t.me/c/2332511567/11556",
+    "message_id": 11556,
+    "data": "2026-02-28 17:02:15",
+    "edit_date": "2026-02-28 17:02:18",
+    "testo_completo": "Nome: Pokemon FireRed Version\nFormato: NSP\nPeso: 34MB\nRegione: 🇺🇸\nLingue: En\nVersione: 1.0.0\n⚙️ FIRMWARE RICHIESTO\nBase: 21.2.0\nPrezzo: €19,99\nUscita: 27/02/2026\nGenere: RPG\nProduttore: Nintendo\n#SWIT",
+    "cover_local": "nromsdb/covers/switch_Pokemon FireRed Version_11556.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Pokemon%20FireRed%20Version_11556.webp"
+  },
+  {
+    "nome": "Pokemon LeafGreen Version",
+    "formato": "NSP",
+    "peso": "33MB",
+    "regione": "🇺🇸",
+    "lingue": "En",
+    "link": "https://t.me/c/2332511567/11551",
+    "message_id": 11551,
+    "data": "2026-02-28 17:00:48",
+    "edit_date": "2026-02-28 17:00:51",
+    "testo_completo": "Nome: Pokemon LeafGreen Version\nFormato: NSP\nPeso: 33MB\nRegione: 🇺🇸\nLingue: En\nVersione: 1.0.0\n⚙️ FIRMWARE RICHIESTO\nBase: 21.2.0\nPrezzo: €19,99\nUscita: 27/02/2026\nGenere: RPG\nProduttore: Nintendo\n#SW",
+    "cover_local": "nromsdb/covers/switch_Pokemon LeafGreen Version_11551.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Pokemon%20LeafGreen%20Version_11551.webp"
   }
 ]
