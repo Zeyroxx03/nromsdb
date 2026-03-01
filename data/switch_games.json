@@ -14538,5 +14538,33 @@
     "testo_completo": "Nome: Pokemon LeafGreen Version\nFormato: NSP\nPeso: 33MB\nRegione: 🇺🇸\nLingue: En\nVersione: 1.0.0\n⚙️ FIRMWARE RICHIESTO\nBase: 21.2.0\nPrezzo: €19,99\nUscita: 27/02/2026\nGenere: RPG\nProduttore: Nintendo\n#SW",
     "cover_local": "nromsdb/covers/switch_Pokemon LeafGreen Version_11551.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Pokemon%20LeafGreen%20Version_11551.webp"
+  },
+  {
+    "nome": "CRYSTAR",
+    "formato": "NSP",
+    "peso": "4.4GB",
+    "regione": "🇺🇸",
+    "lingue": "En,Jp",
+    "link": "https://t.me/c/2332511567/11566",
+    "message_id": 11566,
+    "data": "2026-03-01 17:32:50",
+    "edit_date": "2026-03-01 17:32:53",
+    "testo_completo": "Nome: CRYSTAR\nFormato: NSP\nPeso: 4.4GB\nRegione: 🇺🇸\nLingue: En,Jp\nVersione: 1.0.2\n⚙️ FIRMWARE RICHIESTO\nBase: 13.2.0\nUpdate: 13.2.1\nPrezzo: €49,99\nUscita: 01/04/2022\nGenere: Azione, RPG\nProduttore: NIS",
+    "cover_local": "nromsdb/covers/switch_CRYSTAR_11566.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_CRYSTAR_11566.webp"
+  },
+  {
+    "nome": "Iron Lung",
+    "formato": "NSP",
+    "peso": "84MB",
+    "regione": "🇺🇸",
+    "lingue": "En",
+    "link": "https://t.me/c/2332511567/11561",
+    "message_id": 11561,
+    "data": "2026-03-01 17:25:26",
+    "edit_date": "2026-03-01 17:25:29",
+    "testo_completo": "Nome: Iron Lung\nFormato: NSP\nPeso: 84MB\nRegione: 🇺🇸\nLingue: En\nVersione: 1.0.0\n⚙️ FIRMWARE RICHIESTO\nBase: 15.0.0\nPrezzo: €4,99\nUscita: 19/12/2022\nGenere: Puzzle, Avventura, Simulazione\nProduttore: Du",
+    "cover_local": "nromsdb/covers/switch_Iron Lung_11561.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Iron%20Lung_11561.webp"
   }
 ]
