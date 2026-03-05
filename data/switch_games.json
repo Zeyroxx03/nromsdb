@@ -14566,5 +14566,33 @@
     "testo_completo": "Nome: Iron Lung\nFormato: NSP\nPeso: 84MB\nRegione: 🇺🇸\nLingue: En\nVersione: 1.0.0\n⚙️ FIRMWARE RICHIESTO\nBase: 15.0.0\nPrezzo: €4,99\nUscita: 19/12/2022\nGenere: Puzzle, Avventura, Simulazione\nProduttore: Du",
     "cover_local": "nromsdb/covers/switch_Iron Lung_11561.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Iron%20Lung_11561.webp"
+  },
+  {
+    "nome": "Pokemon Versione Verde Foglia",
+    "formato": "NSP",
+    "peso": "32MB",
+    "regione": "🇮🇹",
+    "lingue": "It",
+    "link": "https://t.me/c/2332511567/11578",
+    "message_id": 11578,
+    "data": "2026-03-05 10:15:46",
+    "edit_date": "2026-03-05 10:15:49",
+    "testo_completo": "Nome: Pokemon Versione Verde Foglia\nFormato: NSP\nPeso: 32MB\nRegione: 🇮🇹\nLingue: It\nVersione: 1.0.0\n⚙️ FIRMWARE RICHIESTO\nBase: 21.2.0\nPrezzo: €19,99\nUscita: 27/02/2026\nGenere: RPG\nProduttore: Nintendo",
+    "cover_local": "nromsdb/covers/switch_Pokemon Versione Verde Foglia_11578.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Pokemon%20Versione%20Verde%20Foglia_11578.webp"
+  },
+  {
+    "nome": "Pokemon Versione Rosso Fuoco",
+    "formato": "NSP",
+    "peso": "32MB",
+    "regione": "🇮🇹",
+    "lingue": "It",
+    "link": "https://t.me/c/2332511567/11573",
+    "message_id": 11573,
+    "data": "2026-03-05 10:15:31",
+    "edit_date": "2026-03-05 10:15:34",
+    "testo_completo": "Nome: Pokemon Versione Rosso Fuoco\nFormato: NSP\nPeso: 32MB\nRegione: 🇮🇹\nLingue: It\nVersione: 1.0.0\n⚙️ FIRMWARE RICHIESTO\nBase: 21.2.0\nPrezzo: €19,99\nUscita: 27/02/2026\nGenere: RPG\nProduttore: Nintendo",
+    "cover_local": "nromsdb/covers/switch_Pokemon Versione Rosso Fuoco_11573.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Pokemon%20Versione%20Rosso%20Fuoco_11573.webp"
   }
 ]
