@@ -14608,5 +14608,33 @@
     "testo_completo": "Nome: UFO Robot Goldrake: Il banchetto dei lupi\nFormato: NSP\nPeso: 3.5GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Nl,Pr,Ru,Zh\nVersione: 1.2\n⚙️ FIRMWARE RICHIESTO\nBase: 18.1.0\nUpdate: 19.0.1\nPrezzo: €3",
     "cover_local": "nromsdb/covers/switch_UFO Robot Goldrake Il banchetto dei lupi_11583.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_UFO%20Robot%20Goldrake%20Il%20banchetto%20dei%20lupi_11583.webp"
+  },
+  {
+    "nome": "Arcade Archives VS. SUPER MARIO BROS.",
+    "formato": "NSP",
+    "peso": "90MB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp",
+    "link": "https://t.me/c/2332511567/11593",
+    "message_id": 11593,
+    "data": "2026-03-05 10:42:56",
+    "edit_date": "2026-03-05 10:42:59",
+    "testo_completo": "Nome: Arcade Archives VS. SUPER MARIO BROS.\nFormato: NSP\nPeso: 90MB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp\nVersione: 1.0.2\n⚙️ FIRMWARE RICHIESTO\nBase: 4.0.0\nUpdate: 5.0.2\nPrezzo: €6,99\nUscita: 22/12/20",
+    "cover_local": "nromsdb/covers/switch_Arcade Archives VS. SUPER MARIO BROS._11593.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Arcade%20Archives%20VS.%20SUPER%20MARIO%20BROS._11593.webp"
+  },
+  {
+    "nome": "Big Hops",
+    "formato": "NSP",
+    "peso": "4.5GB",
+    "regione": "🇪🇺",
+    "lingue": "En,Es,Pr,Ru,Zh",
+    "link": "https://t.me/c/2332511567/11588",
+    "message_id": 11588,
+    "data": "2026-03-05 10:40:56",
+    "edit_date": "2026-03-05 10:40:59",
+    "testo_completo": "Nome: Big Hops\nFormato: NSP\nPeso: 4.5GB\nRegione: 🇪🇺\nLingue: En,Es,Pr,Ru,Zh\nVersione: 1.0.4\n⚙️ FIRMWARE RICHIESTO\nBase: 21.0.0\nUpdate: 21.2.0\nPrezzo: €19,49\nUscita: 12/01/2026\nGenere: Azione, Platform,",
+    "cover_local": "nromsdb/covers/switch_Big Hops_11588.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Big%20Hops_11588.webp"
   }
 ]
