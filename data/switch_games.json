@@ -14594,5 +14594,19 @@
     "testo_completo": "Nome: Pokemon Versione Rosso Fuoco\nFormato: NSP\nPeso: 32MB\nRegione: 🇮🇹\nLingue: It\nVersione: 1.0.0\n⚙️ FIRMWARE RICHIESTO\nBase: 21.2.0\nPrezzo: €19,99\nUscita: 27/02/2026\nGenere: RPG\nProduttore: Nintendo",
     "cover_local": "nromsdb/covers/switch_Pokemon Versione Rosso Fuoco_11573.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Pokemon%20Versione%20Rosso%20Fuoco_11573.webp"
+  },
+  {
+    "nome": "UFO Robot Goldrake: Il banchetto dei lupi",
+    "formato": "NSP",
+    "peso": "3.5GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Nl,Pr,Ru,Zh",
+    "link": "https://t.me/c/2332511567/11583",
+    "message_id": 11583,
+    "data": "2026-03-05 10:27:45",
+    "edit_date": "2026-03-05 10:29:10",
+    "testo_completo": "Nome: UFO Robot Goldrake: Il banchetto dei lupi\nFormato: NSP\nPeso: 3.5GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Nl,Pr,Ru,Zh\nVersione: 1.2\n⚙️ FIRMWARE RICHIESTO\nBase: 18.1.0\nUpdate: 19.0.1\nPrezzo: €3",
+    "cover_local": "nromsdb/covers/switch_UFO Robot Goldrake Il banchetto dei lupi_11583.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_UFO%20Robot%20Goldrake%20Il%20banchetto%20dei%20lupi_11583.webp"
   }
 ]
