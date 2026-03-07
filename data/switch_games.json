@@ -14679,5 +14679,19 @@
     "testo_completo": "Nome: Haven Park\nFormato: NSP\nPeso: 559MB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Pr,Ru,Zh\nVersione: 1.2.1\n⚙️ FIRMWARE RICHIESTO\nBase: 12.0.2\nUpdate: 13.2.1\nPrezzo: €8,49\nUscita: 05/08/2021\nGenere: Puzz",
     "cover_local": "nromsdb/covers/switch_Haven Park_11598.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Haven%20Park_11598.webp"
+  },
+  {
+    "nome": "Planet of Lana II",
+    "formato": "NSP",
+    "peso": "11.6GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Nl,Pr,Ru,Th,Zh",
+    "link": "https://t.me/c/2332511567/11618",
+    "message_id": 11618,
+    "data": "2026-03-07 18:27:14",
+    "edit_date": "2026-03-07 18:27:17",
+    "testo_completo": "Nome: Planet of Lana II\nFormato: NSP\nPeso: 11.6GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Nl,Pr,Ru,Th,Zh\nVersione: 1.0.2\n⚙️ FIRMWARE RICHIESTO\nBase: 21.2.0\nUpdate: 21.2.0\nPrezzo: €19,99\nUscita: 05/03",
+    "cover_local": "nromsdb/covers/switch_Planet of Lana II_11618.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Planet%20of%20Lana%20II_11618.webp"
   }
 ]
