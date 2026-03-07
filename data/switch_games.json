@@ -14623,5 +14623,61 @@
     "testo_completo": "Nome: Big Hops\nFormato: NSP\nPeso: 4.5GB\nRegione: 🇪🇺\nLingue: En,Es,Pr,Ru,Zh\nVersione: 1.0.4\n⚙️ FIRMWARE RICHIESTO\nBase: 21.0.0\nUpdate: 21.2.0\nPrezzo: €19,49\nUscita: 12/01/2026\nGenere: Azione, Platform,",
     "cover_local": "nromsdb/covers/switch_Big Hops_11588.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Big%20Hops_11588.webp"
+  },
+  {
+    "nome": "PLANET ALPHA",
+    "formato": "NSP",
+    "peso": "3.6GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Ru,Zh",
+    "link": "https://t.me/c/2332511567/11613",
+    "message_id": 11613,
+    "data": "2026-03-07 18:11:45",
+    "edit_date": "2026-03-07 18:11:48",
+    "testo_completo": "Nome: PLANET ALPHA\nFormato: NSP\nPeso: 3.6GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Ru,Zh\nVersione: 1.1.0.0\n⚙️ FIRMWARE RICHIESTO\nBase: 5.1.0\nUpdate: 5.1.0\nPrezzo: €9,99\nUscita: 04/09/2018\nGenere: Az",
+    "cover_local": "nromsdb/covers/switch_PLANET ALPHA_11613.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_PLANET%20ALPHA_11613.webp"
+  },
+  {
+    "nome": "Thief Simulator",
+    "formato": "NSP",
+    "peso": "3GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Pr,Ru",
+    "link": "https://t.me/c/2332511567/11608",
+    "message_id": 11608,
+    "data": "2026-03-07 18:01:11",
+    "edit_date": "2026-03-07 18:01:15",
+    "testo_completo": "Nome: Thief Simulator\nFormato: NSP\nPeso: 3GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Pr,Ru\nVersione: 1.4.0\n⚙️ FIRMWARE RICHIESTO\nBase: 7.0.1\nUpdate: 10.3.0\nPrezzo: €19,99\nUscita: 16/05/2019\nGenere: Simulaz",
+    "cover_local": "nromsdb/covers/switch_Thief Simulator_11608.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Thief%20Simulator_11608.webp"
+  },
+  {
+    "nome": "Slay the Spire",
+    "formato": "NSP",
+    "peso": "534MB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Nl,Pr,Ru,Zh",
+    "link": "https://t.me/c/2332511567/11603",
+    "message_id": 11603,
+    "data": "2026-03-07 18:00:48",
+    "edit_date": "2026-03-07 18:00:51",
+    "testo_completo": "Nome: Slay the Spire\nFormato: NSP\nPeso: 534MB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Nl,Pr,Ru,Zh\nVersione: 2.3.1\n⚙️ FIRMWARE RICHIESTO\nBase: 8.0.1\nUpdate: 16.0.0\nPrezzo: €24,99\nUscita: 06/06/2019\nGe",
+    "cover_local": "nromsdb/covers/switch_Slay the Spire_11603.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Slay%20the%20Spire_11603.webp"
+  },
+  {
+    "nome": "Haven Park",
+    "formato": "NSP",
+    "peso": "559MB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Pr,Ru,Zh",
+    "link": "https://t.me/c/2332511567/11598",
+    "message_id": 11598,
+    "data": "2026-03-07 18:00:28",
+    "edit_date": "2026-03-07 18:00:31",
+    "testo_completo": "Nome: Haven Park\nFormato: NSP\nPeso: 559MB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Pr,Ru,Zh\nVersione: 1.2.1\n⚙️ FIRMWARE RICHIESTO\nBase: 12.0.2\nUpdate: 13.2.1\nPrezzo: €8,49\nUscita: 05/08/2021\nGenere: Puzz",
+    "cover_local": "nromsdb/covers/switch_Haven Park_11598.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Haven%20Park_11598.webp"
   }
 ]
