@@ -14680,5 +14680,19 @@
     "testo_completo": "Nome: Planet of Lana II\nFormato: NSP\nPeso: 11.6GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Nl,Pr,Ru,Th,Zh\nVersione: 1.0.2\n⚙️ FIRMWARE RICHIESTO\nBase: 21.2.0\nUpdate: 21.2.0\nPrezzo: €19,99\nUscita: 05/03",
     "cover_local": "nromsdb/covers/switch_Planet of Lana II_11618.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Planet%20of%20Lana%20II_11618.webp"
+  },
+  {
+    "nome": "Giochi olimpici di Tokyo 2020 – Il videogioco ufficiale",
+    "formato": "NSP",
+    "peso": "7.5GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Pr,Ru",
+    "link": "https://t.me/c/2332511567/11631",
+    "message_id": 11631,
+    "data": "2026-03-08 16:57:23",
+    "edit_date": "2026-03-08 16:57:26",
+    "testo_completo": "Nome: Giochi olimpici di Tokyo 2020 – Il videogioco ufficiale\nFormato: NSP\nPeso: 7.5GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Pr,Ru\nVersione: 1.0.2\n⚙️ FIRMWARE RICHIESTO\nBase: 8.0.1\nUpdate: 11.1.0\nPrezzo:",
+    "cover_local": "nromsdb/covers/switch_Giochi olimpici di Tokyo 2020 – Il videogioco ufficiale_11631.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Giochi%20olimpici%20di%20Tokyo%202020%20%E2%80%93%20Il%20videogioco%20ufficiale_11631.webp"
   }
 ]
