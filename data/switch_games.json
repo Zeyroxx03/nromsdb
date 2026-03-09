@@ -14695,5 +14695,47 @@
     "testo_completo": "Nome: EA SPORTS FC 26\nFormato: NSP\nPeso: 36.4GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Nl,Pr,Ru,Zh\nVersione: 1.83.6083\n⚙️ FIRMWARE RICHIESTO\nBase: 21.0.0\nUpdate: 21.2.0\nPrezzo: €79,99\nUscita: 26/09/",
     "cover_local": "nromsdb/covers/switch_EA SPORTS FC 26_11637.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_EA%20SPORTS%20FC%2026_11637.webp"
+  },
+  {
+    "nome": "Cast n Chill",
+    "formato": "NSP",
+    "peso": "545MB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Pr,Ru,Zh",
+    "link": "https://t.me/c/2332511567/11661",
+    "message_id": 11661,
+    "data": "2026-03-09 18:35:32",
+    "edit_date": "2026-03-09 18:35:36",
+    "testo_completo": "Nome: Cast n Chill\nFormato: NSP\nPeso: 545MB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Pr,Ru,Zh\nVersione: 1.2.3\n⚙️ FIRMWARE RICHIESTO\nBase: 20.3.0\nUpdate: 21.1.0\nPrezzo: €14,79\nUscita: 18/12/2025\nGenere",
+    "cover_local": "nromsdb/covers/switch_Cast n Chill_11661.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Cast%20n%20Chill_11661.webp"
+  },
+  {
+    "nome": "Camper Van: Make it Home",
+    "formato": "NSP",
+    "peso": "2.9GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp",
+    "link": "https://t.me/c/2332511567/11656",
+    "message_id": 11656,
+    "data": "2026-03-09 18:35:23",
+    "edit_date": "2026-03-09 18:35:27",
+    "testo_completo": "Nome: Camper Van: Make it Home\nFormato: NSP\nPeso: 2.9GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp\nVersione: 1.0.0\n⚙️ FIRMWARE RICHIESTO\nBase: 20.5.0\nPrezzo: €14,79\nUscita: 04/09/2025\nGenere: Puzzle, Simul",
+    "cover_local": "nromsdb/covers/switch_Camper Van Make it Home_11656.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Camper%20Van%20Make%20it%20Home_11656.webp"
+  },
+  {
+    "nome": "Child of Light Ultimate Edition & Valiant Hearts: The Great War Bundle",
+    "formato": "NSP",
+    "peso": "2.2GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Nl,Pr,Ru,Zh",
+    "link": "https://t.me/c/2332511567/11651",
+    "message_id": 11651,
+    "data": "2026-03-09 18:35:11",
+    "edit_date": "2026-03-09 18:35:14",
+    "testo_completo": "Nome: Child of Light Ultimate Edition & Valiant Hearts: The Great War Bundle\nFormato: NSP\nPeso: 2.2GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Nl,Pr,Ru,Zh\nVersione: 1.0.0\n⚙️ FIRMWARE RICHIESTO\nBase: 5.1.",
+    "cover_local": "nromsdb/covers/switch_Child of Light Ultimate Edition & Valiant Hearts The Great War Bundle_11651.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Child%20of%20Light%20Ultimate%20Edition%20%26%20Valiant%20Hearts%20The%20Great%20War%20Bundle_11651.webp"
   }
 ]
