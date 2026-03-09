@@ -14779,5 +14779,19 @@
     "testo_completo": "Nome: The Disney Afternoon Collection\nFormato: NSP\nPeso: 622MB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Pr,Ru\nVersione: 1.0.2\n⚙️ FIRMWARE RICHIESTO\nBase: 21.1.0\nUpdate: 21.2.0\nPrezzo: €19,99\nUscita: 26/0",
     "cover_local": "nromsdb/covers/switch_The Disney Afternoon Collection_11676.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_The%20Disney%20Afternoon%20Collection_11676.webp"
+  },
+  {
+    "nome": "Tales of Berseria Remastered",
+    "formato": "NSP",
+    "peso": "9.1GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Ru",
+    "link": "https://t.me/c/2332511567/11681",
+    "message_id": 11681,
+    "data": "2026-03-09 19:05:16",
+    "edit_date": "2026-03-09 19:05:19",
+    "testo_completo": "Nome: Tales of Berseria Remastered\nFormato: NSP\nPeso: 9.1GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Ru\nVersione: 1.0.2\n⚙️ FIRMWARE RICHIESTO\nBase: 20.5.0\nUpdate: 21.2.0\nPrezzo: €39,99\nUscita: 27/02/2026\nGe",
+    "cover_local": "nromsdb/covers/switch_Tales of Berseria Remastered_11681.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Tales%20of%20Berseria%20Remastered_11681.webp"
   }
 ]
