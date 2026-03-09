@@ -14737,5 +14737,33 @@
     "testo_completo": "Nome: Child of Light Ultimate Edition & Valiant Hearts: The Great War Bundle\nFormato: NSP\nPeso: 2.2GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Nl,Pr,Ru,Zh\nVersione: 1.0.0\n⚙️ FIRMWARE RICHIESTO\nBase: 5.1.",
     "cover_local": "nromsdb/covers/switch_Child of Light Ultimate Edition & Valiant Hearts The Great War Bundle_11651.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Child%20of%20Light%20Ultimate%20Edition%20%26%20Valiant%20Hearts%20The%20Great%20War%20Bundle_11651.webp"
+  },
+  {
+    "nome": "Scott Pilgrim EX",
+    "formato": "NSP",
+    "peso": "1.4GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Pr,Ru,Zh",
+    "link": "https://t.me/c/2332511567/11671",
+    "message_id": 11671,
+    "data": "2026-03-09 18:44:16",
+    "edit_date": "2026-03-09 18:44:20",
+    "testo_completo": "Nome: Scott Pilgrim EX\nFormato: NSP\nPeso: 1.4GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Pr,Ru,Zh\nVersione: 1.0.0.13755\n⚙️ FIRMWARE RICHIESTO\nBase: 21.2.0\nUpdate: 21.2.0\nPrezzo: €28,99\nUscita: 03/03/2",
+    "cover_local": "nromsdb/covers/switch_Scott Pilgrim EX_11671.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Scott%20Pilgrim%20EX_11671.webp"
+  },
+  {
+    "nome": "Back to the Dawn",
+    "formato": "NSP",
+    "peso": "2.4GB",
+    "regione": "🇺🇸",
+    "lingue": "En,Jp,Ko,Zh",
+    "link": "https://t.me/c/2332511567/11666",
+    "message_id": 11666,
+    "data": "2026-03-09 18:40:09",
+    "edit_date": "2026-03-09 18:40:12",
+    "testo_completo": "Nome: Back to the Dawn\nFormato: NSP\nPeso: 2.4GB\nRegione: 🇺🇸\nLingue: En,Jp,Ko,Zh\nVersione: 1.0.0.3\n⚙️ FIRMWARE RICHIESTO\nBase: 21.1.0\nUpdate: 21.2.0\nPrezzo: €34,99\nUscita: 05/03/2026\nGenere: RPG\nProdut",
+    "cover_local": "nromsdb/covers/switch_Back to the Dawn_11666.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Back%20to%20the%20Dawn_11666.webp"
   }
 ]
