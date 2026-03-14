@@ -14864,5 +14864,47 @@
     "testo_completo": "Nome: Formula Legends\nFormato: NSP\nPeso: 5.5GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Nl,Pr,Zh\nVersione: 1.0.13\n⚙️ FIRMWARE RICHIESTO\nBase: 20.1.5\nUpdate: 21.2.0\nPrezzo: €19,99\nUscita: 18/09/2025\nGe",
     "cover_local": "nromsdb/covers/switch_Formula Legends_11722.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Formula%20Legends_11722.webp"
+  },
+  {
+    "nome": "Cozy Caravan",
+    "formato": "NSP",
+    "peso": "1.6GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Nl,Pr,Ru,Zh",
+    "link": "https://t.me/c/2332511567/11738",
+    "message_id": 11738,
+    "data": "2026-03-14 21:54:34",
+    "edit_date": "2026-03-14 21:54:37",
+    "testo_completo": "Nome: Cozy Caravan\nFormato: NSP\nPeso: 1.6GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Nl,Pr,Ru,Zh\nVersione: 1.1.0.20050\n⚙️ FIRMWARE RICHIESTO\nBase: 21.1.0\nUpdate: 21.2.0\nPrezzo: €19,5\nUscita: 15/01/202",
+    "cover_local": "nromsdb/covers/switch_Cozy Caravan_11738.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Cozy%20Caravan_11738.webp"
+  },
+  {
+    "nome": "The Escapists 2",
+    "formato": "NSP",
+    "peso": "3.7GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ru",
+    "link": "https://t.me/c/2332511567/11733",
+    "message_id": 11733,
+    "data": "2026-03-14 21:43:28",
+    "edit_date": "2026-03-14 21:43:32",
+    "testo_completo": "Nome: The Escapists 2\nFormato: NSP\nPeso: 3.7GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ru\nVersione: 1.3.0\n⚙️ FIRMWARE RICHIESTO\nBase: 4.0.0\nUpdate: 6.1.0\nPrezzo: €19,99\nUscita: 11/01/2018\nGenere: Simula",
+    "cover_local": "nromsdb/covers/switch_The Escapists 2_11733.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_The%20Escapists%202_11733.webp"
+  },
+  {
+    "nome": "The Escapists: Complete Edition",
+    "formato": "NSP",
+    "peso": "549MB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr",
+    "link": "https://t.me/c/2332511567/11728",
+    "message_id": 11728,
+    "data": "2026-03-14 21:38:33",
+    "edit_date": "2026-03-14 21:38:36",
+    "testo_completo": "Nome: The Escapists: Complete Edition\nFormato: NSP\nPeso: 549MB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr\nVersione: 1.0.2\n⚙️ FIRMWARE RICHIESTO\nBase: 5.1.0\nUpdate: 8.0.0\nPrezzo: €14,99\nUscita: 25/09/2018\nGenere:",
+    "cover_local": "nromsdb/covers/switch_The Escapists Complete Edition_11728.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_The%20Escapists%20Complete%20Edition_11728.webp"
   }
 ]
