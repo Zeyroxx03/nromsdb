@@ -14850,5 +14850,19 @@
     "testo_completo": "Nome: Gone Home\nFormato: NSP\nPeso: 3.1GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Pr,Ru,Zh\nVersione: 1.0.4\n⚙️ FIRMWARE RICHIESTO\nBase: 19.0.0\nUpdate: 19.0.0\nPrezzo: €14,99\nUscita: 06/09/2018\nGenere: A",
     "cover_local": "nromsdb/covers/switch_Gone Home_11694.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Gone%20Home_11694.webp"
+  },
+  {
+    "nome": "Formula Legends",
+    "formato": "NSP",
+    "peso": "5.5GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Nl,Pr,Zh",
+    "link": "https://t.me/c/2332511567/11722",
+    "message_id": 11722,
+    "data": "2026-03-14 19:40:42",
+    "edit_date": "2026-03-14 19:40:45",
+    "testo_completo": "Nome: Formula Legends\nFormato: NSP\nPeso: 5.5GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Nl,Pr,Zh\nVersione: 1.0.13\n⚙️ FIRMWARE RICHIESTO\nBase: 20.1.5\nUpdate: 21.2.0\nPrezzo: €19,99\nUscita: 18/09/2025\nGe",
+    "cover_local": "nromsdb/covers/switch_Formula Legends_11722.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Formula%20Legends_11722.webp"
   }
 ]
