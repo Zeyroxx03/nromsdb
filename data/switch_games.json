@@ -14894,5 +14894,19 @@
     "testo_completo": "Nome: Game Dev Tycoon\nFormato: NSP\nPeso: 235MB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Ko,Nl,Pr,Ru\nVersione: 1.3.8.3\n⚙️ FIRMWARE RICHIESTO\nBase: 10.1.0\nUpdate: 10.2.0\nPrezzo: €14,49\nUscita: 08/10/2020\nGene",
     "cover_local": "nromsdb/covers/switch_Game Dev Tycoon_11743.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Game%20Dev%20Tycoon_11743.webp"
+  },
+  {
+    "nome": "Legacy of Kain Soul Reaver 1&2 Remastered",
+    "formato": "NSP",
+    "peso": "10.8GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ru,Zh",
+    "link": "https://t.me/c/2332511567/11748",
+    "message_id": 11748,
+    "data": "2026-03-16 14:45:09",
+    "edit_date": "2026-03-16 14:45:12",
+    "testo_completo": "Nome: Legacy of Kain Soul Reaver 1&2 Remastered\nFormato: NSP\nPeso: 10.8GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ru,Zh\nVersione: 1.0.3\n⚙️ FIRMWARE RICHIESTO\nBase: 19.0.1\nUpdate: 19.0.1\nPrezzo: €29,99\nU",
+    "cover_local": "nromsdb/covers/switch_Legacy of Kain Soul Reaver 1&2 Remastered_11748.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Legacy%20of%20Kain%20Soul%20Reaver%201%262%20Remastered_11748.webp"
   }
 ]
