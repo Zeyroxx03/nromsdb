@@ -14910,20 +14910,6 @@
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Legacy%20of%20Kain%20Soul%20Reaver%201%262%20Remastered_11748.webp"
   },
   {
-    "nome": "Tomodachi Life: Una vita da sogno (DEMO)",
-    "formato": "NSP",
-    "peso": "1.1GB",
-    "regione": "🇪🇺",
-    "lingue": "De,En,Es,Fr,It,Jp,Ko,Nl,Zh",
-    "link": "https://t.me/c/2332511567/11757",
-    "message_id": 11757,
-    "data": "2026-03-28 18:56:44",
-    "edit_date": "2026-03-28 18:56:47",
-    "testo_completo": "Nome: Tomodachi Life: Una vita da sogno (DEMO)\nFormato: NSP\nPeso: 1.1GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Nl,Zh\nVersione: 1.0.0\n⚙️ FIRMWARE RICHIESTO\nBase: 21.1.0\nPrezzo: €59,99\nUscita: 16/04/2",
-    "cover_local": "nromsdb/covers/switch_Tomodachi Life Una vita da sogno (DEMO)_11757.webp",
-    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Tomodachi%20Life%20Una%20vita%20da%20sogno%20%28DEMO%29_11757.webp"
-  },
-  {
     "nome": "Poppy Playtime: Capitolo 4",
     "formato": "NSP",
     "peso": "2.7GB",
@@ -15048,5 +15034,19 @@
     "testo_completo": "Nome: Darkest Dungeon\nFormato: NSP\nPeso: 4GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Ko,Pr,Ru,Zh\nVersione: 1.2.1\n⚙️ FIRMWARE RICHIESTO\nBase: 4.1.0\nUpdate: 8.0.1\nPrezzo: €21,99\nUscita: 18/01/2018\nGenere: Av",
     "cover_local": "nromsdb/covers/switch_Darkest Dungeon_11792.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Darkest%20Dungeon_11792.webp"
+  },
+  {
+    "nome": "Virtual Boy: Nintendo Classics",
+    "formato": "NSP",
+    "peso": "81MB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Ko,Pr,Ru",
+    "link": "https://t.me/c/2332511567/11812",
+    "message_id": 11812,
+    "data": "2026-04-11 11:48:57",
+    "edit_date": "2026-04-10 19:11:00",
+    "testo_completo": "Nome: Virtual Boy: Nintendo Classics\nFormato: NSP\nPeso: 81MB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Ko,Pr,Ru\nVersione: 1.1.0\n⚙️ FIRMWARE RICHIESTO\nBase: 21.2.0\nUpdate: 21.2.0\nPrezzo: Free\nUscita: 17/02/2026\nGenere: Av",
+    "cover_local": "nromsdb/covers/switch_Darkest Dungeon_11792.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Virtual%20Boy%3A%20Nintendo%20Classics_11812.webp"
   }
 ]
