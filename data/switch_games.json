@@ -15044,9 +15044,23 @@
     "link": "https://t.me/c/2332511567/11812",
     "message_id": 11812,
     "data": "2026-04-11 11:48:57",
-    "edit_date": "2026-04-10 19:11:00",
+    "edit_date": "2026-04-11 11:48:00",
     "testo_completo": "Nome: Virtual Boy: Nintendo Classics\nFormato: NSP\nPeso: 81MB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Ko,Pr,Ru\nVersione: 1.1.0\n⚙️ FIRMWARE RICHIESTO\nBase: 21.2.0\nUpdate: 21.2.0\nPrezzo: Free\nUscita: 17/02/2026\nGenere: Av",
-    "cover_local": "nromsdb/covers/switch_Darkest Dungeon_11792.webp",
-    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Virtual%20Boy%3A%20Nintendo%20Classics_11812.webp"
+    "cover_local": "nromsdb/covers/switch_Virtual Boy Nintendo Classics_11812.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Virtual%20Boy%20Nintendo%20Classics_11812.webp"
+  },
+  {
+    "nome": "Tomodachi Life: Una vita da sogno",
+    "formato": "NSP",
+    "peso": "6.4GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Ko,Nl,Zh",
+    "link": "https://t.me/c/2332511567/11817",
+    "message_id": 11817,
+    "data": "2026-04-13 19:01:57",
+    "edit_date": "2026-04-13 19:01:57",
+    "testo_completo": "Nome: Tomodachi Life: Una vita da sogno\nFormato: NSP\nPeso: 6.4GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Ko,Nl,Zh\nVersione: 1.0.0\n⚙️ FIRMWARE RICHIESTO\nBase: 21.1.0\nPrezzo: €59,99\nUscita: 16/04/2026\nGenere: Av",
+    "cover_local": "nromsdb/covers/switch_Tomodachi Life Una vita da sogno_11817.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Tomodachi%20Life%20Una%20vita%20da%20sogno_11817.webp"
   }
 ]
