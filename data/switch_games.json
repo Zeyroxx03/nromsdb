@@ -15160,5 +15160,19 @@
     "testo_completo": "Nome: Steven Universe: Save the Light \nFormato: NSP\nPeso: 2.5GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Ru\nVersione: 1.0.2\n⚙ FIRMWARE RICHIESTO\nBase: 5.1.0\nUpdate: 6.2.0\nPrezzo: €24,99\nUscita: 30/10/2018\nG",
     "cover_local": "nromsdb/covers/switch_Steven Universe Save the Light_11828.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Steven%20Universe%20Save%20the%20Light_11828.webp"
+  },
+  {
+    "nome": "House Flipper",
+    "formato": "NSP",
+    "peso": "7.8GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Pr,Ru,Zh",
+    "link": "https://t.me/c/2332511567/11860",
+    "message_id": 11860,
+    "data": "2026-04-24 20:05:13",
+    "edit_date": "2026-04-24 20:05:16",
+    "testo_completo": "Nome: House Flipper\nFormato: NSP\nPeso: 7.8GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Pr,Ru,Zh\nVersione: 1.10.0\n⚙️ FIRMWARE RICHIESTO\nBase: 9.0.1\nUpdate: 17.0.1\nPrezzo: €24,99\nUscita: 12/06/2020\nGener",
+    "cover_local": "nromsdb/covers/switch_House Flipper_11860.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_House%20Flipper_11860.webp"
   }
 ]
