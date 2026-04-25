@@ -15202,5 +15202,19 @@
     "testo_completo": "Nome: The Case of the Golden Idol: Complete Edition\nFormato: NSP\nPeso: 443MB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Pr,Zh\nVersione: 1.0.4\n⚙️ FIRMWARE RICHIESTO\nBase: 16.0.1\nUpdate: 16.0.3\nPrezzo: €2",
     "cover_local": "nromsdb/covers/switch_The Case of the Golden Idol Complete Edition_11867.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_The%20Case%20of%20the%20Golden%20Idol%20Complete%20Edition_11867.webp"
+  },
+  {
+    "nome": "Carmen Sandiego",
+    "formato": "NSP",
+    "peso": "1.5GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Pr",
+    "link": "https://t.me/c/2332511567/11877",
+    "message_id": 11877,
+    "data": "2026-04-25 19:51:07",
+    "edit_date": "2026-04-25 19:51:11",
+    "testo_completo": "Nome: Carmen Sandiego\nFormato: NSP\nPeso: 1.5GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Pr\nVersione: 1.5.0\n⚙️ FIRMWARE RICHIESTO\nBase: 18.1.0\nUpdate: 20.4.0\nPrezzo: €29,99\nUscita: 04/03/2025\nGenere: Puzz",
+    "cover_local": "nromsdb/covers/switch_Carmen Sandiego_11877.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Carmen%20Sandiego_11877.webp"
   }
 ]
