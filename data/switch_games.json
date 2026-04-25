@@ -15174,5 +15174,33 @@
     "testo_completo": "Nome: House Flipper\nFormato: NSP\nPeso: 7.8GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Pr,Ru,Zh\nVersione: 1.10.0\n⚙️ FIRMWARE RICHIESTO\nBase: 9.0.1\nUpdate: 17.0.1\nPrezzo: €24,99\nUscita: 12/06/2020\nGener",
     "cover_local": "nromsdb/covers/switch_House Flipper_11860.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_House%20Flipper_11860.webp"
+  },
+  {
+    "nome": "DUSK",
+    "formato": "NSP",
+    "peso": "2.9GB",
+    "regione": "🇺🇸",
+    "lingue": "En",
+    "link": "https://t.me/c/2332511567/11872",
+    "message_id": 11872,
+    "data": "2026-04-25 19:27:33",
+    "edit_date": "2026-04-25 19:27:36",
+    "testo_completo": "Nome: DUSK\nFormato: NSP\nPeso: 2.9GB\nRegione: 🇺🇸\nLingue: En\nVersione: 1.02\n⚙️ FIRMWARE RICHIESTO\nBase: 12.1.0\nUpdate: 13.2.1\nPrezzo: €16,66\nUscita: 28/10/2021\nGenere: Azione, FPS, Avventura, Sparatutto",
+    "cover_local": "nromsdb/covers/switch_DUSK_11872.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_DUSK_11872.webp"
+  },
+  {
+    "nome": "The Case of the Golden Idol: Complete Edition",
+    "formato": "NSP",
+    "peso": "443MB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Pr,Zh",
+    "link": "https://t.me/c/2332511567/11867",
+    "message_id": 11867,
+    "data": "2026-04-25 19:27:17",
+    "edit_date": "2026-04-25 19:27:20",
+    "testo_completo": "Nome: The Case of the Golden Idol: Complete Edition\nFormato: NSP\nPeso: 443MB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Pr,Zh\nVersione: 1.0.4\n⚙️ FIRMWARE RICHIESTO\nBase: 16.0.1\nUpdate: 16.0.3\nPrezzo: €2",
+    "cover_local": "nromsdb/covers/switch_The Case of the Golden Idol Complete Edition_11867.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_The%20Case%20of%20the%20Golden%20Idol%20Complete%20Edition_11867.webp"
   }
 ]
