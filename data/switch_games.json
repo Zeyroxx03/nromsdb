@@ -15216,5 +15216,33 @@
     "testo_completo": "Nome: Carmen Sandiego\nFormato: NSP\nPeso: 1.5GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Pr\nVersione: 1.5.0\n⚙️ FIRMWARE RICHIESTO\nBase: 18.1.0\nUpdate: 20.4.0\nPrezzo: €29,99\nUscita: 04/03/2025\nGenere: Puzz",
     "cover_local": "nromsdb/covers/switch_Carmen Sandiego_11877.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Carmen%20Sandiego_11877.webp"
+  },
+  {
+    "nome": "Nuclear Throne",
+    "formato": "NSP",
+    "peso": "197MB",
+    "regione": "🇺🇸",
+    "lingue": "En",
+    "link": "https://t.me/c/2332511567/11887",
+    "message_id": 11887,
+    "data": "2026-04-26 14:44:08",
+    "edit_date": "2026-04-26 14:44:11",
+    "testo_completo": "Nome: Nuclear Throne\nFormato: NSP\nPeso: 197MB\nRegione: 🇺🇸\nLingue: En\nVersione: 1.0.11\n⚙️ FIRMWARE RICHIESTO\nBase: 7.0.1\nUpdate: 7.0.1\nPrezzo: €12,99\nUscita: 20/03/2019\nGenere: Azione, Avventura, Arcad",
+    "cover_local": "nromsdb/covers/switch_Nuclear Throne_11887.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Nuclear%20Throne_11887.webp"
+  },
+  {
+    "nome": "Celeste",
+    "formato": "NSP",
+    "peso": "1.6GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Pr,Ru,Zh",
+    "link": "https://t.me/c/2332511567/11882",
+    "message_id": 11882,
+    "data": "2026-04-26 14:19:12",
+    "edit_date": "2026-04-26 15:23:13",
+    "testo_completo": "Nome: Celeste\nFormato: NSP\nPeso: 1.6GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Pr,Ru,Zh\nVersione: 1.4.1.1\n⚙️ FIRMWARE RICHIESTO\nBase: 4.1.0\nUpdate: 16.0.1\nPrezzo: €19,99\nUscita: 25/01/2018\nGenere: Pl",
+    "cover_local": "nromsdb/covers/switch_Celeste_11882.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Celeste_11882.webp"
   }
 ]
