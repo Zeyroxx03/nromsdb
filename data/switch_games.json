@@ -15328,5 +15328,19 @@
     "testo_completo": "Nome: Voice Love on Air\nFormato: NSP\nPeso: 5.9GB\nRegione: 🇺🇸\nLingue: En,Jp,Zh\nVersione: 1.0.3\n⚙️ FIRMWARE RICHIESTO\nBase: 17.0.0\nUpdate: 20.2.0\nPrezzo: €29,99\nUscita: 30/12/2024\nGenere: Simulazione, R",
     "cover_local": "nromsdb/covers/switch_Voice Love on Air_11918.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Voice%20Love%20on%20Air_11918.webp"
+  },
+  {
+    "nome": "PlateUp!",
+    "formato": "NSP",
+    "peso": "1.2GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,Jp,Ko,Pr,Ru,Zh",
+    "link": "https://t.me/c/2332511567/11934",
+    "message_id": 11934,
+    "data": "2026-05-09 10:54:23",
+    "edit_date": "2026-05-09 10:54:26",
+    "testo_completo": "Nome: PlateUp!\nFormato: NSP\nPeso: 1.2GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,Jp,Ko,Pr,Ru,Zh\nVersione: 1.4.3\n⚙️ FIRMWARE RICHIESTO\nBase: 16.0.3\nUpdate: 22.1.0\nPrezzo: €19,99\nUscita: 15/02/2024\nGenere: Azion",
+    "cover_local": "nromsdb/covers/switch_PlateUp!_11934.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_PlateUp%21_11934.webp"
   }
 ]
