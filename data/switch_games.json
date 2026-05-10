@@ -15342,5 +15342,47 @@
     "testo_completo": "Nome: PlateUp!\nFormato: NSP\nPeso: 1.2GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,Jp,Ko,Pr,Ru,Zh\nVersione: 1.4.3\n⚙️ FIRMWARE RICHIESTO\nBase: 16.0.3\nUpdate: 22.1.0\nPrezzo: €19,99\nUscita: 15/02/2024\nGenere: Azion",
     "cover_local": "nromsdb/covers/switch_PlateUp!_11934.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_PlateUp%21_11934.webp"
+  },
+  {
+    "nome": "The House of Da Vinci 3",
+    "formato": "NSP",
+    "peso": "3.8GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Pr,Ru,Zh",
+    "link": "https://t.me/c/2332511567/11950",
+    "message_id": 11950,
+    "data": "2026-05-10 10:06:09",
+    "edit_date": "2026-05-10 10:06:12",
+    "testo_completo": "Nome: The House of Da Vinci 3\nFormato: NSP\nPeso: 3.8GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Pr,Ru,Zh\nVersione: 1.0.2\n⚙️ FIRMWARE RICHIESTO\nBase: 15.0.1\nUpdate: 16.0.3\nPrezzo: €9,99\nUscita: 05/01/2023",
+    "cover_local": "nromsdb/covers/switch_The House of Da Vinci 3_11950.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_The%20House%20of%20Da%20Vinci%203_11950.webp"
+  },
+  {
+    "nome": "The House of Da Vinci 2",
+    "formato": "NSP",
+    "peso": "3.4GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Pr,Ru,Zh",
+    "link": "https://t.me/c/2332511567/11945",
+    "message_id": 11945,
+    "data": "2026-05-10 10:01:00",
+    "edit_date": "2026-05-10 10:01:03",
+    "testo_completo": "Nome: The House of Da Vinci 2\nFormato: NSP\nPeso: 3.4GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Pr,Ru,Zh\nVersione: 1.0.1\n⚙️ FIRMWARE RICHIESTO\nBase: 9.2.0\nUpdate: 10.0.4\nPrezzo: €9,99\nUscita: 17/05/2020",
+    "cover_local": "nromsdb/covers/switch_The House of Da Vinci 2_11945.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_The%20House%20of%20Da%20Vinci%202_11945.webp"
+  },
+  {
+    "nome": "The House of Da Vinci",
+    "formato": "NSP",
+    "peso": "1.3GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Pr,Ru,Zh",
+    "link": "https://t.me/c/2332511567/11940",
+    "message_id": 11940,
+    "data": "2026-05-10 09:58:33",
+    "edit_date": "2026-05-10 09:58:36",
+    "testo_completo": "Nome: The House of Da Vinci\nFormato: NSP\nPeso: 1.3GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Pr,Ru,Zh\nVersione: 1.0.0\n⚙️ FIRMWARE RICHIESTO\nBase: 8.0.1\nPrezzo: €9,99\nUscita: 26/07/2019\nGenere: Puzzle",
+    "cover_local": "nromsdb/covers/switch_The House of Da Vinci_11940.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_The%20House%20of%20Da%20Vinci_11940.webp"
   }
 ]
