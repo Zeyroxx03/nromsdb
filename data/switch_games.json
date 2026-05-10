@@ -15384,5 +15384,19 @@
     "testo_completo": "Nome: The House of Da Vinci\nFormato: NSP\nPeso: 1.3GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Pr,Ru,Zh\nVersione: 1.0.0\n⚙️ FIRMWARE RICHIESTO\nBase: 8.0.1\nPrezzo: €9,99\nUscita: 26/07/2019\nGenere: Puzzle",
     "cover_local": "nromsdb/covers/switch_The House of Da Vinci_11940.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_The%20House%20of%20Da%20Vinci_11940.webp"
+  },
+  {
+    "nome": "F1 Manager 2024",
+    "formato": "NSP",
+    "peso": "12.7GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Nl,Pr,Ru,Zh",
+    "link": "https://t.me/c/2332511567/11955",
+    "message_id": 11955,
+    "data": "2026-05-10 11:09:10",
+    "edit_date": "2026-05-10 11:09:13",
+    "testo_completo": "Nome: F1 Manager 2024\nFormato: NSP\nPeso: 12.7GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Nl,Pr,Ru,Zh\nVersione: 1.11\n⚙️ FIRMWARE RICHIESTO\nBase: 18.1.0\nUpdate: 19.0.1\nPrezzo: €44,99\nUscita: 23/07/2024\nGen",
+    "cover_local": "nromsdb/covers/switch_F1 Manager 2024_11955.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_F1%20Manager%202024_11955.webp"
   }
 ]
