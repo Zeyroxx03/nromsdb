@@ -15455,5 +15455,19 @@
     "testo_completo": "Nome: Crash Team Racing Nitro-Fueled\nFormato: NSP\nPeso: 9.5GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Pr\nVersione: 1.0.15\n⚙️ FIRMWARE RICHIESTO\nBase: 7.0.1\nUpdate: 9.2.0\nPrezzo: €39,99\nUscita: 21/06/2019\nG",
     "cover_local": "nromsdb/covers/switch_Crash Team Racing Nitro-Fueled_11996.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Crash%20Team%20Racing%20Nitro-Fueled_11996.webp"
+  },
+  {
+    "nome": "YOGA MASTER",
+    "formato": "NSP",
+    "peso": "3.7GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It",
+    "link": "https://t.me/c/2332511567/12003",
+    "message_id": 12003,
+    "data": "2026-05-20 11:34:10",
+    "edit_date": "2026-05-20 11:34:13",
+    "testo_completo": "Nome: YOGA MASTER\nFormato: NSP\nPeso: 3.7GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It\nVersione: 2.05\n⚙️ FIRMWARE RICHIESTO\nBase: 9.1.0\nUpdate: 16.0.3\nPrezzo: €24,99\nUscita: 13/03/2020\nGenere: Altro\nProduttore",
+    "cover_local": "nromsdb/covers/switch_YOGA MASTER_12003.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_YOGA%20MASTER_12003.webp"
   }
 ]
