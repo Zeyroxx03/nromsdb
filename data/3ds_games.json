@@ -2858,5 +2858,19 @@
     "testo_completo": "Nome: Ever Oasis\nFormato: CIA/CCI\nPeso: 1.7GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Nl\nVersione: 1.1.0\n#3DS #EMULATORE\n#GAME #UPDATE\n\n➖➖➖➖➖➖➖➖➖\n🔒 PASSWORD PACCHETTO: \nDigita: nintendoroms",
     "cover_local": "nromsdb/covers/3ds_Ever Oasis_12010.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/3ds_Ever%20Oasis_12010.webp"
+  },
+  {
+    "nome": "The Cube",
+    "formato": "CIA/CCI",
+    "peso": "323MB",
+    "regione": "🇪🇺",
+    "lingue": "En,Es,It",
+    "link": "https://t.me/c/2332511567/12019",
+    "message_id": 12019,
+    "data": "2026-05-22 10:57:15",
+    "edit_date": "2026-05-22 10:57:18",
+    "testo_completo": "Nome: The Cube\nFormato: CIA/CCI\nPeso: 323MB\nRegione: 🇪🇺\nLingue: En,Es,It\nVersione: 1.0\n#3DS #EMULATORE\n#GAME\n\n➖➖➖➖➖➖➖➖➖\n🔒 PASSWORD PACCHETTO: \nDigita: nintendoroms",
+    "cover_local": "nromsdb/covers/3ds_The Cube_12019.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/3ds_The%20Cube_12019.webp"
   }
 ]
