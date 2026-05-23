@@ -1,9 +1,10 @@
 {
-    "latestVersion":  "1.0.2",
-    "latestBuild":  3,
-    "downloadUrl":  "https://github.com/Zeyroxx03/nromscollection-releases/releases/download/v1.0.2/app-release.apk",
+    "latestVersion":  "1.0.3",
+    "latestBuild":  4,
+    "downloadUrl":  "https://github.com/Zeyroxx03/nromscollection-releases/releases/download/v1.0.3/app-release.apk",
     "changelog":  [
-                      "Aggiunta la versione visibile dentro l\u0027app",
-                      "Tap sulla versione per copiare le info app negli appunti"
+                      "Ricerca senza suggerimenti automatici",
+                      "Controlli catalogo piu compatti",
+                      "Popup update piu pulito"
                   ]
 }
