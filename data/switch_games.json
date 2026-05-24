@@ -15511,5 +15511,19 @@
     "testo_completo": "Nome: Zumba Burn It Up!\nFormato: NSP\nPeso: 6.9GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Pr,Ru,Zh\nVersione: 1.1.0\n⚙️ FIRMWARE RICHIESTO\nBase: 1.0.0\nUpdate: 9.1.0\nPrezzo: €39,99\nUscita: 22/11/2019\nGen",
     "cover_local": "nromsdb/covers/switch_Zumba Burn It Up!_12033.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Zumba%20Burn%20It%20Up%21_12033.webp"
+  },
+  {
+    "nome": "Outbound",
+    "formato": "NSP",
+    "peso": "2.2GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Nl,Pr,Ru,Zh",
+    "link": "https://t.me/c/2332511567/12053",
+    "message_id": 12053,
+    "data": "2026-05-24 21:41:05",
+    "edit_date": "2026-05-24 21:41:08",
+    "testo_completo": "Nome: Outbound\nFormato: NSP\nPeso: 2.2GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Nl,Pr,Ru,Zh\nVersione: 2.6.1\n⚙️ FIRMWARE RICHIESTO\nBase: 21.2.0\nUpdate: 22.1.0\nPrezzo: €24,99\nUscita: 14/05/2026\nGenere:",
+    "cover_local": "nromsdb/covers/switch_Outbound_12053.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Outbound_12053.webp"
   }
 ]
