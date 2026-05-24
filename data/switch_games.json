@@ -15469,5 +15469,47 @@
     "testo_completo": "Nome: YOGA MASTER\nFormato: NSP\nPeso: 3.7GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It\nVersione: 2.05\n⚙️ FIRMWARE RICHIESTO\nBase: 9.1.0\nUpdate: 16.0.3\nPrezzo: €24,99\nUscita: 13/03/2020\nGenere: Altro\nProduttore",
     "cover_local": "nromsdb/covers/switch_YOGA MASTER_12003.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_YOGA%20MASTER_12003.webp"
+  },
+  {
+    "nome": "R-Type Tactics I-II Cosmos",
+    "formato": "NSP",
+    "peso": "14.9GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It",
+    "link": "https://t.me/c/2332511567/12046",
+    "message_id": 12046,
+    "data": "2026-05-24 21:39:20",
+    "edit_date": "2026-05-24 21:39:23",
+    "testo_completo": "Nome: R-Type Tactics I-II Cosmos\nFormato: NSP\nPeso: 14.9GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It\nVersione: 1.0.6\n⚙️ FIRMWARE RICHIESTO\nBase: 20.0.0\nUpdate: 22.1.0\nPrezzo: €49,99\nUscita: 18/06/2026\nGenere",
+    "cover_local": "nromsdb/covers/switch_R-Type Tactics I-II Cosmos_12046.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_R-Type%20Tactics%20I-II%20Cosmos_12046.webp"
+  },
+  {
+    "nome": "STARBITES",
+    "formato": "NSP",
+    "peso": "9.3GB",
+    "regione": "🇪🇺",
+    "lingue": "En,Fr",
+    "link": "https://t.me/c/2332511567/12039",
+    "message_id": 12039,
+    "data": "2026-05-24 21:29:20",
+    "edit_date": "2026-05-24 21:29:23",
+    "testo_completo": "Nome: STARBITES\nFormato: NSP\nPeso: 9.3GB\nRegione: 🇪🇺\nLingue: En,Fr\nVersione: 1.0.12\n⚙️ FIRMWARE RICHIESTO\nBase: 20.0.0\nPrezzo: €49,99\nUscita: 21/05/2026\nGenere: RPG\nProduttore: NIS America\n#SWITCH #GA",
+    "cover_local": "nromsdb/covers/switch_STARBITES_12039.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_STARBITES_12039.webp"
+  },
+  {
+    "nome": "Zumba Burn It Up!",
+    "formato": "NSP",
+    "peso": "6.9GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Pr,Ru,Zh",
+    "link": "https://t.me/c/2332511567/12033",
+    "message_id": 12033,
+    "data": "2026-05-24 21:22:19",
+    "edit_date": "2026-05-24 21:22:22",
+    "testo_completo": "Nome: Zumba Burn It Up!\nFormato: NSP\nPeso: 6.9GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Pr,Ru,Zh\nVersione: 1.1.0\n⚙️ FIRMWARE RICHIESTO\nBase: 1.0.0\nUpdate: 9.1.0\nPrezzo: €39,99\nUscita: 22/11/2019\nGen",
+    "cover_local": "nromsdb/covers/switch_Zumba Burn It Up!_12033.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Zumba%20Burn%20It%20Up%21_12033.webp"
   }
 ]
