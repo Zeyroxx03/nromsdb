@@ -1,10 +1,11 @@
 {
-  "latestVersion": "1.0.3",
-  "latestBuild": 3,
-  "downloadUrl": "https://github.com/Zeyroxx03/nromscollection-releases/releases/download/v1.0.3/nroms-collection-v1.0.3-build3.apk",
-  "changelog": [
-    "Ottimizzazione completa per landscape",
-    "Pannello catalogo ridisegnato per ricerca, filtri e console",
-    "Migliore leggibilita della griglia su schermi larghi"
-  ]
+    "latestVersion":  "1.0.4",
+    "changelog":  [
+                      "Cover dettagli piu grande e apribile a schermo intero",
+                      "Griglia cover migliorata per 3DS, DS, Wii e GameCube",
+                      "Aggiunto accesso al sito nintendoroms.it",
+                      "Tema chiaro rifinito e accenti visivi sistemati"
+                  ],
+    "downloadUrl":  "https://github.com/Zeyroxx03/nromscollection-releases/releases/download/v1.0.4/nroms-collection-v1.0.4-build4.apk",
+    "latestBuild":  4
 }
