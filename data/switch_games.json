@@ -15581,5 +15581,19 @@
     "testo_completo": "Nome: Elementallis\nFormato: NSP\nPeso: 553MB\nRegione: 🇪🇺\nLingue: De,En,Es\nVersione: 4.66.1\n⚙️ FIRMWARE RICHIESTO\nBase: 21.2.0\nUpdate: 22.1.0\nPrezzo: €17,99\nUscita: 28/04/2026\nGenere: Azione, Avventura,",
     "cover_local": "nromsdb/covers/switch_Elementallis_12069.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Elementallis_12069.webp"
+  },
+  {
+    "nome": "Quartet",
+    "formato": "NSP",
+    "peso": "914MB",
+    "regione": "🇺🇸",
+    "lingue": "En",
+    "link": "https://t.me/c/2332511567/12081",
+    "message_id": 12081,
+    "data": "2026-05-26 14:23:45",
+    "edit_date": "2026-05-26 14:23:49",
+    "testo_completo": "Nome: Quartet\nFormato: NSP\nPeso: 914MB\nRegione: 🇺🇸\nLingue: En\nVersione: 1.4.0\n⚙️ FIRMWARE RICHIESTO\nBase: 22.0.0\nUpdate: 22.1.0\nPrezzo: €19,99\nUscita: 12/05/2026\nGenere: Role playing\nProduttore: Somet",
+    "cover_local": "nromsdb/covers/switch_Quartet_12081.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Quartet_12081.webp"
   }
 ]
