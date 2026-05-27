@@ -1,0 +1,316 @@
+{
+    "id": "dsi-backup-nand",
+    "title": "Backup NAND",
+    "subtitle": "Dumping della memoria interna del DSi",
+    "icon": "bi-floppy-fill",
+    "meta": {
+        "tempo": "~10 minuti",
+        "difficolta": "Facile",
+        "tipo": "FONDAMENTALE"
+    },
+    "breadcrumb": [
+        { "label": "Home", "href": "/", "icon": "bi-house-fill" },
+        { "label": "Guide", "href": "/guide" },
+        { "label": "Nintendo DSi", "href": "/guide/dsi" },
+        { "label": "Avvio Exploit", "href": "/guide/dsi/exploit" },
+        { "label": "Backup NAND" }
+    ],
+    "toc": [
+        { "id": "introduzione", "label": "Introduzione" },
+        { "id": "requisiti", "label": "Requisiti" },
+        { "id": "setup-sd", "label": "Sezione I — Setup SD Card" },
+        { "id": "dumping", "label": "Sezione II — Dumping NAND" },
+        { "id": "conservazione", "label": "Conservazione Backup" }
+    ],
+    "sections": [
+        {
+            "id": "introduzione",
+            "title": "Introduzione",
+            "icon": "bi-info-circle-fill",
+            "blocks": [
+                {
+                    "type": "text",
+                    "content": "Questa pagina ti guiderà nella creazione di un <strong>backup NAND</strong>, che è una copia completa dei dati memorizzati nella <strong>memoria interna</strong> del Nintendo DSi."
+                },
+                {
+                    "type": "infobox",
+                    "variant": "error",
+                    "title": "ESTREMAMENTE IMPORTANTE — NON SALTARE!",
+                    "titleIcon": "bi-shield-fill-exclamation",
+                    "contentList": [
+                        "Il backup NAND è la tua <strong>assicurazione sulla vita</strong> per il DSi.",
+                        "✓ Ripristino da brick (console non avviabile)",
+                        "✓ Recupero dati dopo errori critici",
+                        "✓ Configurazione per hiyaCFW e emulatori",
+                        "✓ Punto di ripristino sicuro per esperimenti futuri"
+                    ]
+                },
+                {
+                    "type": "spec-box",
+                    "title": "Cos'è la NAND?",
+                    "titleIcon": "bi-hdd-fill",
+                    "color": "#c084fc",
+                    "borderColor": "rgba(192,132,252,0.3)",
+                    "items": [
+                        {
+                            "icon": "bi-cpu-fill",
+                            "iconColor": "#c084fc",
+                            "label": "Dati di Sistema",
+                            "desc": "Firmware/Sistema operativo, impostazioni console, certificati e chiavi"
+                        },
+                        {
+                            "icon": "bi-person-fill",
+                            "iconColor": "#c084fc",
+                            "label": "Dati Utente",
+                            "desc": "DSiWare installati, salvataggi giochi, foto e contenuti"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "requisiti",
+            "title": "Requisiti",
+            "icon": "bi-clipboard-check-fill",
+            "blocks": [
+                {
+                    "type": "two-columns",
+                    "columns": [
+                        {
+                            "title": "Spazio SD Card",
+                            "icon": "bi-sd-card-fill",
+                            "color": "#fb923c",
+                            "borderColor": "rgba(251,146,60,0.3)",
+                            "items": [
+                                "Almeno 250MB di spazio libero sulla SD",
+                                "Se non hai abbastanza spazio, dumpTool mostrerà un errore e il backup fallirà"
+                            ]
+                        },
+                        {
+                            "title": "Tempo Richiesto",
+                            "icon": "bi-clock-history",
+                            "color": "#60a5fa",
+                            "borderColor": "rgba(96,165,250,0.3)",
+                            "items": [
+                                "Il processo richiede tipicamente ~7 minuti",
+                                "Non spegnere o rimuovere la SD durante il processo!"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "setup-sd",
+            "title": "Sezione I — Setup SD Card",
+            "icon": "bi-1-circle-fill",
+            "blocks": [
+                {
+                    "type": "infobox",
+                    "variant": "info",
+                    "title": "Puoi saltare questa sezione se...",
+                    "titleIcon": "bi-skip-forward-fill",
+                    "content": "Hai già scaricato <strong>dumpTool</strong> dalla guida <a href=\"/guide/dsi/iniziamo\" data-route>Iniziamo</a> (dove si chiamava <code>boot.nds</code>). In quel caso, passa direttamente alla Sezione II."
+                },
+                {
+                    "type": "step",
+                    "number": 1,
+                    "title": "Scarica dumpTool",
+                    "blocks": [
+                        {
+                            "type": "download-list",
+                            "title": "Download dumpTool",
+                            "titleIcon": "bi-download",
+                            "items": [
+                                {
+                                    "icon": "bi-file-earmark-binary-fill",
+                                    "iconColor": "#4ade80",
+                                    "label": "dumpTool.nds",
+                                    "desc": "Tool per il dump della NAND del Nintendo DSi",
+                                    "href": "https://github.com/zoogie/dumpTool/releases/latest/download/dumpTool.nds"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 2,
+                    "title": "Copia dumpTool sulla SD",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Copia il file <code>dumpTool.nds</code> in <strong>qualsiasi punto</strong> della SD card (non importa dove, anche nella root va bene)."
+                        },
+                        {
+                            "type": "file-tree",
+                            "title": "Esempio posizione",
+                            "items": [
+                                { "name": "SD Card", "type": "drive", "depth": 0 },
+                                { "name": "boot.nds", "depth": 1, "comment": "se già presente" },
+                                { "name": "dumpTool.nds", "depth": 1, "highlight": true, "comment": "← Puoi metterlo qui" },
+                                { "name": "private", "type": "folder", "depth": 1, "last": true }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "dumping",
+            "title": "Sezione II — Dumping della NAND",
+            "icon": "bi-2-circle-fill",
+            "blocks": [
+                {
+                    "type": "step",
+                    "number": 1,
+                    "title": "Avvia dumpTool",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Avvia <strong>dumpTool</strong> tramite il menu che hai installato:"
+                        },
+                        {
+                            "type": "spec-box",
+                            "title": "Metodi di avvio possibili",
+                            "titleIcon": "bi-question-circle-fill",
+                            "color": "#60a5fa",
+                            "borderColor": "rgba(96,165,250,0.3)",
+                            "items": [
+                                {
+                                    "icon": "bi-1-circle-fill",
+                                    "iconColor": "#60a5fa",
+                                    "label": "Se hai usato Memory Pit",
+                                    "desc": "Se sei già in dumpTool dopo l'exploit, ignora questo step e passa direttamente allo step 2."
+                                },
+                                {
+                                    "icon": "bi-2-circle-fill",
+                                    "iconColor": "#60a5fa",
+                                    "label": "Se Unlaunch è già installato",
+                                    "desc": "Tieni premuto A + B durante l'avvio per accedere al menu Unlaunch, poi avvia dumpTool."
+                                },
+                                {
+                                    "icon": "bi-3-circle-fill",
+                                    "iconColor": "#60a5fa",
+                                    "label": "Da TWiLight Menu++",
+                                    "desc": "Naviga fino al file dumpTool.nds e avvialo."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 2,
+                    "title": "Avvia il backup NAND",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Premi il pulsante <kbd>A</kbd> sul Nintendo DSi per avviare il dumping della NAND."
+                        },
+                        {
+                            "type": "infobox",
+                            "variant": "error",
+                            "title": "Durante il backup:",
+                            "titleIcon": "bi-hourglass-split",
+                            "contentList": [
+                                "✗ <strong>NON spegnere</strong> la console",
+                                "✗ <strong>NON rimuovere</strong> la SD card",
+                                "✗ <strong>NON chiudere</strong> il DSi",
+                                "✓ Lascia che il processo completi naturalmente (~7 minuti)",
+                                "✓ Vedrai una barra di progresso sullo schermo"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 3,
+                    "title": "Esci da dumpTool",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Quando il backup NAND è completo, premi il pulsante <kbd>START</kbd> sul Nintendo DSi per uscire da dumpTool."
+                        },
+                        {
+                            "type": "infobox",
+                            "variant": "success",
+                            "titleIcon": "bi-check-circle-fill",
+                            "content": "Backup completato! Vedrai un messaggio di conferma sullo schermo."
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 4,
+                    "title": "Trova la cartella del backup",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Spegni la console, inserisci la SD nel PC. Vicino a dove si trova <code>dumpTool.nds</code> vedrai una <strong>nuova cartella</strong> chiamata <code>DT######...</code> che contiene il backup NAND."
+                        },
+                        {
+                            "type": "file-tree",
+                            "title": "Struttura backup",
+                            "items": [
+                                { "name": "SD Card", "type": "drive", "depth": 0 },
+                                { "name": "dumpTool.nds", "depth": 1 },
+                                { "name": "DT202501151430...", "type": "folder", "depth": 1, "highlight": true, "last": true, "comment": "← Cartella backup (data/ora)" },
+                                { "name": "nand.bin", "depth": 2, "highlight": true, "comment": "← File backup NAND" },
+                                { "name": "nand.bin.sha1", "depth": 2, "last": true, "comment": "← Hash SHA1" }
+                            ]
+                        },
+                        {
+                            "type": "infobox",
+                            "variant": "info",
+                            "titleIcon": "bi-info-circle-fill",
+                            "content": "Se dumpTool era scaricato dalla pagina \"Iniziamo\", il file si chiamava <code>boot.nds</code> invece di <code>dumpTool.nds</code>."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "conservazione",
+            "title": "Conservazione Backup",
+            "icon": "bi-save-fill",
+            "blocks": [
+                {
+                    "type": "text",
+                    "content": "Il backup NAND è <strong>estremamente prezioso</strong>. Conservalo in modo sicuro!"
+                },
+                {
+                    "type": "infobox",
+                    "variant": "error",
+                    "title": "IMPORTANTISSIMO",
+                    "titleIcon": "bi-shield-fill-exclamation",
+                    "contentList": [
+                        "✓ Copia la cartella <code>DT######...</code> in un <strong>luogo sicuro</strong> sul PC",
+                        "✓ Crea <strong>copie multiple</strong> su dispositivi diversi (hard disk esterno, cloud, USB)",
+                        "✓ Conserva il backup per <strong>sempre</strong> — potrebbe servirti tra anni",
+                        "⚠️ Una volta salvato altrove, puoi <strong>eliminare</strong> la cartella dalla SD per liberare spazio",
+                        "⚠️ Se hai avviato dumpTool via exploit, elimina <code>boot.nds</code> dalla root della SD"
+                    ]
+                },
+                {
+                    "type": "infobox",
+                    "variant": "info",
+                    "title": "Nota tecnica: SHA1 Hash",
+                    "titleIcon": "bi-hash",
+                    "content": "L'hash SHA1 del file <code>nand.bin</code> <strong>non corrisponderà</strong> all'hash memorizzato in <code>nand.bin.sha1</code>. Questo è normale! dumpTool aggiunge dati aggiuntivi chiamati <strong>\"no$gba footer\"</strong> al file nand.bin dopo che l'hash SHA1 è stato calcolato."
+                }
+              
+            ]
+        }
+    ],
+    "navigation": {
+        "prev": {
+            "label": "Avvio Exploit",
+            "href": "/guide/dsi/exploit"
+        },
+        "next": {
+            "label": "Scelta Menu",
+            "href": "/guide/dsi/scelta-menu"
+        }
+    }
+}
