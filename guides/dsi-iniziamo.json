@@ -1,0 +1,346 @@
+{
+    "id": "dsi-iniziamo",
+    "title": "Iniziamo",
+    "subtitle": "Preparazione e verifica iniziale del DSi",
+    "icon": "bi-flag-fill",
+    "meta": {
+        "tempo": "10-15 minuti",
+        "difficolta": "Facile",
+        "tipo": "SD Card Richiesta"
+    },
+    "breadcrumb": [
+        { "label": "Home", "href": "/", "icon": "bi-house-fill" },
+        { "label": "Guide", "href": "/guide" },
+        { "label": "Nintendo DSi", "href": "/guide/dsi" },
+        { "label": "Iniziamo" }
+    ],
+    "toc": [
+        { "id": "introduzione", "label": "Introduzione" },
+        { "id": "requisiti", "label": "Requisiti" },
+        { "id": "prep-work", "label": "Sezione I — Preparazione SD" },
+        { "id": "check-unlaunch", "label": "Sezione II — Verifica Unlaunch" },
+        { "id": "memory-pit", "label": "Sezione III — Memory Pit" }
+    ],
+    "sections": [
+        {
+            "id": "introduzione",
+            "title": "Introduzione",
+            "icon": "bi-info-circle-fill",
+            "blocks": [
+                {
+                    "type": "text",
+                    "content": "Inizieremo scaricando alcuni <strong>strumenti homebrew</strong> in preparazione ai passaggi dell'exploit. Questa è la fase preliminare fondamentale per modificare il tuo Nintendo DSi."
+                },
+                {
+                    "type": "infobox",
+                    "variant": "info",
+                    "title": "Cosa faremo in questa guida?",
+                    "titleIcon": "bi-lightbulb-fill",
+                    "contentList": [
+                        "✓ Preparare la SD card in formato FAT32",
+                        "✓ Scaricare e copiare dumpTool sulla SD",
+                        "✓ Verificare se Unlaunch è già installato",
+                        "✓ Prepararci per l'exploit Memory Pit"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "requisiti",
+            "title": "Requisiti",
+            "icon": "bi-clipboard-check-fill",
+            "blocks": [
+                {
+                    "type": "two-columns",
+                    "columns": [
+                        {
+                            "title": "Hardware Necessario",
+                            "icon": "bi-hdd-fill",
+                            "color": "#c084fc",
+                            "borderColor": "rgba(192,132,252,0.3)",
+                            "items": [
+                                "Nintendo DSi (qualsiasi regione/versione)",
+                                "SD Card formattata in FAT32 (consigliata 4GB+)",
+                                "Lettore SD per copiare file dal PC"
+                            ]
+                        },
+                        {
+                            "title": "Software Necessario",
+                            "icon": "bi-laptop-fill",
+                            "color": "#60a5fa",
+                            "borderColor": "rgba(96,165,250,0.3)",
+                            "items": [
+                                "PC (Windows/Mac/Linux)",
+                                "7-Zip (Windows) — consigliato",
+                                "The Unarchiver (macOS) — consigliato",
+                                "ZArchiver (Chromebook) — consigliato"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "infobox",
+                    "variant": "error",
+                    "title": "Attenzione agli estrattori!",
+                    "titleIcon": "bi-exclamation-triangle-fill",
+                    "contentList": [
+                        "❌ <strong>NON usare WinRAR</strong> — è noto per corrompere file durante l'estrazione",
+                        "❌ <strong>Se usi Windows 11</strong>, NON usare l'estrattore integrato (Windows Explorer) — causerà errori tipo \"nome file troppo lungo\""
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "prep-work",
+            "title": "Sezione I — Preparazione SD Card",
+            "icon": "bi-1-circle-fill",
+            "blocks": [
+                {
+                    "type": "text",
+                    "content": "Prepariamo la scheda SD con i file necessari per avviare l'exploit."
+                },
+                {
+                    "type": "step",
+                    "number": 1,
+                    "title": "Verifica formato SD Card",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Assicurati che la tua SD card sia <strong>formattata in FAT32</strong>."
+                        },
+                        {
+                            "type": "infobox",
+                            "variant": "info",
+                            "title": "Come verificare il formato su Windows:",
+                            "titleIcon": "bi-question-circle-fill",
+                            "contentList": [
+                                "1. Inserisci la SD nel PC",
+                                "2. Apri \"Questo PC\" / \"Computer\"",
+                                "3. Click destro sulla SD → Proprietà",
+                                "4. Controlla che \"File system\" sia <code>FAT32</code>",
+                                "Se NON è FAT32: formattala cliccando con tasto destro → Formatta → File System: FAT32"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 2,
+                    "title": "Inserisci la SD nel PC",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Rimuovi la SD card dal DSi (se inserita) e inseriscila nel lettore SD del tuo PC."
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 3,
+                    "title": "Scarica dumpTool",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Scarica l'ultima versione di <strong>dumpTool</strong> come file <code>boot.nds</code>."
+                        },
+                        {
+                            "type": "download-list",
+                            "title": "Download dumpTool",
+                            "titleIcon": "bi-download",
+                            "items": [
+                                {
+                                    "icon": "bi-file-earmark-binary-fill",
+                                    "iconColor": "#4ade80",
+                                    "label": "dumpTool (boot.nds)",
+                                    "desc": "Tool per il dump della NAND del DSi",
+                                    "href": "https://github.com/zoogie/dumpTool/releases/latest/download/dumpTool.nds"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "infobox",
+                            "variant": "warning",
+                            "title": "IMPORTANTE — Rinomina il file!",
+                            "titleIcon": "bi-pencil-fill",
+                            "content": "Dopo il download, <strong>rinomina</strong> il file da <code>dumpTool.nds</code> a <code>boot.nds</code> (click destro → Rinomina su Windows/Mac)."
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 4,
+                    "title": "Copia boot.nds nella root della SD",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Copia il file <code>boot.nds</code> nella <strong>radice (root)</strong> della SD card."
+                        },
+                        {
+                            "type": "file-tree",
+                            "title": "Posizione corretta",
+                            "items": [
+                                { "name": "SD Card", "type": "drive", "depth": 0 },
+                                { "name": "boot.nds", "depth": 1, "highlight": true, "comment": "← QUI!" },
+                                { "name": "DCIM", "type": "folder", "depth": 1, "comment": "potrebbe esserci" },
+                                { "name": "private", "type": "folder", "depth": 1, "last": true, "comment": "potrebbe esserci" }
+                            ]
+                        },
+                        {
+                            "type": "infobox",
+                            "variant": "success",
+                            "titleIcon": "bi-check-circle-fill",
+                            "content": "Perfetto! La SD è pronta. Puoi rimuoverla dal PC e inserirla nel DSi."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "check-unlaunch",
+            "title": "Sezione II — Verifica Unlaunch",
+            "icon": "bi-2-circle-fill",
+            "blocks": [
+                {
+                    "type": "text",
+                    "content": "Controlliamo se <strong>Unlaunch</strong> è già installato sul tuo DSi. Alcuni DSi usati/ricondizionati potrebbero averlo già preinstallato."
+                },
+                {
+                    "type": "spec-box",
+                    "title": "Cos'è Unlaunch?",
+                    "titleIcon": "bi-shield-fill",
+                    "color": "#c084fc",
+                    "borderColor": "rgba(192,132,252,0.3)",
+                    "items": [
+                        {
+                            "icon": "bi-check-circle-fill",
+                            "iconColor": "#4ade80",
+                            "label": "Accesso hardware completo",
+                            "desc": "Permette alle app homebrew di avere accesso completo all'hardware senza restrizioni"
+                        },
+                        {
+                            "icon": "bi-check-circle-fill",
+                            "iconColor": "#4ade80",
+                            "label": "Nessuna restrizione",
+                            "desc": "Nessuna restrizione dalle app di sistema DSi o titoli DSiWare"
+                        },
+                        {
+                            "icon": "bi-check-circle-fill",
+                            "iconColor": "#4ade80",
+                            "label": "Avvio automatico",
+                            "desc": "Avvio automatico di homebrew all'accensione (opzionale)"
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 1,
+                    "title": "Accendi il DSi tenendo premuto A + B",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Per verificare se Unlaunch è installato:"
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                { "icon": "bi-1-circle-fill", "iconColor": "#c084fc", "html": "Assicurati che il DSi sia <strong>spento</strong>" },
+                                { "icon": "bi-2-circle-fill", "iconColor": "#c084fc", "html": "Premi il pulsante <strong>POWER</strong>" },
+                                { "icon": "bi-3-circle-fill", "iconColor": "#c084fc", "html": "<strong>IMMEDIATAMENTE</strong> tieni premuti i pulsanti <kbd>A</kbd> + <kbd>B</kbd>" }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 2,
+                    "title": "Controlla cosa appare sullo schermo",
+                    "blocks": [
+                        {
+                            "type": "two-columns",
+                            "columns": [
+                                {
+                                    "title": "Vedi il menu Unlaunch",
+                                    "icon": "bi-check-circle-fill",
+                                    "color": "#4ade80",
+                                    "borderColor": "rgba(74,222,128,0.5)",
+                                    "items": [
+                                        "Se sullo schermo superiore appare un menu con scritto \"Nocash Unlaunch.dsi\" in alto:",
+                                        "→ Unlaunch è già installato!",
+                                        "Puoi continuare direttamente con il backup della NAND."
+                                    ]
+                                },
+                                {
+                                    "title": "Vedi il Menu DSi normale",
+                                    "icon": "bi-info-circle-fill",
+                                    "color": "#60a5fa",
+                                    "borderColor": "rgba(96,165,250,0.5)",
+                                    "items": [
+                                        "Se il DSi si avvia normalmente mostrando il menu DSi standard:",
+                                        "→ Unlaunch NON è installato",
+                                        "Procedi con la Sezione III qui sotto per installare l'exploit Memory Pit."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "memory-pit",
+            "title": "Sezione III — Memory Pit",
+            "icon": "bi-3-circle-fill",
+            "blocks": [
+                {
+                    "type": "text",
+                    "content": "<strong>Memory Pit</strong> è un exploit che sfrutta l'applicazione <strong>Nintendo DSi Camera</strong>, compatibile con tutte le versioni firmware del DSi."
+                },
+                {
+                    "type": "spec-box",
+                    "title": "Informazioni su Memory Pit",
+                    "titleIcon": "bi-camera-fill",
+                    "color": "#fb923c",
+                    "borderColor": "rgba(251,146,60,0.3)",
+                    "items": [
+                        {
+                            "icon": "bi-check-circle-fill",
+                            "iconColor": "#4ade80",
+                            "label": "Compatibile con tutte le versioni",
+                            "desc": "Funziona su tutte le versioni firmware DSi (non serve aggiornare)"
+                        },
+                        {
+                            "icon": "bi-check-circle-fill",
+                            "iconColor": "#4ade80",
+                            "label": "Funziona su DSi e DSi XL",
+                            "desc": "Qualsiasi regione supportata"
+                        },
+                        {
+                            "icon": "bi-check-circle-fill",
+                            "iconColor": "#4ade80",
+                            "label": "App già presente",
+                            "desc": "Utilizza la Nintendo DSi Camera già installata nel sistema"
+                        }
+                    ]
+                },
+                {
+                    "type": "infobox",
+                    "variant": "warning",
+                    "title": "Nota sulla compatibilità homebrew",
+                    "titleIcon": "bi-exclamation-triangle-fill",
+                    "content": "Se utilizzi l'exploit <strong>senza installare Unlaunch</strong>, la compatibilità con alcuni homebrew potrebbe essere limitata. Se incontri problemi con applicazioni DSi homebrew, puoi tornare a questa guida e configurare un exploit alternativo."
+                }
+            
+            ]
+        }
+    ],
+    "navigation": {
+        "prev": {
+            "label": "Nintendo DSi",
+            "href": "/guide/dsi"
+        },
+        "next": {
+            "label": "Avvio Exploit",
+            "href": "/guide/dsi/exploit"
+        }
+    }
+}
