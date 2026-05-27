@@ -1,0 +1,248 @@
+{
+    "id": "wii-key-info",
+    "title": "Informazioni Chiave",
+    "subtitle": "Rischi, compatibilità e requisiti fondamentali",
+    "icon": "bi-exclamation-triangle-fill",
+    "meta": {
+        "tempo": "10 min lettura",
+        "difficolta": "FONDAMENTALE",
+        "tipo": "Informazioni"
+    },
+    "breadcrumb": [
+        { "label": "Home",  "href": "/",          "icon": "bi-house-fill" },
+        { "label": "Guide", "href": "/guide" },
+        { "label": "Nintendo Wii", "href": "/guide/wii" },
+        { "label": "Informazioni Chiave" }
+    ],
+    "toc": [
+        { "id": "bricks",       "label": "Bricks e Rischi Comuni" },
+        { "id": "compatibilita","label": "Compatibilità Console" },
+        { "id": "storage",      "label": "Compatibilità Storage" },
+        { "id": "rete",         "label": "Compatibilità Rete" }
+    ],
+    "sections": [
+        {
+            "id": "bricks",
+            "title": "Bricks e Rischi Comuni",
+            "icon": "bi-shield-fill-exclamation",
+            "blocks": [
+                {
+                    "type": "infobox",
+                    "variant": "error",
+                    "title": "⚠️ Questa pagina include avvisi e informazioni importanti sul processo di modifica.",
+                    "titleIcon": "bi-exclamation-octagon-fill",
+                    "content": "Leggi attentamente <strong>TUTTO</strong> prima di procedere per evitare danni alla console."
+                },
+                {
+                    "type": "text",
+                    "content": "Quando segui questa guida o utilizzi alcuni tipi di homebrew, esiste il rischio che tu possa <strong>\"brickare\"</strong> la tua console - ovvero metterla in uno stato parzialmente o totalmente inutilizzabile."
+                },
+                {
+                    "type": "text",
+                    "content": "Per prevenire questo, <strong>segui la guida esattamente come scritta</strong> e rispetta le precauzioni quando indicate. I rischi comuni di brick sono elencati qui sotto:"
+                },
+                {
+                    "type": "brick-list",
+                    "title": "Cause Comuni di Brick",
+                    "items": [
+                        {
+                            "title": "Seguire guide o video tutorial obsoleti",
+                            "desc": "A meno che non sia esplicitamente raccomandato, evita tutorial vecchi che potrebbero contenere informazioni errate o superate."
+                        },
+                        {
+                            "title": "Ripristinare backup NAND di altre console",
+                            "desc": "Ogni Wii ha un NAND unico. Ripristinare il backup di un'altra console causerà brick permanente."
+                        },
+                        {
+                            "title": "Installare cIOS pack come DARKCORP",
+                            "desc": "Questi pack sono obsoleti e dannosi. Segui le nostre istruzioni per installare cIOS correttamente."
+                        },
+                        {
+                            "title": "Installare aggiornamenti di sistema per altre regioni o modificare la regione",
+                            "desc": "Cambiare regione o installare firmware di regioni diverse può causare brick."
+                        },
+                        {
+                            "title": "Modificare file di sistema",
+                            "desc": "Non modificare mai file di sistema a meno che tu non sappia esattamente cosa stai facendo."
+                        }
+                    ]
+                },
+                {
+                    "type": "infobox",
+                    "variant": "info",
+                    "title": "Vuoi saperne di più sui brick?",
+                    "titleIcon": "bi-book-fill",
+                    "content": "Consulta la guida sui bricks per informazioni più dettagliate sui tipi di brick e come evitarli."
+                }
+            ]
+        },
+        {
+            "id": "compatibilita",
+            "title": "Compatibilità Console",
+            "icon": "bi-hdd-fill",
+            "blocks": [
+                {
+                    "type": "text",
+                    "content": "Questa guida funziona con <strong>tutte le Wii vendute al dettaglio</strong>, incluse le <strong>Wii Family Edition</strong>."
+                },
+                {
+                    "type": "infobox",
+                    "variant": "success",
+                    "title": "La tua Wii è compatibile se:",
+                    "titleIcon": "bi-check-circle-fill",
+                    "contentList": [
+                        "✅ È una Wii standard (bianca, nera, rossa, blu)",
+                        "✅ È una Wii Family Edition",
+                        "✅ L'hai comprata in negozio o ricevuta nuova"
+                    ]
+                },
+                {
+                    "type": "infobox",
+                    "variant": "error",
+                    "title": "Questa guida NON funziona con:",
+                    "titleIcon": "bi-x-octagon-fill",
+                    "contentList": [
+                        "❌ <strong>Wii di sviluppo</strong> (development kit), inclusi i modelli:",
+                        "❌ RVT-001 (NDEV)",
+                        "❌ RVT-002 (frontale verde)",
+                        "❌ RVT-005 (frontale rosso)"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "storage",
+            "title": "Compatibilità Storage",
+            "icon": "bi-sd-card-fill",
+            "blocks": [
+                {
+                    "type": "text",
+                    "content": "Per eseguire un exploit e utilizzare l'homebrew sulla Wii, avrai bisogno di dispositivi di archiviazione. Ecco le specifiche:"
+                },
+                {
+                    "type": "sub-heading",
+                    "title": "Schede SD",
+                    "icon": "bi-sd-card"
+                },
+                {
+                    "type": "spec-box",
+                    "title": "Requisiti SD Card",
+                    "titleIcon": "bi-info-circle-fill",
+                    "color": "#c084fc",
+                    "borderColor": "rgba(192,132,252,0.3)",
+                    "items": [
+                        {
+                            "icon": "bi-check-circle-fill",
+                            "iconColor": "#4ade80",
+                            "label": "Capacità minima:",
+                            "desc": "128MB per eseguire un exploit"
+                        },
+                        {
+                            "icon": "bi-check-circle-fill",
+                            "iconColor": "#4ade80",
+                            "label": "Capacità consigliata:",
+                            "desc": "2GB o superiore per un uso pratico"
+                        },
+                        {
+                            "icon": "bi-check-circle-fill",
+                            "iconColor": "#4ade80",
+                            "label": "Capacità massima:",
+                            "desc": "La Wii può leggere SD di qualsiasi capacità, anche oltre 32GB"
+                        },
+                        {
+                            "icon": "bi-exclamation-triangle-fill",
+                            "iconColor": "#facc15",
+                            "label": "Formato richiesto:",
+                            "desc": "<strong>FAT32 / MS-DOS</strong> (non exFAT o NTFS)"
+                        }
+                    ]
+                },
+                {
+                    "type": "sub-heading",
+                    "title": "Dispositivi USB",
+                    "icon": "bi-usb-symbol"
+                },
+                {
+                    "type": "spec-box",
+                    "title": "Requisiti USB",
+                    "titleIcon": "bi-info-circle-fill",
+                    "color": "#60a5fa",
+                    "borderColor": "rgba(96,165,250,0.3)",
+                    "items": [
+                        {
+                            "icon": "bi-check-circle-fill",
+                            "iconColor": "#4ade80",
+                            "label": "Tipo consigliato:",
+                            "desc": "Hard disk USB o SSD formattati in <strong>FAT32 / MS-DOS</strong>"
+                        },
+                        {
+                            "icon": "bi-x-circle-fill",
+                            "iconColor": "#f87171",
+                            "label": "NON consigliato:",
+                            "desc": "Chiavette USB (flash drive) - sono soggette a guasti o potrebbero non funzionare correttamente"
+                        },
+                        {
+                            "icon": "bi-plug-fill",
+                            "iconColor": "#facc15",
+                            "label": "Alimentazione:",
+                            "desc": "<strong>Drive da 2.5\":</strong> Funzionano quasi sempre con alimentazione USB<br><strong>Drive da 3.5\":</strong> Richiedono SEMPRE alimentatore esterno"
+                        }
+                    ]
+                },
+                {
+                    "type": "infobox",
+                    "variant": "warning",
+                    "title": "Consiglio per l'alimentazione:",
+                    "titleIcon": "bi-lightbulb-fill",
+                    "content": "Se hai problemi di alimentazione con drive USB, puoi usare un <strong>hub USB alimentato</strong> o un <strong>cavo Y-USB</strong> che prende energia da due porte USB contemporaneamente."
+                }
+            ]
+        },
+        {
+            "id": "rete",
+            "title": "Compatibilità Rete",
+            "icon": "bi-wifi",
+            "blocks": [
+                {
+                    "type": "text",
+                    "content": "La Wii è una console datata e, di conseguenza, potrebbe avere difficoltà a connettersi alle reti wireless moderne."
+                },
+                {
+                    "type": "wifi-specs",
+                    "title": "Specifiche Wi-Fi della Wii",
+                    "titleIcon": "bi-router-fill",
+                    "color": "#22d3ee",
+                    "borderColor": "rgba(34,211,238,0.3)",
+                    "specs": [
+                        { "icon": "bi-broadcast",   "label": "Standard Wi-Fi",        "value": "802.11g (Wi-Fi 3)" },
+                        { "icon": "bi-reception-4", "label": "Banda di frequenza",    "value": "Solo 2.4 GHz" },
+                        { "icon": "bi-shield-lock", "label": "Crittografia massima",  "value": "WPA2-PSK (AES)" },
+                        { "icon": "bi-ethernet",    "label": "Alternativa",           "value": "Adattatore LAN USB" }
+                    ]
+                },
+                {
+                    "type": "infobox",
+                    "variant": "error",
+                    "title": "Verifica la compatibilità del tuo router:",
+                    "titleIcon": "bi-exclamation-triangle-fill",
+                    "contentList": [
+                        "✅ Il tuo router deve supportare la banda <strong>2.4 GHz</strong> (non solo 5 GHz)",
+                        "✅ Deve supportare crittografia <strong>WPA2-PSK (AES)</strong> o inferiore",
+                        "❌ Se il router usa solo WPA3, la Wii non si connetterà"
+                    ]
+                },
+                {
+                    "type": "infobox",
+                    "variant": "info",
+                    "titleIcon": "bi-book-fill",
+                    "content": "<strong>Problemi di connessione?</strong> Consulta le FAQ sulla rete per soluzioni ai problemi più comuni."
+                }
+               
+            ]
+        }
+    ],
+    "navigation": {
+        "prev": { "label": "Wii — Guide",        "href": "/guide/wii" },
+        "next": { "label": "Inizia la Modifica", "href": "/guide/wii/get-started" }
+    }
+}
