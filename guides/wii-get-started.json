@@ -1,0 +1,297 @@
+{
+    "id": "wii-get-started",
+    "title": "Inizia la Modifica",
+    "subtitle": "Scegli il metodo di exploit più adatto a te",
+    "icon": "bi-play-circle-fill",
+    "meta": {
+        "tempo": "5 min scelta",
+        "difficolta": "Punto di Partenza",
+        "tipo": "Setup"
+    },
+    "breadcrumb": [
+        {
+            "label": "Home",
+            "href": "/",
+            "icon": "bi-house-fill"
+        },
+        {
+            "label": "Guide",
+            "href": "/guide"
+        },
+        {
+            "label": "Nintendo Wii",
+            "href": "/guide/wii"
+        },
+        {
+            "label": "Inizia la Modifica"
+        }
+    ],
+    "toc": [
+        {
+            "id": "introduzione",
+            "label": "Introduzione"
+        },
+        {
+            "id": "sd-card",
+            "label": "Importanza della SD Card"
+        },
+        {
+            "id": "metodi",
+            "label": "Metodi di Exploit Disponibili"
+        }
+    ],
+    "sections": [
+        {
+            "id": "introduzione",
+            "title": "Introduzione",
+            "icon": "bi-info-circle-fill",
+            "blocks": [
+                {
+                    "type": "text",
+                    "content": "Benvenuto nella fase operativa della modifica! In questa pagina sceglierai il <strong>metodo di exploit</strong> più adatto alla tua situazione per installare l'<strong>Homebrew Channel</strong> sulla tua Wii."
+                },
+                {
+                    "type": "text",
+                    "content": "Tutti i metodi elencati qui sotto sono modi diversi per raggiungere lo <strong>stesso risultato finale</strong>: accedere all'<strong>installer HackMii</strong> e installare l'Homebrew Channel sulla console."
+                },
+                {
+                    "type": "infobox",
+                    "variant": "success",
+                    "title": "Quale metodo scegliere?",
+                    "titleIcon": "bi-lightbulb-fill",
+                    "content": "Non c'è un metodo \"migliore\" in assoluto - dipende dagli strumenti che hai a disposizione. Leggi le caratteristiche di ciascuno e scegli quello più comodo per te!"
+                }
+            ]
+        },
+        {
+            "id": "sd-card",
+            "title": "Importanza della SD Card",
+            "icon": "bi-sd-card-fill",
+            "blocks": [
+                {
+                    "type": "text",
+                    "content": "Dopo il processo iniziale di exploit, è <strong>fortemente consigliato</strong> avere una scheda SD a disposizione per due motivi fondamentali:"
+                },
+                {
+                    "type": "two-columns",
+                    "columns": [
+                        {
+                            "title": "1. Backup NAND con BootMii",
+                            "icon": "bi-floppy-fill",
+                            "color": "#4ade80",
+                            "borderColor": "rgba(74,222,128,0.3)",
+                            "items": [
+                                "Potrai creare un <strong>backup completo della memoria NAND</strong> della console utilizzando BootMii - fondamentale per evitare brick permanenti."
+                            ]
+                        },
+                        {
+                            "title": "2. Installazione Homebrew",
+                            "icon": "bi-box-seam-fill",
+                            "color": "#c084fc",
+                            "borderColor": "rgba(192,132,252,0.3)",
+                            "items": [
+                                "Potrai installare e utilizzare <strong>moltissimi tipi di homebrew</strong> che richiedono la SD per funzionare."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "infobox",
+                    "variant": "info",
+                    "title": "Requisiti SD Card consigliati:",
+                    "titleIcon": "bi-sd-card",
+                    "contentList": [
+                        "✅ Capacità: minimo 2GB (meglio 8GB o più)",
+                        "✅ Formato: FAT32 / MS-DOS",
+                        "✅ Classe: Class 4 o superiore (per prestazioni migliori)"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "metodi",
+            "title": "Metodi di Exploit Disponibili",
+            "icon": "bi-gear-fill",
+            "blocks": [
+                {
+                    "type": "text",
+                    "content": "Scegli il metodo più adatto in base agli strumenti che hai a disposizione. Clicca su una delle card qui sotto per procedere con il metodo selezionato."
+                },
+                {
+                    "type": "exploit-cards",
+                    "items": [
+                        {
+                            "id": "modmii",
+                            "href": "/guide/wii/modmii",
+                            "title": "ModMii",
+                            "badges": [
+                                {
+                                    "label": "AUTOMATICO",
+                                    "color": "#60a5fa",
+                                    "bg": "rgba(96,165,250,0.15)"
+                                },
+                                {
+                                    "label": "CONSIGLIATO",
+                                    "color": "#4ade80",
+                                    "bg": "rgba(74,222,128,0.15)"
+                                }
+                            ],
+                            "icon": "bi-laptop",
+                            "iconColor": "#60a5fa",
+                            "iconBg": "rgba(96,165,250,0.15)",
+                            "iconBorder": "rgba(96,165,250,0.3)",
+                            "desc": "<strong>Setup completamente automatico</strong> tramite PC Windows. Il metodo più semplice e veloce se hai un computer Windows a disposizione.",
+                            "tags": [
+                                {
+                                    "icon": "bi-windows",
+                                    "label": "Richiede PC Windows"
+                                },
+                                {
+                                    "icon": "bi-speedometer",
+                                    "label": "Difficoltà: Facile",
+                                    "color": "#4ade80"
+                                },
+                                {
+                                    "icon": "bi-magic",
+                                    "label": "Tutto Automatico",
+                                    "color": "#60a5fa"
+                                },
+                                {
+                                    "icon": "bi-clock",
+                                    "label": "Tempo: ~30 min"
+                                }
+                            ],
+                            "whenBox": {
+                                "color": "#60a5fa",
+                                "bg": "rgba(96,165,250,0.08)",
+                                "border": "rgba(96,165,250,0.25)",
+                                "items": [
+                                    "Hai un PC Windows",
+                                    "Vuoi il metodo più semplice",
+                                    "Preferisci un setup guidato passo-passo"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "wilbrand",
+                            "href": "/guide/wii/wilbrand",
+                            "title": "Wilbrand",
+                            "badges": [
+                                {
+                                    "label": "MANUALE",
+                                    "color": "#c084fc",
+                                    "bg": "rgba(192,132,252,0.15)"
+                                }
+                            ],
+                            "icon": "bi-sd-card-fill",
+                            "iconColor": "#c084fc",
+                            "iconBg": "rgba(192,132,252,0.15)",
+                            "iconBorder": "rgba(192,132,252,0.3)",
+                            "desc": "<strong>Setup manuale con scheda SD</strong>. Exploit che sfrutta il menu della bacheca messaggi della Wii. Funziona su qualsiasi sistema operativo.",
+                            "tags": [
+                                {
+                                    "icon": "bi-sd-card",
+                                    "label": "Richiede SD Card"
+                                },
+                                {
+                                    "icon": "bi-speedometer",
+                                    "label": "Difficoltà: Medio",
+                                    "color": "#4ade80"
+                                },
+                                {
+                                    "icon": "bi-hand-index",
+                                    "label": "Setup Manuale",
+                                    "color": "#c084fc"
+                                },
+                                {
+                                    "icon": "bi-clock",
+                                    "label": "Tempo: ~20 min"
+                                }
+                            ],
+                            "whenBox": {
+                                "color": "#c084fc",
+                                "bg": "rgba(192,132,252,0.08)",
+                                "border": "rgba(192,132,252,0.25)",
+                                "items": [
+                                    "Hai una scheda SD disponibile",
+                                    "Non hai un PC Windows (funziona con Mac, Linux, smartphone)",
+                                    "Preferisci un controllo manuale del processo"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "str2hax",
+                            "href": "/guide/wii/str2hax",
+                            "title": "str2hax",
+                            "badges": [
+                                {
+                                    "label": "SENZA SD",
+                                    "color": "#22d3ee",
+                                    "bg": "rgba(34,211,238,0.15)"
+                                },
+                                {
+                                    "label": "AVANZATO",
+                                    "color": "#facc15",
+                                    "bg": "rgba(250,204,21,0.15)"
+                                }
+                            ],
+                            "icon": "bi-wifi",
+                            "iconColor": "#22d3ee",
+                            "iconBg": "rgba(34,211,238,0.15)",
+                            "iconBorder": "rgba(34,211,238,0.3)",
+                            "desc": "<strong>Setup senza SD card</strong>. Exploit che sfrutta l'EULA della Wii tramite connessione DNS modificata. Usa questo metodo <strong>solo se non hai una SD card</strong>.",
+                            "tags": [
+                                {
+                                    "icon": "bi-wifi",
+                                    "label": "Richiede Wi-Fi"
+                                },
+                                {
+                                    "icon": "bi-speedometer2",
+                                    "label": "Difficoltà: Avanzato",
+                                    "color": "#facc15"
+                                },
+                                {
+                                    "icon": "bi-globe",
+                                    "label": "Via Rete",
+                                    "color": "#22d3ee"
+                                },
+                                {
+                                    "icon": "bi-clock",
+                                    "label": "Tempo: ~25 min"
+                                }
+                            ],
+                            "whenBox": {
+                                "color": "#22d3ee",
+                                "bg": "rgba(34,211,238,0.08)",
+                                "border": "rgba(34,211,238,0.25)",
+                                "items": [
+                                    "NON hai una scheda SD disponibile",
+                                    "La tua Wii è connessa a internet (Wi-Fi funzionante)",
+                                    "Sei disposto a modificare le impostazioni DNS della Wii"
+                                ]
+                            },
+                            "warning": "Dopo l'exploit dovrai comunque procurarti una SD card per il backup NAND e l'installazione di homebrew."
+                        }
+                    ]
+                },
+                {
+                    "type": "advice-box",
+                    "title": "Il nostro consiglio",
+                    "icon": "bi-lightbulb-fill",
+                    "content": "Se hai un <strong>PC Windows</strong>, usa <strong>ModMii</strong> - è il metodo più semplice e automatizzato.<br>Se hai solo una <strong>SD card</strong>, scegli <strong>Wilbrand</strong> - è affidabile e funziona su tutti i sistemi.<br>Usa <strong>str2hax</strong> solo come ultima opzione se non hai una SD disponibile.",
+                    "note": "Tutti i metodi sono sicuri se segui correttamente la guida"
+                }
+            ]
+        }
+    ],
+    "navigation": {
+        "prev": {
+            "label": "Informazioni Chiave",
+            "href": "/guide/wii/key-info"
+        },
+        "next": {
+            "label": "Wii — Guide",
+            "href": "/guide/wii"
+        }
+    }
+}
