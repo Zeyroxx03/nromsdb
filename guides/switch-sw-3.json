@@ -1,0 +1,463 @@
+{
+    "id": "switch-sw-3",
+    "title": "Sezione 3 — Preparazione SD Card",
+    "subtitle": "Installiamo Atmosphere, Hekate e tutti i file necessari",
+    "icon": "bi-folder-fill",
+    "meta": {
+        "tempo": "10-15 minuti",
+        "difficolta": "Facile",
+        "tipo": "PC Richiesto"
+    },
+    "breadcrumb": [
+        { "label": "Home", "href": "/", "icon": "bi-house-fill" },
+        { "label": "Guide", "href": "/guide" },
+        { "label": "Nintendo Switch", "href": "/guide/switch" },
+        { "label": "Requisiti", "href": "/guide/switch/requisiti" },
+        { "label": "Sezione 3" }
+    ],
+    "toc": [
+        { "id": "introduzione", "label": "Introduzione" },
+        { "id": "cosa-contiene", "label": "Cosa contiene il Pack" },
+        { "id": "download-pack", "label": "Download Pack 22.1.0" },
+        { "id": "estrazione", "label": "Estrazione Pack" },
+        { "id": "copia-files", "label": "Copia Files su SD" },
+        { "id": "verifica", "label": "Verifica Installazione" },
+        { "id": "troubleshooting", "label": "Risoluzione Problemi" },
+        { "id": "prossimi-passi", "label": "Prossimi Passi" }
+    ],
+    "sections": [
+        {
+            "id": "introduzione",
+            "title": "Introduzione",
+            "icon": "bi-info-circle-fill",
+            "blocks": [
+                {
+                    "type": "infobox",
+                    "variant": "warning",
+                    "title": "📦 Pack All-in-One",
+                    "titleIcon": "bi-info-circle-fill",
+                    "content": "Utilizzeremo il <strong>Pack 22.1.0</strong>, un pacchetto completo che contiene tutti i file necessari: Atmosphere CFW, Hekate bootloader, Sigpatches, Homebrew essenziali e molto altro. Tutto preconfigurato e pronto all'uso!"
+                },
+                {
+                    "type": "text",
+                    "content": "In questa sezione andremo ad inserire <strong>tutti i file necessari</strong> sulla microSD per avviare la modifica della Nintendo Switch. Utilizzeremo un <strong>pacchetto preconfigurato</strong> che contiene tutto il necessario, già pronto all'uso."
+                }
+            ]
+        },
+        {
+            "id": "cosa-contiene",
+            "title": "Cosa contiene il Pack 22.1.0",
+            "icon": "bi-box-seam-fill",
+            "blocks": [
+                {
+                    "type": "spec-box",
+                    "title": "Contenuto del Pack",
+                    "titleIcon": "bi-box-seam-fill",
+                    "color": "#4ade80",
+                    "borderColor": "rgba(74,222,128,0.3)",
+                    "items": [
+                        {
+                            "icon": "bi-cloud-fill",
+                            "iconColor": "#4ade80",
+                            "label": "Atmosphere CFW",
+                            "desc": "Custom Firmware principale, versione 1.11.1 (supporta firmware 22.1.0)"
+                        },
+                        {
+                            "icon": "bi-hdd-fill",
+                            "iconColor": "#60a5fa",
+                            "label": "Hekate",
+                            "desc": "Bootloader personalizzato per avviare la console in modalità CFW"
+                        },
+                        {
+                            "icon": "bi-shield-fill-check",
+                            "iconColor": "#c084fc",
+                            "label": "Sigpatches",
+                            "desc": "Patch per bypassare le verifiche delle firme (necessari per backup e homebrew)"
+                        },
+                        {
+                            "icon": "bi-folder-fill",
+                            "iconColor": "#facc15",
+                            "label": "Homebrew Essenziali",
+                            "desc": "Sphaira, Homebrew Menu, tool di gestione file e altro"
+                        },
+                        {
+                            "icon": "bi-gear-fill",
+                            "iconColor": "#f87171",
+                            "label": "Configurazioni",
+                            "desc": "File di configurazione preimpostati per un funzionamento ottimale"
+                        },
+                        {
+                            "icon": "bi-lightning-charge-fill",
+                            "iconColor": "#22d3ee",
+                            "label": "Tool Aggiuntivi",
+                            "desc": "Cheats, save manager, backup NAND, e altri strumenti utili"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "download-pack",
+            "title": "Download Pack 22.1.0",
+            "icon": "bi-download",
+            "blocks": [
+                {
+                    "type": "infobox",
+                    "variant": "warning",
+                    "title": "Versione Firmware Richiesta",
+                    "titleIcon": "bi-exclamation-triangle-fill",
+                    "content": "Questo pack è compatibile con <strong>firmware 22.1.0</strong>. Se hai seguito la Sezione 1 e aggiornato correttamente, sei a posto!"
+                },
+                {
+                    "type": "step",
+                    "number": 1,
+                    "title": "Scarica il Pack 22.1.0",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Clicca sul pulsante qui sotto per scaricare il pacchetto completo dal nostro canale Telegram:"
+                        },
+                        {
+                            "type": "download-list",
+                            "title": "Download Pack",
+                            "titleIcon": "bi-telegram",
+                            "items": [
+                                {
+                                    "icon": "bi-telegram",
+                                    "iconColor": "#60a5fa",
+                                    "label": "Pack Atmosphere 22.1.0",
+                                    "desc": "Atmosphere 1.11.1, Hekate, Sigpatches e Homebrew — ~15.1 MB",
+                                    "href": "https://t.me/NintendoROMsFiles/114"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "infobox",
+                            "variant": "success",
+                            "title": "File Sicuro e Verificato",
+                            "titleIcon": "bi-shield-check-fill",
+                            "content": "Il pack è stato testato e verificato dal nostro team. Tutti i file sono aggiornati alle ultime versioni stabili."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "estrazione",
+            "title": "Estrazione Pack",
+            "icon": "bi-file-zip-fill",
+            "blocks": [
+                {
+                    "type": "step",
+                    "number": 1,
+                    "title": "Trova il file scaricato",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Il file sarà probabilmente nella cartella <strong>Download</strong> del tuo PC. Cerca un file chiamato <code>Pack 22.1.0 [@NintendoRomsIT].zip</code> o simile."
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 2,
+                    "title": "Estrai il file ZIP",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Fai clic destro sul file ZIP e seleziona:"
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                { "icon": "bi-windows", "iconColor": "#60a5fa", "html": "<strong>Windows:</strong> \"Estrai tutto...\" oppure usa 7-Zip/WinRAR" },
+                                { "icon": "bi-apple", "iconColor": "#aaa", "html": "<strong>macOS:</strong> Doppio clic sul file ZIP" }
+                            ]
+                        },
+                        {
+                            "type": "infobox",
+                            "variant": "info",
+                            "titleIcon": "bi-lightbulb-fill",
+                            "content": "<strong>Consiglio:</strong> Estrai il contenuto in una cartella facilmente accessibile, come il Desktop o una cartella dedicata \"Switch Modding\"."
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 3,
+                    "title": "Verifica il contenuto estratto",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Dopo l'estrazione, dovresti vedere:"
+                        },
+                        {
+                            "type": "file-tree",
+                            "title": "Contenuto principale del pack",
+                            "items": [
+                                { "name": "Pack 22.1.0 [@NintendoRomsIT]", "type": "folder", "depth": 0 },
+                                { "name": "Contenuto da mettere in SD (Nintendo Switch)", "type": "folder", "depth": 1, "highlight": true, "comment": "← Questa è la cartella importante!" },
+                                { "name": "Vari payloads (PC)", "type": "folder", "depth": 1 },
+                                { "name": "LEGGI!.txt", "depth": 1, "last": true }
+                            ]
+                        },
+                        {
+                            "type": "infobox",
+                            "variant": "success",
+                            "titleIcon": "bi-check-circle-fill",
+                            "content": "Se vedi queste cartelle e file, l'estrazione è andata a buon fine!"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "copia-files",
+            "title": "Copia Files su SD Card",
+            "icon": "bi-copy",
+            "blocks": [
+                {
+                    "type": "infobox",
+                    "variant": "error",
+                    "title": "ATTENZIONE — Leggi PRIMA di copiare!",
+                    "titleIcon": "bi-exclamation-octagon-fill",
+                    "content": "<strong>NON</strong> trascinare la cartella \"Contenuto da mettere in SD (Nintendo Switch)\" sulla SD! Devi <strong>ENTRARE</strong> in quella cartella e copiare solo il <strong>contenuto INTERNO</strong>. Segui attentamente le istruzioni qui sotto."
+                },
+                {
+                    "type": "step",
+                    "number": 1,
+                    "title": "Inserisci la microSD nel PC",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Usa il lettore microSD o l'adattatore SD. Assicurati che la SD sia quella formattata in FAT32 nella Sezione 2."
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 2,
+                    "title": "Apri il contenuto interno del pack",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Vai nella cartella dove hai estratto il pack e <strong>apri (doppio clic)</strong> la cartella <strong>📁 Contenuto da mettere in SD (Nintendo Switch)</strong>. All'interno troverai:"
+                        },
+                        {
+                            "type": "file-tree",
+                            "title": "Contenuto da copiare sulla SD",
+                            "items": [
+                                { "name": "Contenuto da mettere in SD (Nintendo Switch)", "type": "drive", "depth": 0 },
+                                { "name": "atmosphere", "type": "folder", "depth": 1, "highlight": true },
+                                { "name": "bootloader", "type": "folder", "depth": 1, "highlight": true },
+                                { "name": "config", "type": "folder", "depth": 1, "highlight": true },
+                                { "name": "nsp", "type": "folder", "depth": 1, "highlight": true },
+                                { "name": "switch", "type": "folder", "depth": 1, "highlight": true },
+                                { "name": "hbl.nsp", "depth": 1, "highlight": true },
+                                { "name": "hbmenu.nro", "depth": 1, "highlight": true },
+                                { "name": "payload.bin", "depth": 1, "highlight": true, "last": true }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 3,
+                    "title": "Seleziona e copia tutto il contenuto",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "<strong>Dentro la cartella \"Contenuto da mettere in SD (Nintendo Switch)\"</strong>, seleziona tutti i file e le cartelle con <kbd>Ctrl+A</kbd>, poi copia con <kbd>Ctrl+C</kbd>."
+                        },
+                        {
+                            "type": "text",
+                            "content": "Apri la tua microSD in Esplora File e incolla con <kbd>Ctrl+V</kbd>. Attendi che tutti i file vengano copiati (2-5 minuti con SD Class 10 UHS-I)."
+                        },
+                        {
+                            "type": "infobox",
+                            "variant": "warning",
+                            "titleIcon": "bi-exclamation-triangle-fill",
+                            "content": "<strong>Non rimuovere la SD mentre sta copiando!</strong> Potresti corrompere i file e dover ricominciare da capo."
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 4,
+                    "title": "Verifica la struttura sulla SD",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Una volta completata la copia, la <strong>radice della SD</strong> dovrebbe mostrare:"
+                        },
+                        {
+                            "type": "file-tree",
+                            "title": "✅ Struttura SD corretta",
+                            "items": [
+                                { "name": "microSD", "type": "drive", "depth": 0 },
+                                { "name": "atmosphere", "type": "folder", "depth": 1, "highlight": true },
+                                { "name": "bootloader", "type": "folder", "depth": 1, "highlight": true },
+                                { "name": "config", "type": "folder", "depth": 1, "highlight": true },
+                                { "name": "nsp", "type": "folder", "depth": 1, "highlight": true },
+                                { "name": "switch", "type": "folder", "depth": 1, "highlight": true },
+                                { "name": "hbl.nsp", "depth": 1, "highlight": true },
+                                { "name": "hbmenu.nro", "depth": 1, "highlight": true },
+                                { "name": "payload.bin", "depth": 1, "highlight": true, "last": true }
+                            ]
+                        },
+                        {
+                            "type": "infobox",
+                            "variant": "success",
+                            "title": "Struttura CORRETTA!",
+                            "titleIcon": "bi-check-circle-fill",
+                            "content": "Se vedi queste cartelle direttamente nella radice della SD, hai fatto tutto bene! ✅"
+                        },
+                        {
+                            "type": "infobox",
+                            "variant": "error",
+                            "title": "❌ STRUTTURA SBAGLIATA (non fare così):",
+                            "titleIcon": "bi-x-circle-fill",
+                            "content": "Se nella radice della SD vedi una cartella chiamata <code>Contenuto da mettere in SD (Nintendo Switch)</code> o <code>Pack_22.1.0</code>, hai copiato male. Devi <strong>entrare</strong> in quella cartella e copiare il contenuto interno (atmosphere, bootloader, ecc.) direttamente sulla radice della SD."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "verifica",
+            "title": "Verifica Installazione",
+            "icon": "bi-check-circle-fill",
+            "blocks": [
+                {
+                    "type": "step",
+                    "number": 1,
+                    "title": "Rimozione sicura della SD",
+                    "blocks": [
+                        {
+                            "type": "list",
+                            "items": [
+                                { "icon": "bi-1-circle-fill", "iconColor": "#4ade80", "html": "Vai nella barra delle applicazioni di Windows (in basso a destra)" },
+                                { "icon": "bi-2-circle-fill", "iconColor": "#4ade80", "html": "Clicca sull'icona <strong>\"Rimozione sicura hardware\"</strong>" },
+                                { "icon": "bi-3-circle-fill", "iconColor": "#4ade80", "html": "Seleziona la tua microSD e attendi il messaggio di conferma" },
+                                { "icon": "bi-4-circle-fill", "iconColor": "#4ade80", "html": "Rimuovi la SD dal lettore" }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 2,
+                    "title": "Reinserisci la SD nella Switch",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Assicurati che la <strong>Switch sia spenta</strong>, poi inserisci la microSD nello slot. Non accenderla ancora — procederemo con l'avvio nella prossima sezione!"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "troubleshooting",
+            "title": "Risoluzione Problemi",
+            "icon": "bi-tools",
+            "blocks": [
+                {
+                    "type": "brick-list",
+                    "title": "Problemi Comuni",
+                    "items": [
+                        {
+                            "title": "Errore \"Impossibile copiare — spazio insufficiente\"",
+                            "desc": "SD troppo piccola o non formattata correttamente. Verifica di aver formattato in FAT32 (Sezione 2), elimina eventuali file vecchi sulla SD, o considera una SD di capacità maggiore (consigliata 128GB+)."
+                        },
+                        {
+                            "title": "Copia molto lenta (oltre 15-20 minuti)",
+                            "desc": "SD card di classe bassa o lettore SD USB 2.0. Usa una SD UHS-I U3 o superiore. Cambia porta USB (preferisci USB 3.0 — porta blu). La lentezza non indica errori."
+                        },
+                        {
+                            "title": "Non riesco a scaricare il pack da Telegram",
+                            "desc": "Verifica di avere Telegram installato e connessione Internet. Alternative: scarica su smartphone e trasferisci al PC via cavo USB, oppure usa Telegram Web (web.telegram.org)."
+                        },
+                        {
+                            "title": "Ho copiato la cartella del pack invece del contenuto",
+                            "desc": "Elimina la cartella del pack dalla SD. Apri la cartella estratta sul PC, entra in \"Contenuto da mettere in SD (Nintendo Switch)\" e copia SOLO il contenuto interno (atmosphere, bootloader, ecc.) sulla radice della SD."
+                        }
+                    ]
+                },
+                {
+                    "type": "infobox",
+                    "variant": "info",
+                    "title": "Problemi persistenti?",
+                    "titleIcon": "bi-telegram",
+                    "content": "Unisciti al nostro gruppo Telegram per assistenza in tempo reale!",
+                    "cta": {
+                        "label": "Supporto su Telegram",
+                        "href": "https://t.me/NintendoROMsGruppo",
+                        "icon": "bi-telegram"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "prossimi-passi",
+            "title": "Prossimi Passi",
+            "icon": "bi-signpost-fill",
+            "blocks": [
+                {
+                    "type": "text",
+                    "content": "Ottimo lavoro! La microSD è ora pronta con tutti i file necessari. A questo punto il percorso si divide in base al <strong>tipo di modifica</strong> della tua console:"
+                },
+                {
+                    "type": "two-columns",
+                    "columns": [
+                        {
+                            "title": "⚡ Modifica Software (RCM)",
+                            "icon": "bi-lightning-charge-fill",
+                            "color": "#60a5fa",
+                            "borderColor": "rgba(96,165,250,0.5)",
+                            "items": [
+                                "Switch NON patchata",
+                                "Usa RCM Jig + payload via PC",
+                                "Avvio manuale ogni volta",
+                                "→ Vai alla Sezione 4 (RCM)"
+                            ]
+                        },
+                        {
+                            "title": "🔧 Modifica Hardware (Modchip)",
+                            "icon": "bi-cpu-fill",
+                            "color": "#c084fc",
+                            "borderColor": "rgba(192,132,252,0.5)",
+                            "items": [
+                                "Switch con modchip (SX Core, Picofly, ecc.)",
+                                "Avvio automatico del CFW",
+                                "Nessun PC necessario dopo setup",
+                                "→ Vai alla Sezione 5 (Partizionamento)"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "infobox",
+                    "variant": "warning",
+                    "title": "Non sai quale scegliere?",
+                    "titleIcon": "bi-question-circle-fill",
+                    "contentList": [
+                        "<strong>• Se hai acquistato la Switch prima di giugno 2018</strong> e non hai mai fatto modifiche hardware → <strong>Sezione 4 (RCM)</strong>",
+                        "<strong>• Se hai fatto installare un modchip da un tecnico</strong> → <strong>Sezione 5 (Partizionamento)</strong>",
+                        "<strong>• Se hai dubbi</strong> → Chiedi sul gruppo Telegram!"
+                    ]
+                }
+            ]
+        }
+    ],
+    "navigation": {
+        "prev": {
+            "label": "Sezione 2 — Formattazione SD",
+            "href": "/guide/switch/sw-2"
+        },
+        "next": {
+            "label": "Sezione 4 — Modalità RCM",
+            "href": "/guide/switch/sw-4"
+        }
+    }
+}
