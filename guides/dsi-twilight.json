@@ -1,0 +1,273 @@
+{
+    "id": "dsi-twilight",
+    "title": "Installazione TWiLight Menu++",
+    "subtitle": "Setup del menu launcher homebrew più versatile per DSi",
+    "icon": "bi-moon-stars-fill",
+    "meta": {
+        "tempo": "5-10 minuti",
+        "difficolta": "Facile",
+        "tipo": "TWiLight Menu++"
+    },
+    "breadcrumb": [
+        { "label": "Home", "href": "/", "icon": "bi-house-fill" },
+        { "label": "Guide", "href": "/guide" },
+        { "label": "Nintendo DSi", "href": "/guide/dsi" },
+        { "label": "Scelta Menu", "href": "/guide/dsi/scelta-menu" },
+        { "label": "TWiLight Menu++" }
+    ],
+    "toc": [
+        { "id": "introduzione", "label": "Introduzione" },
+        { "id": "download", "label": "Download TWiLight Menu++" },
+        { "id": "installazione", "label": "Installazione su SD" },
+        { "id": "primo-avvio", "label": "Primo Avvio" }
+    ],
+    "sections": [
+        {
+            "id": "introduzione",
+            "title": "Introduzione",
+            "icon": "bi-info-circle-fill",
+            "blocks": [
+                {
+                    "type": "text",
+                    "content": "In questa guida installeremo <strong>TWiLight Menu++</strong>, il menu launcher homebrew più versatile e completo per Nintendo DSi. Permette di avviare giochi DS/DSi, GBA, homebrew, emulatori e molto altro!"
+                },
+                {
+                    "type": "two-columns",
+                    "columns": [
+                        {
+                            "title": "Giochi supportati",
+                            "icon": "bi-controller",
+                            "color": "#c084fc",
+                            "borderColor": "rgba(192,132,252,0.3)",
+                            "items": [
+                                "Nintendo DS/DSi ROM",
+                                "Game Boy Advance",
+                                "NES, SNES, Genesis (con add-on)"
+                            ]
+                        },
+                        {
+                            "title": "Funzionalità",
+                            "icon": "bi-stars",
+                            "color": "#c084fc",
+                            "borderColor": "rgba(192,132,252,0.3)",
+                            "items": [
+                                "Temi personalizzati",
+                                "Homebrew launcher",
+                                "Save manager integrato"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "download",
+            "title": "Download TWiLight Menu++",
+            "icon": "bi-download",
+            "blocks": [
+                {
+                    "type": "text",
+                    "content": "Scarica l'ultima versione di TWiLight Menu++ per DSi."
+                },
+                {
+                    "type": "step",
+                    "number": 1,
+                    "title": "Scarica TWiLightMenu-DSi.7z",
+                    "blocks": [
+                        {
+                            "type": "download-list",
+                            "title": "Download TWiLight Menu++",
+                            "titleIcon": "bi-download",
+                            "items": [
+                                {
+                                    "icon": "bi-moon-stars-fill",
+                                    "iconColor": "#c084fc",
+                                    "label": "TWiLightMenu-DSi.7z",
+                                    "desc": "Ultima versione per Nintendo DSi — file compresso 7z",
+                                    "href": "https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-DSi.7z"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "infobox",
+                            "variant": "warning",
+                            "titleIcon": "bi-exclamation-triangle-fill",
+                            "content": "NON usare WinRAR per estrarre! Usa <strong>7-Zip</strong> (Windows), <strong>The Unarchiver</strong> (macOS) o <strong>ZArchiver</strong> (Chromebook)."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "installazione",
+            "title": "Installazione su SD Card",
+            "icon": "bi-1-circle-fill",
+            "blocks": [
+                {
+                    "type": "text",
+                    "content": "Ora estraiamo il file e copiamo i contenuti sulla SD card del DSi."
+                },
+                {
+                    "type": "step",
+                    "number": 1,
+                    "title": "Estrai TWiLightMenu-DSi.7z",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Estrai il file <code>TWiLightMenu-DSi.7z</code> in una cartella sul tuo PC."
+                        },
+                        {
+                            "type": "infobox",
+                            "variant": "info",
+                            "title": "Come estrarre file .7z:",
+                            "titleIcon": "bi-info-circle-fill",
+                            "contentList": [
+                                "<strong>Windows:</strong> Click destro → 7-Zip → Estrai qui",
+                                "<strong>macOS:</strong> Doppio click con The Unarchiver installato",
+                                "<strong>Linux:</strong> <code>7z x TWiLightMenu-DSi.7z</code>"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 2,
+                    "title": "Inserisci la SD nel PC e copia i file",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Rimuovi la SD card dal DSi e inseriscila nel PC. Dall'archivio estratto, copia nella <strong>root (radice)</strong> della SD card:"
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                { "icon": "bi-folder-fill", "iconColor": "#facc15", "html": "La cartella <code>_nds</code>" },
+                                { "icon": "bi-file-earmark-fill", "iconColor": "#4ade80", "html": "Il file <code>BOOT.NDS</code>" },
+                                { "icon": "bi-folder-fill", "iconColor": "#60a5fa", "html": "La cartella <code>roms</code> (già organizzata in sottocartelle per console)" }
+                            ]
+                        },
+                        {
+                            "type": "infobox",
+                            "variant": "warning",
+                            "title": "File BOOT.NDS già esistente?",
+                            "titleIcon": "bi-exclamation-triangle-fill",
+                            "content": "Se esiste già un file <code>BOOT.NDS</code> nella root della SD (dal precedente <code>boot.nds</code> di dumpTool), <strong>sovrascrivilo</strong> quando richiesto. È normale!"
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 3,
+                    "title": "Verifica struttura finale",
+                    "blocks": [
+                        {
+                            "type": "file-tree",
+                            "title": "Struttura SD corretta",
+                            "items": [
+                                { "name": "SD Card", "type": "drive", "depth": 0 },
+                                { "name": "_nds", "type": "folder", "depth": 1, "comment": "file TWiLight Menu++" },
+                                { "name": "BOOT.NDS", "depth": 1, "highlight": true },
+                                { "name": "roms", "type": "folder", "depth": 1 },
+                                { "name": "nds", "type": "folder", "depth": 2 },
+                                { "name": "gba", "type": "folder", "depth": 2 },
+                                { "name": "...", "depth": 2, "dim": true, "last": true },
+                                { "name": "private", "type": "folder", "depth": 1, "comment": "già presente", "last": true }
+                            ]
+                        },
+                        {
+                            "type": "infobox",
+                            "variant": "success",
+                            "titleIcon": "bi-check-circle-fill",
+                            "content": "Perfetto! Puoi rimuovere la SD dal PC e inserirla nel DSi."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "primo-avvio",
+            "title": "Primo Avvio di TWiLight Menu++",
+            "icon": "bi-2-circle-fill",
+            "blocks": [
+                {
+                    "type": "step",
+                    "number": 1,
+                    "title": "Avvia l'exploit",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Avvia l'<strong>exploit che hai usato</strong> in precedenza (Memory Pit via DSi Camera):"
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                { "icon": "bi-1-circle-fill", "iconColor": "#c084fc", "html": "Apri <strong>Nintendo DSi Camera</strong>" },
+                                { "icon": "bi-2-circle-fill", "iconColor": "#c084fc", "html": "Tocca l'icona <strong>SD Card</strong> in alto a destra" },
+                                { "icon": "bi-3-circle-fill", "iconColor": "#c084fc", "html": "Apri l'<strong>album</strong> (pulsante grande a destra)" },
+                                { "icon": "bi-4-circle-fill", "iconColor": "#c084fc", "html": "Lo schermo lampeggerà di magenta" }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 2,
+                    "title": "TWiLight Menu++ si avvierà!",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Invece di dumpTool, questa volta si avvierà <strong>TWiLight Menu++</strong>! Al primo avvio ti chiederà di selezionare:"
+                        },
+                        {
+                            "type": "settings-box",
+                            "title": "Configurazione iniziale:",
+                            "titleIcon": "bi-gear-fill",
+                            "items": [
+                                { "label": "Lingua (Language):", "value": "Italiano o English (a tua scelta)" },
+                                { "label": "Regione (Region):", "value": "Europe (per Italia)" }
+                            ]
+                        },
+                        {
+                            "type": "infobox",
+                            "variant": "info",
+                            "titleIcon": "bi-info-circle-fill",
+                            "content": "Lingua e regione di TWiLight Menu++ <strong>non devono</strong> corrispondere alla lingua/regione della tua console. Scegli quelle che preferisci!"
+                        }
+                    ]
+                },
+                {
+                    "type": "text",
+                    "content": "<strong>TWiLight Menu++ è installato e funzionante!</strong> Puoi già usare il tuo DSi modificato:"
+                },
+                {
+                    "type": "list",
+                    "items": [
+                        { "icon": "bi-1-circle-fill", "iconColor": "#c084fc", "html": "Copia ROM DS nella cartella <code>roms/nds</code> e giocaci subito!" },
+                        { "icon": "bi-2-circle-fill", "iconColor": "#c084fc", "html": "Esplora le <strong>impostazioni</strong> premendo SELECT per personalizzare TWiLight Menu++" },
+                        { "icon": "bi-3-circle-fill", "iconColor": "#c084fc", "html": "Per un'esperienza ancora migliore, <strong>installa Unlaunch</strong> (prossimo step opzionale)" }
+                    ]
+                },
+                {
+                    "type": "cta-box",
+                    "icon": "bi-unlock-fill",
+                    "title": "Step Opzionale: Unlaunch",
+                    "content": "Se vuoi avvio automatico e protezioni anti-brick, procedi con l'installazione di Unlaunch (opzionale ma consigliato).",
+                    "button": {
+                        "label": "Installa Unlaunch (Consigliato)",
+                        "href": "/guide/dsi/unlaunch"
+                    }
+                }
+            ]
+        }
+    ],
+    "navigation": {
+        "prev": {
+            "label": "Scelta Menu",
+            "href": "/guide/dsi/scelta-menu"
+        },
+        "next": {
+            "label": "Installazione Unlaunch",
+            "href": "/guide/dsi/unlaunch"
+        }
+    }
+}
