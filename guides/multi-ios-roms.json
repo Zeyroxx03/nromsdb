@@ -1,0 +1,255 @@
+{
+    "id": "multi-ios-roms",
+    "title": "Salvataggio ROMs su iOS",
+    "subtitle": "Come salvare le roms da Telegram nell'app File di iPhone/iPad",
+    "icon": "bi-phone",
+    "meta": {
+        "tempo": "2-3 minuti",
+        "difficolta": "Facile",
+        "tipo": "iOS"
+    },
+    "breadcrumb": [
+        { "label": "Home",           "href": "/",            "icon": "bi-house-fill" },
+        { "label": "Guide",          "href": "/guide" },
+        { "label": "Multi-Platform", "href": "/guide/multi" },
+        { "label": "Salvataggio ROMs su iOS" }
+    ],
+    "toc": [
+        { "id": "introduzione", "label": "Introduzione" },
+        { "id": "procedura",    "label": "Procedura di Salvataggio" },
+        { "id": "conclusione",  "label": "Conclusione" }
+    ],
+    "sections": [
+        {
+            "id": "introduzione",
+            "title": "Introduzione",
+            "icon": "bi-info-circle-fill",
+            "blocks": [
+                {
+                    "type": "text",
+                    "content": "In questa breve guida vedremo come <strong>scaricare e salvare le roms</strong> dal nostro canale Telegram direttamente nell'<strong>app File</strong> del tuo iPhone o iPad."
+                },
+                {
+                    "type": "infobox",
+                    "variant": "info",
+                    "title": "Perché salvare nell'app File?",
+                    "titleIcon": "bi-lightbulb-fill",
+                    "content": "L'app <strong>File</strong> di iOS è il gestore file predefinito di iPhone e iPad. Salvando le roms qui, potrai facilmente trovarle, organizzarle e utilizzarle con i tuoi emulatori preferiti (come Delta, Provenance, RetroArch, ecc.)."
+                },
+                {
+                    "type": "infobox",
+                    "variant": "warning",
+                    "title": "Requisiti:",
+                    "titleIcon": "bi-exclamation-triangle-fill",
+                    "contentList": [
+                        "📱 <strong>iPhone o iPad</strong> con iOS 11 o superiore",
+                        "💬 <strong>Telegram installato</strong> sul dispositivo",
+                        "📂 <strong>App File</strong> (preinstallata su iOS)",
+                        "🎮 Accesso al nostro <strong>canale Telegram roms</strong>"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "procedura",
+            "title": "Procedura di Salvataggio",
+            "icon": "bi-download",
+            "blocks": [
+                {
+                    "type": "text",
+                    "content": "Vediamo passo dopo passo come salvare una rom scaricata da Telegram."
+                },
+                {
+                    "type": "step",
+                    "number": 1,
+                    "title": "Scarica il file dal canale Telegram",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Apri il nostro <strong>canale Telegram roms</strong> e cerca il gioco che desideri scaricare. Una volta trovato, avvia il download toccando il file."
+                        },
+                        {
+                            "type": "text",
+                            "content": "Attendi che il download si completi. Quando termina, vedrai l'icona del file completato."
+                        },
+                        {
+                            "type": "infobox",
+                            "variant": "success",
+                            "titleIcon": "bi-check-circle-fill",
+                            "content": "Il download può richiedere da pochi secondi a diversi minuti, a seconda della dimensione del file e della tua connessione Internet."
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 2,
+                    "title": "Tocca l'icona del file scaricato",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Al termine del download, fai <strong>click sull'icona</strong> a sinistra del nome del gioco (quella che mostra il tipo di file o l'anteprima)."
+                        },
+                        {
+                            "type": "image",
+                            "src": "/assets/guide/multi/ios/salvataggio-roms/screen_canaleroms_file_evidenziato_scaricato.webp",
+                            "alt": "File scaricato evidenziato in Telegram",
+                            "caption": "Esattamente così"
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 3,
+                    "title": "Tocca il titolo del gioco",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Si aprirà una schermata di anteprima del file. Adesso fai <strong>click sul titolo del gioco</strong> indicato nella figura seguente."
+                        },
+                        {
+                            "type": "image",
+                            "src": "/assets/guide/multi/ios/salvataggio-roms/screen_infofile.webp",
+                            "alt": "Informazioni file - Titolo evidenziato",
+                            "caption": "Tocca il titolo del file in alto"
+                        },
+                        {
+                            "type": "infobox",
+                            "variant": "info",
+                            "titleIcon": "bi-info-circle-fill",
+                            "content": "Questo aprirà il menu delle opzioni del file."
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 4,
+                    "title": "Premi l'icona \"Condividi\"",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Nella schermata che si apre, cerca e premi l'<strong>icona Condividi</strong> (il quadrato con la freccia verso l'alto)."
+                        },
+                        {
+                            "type": "image",
+                            "src": "/assets/guide/multi/ios/salvataggio-roms/screen_condivisione_file.webp",
+                            "alt": "Icona Condividi evidenziata",
+                            "caption": "Questa icona non solo ci permetterà di condividere il file, ma anche di salvarlo tra i nostri file"
+                        },
+                        {
+                            "type": "infobox",
+                            "variant": "info",
+                            "title": "Cos'è l'icona Condividi?",
+                            "titleIcon": "bi-info-circle-fill",
+                            "content": "L'icona <strong>Condividi</strong> (Share) di iOS non serve solo per inviare file ad altri, ma ti permette anche di salvare file nelle app del tuo dispositivo, come l'app <strong>File</strong>, Note, Foto e altre ancora."
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 5,
+                    "title": "Salva su File",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Si aprirà il menu di condivisione standard di iOS. Scorri le opzioni e premi su <strong>\"Salva su File\"</strong>."
+                        },
+                        {
+                            "type": "image",
+                            "src": "/assets/guide/multi/ios/salvataggio-roms/screen_salvasufile.webp",
+                            "alt": "Opzione Salva su File",
+                            "caption": "Premiamo su \"Salva su File\""
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 6,
+                    "title": "Scegli la destinazione",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Si aprirà il selettore di cartelle dell'app File. Qui puoi scegliere dove salvare la rom:"
+                        },
+                        {
+                            "type": "destination-box",
+                            "title": "Destinazioni consigliate:",
+                            "titleIcon": "bi-folder-fill",
+                            "items": [
+                                {
+                                    "label": "Su iPhone / Sul mio iPad:",
+                                    "labelColor": "#60a5fa",
+                                    "desc": "Salva direttamente nella memoria locale del dispositivo"
+                                },
+                                {
+                                    "label": "iCloud Drive:",
+                                    "labelColor": "#c084fc",
+                                    "desc": "Salva su iCloud (accessibile da tutti i tuoi dispositivi Apple)"
+                                },
+                                {
+                                    "label": "Cartella personalizzata:",
+                                    "labelColor": "#22d3ee",
+                                    "desc": "Puoi creare una nuova cartella (es: \"Roms Nintendo\", \"Giochi 3DS\", ecc.)"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "content": "Dopo aver scelto la destinazione, premi <strong>\"Aggiungi\"</strong> o <strong>\"Salva\"</strong> in alto a destra."
+                        },
+                        {
+                            "type": "infobox",
+                            "variant": "success",
+                            "title": "Fatto!",
+                            "titleIcon": "bi-trophy-fill",
+                            "content": "Il file è ora salvato nell'app File e potrai trovarlo facilmente quando ne avrai bisogno!"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "conclusione",
+            "title": "Conclusione",
+            "icon": "bi-flag-fill",
+            "blocks": [
+                {
+                    "type": "text",
+                    "content": "Complimenti! Hai imparato come salvare le roms scaricate da Telegram nell'app File di iOS. Ora puoi organizzare facilmente i tuoi giochi e utilizzarli con i tuoi emulatori preferiti!"
+                },
+                
+               
+                
+                {
+                    "type": "infobox",
+                    "variant": "info",
+                    "title": "Dove trovo le roms?",
+                    "titleIcon": "bi-telegram",
+                    "content": "Puoi scaricare roms per tutte le console Nintendo dal nostro canale Telegram ufficiale.",
+                    "cta": {
+                        "label": "Vai al Canale roms",
+                        "href": "https://t.me/+VhTgmHwgmNk1NjY0",
+                        "icon": "bi-telegram"
+                    }
+                },
+                {
+                    "type": "infobox",
+                    "variant": "info",
+                    "title": "Hai problemi o domande?",
+                    "titleIcon": "bi-telegram",
+                    "content": "Il nostro team è disponibile su Telegram per supportarti!",
+                    "cta": {
+                        "label": "Chiedi supporto su Telegram",
+                        "href": "https://t.me/NintendoROMsGruppo",
+                        "icon": "bi-telegram"
+                    }
+                }
+            ]
+        }
+    ],
+    "navigation": {
+        "prev": {
+            "label": "Guide Multi-Platform",
+            "href": "/guide/multi"
+        }
+    }
+}
