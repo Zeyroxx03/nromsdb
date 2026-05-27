@@ -1,0 +1,259 @@
+{
+    "id": "switch-sw-7",
+    "title": "Sezione 7 — Avvio Atmosphere CFW",
+    "subtitle": "Primo avvio del Custom Firmware su emuMMC",
+    "icon": "bi-rocket-takeoff-fill",
+    "meta": {
+        "tempo": "5 minuti",
+        "difficolta": "Facile",
+        "tipo": "ULTIMA SEZIONE!"
+    },
+    "breadcrumb": [
+        { "label": "Home", "href": "/", "icon": "bi-house-fill" },
+        { "label": "Guide", "href": "/guide" },
+        { "label": "Nintendo Switch", "href": "/guide/switch" },
+        { "label": "Requisiti", "href": "/guide/switch/requisiti" },
+        { "label": "Sezione 7" }
+    ],
+    "toc": [
+        { "id": "introduzione", "label": "Preparazione" },
+        { "id": "avvio-atmosphere", "label": "Avvio Atmosphere emuMMC" },
+        { "id": "verifica", "label": "Verifica Installazione" },
+        { "id": "finale", "label": "Modifica Completata" }
+    ],
+    "sections": [
+        {
+            "id": "introduzione",
+            "title": "Preparazione",
+            "icon": "bi-info-circle-fill",
+            "blocks": [
+                {
+                    "type": "infobox",
+                    "variant": "warning",
+                    "title": "⚠️ IMPORTANTE — Come riavviare il CFW",
+                    "titleIcon": "bi-exclamation-triangle-fill",
+                    "content": "Ogni volta che vorrai avviare il CFW su una console <strong>NON patchata</strong> dovrai: 1. Inserire RCM Jig → 2. Entrare in RCM Mode → 3. Inject payload con TegraRCMGui → 4. Launch → microSD CFW. Se hai un <strong>modchip</strong>: accendi normalmente, il CFW si avvia automaticamente! 🎉"
+                },
+                {
+                    "type": "text",
+                    "content": "Finalmente è arrivato il momento! Avvieremo <strong>Atmosphere CFW</strong> sull'emuMMC appena creata. Prima di procedere, devi entrare in Hekate ripetendo la <strong>Sezione 4</strong>:"
+                },
+                {
+                    "type": "two-columns",
+                    "columns": [
+                        {
+                            "title": "Console NON patchata",
+                            "icon": "bi-lightning-charge-fill",
+                            "color": "#60a5fa",
+                            "borderColor": "rgba(96,165,250,0.3)",
+                            "items": [
+                                "1. Inserisci RCM Jig",
+                                "2. RCM Mode (Volume+ e Power)",
+                                "3. TegraRCMGui → Inject payload",
+                                "4. Hekate si avvierà sulla Switch"
+                            ]
+                        },
+                        {
+                            "title": "Console con Modchip",
+                            "icon": "bi-cpu-fill",
+                            "color": "#c084fc",
+                            "borderColor": "rgba(192,132,252,0.3)",
+                            "items": [
+                                "Accendi normalmente con il pulsante Power",
+                                "Il CFW si avvia automaticamente!",
+                                "Nessun PC, jig o inject necessario"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "avvio-atmosphere",
+            "title": "Avvio Atmosphere emuMMC",
+            "icon": "bi-rocket-fill",
+            "blocks": [
+                {
+                    "type": "step",
+                    "number": 1,
+                    "title": "Seleziona \"Launch\"",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Dal menu principale di Hekate, tocca <strong>\"Launch\"</strong>."
+                        },
+                        {
+                            "type": "image",
+                            "src": "/assets/guide/switch/modifica/sezione7/screenshot_hekate_launch.webp",
+                            "alt": "Menu Launch di Hekate",
+                            "caption": "Seleziona \"Launch\" dal menu principale"
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 2,
+                    "title": "Seleziona \"microSD CFW (emuMMC)\"",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Nel menu Launch, tocca su <strong>\"microSD CFW\"</strong> o <strong>\"emuMMC\"</strong>."
+                        },
+                        {
+                            "type": "image",
+                            "src": "/assets/guide/switch/modifica/sezione7/screenshot_hekate_launch_section_select_microsdcfw.webp",
+                            "alt": "Selezione microSD CFW in Hekate",
+                            "caption": "Tocca \"microSD CFW\" per avviare Atmosphere sull'emuMMC"
+                        },
+                        {
+                            "type": "infobox",
+                            "variant": "info",
+                            "titleIcon": "bi-lightbulb-fill",
+                            "content": "<strong>Nota:</strong> Potresti vedere vari loghi lampeggiare (Nintendo, Atmosphere). È normale! Hekate sta caricando il CFW."
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 3,
+                    "title": "Attendi il caricamento",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "La console mostrerà alcuni loghi e poi si avvierà nel <strong>menu HOME di Atmosphere</strong>. Il primo avvio può richiedere 30-60 secondi."
+                        },
+                        {
+                            "type": "image",
+                            "src": "/assets/guide/switch/modifica/sezione7/screenshot_atmosphere_menu_home_caricato.webp",
+                            "alt": "Menu HOME Atmosphere caricato",
+                            "caption": "🎉 Benvenuto in Atmosphere! Il CFW è caricato con successo!"
+                        },
+                        {
+                            "type": "infobox",
+                            "variant": "success",
+                            "title": "CFW Caricato!",
+                            "titleIcon": "bi-check-circle-fill",
+                            "content": "Se vedi il menu HOME, sei ufficialmente su <strong>Atmosphere CFW emuMMC</strong>! Ora verifichiamo che tutto sia corretto."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "verifica",
+            "title": "Verifica Installazione",
+            "icon": "bi-check-circle-fill",
+            "blocks": [
+                {
+                    "type": "step",
+                    "number": 1,
+                    "title": "Vai in Impostazioni di sistema",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Dal menu HOME → <strong>Impostazioni di sistema</strong> (icona ingranaggio) → scorri fino in fondo e seleziona <strong>\"Sistema\"</strong>."
+                        },
+                        {
+                            "type": "image",
+                            "src": "/assets/guide/switch/modifica/sezione7/screenshot_atmosphere_impostazioni_sistema.webp",
+                            "alt": "Impostazioni Sistema Atmosphere",
+                            "caption": "Verifica della versione di sistema con Atmosphere"
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 2,
+                    "title": "Controlla la versione",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Nella sezione <strong>\"Versione di sistema\"</strong> dovresti vedere qualcosa del tipo:"
+                        },
+                        {
+                            "type": "file-listing",
+                            "files": [
+                                "22.1.0          ← Versione firmware console",
+                                "|AMS 1.11.1|    ← Atmosphere CFW",
+                                "E               ← emuMMC (NAND virtuale su SD)"
+                            ]
+                        },
+                        {
+                            "type": "spec-box",
+                            "title": "Legenda versione",
+                            "titleIcon": "bi-info-circle-fill",
+                            "color": "#4ade80",
+                            "borderColor": "rgba(74,222,128,0.3)",
+                            "items": [
+                                { "icon": "bi-1-circle-fill", "iconColor": "#4ade80", "label": "22.1.0", "desc": "Versione firmware attuale della console" },
+                                { "icon": "bi-2-circle-fill", "iconColor": "#60a5fa", "label": "AMS 1.11.1", "desc": "Atmosphere CFW versione installata" },
+                                { "icon": "bi-3-circle-fill", "iconColor": "#c084fc", "label": "E", "desc": "emuMMC — sei sulla NAND virtuale (sicuro!)" }
+                            ]
+                        },
+                        {
+                            "type": "infobox",
+                            "variant": "success",
+                            "title": "TUTTO PERFETTO!",
+                            "titleIcon": "bi-trophy-fill",
+                            "content": "Se vedi queste informazioni, la modifica è andata a buon fine al 100%! La tua Switch è ora modificata e pronta all'uso! 🎉"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "finale",
+            "title": "Modifica completata!",
+            "icon": "bi-flag-fill",
+            "blocks": [
+                
+                {
+                    "type": "infobox",
+                    "variant": "error",
+                    "title": "Raccomandazioni finali",
+                    "titleIcon": "bi-shield-exclamation",
+                    "contentList": [
+                        "❌ <strong>NON collegare l'emuMMC a Internet</strong> — Rischio ban permanente!",
+                        "✅ <strong>Usa modalità aereo</strong> quando sei su CFW",
+                        "✅ <strong>Conserva il backup NAND</strong> in un posto sicuro per sempre",
+                        "✅ <strong>Aggiorna Atmosphere</strong> quando escono nuove versioni"
+                    ]
+                },
+                {
+                    "type": "infobox",
+                    "variant": "info",
+                    "title": "Prossimo step: installa i giochi!",
+                    "titleIcon": "bi-controller",
+                    "content": "Ora che hai il CFW attivo, puoi procedere con l'installazione dei giochi sulla tua Switch modificata.",
+                    "cta": {
+                        "label": "Guida Installazione Giochi",
+                        "href": "/guide/switch/sw-install-giochi",
+                        "icon": "bi-arrow-right-circle-fill"
+                    }
+                },
+                {
+                    "type": "infobox",
+                    "variant": "info",
+                    "title": "Entra nella community!",
+                    "titleIcon": "bi-telegram",
+                    "content": "Unisciti al nostro gruppo Telegram per supporto, novità e contenuti esclusivi!",
+                    "cta": {
+                        "label": "Unisciti al Gruppo",
+                        "href": "https://t.me/NintendoROMsGruppo",
+                        "icon": "bi-telegram"
+                    }
+                }
+            ]
+        }
+    ],
+    "navigation": {
+        "prev": {
+            "label": "Sezione 6 — Backup NAND",
+            "href": "/guide/switch/sw-6"
+        },
+        "next": {
+            "label": "Guide Switch",
+            "href": "/guide/switch"
+        }
+    }
+}
