@@ -1,0 +1,358 @@
+{
+    "id": "switch-sw-6",
+    "title": "Sezione 6 — Backup NAND",
+    "subtitle": "Protezione essenziale della memoria principale",
+    "icon": "bi-shield-fill-check",
+    "meta": {
+        "tempo": "15-30 minuti",
+        "difficolta": "Facile",
+        "tipo": "FONDAMENTALE"
+    },
+    "breadcrumb": [
+        {
+            "label": "Home",
+            "href": "/",
+            "icon": "bi-house-fill"
+        },
+        {
+            "label": "Guide",
+            "href": "/guide"
+        },
+        {
+            "label": "Nintendo Switch",
+            "href": "/guide/switch"
+        },
+        {
+            "label": "Requisiti",
+            "href": "/guide/switch/requisiti"
+        },
+        {
+            "label": "Sezione 6"
+        }
+    ],
+    "toc": [
+        {
+            "id": "introduzione",
+            "label": "Cos'è la NAND?"
+        },
+        {
+            "id": "video-tutorial",
+            "label": "Video Tutorial"
+        },
+        {
+            "id": "post-backup",
+            "label": "Dopo il Backup"
+        },
+        {
+            "id": "conservazione",
+            "label": "Regole d'Oro"
+        },
+        {
+            "id": "troubleshooting",
+            "label": "Problemi Comuni"
+        }
+    ],
+    "sections": [
+        {
+            "id": "introduzione",
+            "title": "Cos'è la NAND?",
+            "icon": "bi-info-circle-fill",
+            "blocks": [
+                {
+                    "type": "infobox",
+                    "variant": "error",
+                    "title": "🚨 NON SALTARE QUESTA SEZIONE!",
+                    "titleIcon": "bi-exclamation-octagon-fill",
+                    "content": "Il backup della NAND è la tua <strong>\"assicurazione\"</strong>. Senza di esso, se qualcosa va storto la console diventa un fermacarte. Con il backup, puoi sempre ripristinare tutto!"
+                },
+                {
+                    "type": "text",
+                    "content": "La <strong>NAND</strong> è la memoria interna della Switch che contiene <strong>tutto</strong>: sistema operativo, firmware, salvataggi, certificati e chiavi univoche. Il backup completo occupa ~32GB."
+                },
+                {
+                    "type": "two-columns",
+                    "columns": [
+                        {
+                            "title": "Con il backup",
+                            "icon": "bi-shield-check-fill",
+                            "color": "#4ade80",
+                            "borderColor": "rgba(74,222,128,0.3)",
+                            "items": [
+                                "✅ Ripristino da brick",
+                                "✅ Recupero da errori",
+                                "✅ Ritorno allo stato originale"
+                            ]
+                        },
+                        {
+                            "title": "Senza backup",
+                            "icon": "bi-x-octagon-fill",
+                            "color": "#f87171",
+                            "borderColor": "rgba(248,113,113,0.3)",
+                            "items": [
+                                "❌ Console brick = console morta",
+                                "❌ Nessun modo di recuperare",
+                                "❌ Perdita di tutto"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "video-tutorial",
+            "title": "Video Tutorial (3 minuti)",
+            "icon": "bi-play-circle-fill",
+            "blocks": [
+                {
+                    "type": "text",
+                    "content": "Segui questo breve video che ti mostra come fare il backup con Hekate:"
+                },
+                {
+                    "type": "youtube",
+                    "videoId": "UbZXNBJ7XJ0",
+                    "title": "Tutorial Backup NAND Nintendo Switch",
+                    "caption": "Tutorial ufficiale — ~3 minuti"
+                },
+                {
+                    "type": "infobox",
+                    "variant": "warning",
+                    "title": "⚠️ NON seguire la parte finale su Goldleaf!",
+                    "titleIcon": "bi-exclamation-triangle-fill",
+                    "content": "Fermati subito dopo il completamento del backup NAND e segui le istruzioni qui sotto."
+                }
+            ]
+        },
+        {
+            "id": "post-backup",
+            "title": "Dopo il Backup",
+            "icon": "bi-gear-fill",
+            "blocks": [
+                {
+                    "type": "step",
+                    "number": 1,
+                    "title": "Spegni la console",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Da Hekate → <strong>Power Off</strong>"
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 2,
+                    "title": "Rimuovi la microSD",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Apri il kickstand (supporto posteriore) e rimuovi delicatamente la SD."
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 3,
+                    "title": "Inserisci la SD nel PC",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Troverai una cartella <code>backup/[data]</code> con questi file:"
+                        },
+                        {
+                            "type": "file-tree",
+                            "title": "Contenuto cartella backup",
+                            "items": [
+                                {
+                                    "name": "backup",
+                                    "type": "folder",
+                                    "depth": 0
+                                },
+                                {
+                                    "name": "[data]",
+                                    "type": "folder",
+                                    "depth": 1,
+                                    "last": true
+                                },
+                                {
+                                    "name": "BOOT0",
+                                    "depth": 2,
+                                    "highlight": true,
+                                    "comment": "~4 MB"
+                                },
+                                {
+                                    "name": "BOOT1",
+                                    "depth": 2,
+                                    "highlight": true,
+                                    "comment": "~4 MB"
+                                },
+                                {
+                                    "name": "rawnand.bin",
+                                    "depth": 2,
+                                    "highlight": true,
+                                    "last": true,
+                                    "comment": "~30 GB (o diviso in .00, .01, .02...)"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 4,
+                    "title": "Copia TUTTA la cartella sul PC",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Copia l'intera cartella con la data in un posto sicuro sul PC. <strong>NON copiare solo rawnand.bin</strong> — serve TUTTA la cartella!"
+                        },
+                        {
+                            "type": "infobox",
+                            "variant": "info",
+                            "title": "Dove salvarlo:",
+                            "titleIcon": "bi-lightbulb-fill",
+                            "contentList": [
+                                "✅ Hard disk PC (es: <code>C:\\Backup Switch\\</code>)",
+                                "✅ Hard disk esterno (backup secondario)",
+                                "✅ Cloud (Google Drive, OneDrive) — opzionale"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 5,
+                    "title": "Elimina il backup dalla SD",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "<strong>SOLO DOPO</strong> aver verificato che il backup è sul PC (verifica dimensione ~30-32GB), elimina la cartella <code>backup</code> dalla microSD per liberare spazio."
+                        },
+                        {
+                            "type": "infobox",
+                            "variant": "warning",
+                            "titleIcon": "bi-lightbulb-fill",
+                            "content": "Il backup occupa ~32GB che ti servono per giochi. Tenerlo sulla SD non è sicuro!"
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 6,
+                    "title": "Reinserisci la SD nella Switch",
+                    "blocks": [
+                        {
+                            "type": "infobox",
+                            "variant": "success",
+                            "titleIcon": "bi-check-circle-fill",
+                            "content": "Console spenta → Inserisci SD → Pronta per la Sezione 7!"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "conservazione",
+            "title": "Regole d'Oro",
+            "icon": "bi-shield-fill-exclamation",
+            "blocks": [
+                {
+                    "type": "two-columns",
+                    "columns": [
+                        {
+                            "title": "🔒 NON condividere MAI",
+                            "icon": "bi-lock-fill",
+                            "color": "#f87171",
+                            "borderColor": "rgba(248,113,113,0.3)",
+                            "items": [
+                                "Contiene chiavi univoche della tua console!",
+                                "Se qualcuno lo ottiene, può clonare la tua Switch"
+                            ]
+                        },
+                        {
+                            "title": "💾 NON cancellare MAI",
+                            "icon": "bi-x-circle-fill",
+                            "color": "#f87171",
+                            "borderColor": "rgba(248,113,113,0.3)",
+                            "items": [
+                                "Conservalo per sempre, anche se vendi la Switch!",
+                                "Non sai quando potresti averne bisogno"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "two-columns",
+                    "columns": [
+                        {
+                            "title": "☁️ Fai backup multipli",
+                            "icon": "bi-cloud-fill",
+                            "color": "#fb923c",
+                            "borderColor": "rgba(251,146,60,0.3)",
+                            "items": [
+                                "PC + Esterno + Cloud = Sicurezza massima",
+                                "Almeno 2 copie in luoghi diversi"
+                            ]
+                        },
+                        {
+                            "title": "📁 NON modificare",
+                            "icon": "bi-slash-circle-fill",
+                            "color": "#fb923c",
+                            "borderColor": "rgba(251,146,60,0.3)",
+                            "items": [
+                                "Non rinominare i file",
+                                "Non comprimere, lascia così come sono!"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "troubleshooting",
+            "title": "Problemi Comuni",
+            "icon": "bi-tools",
+            "blocks": [
+                {
+                    "type": "brick-list",
+                    "title": "Problemi e Soluzioni",
+                    "items": [
+                        {
+                            "title": "Il backup impiega troppo tempo",
+                            "desc": "Tempi normali: SD veloce (UHS-I U3) → 10-15 min. SD normale → 20-30 min. Se si blocca completamente: tieni premuto POWER 12 sec, riavvia e riprova."
+                        },
+                        {
+                            "title": "Errore \"Not enough space\"",
+                            "desc": "Servono ~32GB liberi sulla SD. Elimina file temporanei o usa una SD più grande (min 64GB)."
+                        },
+                        {
+                            "title": "rawnand.bin diviso in .00, .01, .02",
+                            "desc": "È NORMALE! FAT32 non supporta file oltre 4GB. Hekate divide automaticamente. Copia TUTTI i file (.00, .01, .02, ecc.) — formano insieme il backup completo."
+                        }
+                    ]
+                },
+                {
+                    "type": "infobox",
+                    "variant": "info",
+                    "title": "Serve aiuto?",
+                    "titleIcon": "bi-telegram",
+                    "content": "Contattaci su Telegram!",
+                    "cta": {
+                        "label": "Gruppo Telegram",
+                        "href": "https://t.me/NintendoROMsGruppo",
+                        "icon": "bi-telegram"
+                    }
+                }
+            ]
+        }
+    ],
+    "navigation": {
+        "prev": {
+            "label": "Sezione 5 — Partizionamento SD",
+            "href": "/guide/switch/sw-5"
+        },
+        "next": {
+            "label": "Sezione 7 — Avvio Atmosphere",
+            "href": "/guide/switch/sw-7"
+        }
+    }
+}
