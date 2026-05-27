@@ -1,0 +1,438 @@
+{
+    "id": "wii-str2hax-hbc-bootmii",
+    "title": "Installazione Homebrew Channel e BootMii",
+    "subtitle": "Installa gli strumenti fondamentali per la tua Wii modificata",
+    "icon": "bi-gear-fill",
+    "meta": {
+        "tempo": "~10 minuti",
+        "difficolta": "Facile",
+        "tipo": "HBC + BootMii"
+    },
+    "breadcrumb": [
+        {
+            "label": "Home",
+            "href": "/",
+            "icon": "bi-house-fill"
+        },
+        {
+            "label": "Guide",
+            "href": "/guide"
+        },
+        {
+            "label": "Wii",
+            "href": "/guide/wii"
+        },
+        {
+            "label": "str2hax",
+            "href": "/guide/wii/str2hax"
+        },
+        {
+            "label": "HBC & BootMii"
+        }
+    ],
+    "toc": [
+        {
+            "id": "dettagli-tecnici",
+            "label": "Dettagli Tecnici (Opzionale)"
+        },
+        {
+            "id": "istruzioni",
+            "label": "Istruzioni di Installazione"
+        },
+        {
+            "id": "lettura-richiesta",
+            "label": "Struttura Cartelle SD/USB"
+        },
+        {
+            "id": "prossimi-passi",
+            "label": "Prossimi Passi"
+        }
+    ],
+    "sections": [
+        {
+            "id": "dettagli-tecnici",
+            "title": "Dettagli Tecnici (Opzionale)",
+            "icon": "bi-info-circle-fill",
+            "blocks": [
+                {
+                    "type": "infobox",
+                    "variant": "info",
+                    "title": "Cos'è l'Homebrew Channel?",
+                    "titleIcon": "bi-hdd-fill",
+                    "content": "L'<strong>Homebrew Channel</strong> è il punto di accesso dove potrai avviare applicazioni homebrew. Si installa come un canale normale sul Menu Wii e ti permette di eseguire software non ufficiale."
+                },
+                {
+                    "type": "spec-box",
+                    "title": "Cos'è BootMii?",
+                    "titleIcon": "bi-shield-fill-check",
+                    "color": "#60a5fa",
+                    "borderColor": "rgba(96,165,250,0.3)",
+                    "items": [
+                        {
+                            "icon": "bi-1-circle-fill",
+                            "iconColor": "#60a5fa",
+                            "label": "Come boot2 (migliore, ma raro)",
+                            "desc": "Si installa direttamente nel bootloader Wii. Offre protezione da brick estesa, ma funziona <strong>solo su Wii prodotte prima del 2009</strong> con un boot1 vulnerabile."
+                        },
+                        {
+                            "icon": "bi-2-circle-fill",
+                            "iconColor": "#60a5fa",
+                            "label": "Come IOS (standard)",
+                            "desc": "Funziona sulla maggior parte delle Wii. Offre comunque buona protezione, soprattutto se combinato con <strong>Priiloader</strong> (che installeremo dopo)."
+                        }
+                    ]
+                },
+                {
+                    "type": "infobox",
+                    "variant": "warning",
+                    "title": "Quale installerò?",
+                    "titleIcon": "bi-lightbulb-fill",
+                    "content": "Nella maggior parte dei casi, installerai <strong>BootMii come IOS</strong>, che va benissimo fintanto che installi anche Priiloader (prossimo step). Se il tuo installer mostra l'opzione per boot2, assicurati di installarla!"
+                },
+                {
+                    "type": "infobox",
+                    "variant": "danger",
+                    "title": "Importante: SD Card Necessaria",
+                    "titleIcon": "bi-sd-card-fill",
+                    "content": "Se <strong>NON hai una scheda SD</strong>, non potrai installare né utilizzare BootMii, indipendentemente dal fatto che tu lo installi come IOS o boot2. Puoi sempre installare BootMii in un secondo momento quando avrai una SD card a disposizione."
+                }
+            ]
+        },
+        {
+            "id": "istruzioni",
+            "title": "Istruzioni di Installazione",
+            "icon": "bi-list-check",
+            "blocks": [
+                {
+                    "type": "infobox",
+                    "variant": "info",
+                    "titleIcon": "bi-info-circle-fill",
+                    "content": "<strong>Prerequisito:</strong> La tua console dovrebbe essere accesa e mostrare l'<strong>installer HackMii</strong> dalla parte precedente della guida."
+                },
+                {
+                    "type": "step",
+                    "number": 1,
+                    "title": "Schermata di avviso scam",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Vedrai una <strong>schermata di avviso contro le truffe</strong>."
+                        },
+                        {
+                            "type": "image",
+                            "src": "/assets/guide/wii/modifica/steps/hb-bootmii/screen_bootmii_1.webp",
+                            "alt": "HackMii Installer - Schermata avviso scam",
+                            "caption": "Schermata di avviso — attendi 30 secondi"
+                        },
+                        {
+                            "type": "infobox",
+                            "variant": "warning",
+                            "titleIcon": "bi-clock-fill",
+                            "content": "<strong>Attendi 30 secondi</strong> fino a quando appare il testo <strong>\"Press 1 to continue\"</strong>, quindi premi <strong>1</strong> sul Wiimote."
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 2,
+                    "title": "Seleziona Continue",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Premi il pulsante <strong>Continue</strong>."
+                        },
+                        {
+                            "type": "image",
+                            "src": "/assets/guide/wii/modifica/steps/hb-bootmii/screen_bootmii_2.webp",
+                            "alt": "HackMii Installer - Continue",
+                            "caption": "Seleziona \"Continue\""
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 3,
+                    "title": "Installa l'Homebrew Channel",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Seleziona <strong>Install the Homebrew Channel</strong>."
+                        },
+                        {
+                            "type": "image",
+                            "src": "/assets/guide/wii/modifica/steps/hb-bootmii/screen_bootmii_3.webp",
+                            "alt": "HackMii Installer - Install Homebrew Channel",
+                            "caption": "Clicca su \"Install the Homebrew Channel\""
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 4,
+                    "title": "Installazione completata",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Una volta completata l'installazione, seleziona <strong>Continue</strong>."
+                        },
+                        {
+                            "type": "image",
+                            "src": "/assets/guide/wii/modifica/steps/hb-bootmii/screen_bootmii_4.webp",
+                            "alt": "Homebrew Channel installato",
+                            "caption": "Installazione Homebrew Channel completata"
+                        },
+                        {
+                            "type": "infobox",
+                            "variant": "success",
+                            "titleIcon": "bi-check-circle-fill",
+                            "content": "L'Homebrew Channel è stato installato con successo!"
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 5,
+                    "title": "Seleziona BootMii",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Ora procediamo con l'installazione di BootMii. Seleziona <strong>BootMii...</strong>"
+                        },
+                        {
+                            "type": "image",
+                            "src": "/assets/guide/wii/modifica/steps/hb-bootmii/screen_bootmii_5.webp",
+                            "alt": "HackMii Installer - BootMii menu",
+                            "caption": "Seleziona \"BootMii...\""
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 6,
+                    "title": "Installa BootMii come IOS",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Seleziona <strong>Install BootMii as IOS</strong>."
+                        },
+                        {
+                            "type": "image",
+                            "src": "/assets/guide/wii/modifica/steps/hb-bootmii/screen_bootmii_6.webp",
+                            "alt": "BootMii - Install as IOS",
+                            "caption": "Seleziona \"Install BootMii as IOS\""
+                        },
+                        {
+                            "type": "image",
+                            "src": "/assets/guide/wii/modifica/steps/hb-bootmii/screen_bootmii_7.webp",
+                            "alt": "BootMii installazione - Yes continue 1",
+                            "caption": "Seleziona \"Yes, continue\""
+                        },
+                        {
+                            "type": "image",
+                            "src": "/assets/guide/wii/modifica/steps/hb-bootmii/screen_bootmii_8.webp",
+                            "alt": "BootMii installazione - Yes continue 2",
+                            "caption": "Seleziona \"Yes, continue\""
+                        },
+                        {
+                            "type": "image",
+                            "src": "/assets/guide/wii/modifica/steps/hb-bootmii/screen_bootmii_9.webp",
+                            "alt": "BootMii installazione completata",
+                            "caption": "Installazione BootMii completata"
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 7,
+                    "title": "Installazione completata — Continue",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Una volta completata l'installazione, seleziona <strong>Continue</strong>."
+                        },
+                        {
+                            "type": "infobox",
+                            "variant": "success",
+                            "titleIcon": "bi-check-circle-fill",
+                            "content": "BootMii è stato installato come IOS!"
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 8,
+                    "title": "Opzione boot2 (se disponibile)",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Se hai l'opzione per <strong>Install BootMii as boot2</strong>, installalo anche quello per una protezione massima."
+                        },
+                        {
+                            "type": "image",
+                            "src": "/assets/guide/wii/modifica/steps/hb-bootmii/screen_bootmii_10.webp",
+                            "alt": "BootMii - Opzione boot2",
+                            "caption": "Se disponibile, installa anche BootMii come boot2"
+                        },
+                        {
+                            "type": "infobox",
+                            "variant": "info",
+                            "titleIcon": "bi-info-circle-fill",
+                            "content": "<strong>Nota:</strong> La maggior parte delle Wii <strong>non avrà questa opzione</strong> — è normale! Prosegui tranquillamente con BootMii come IOS."
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 9,
+                    "title": "Esci dall'installer",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Seleziona <strong>Return to the main menu</strong>, quindi seleziona <strong>Exit</strong>."
+                        },
+                        {
+                            "type": "infobox",
+                            "variant": "success",
+                            "titleIcon": "bi-trophy-fill",
+                            "content": "La tua console si avvierà nell'<strong>Homebrew Channel</strong>!"
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 10,
+                    "title": "Homebrew Channel avviato!",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "La console è ora avviata nell'Homebrew Channel."
+                        },
+                        {
+                            "type": "image",
+                            "src": "/assets/guide/wii/modifica/steps/hb-bootmii/screen_hbchannel_empty.webp",
+                            "alt": "Homebrew Channel vuoto",
+                            "caption": "Homebrew Channel caricato (vuoto perché non ci sono app ancora)"
+                        },
+                        {
+                            "type": "infobox",
+                            "variant": "success",
+                            "title": "Installazione completata con successo!",
+                            "titleIcon": "bi-check-circle-fill",
+                            "content": "Ora puoi usare l'Homebrew Channel per avviare applicazioni homebrew, e BootMii per eseguire backup e ripristinare la NAND."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "lettura-richiesta",
+            "title": "Struttura Cartelle SD/USB",
+            "icon": "bi-folder-fill",
+            "blocks": [
+                {
+                    "type": "text",
+                    "content": "Quando installi applicazioni homebrew sulla tua <strong>scheda SD</strong> o <strong>chiavetta USB</strong>, la struttura delle cartelle deve essere organizzata in questo modo:"
+                },
+                {
+                    "type": "file-tree",
+                    "title": "Struttura SD / USB",
+                    "items": [
+                        {
+                            "name": "SD Card / USB Drive",
+                            "type": "drive",
+                            "depth": 0
+                        },
+                        {
+                            "name": "apps",
+                            "type": "folder",
+                            "depth": 1
+                        },
+                        {
+                            "name": "NomeApp1",
+                            "type": "folder",
+                            "depth": 2
+                        },
+                        {
+                            "name": "boot.dol",
+                            "depth": 3
+                        },
+                        {
+                            "name": "meta.xml",
+                            "depth": 3
+                        },
+                        {
+                            "name": "icon.png",
+                            "depth": 3,
+                            "last": true
+                        },
+                        {
+                            "name": "NomeApp2",
+                            "type": "folder",
+                            "depth": 2,
+                            "last": true
+                        },
+                        {
+                            "name": "boot.dol",
+                            "depth": 3
+                        },
+                        {
+                            "name": "meta.xml",
+                            "depth": 3
+                        },
+                        {
+                            "name": "icon.png",
+                            "depth": 3,
+                            "last": true
+                        }
+                    ]
+                },
+                {
+                    "type": "infobox",
+                    "variant": "warning",
+                    "title": "Importante:",
+                    "titleIcon": "bi-exclamation-triangle-fill",
+                    "contentList": [
+                        "<code>NomeApp1</code> e <code>NomeApp2</code> sono nomi di esempio — sostituiscili con i nomi reali delle app",
+                        "<strong>NON annidare</strong> più cartelle <code>apps</code> dentro la cartella <code>apps</code> stessa",
+                        "Ogni applicazione deve avere la sua <strong>cartella separata</strong> dentro <code>apps</code>"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "prossimi-passi",
+            "title": "Prossimi Passi",
+            "icon": "bi-arrow-right-circle-fill",
+            "blocks": [
+                {
+                    "type": "infobox",
+                    "variant": "info",
+                    "title": "Suggerimento — BootMii come boot2",
+                    "titleIcon": "bi-lightbulb-fill",
+                    "content": "Se una Wii ha BootMii installato come <strong>boot2</strong>, il lettore disco lampeggerà molto brevemente dopo il lampeggio immediato che si verifica quando premi il pulsante POWER."
+                },
+                {
+                    "type": "cta-box",
+                    "icon": "bi-floppy-fill",
+                    "title": "Backup NAND con BootMii",
+                    "content": "Creare un backup NAND a questo punto è altamente raccomandato, poiché può essere utilizzato per recuperare la console da brick.",
+                    "button": {
+                        "label": "Continua a Creare Backup NAND",
+                        "href": "/guide/wii/str2hax/bootmii-backup",
+                        "icon": "bi-arrow-right-circle-fill"
+                    }
+                }
+            ]
+        }
+    ],
+    "navigation": {
+        "prev": {
+            "label": "str2hax",
+            "href": "/guide/wii/str2hax"
+        },
+        "next": {
+            "label": "Backup NAND",
+            "href": "/guide/wii/str2hax/bootmii-backup"
+        }
+    }
+}
