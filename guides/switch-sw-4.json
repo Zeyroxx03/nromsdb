@@ -1,0 +1,542 @@
+{
+    "id": "switch-sw-4",
+    "title": "Sezione 4 — Inizializzazione RCM",
+    "subtitle": "Avviamo la console in Recovery Mode e iniettiamo Hekate",
+    "icon": "bi-lightning-charge-fill",
+    "meta": {
+        "tempo": "15-20 minuti",
+        "difficolta": "Media",
+        "tipo": "Console NON Patchata"
+    },
+    "breadcrumb": [
+        { "label": "Home", "href": "/", "icon": "bi-house-fill" },
+        { "label": "Guide", "href": "/guide" },
+        { "label": "Nintendo Switch", "href": "/guide/switch" },
+        { "label": "Requisiti", "href": "/guide/switch/requisiti" },
+        { "label": "Sezione 4" }
+    ],
+    "toc": [
+        { "id": "introduzione", "label": "Introduzione" },
+        { "id": "requisiti", "label": "Requisiti Necessari" },
+        { "id": "parte-1", "label": "Parte 1 — Configurazione TegraRCMGui" },
+        { "id": "parte-2", "label": "Parte 2 — Inserimento RCM Jig" },
+        { "id": "avvio-rcm", "label": "Avvio Modalità RCM" },
+        { "id": "inject-payload", "label": "Iniezione Payload Hekate" },
+        { "id": "troubleshooting", "label": "Risoluzione Problemi" }
+    ],
+    "sections": [
+        {
+            "id": "introduzione",
+            "title": "Introduzione",
+            "icon": "bi-info-circle-fill",
+            "blocks": [
+                {
+                    "type": "infobox",
+                    "variant": "warning",
+                    "title": "⚠️ ATTENZIONE — Console con Modchip",
+                    "titleIcon": "bi-cpu-fill",
+                    "content": "<strong>Questa sezione NON è per te</strong> se hai una console con modchip installato! Se hai un modchip (SX Core, Picofly, ecc.), ti basterà semplicemente <strong>accendere la console normalmente</strong> e il CFW si avvierà automaticamente. Vai alla <a href=\"/guide/switch/sw-5\" data-route>Sezione 5 — Partizionamento</a>."
+                },
+                {
+                    "type": "text",
+                    "content": "Grazie a una <strong>funzionalità ufficiale di Nintendo</strong> saremo in grado di entrare in modalità <strong>RCM (Recovery Mode)</strong>, che ci permetterà di avviare la modifica ogni volta che vogliamo."
+                },
+                {
+                    "type": "infobox",
+                    "variant": "info",
+                    "title": "Cos'è la modalità RCM?",
+                    "titleIcon": "bi-lightbulb-fill",
+                    "content": "RCM (Recovery Mode) è una modalità di debug ufficiale di Nintendo, presente in tutte le Switch non patched. Sfruttando un exploit chiamato <strong>Fusée Gelée</strong>, possiamo usare questa modalità per iniettare payload personalizzati (come Hekate) che avviano il Custom Firmware."
+                }
+            ]
+        },
+        {
+            "id": "requisiti",
+            "title": "Requisiti Necessari",
+            "icon": "bi-clipboard-check-fill",
+            "blocks": [
+                {
+                    "type": "two-columns",
+                    "columns": [
+                        {
+                            "title": "Requisiti Hardware",
+                            "icon": "bi-tools",
+                            "color": "#4ade80",
+                            "borderColor": "rgba(74,222,128,0.3)",
+                            "items": [
+                                "Nintendo Switch NON patchata",
+                                "MicroSD Card (min 64GB, consigliata 128GB+)",
+                                "Cavo USB-C (va bene anche quello del telefono)",
+                                "RCM Jig (necessario per entrare in RCM)"
+                            ]
+                        },
+                        {
+                            "title": "Requisiti Software",
+                            "icon": "bi-pc-display",
+                            "color": "#60a5fa",
+                            "borderColor": "rgba(96,165,250,0.3)",
+                            "items": [
+                                "Computer Windows 10/11 (64-bit)",
+                                "Connessione Internet (per scaricare TegraRCMGui)",
+                                "TegraRCMGui (tool per iniettare payload)",
+                                "Payload Hekate (già incluso nel Pack 22.1.0)"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "infobox",
+                    "variant": "warning",
+                    "title": "RCM Jig — Strumento Essenziale",
+                    "titleIcon": "bi-tools",
+                    "content": "È possibile creare un RCM Jig fatto in casa, ma <strong>NON lo consigliamo</strong>! Un jig fatto male può <strong>bruciare la console</strong> se inserito scorrettamente. Meglio spendere €8-10 per uno professionale e sicuro. Cerca \"RCM Jig Nintendo Switch\" su Amazon."
+                },
+                {
+                    "type": "download-list",
+                    "title": "Download TegraRCMGui",
+                    "titleIcon": "bi-download",
+                    "items": [
+                        {
+                            "icon": "bi-github",
+                            "iconColor": "#60a5fa",
+                            "label": "TegraRCMGui v2.6",
+                            "desc": "Tool per Windows per iniettare payload sulla Switch via USB — ~5 MB",
+                            "href": "https://github.com/eliboa/TegraRcmGUI/releases"
+                        }
+                    ]
+                },
+                {
+                    "type": "infobox",
+                    "variant": "info",
+                    "titleIcon": "bi-info-circle-fill",
+                    "content": "Scarica <strong>\"TegraRcmGUI_v2.6_Installer.msi\"</strong> dalla pagina Latest Release."
+                }
+            ]
+        },
+        {
+            "id": "parte-1",
+            "title": "Parte 1 — Configurazione TegraRCMGui",
+            "icon": "bi-gear-fill",
+            "blocks": [
+                {
+                    "type": "step",
+                    "number": 1,
+                    "title": "Installa TegraRCMGui",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Dopo aver scaricato il file <code>TegraRcmGUI_v2.6_Installer.msi</code>, fai doppio clic per avviare l'installazione."
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                { "icon": "bi-arrow-right-circle-fill", "iconColor": "#60a5fa", "html": "Segui la procedura guidata (Next → Next → Install)" },
+                                { "icon": "bi-arrow-right-circle-fill", "iconColor": "#60a5fa", "html": "Se appare un avviso di Windows Defender, clicca su \"Esegui comunque\"" },
+                                { "icon": "bi-arrow-right-circle-fill", "iconColor": "#60a5fa", "html": "Al termine dell'installazione, avvia TegraRCMGui" }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 2,
+                    "title": "Interfaccia TegraRCMGui",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Una volta aperto, vedrai la schermata principale di TegraRCMGui."
+                        },
+                        {
+                            "type": "image",
+                            "src": "/assets/guide/switch/modifica/sezione4/primo.webp",
+                            "alt": "Schermata home TegraRCMGui",
+                            "caption": "Interfaccia principale di TegraRCMGui"
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 3,
+                    "title": "Installa i driver Tegra",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "<strong>Questo è un passaggio fondamentale!</strong> Senza i driver corretti, il PC non riconoscerà la Switch in modalità RCM."
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                { "icon": "bi-1-circle-fill", "iconColor": "#4ade80", "html": "Clicca sulla tab <strong>\"Settings\"</strong> in alto" },
+                                { "icon": "bi-2-circle-fill", "iconColor": "#4ade80", "html": "Clicca sul pulsante <strong>\"Install Driver\"</strong>" },
+                                { "icon": "bi-3-circle-fill", "iconColor": "#4ade80", "html": "Clicca <strong>\"Install\"</strong> nella finestra che appare" },
+                                { "icon": "bi-4-circle-fill", "iconColor": "#4ade80", "html": "Attendi il completamento dell'installazione" }
+                            ]
+                        },
+                        {
+                            "type": "image",
+                            "src": "/assets/guide/switch/modifica/sezione4/secondo.webp",
+                            "alt": "Installazione driver TegraRCM",
+                            "caption": "Clicca su \"Install Driver\" per installare i driver Tegra"
+                        },
+                        {
+                            "type": "infobox",
+                            "variant": "success",
+                            "titleIcon": "bi-check-circle-fill",
+                            "content": "Quando vedi il messaggio \"Driver installed successfully\", i driver sono pronti!"
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 4,
+                    "title": "Seleziona il Payload Hekate",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Ora dobbiamo dire a TegraRCMGui quale payload iniettare nella console."
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                { "icon": "bi-1-circle-fill", "iconColor": "#4ade80", "html": "Torna alla tab <strong>\"Payload\"</strong> (in alto a sinistra)" },
+                                { "icon": "bi-2-circle-fill", "iconColor": "#4ade80", "html": "Clicca sull'icona <strong>📁 (cartella)</strong> accanto al campo payload" },
+                                { "icon": "bi-3-circle-fill", "iconColor": "#4ade80", "html": "Naviga fino alla cartella del <strong>Pack 22.1.0</strong> estratto" },
+                                { "icon": "bi-4-circle-fill", "iconColor": "#4ade80", "html": "Apri la cartella <code>📁 Vari payloads (PC)</code>" },
+                                { "icon": "bi-5-circle-fill", "iconColor": "#4ade80", "html": "Seleziona il file <strong>hekate_ctcaer_6.3.1.bin</strong> (o versione più recente)" }
+                            ]
+                        },
+                        {
+                            "type": "image",
+                            "src": "/assets/guide/switch/modifica/sezione4/quarto.webp",
+                            "alt": "Selezione payload Hekate",
+                            "caption": "Seleziona il file payload dalla cartella del Pack"
+                        },
+                        {
+                            "type": "image",
+                            "src": "/assets/guide/switch/modifica/sezione4/terzo.webp",
+                            "alt": "Payload Hekate selezionato",
+                            "caption": "La versione più aggiornata è la 6.3.1 (sempre presente nel pack)"
+                        },
+                        {
+                            "type": "infobox",
+                            "variant": "success",
+                            "titleIcon": "bi-lightbulb-fill",
+                            "content": "<strong>Consiglio:</strong> Il payload rimarrà salvato in TegraRCMGui, quindi non dovrai riselezionarlo ogni volta!"
+                        }
+                    ]
+                },
+                {
+                    "type": "infobox",
+                    "variant": "success",
+                    "title": "Configurazione PC completata!",
+                    "titleIcon": "bi-check-circle-fill",
+                    "content": "TegraRCMGui è ora pronto all'uso. Lascialo aperto e passiamo alla console."
+                }
+            ]
+        },
+        {
+            "id": "parte-2",
+            "title": "Parte 2 — Inserimento RCM Jig",
+            "icon": "bi-controller",
+            "blocks": [
+                {
+                    "type": "infobox",
+                    "variant": "error",
+                    "title": "⚠️ ATTENZIONE — Maneggia con cura!",
+                    "titleIcon": "bi-exclamation-octagon-fill",
+                    "content": "Il RCM Jig va inserito <strong>delicatamente</strong> nel rail del Joy-Con destro. Non forzare mai l'inserimento! Se hai dubbi, chiedi assistenza sul gruppo Telegram."
+                },
+                {
+                    "type": "step",
+                    "number": 1,
+                    "title": "Spegni completamente la Switch",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "<strong>NON mettere in modalità riposo!</strong> Devi spegnerla completamente:"
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                { "icon": "bi-1-circle-fill", "iconColor": "#f87171", "html": "Tieni premuto il pulsante <strong>Power</strong> per 3 secondi" },
+                                { "icon": "bi-2-circle-fill", "iconColor": "#f87171", "html": "Tocca <strong>\"Opzioni di spegnimento\"</strong>" },
+                                { "icon": "bi-3-circle-fill", "iconColor": "#f87171", "html": "Tocca <strong>\"Spegni\"</strong>" },
+                                { "icon": "bi-4-circle-fill", "iconColor": "#f87171", "html": "Attendi che lo schermo si spenga completamente" }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 2,
+                    "title": "Rimuovi il Joy-Con destro",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Premi il pulsante di rilascio sul retro del Joy-Con destro e sfilalo delicatamente verso l'alto."
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 3,
+                    "title": "Inserisci il RCM Jig",
+                    "blocks": [
+                        {
+                            "type": "image",
+                            "src": "/assets/guide/switch/modifica/sezione4/quinto.webp",
+                            "alt": "Guida inserimento RCM Jig",
+                            "caption": "Posizionamento corretto del RCM Jig nel rail Joy-Con"
+                        },
+                        {
+                            "type": "spec-box",
+                            "title": "Procedura corretta:",
+                            "titleIcon": "bi-list-ol",
+                            "color": "#fb923c",
+                            "borderColor": "rgba(251,146,60,0.3)",
+                            "items": [
+                                { "icon": "bi-1-circle-fill", "iconColor": "#fb923c", "label": "Orientamento", "desc": "Tieni il RCM Jig con i pin metallici rivolti verso il basso" },
+                                { "icon": "bi-2-circle-fill", "iconColor": "#fb923c", "label": "Inserimento", "desc": "Inseriscilo delicatamente nel rail del Joy-Con DESTRO (non sinistro!)" },
+                                { "icon": "bi-3-circle-fill", "iconColor": "#fb923c", "label": "Scorrimento", "desc": "Deve scorrere facilmente — NON forzare!" },
+                                { "icon": "bi-4-circle-fill", "iconColor": "#fb923c", "label": "Posizione finale", "desc": "Spingi fino in fondo, come se fosse un Joy-Con normale. I pin devono toccare i contatti metallici interni." }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "avvio-rcm",
+            "title": "Avvio Modalità RCM",
+            "icon": "bi-power",
+            "blocks": [
+                {
+                    "type": "step",
+                    "number": 1,
+                    "title": "Esegui la combinazione di tasti",
+                    "blocks": [
+                        {
+                            "type": "image",
+                            "src": "/assets/guide/switch/modifica/sezione4/sesto.webp",
+                            "alt": "Combinazione tasti per RCM",
+                            "caption": "Posizione dei tasti Volume+ e Power"
+                        },
+                        {
+                            "type": "controls-box",
+                            "title": "Combinazione RCM:",
+                            "titleIcon": "bi-keyboard-fill",
+                            "controls": [
+                                { "key": "Volume +", "action": "Tieni premuto (quello in alto)" },
+                                { "key": "Power", "action": "Premi UNA volta (mentre tieni Volume+)" },
+                                { "key": "Entrambi", "action": "Rilascia tutto contemporaneamente" }
+                            ]
+                        },
+                        {
+                            "type": "infobox",
+                            "variant": "info",
+                            "titleIcon": "bi-info-circle-fill",
+                            "contentList": [
+                                "La sequenza: <strong>Volume+ (tieni) → Power (premi 1 volta) → Rilascia tutto</strong>",
+                                "<strong>NON</strong> tenere premuto Power troppo a lungo",
+                                "Se si accende normalmente, hai sbagliato — riprova!"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 2,
+                    "title": "Verifica modalità RCM",
+                    "blocks": [
+                        {
+                            "type": "infobox",
+                            "variant": "success",
+                            "title": "Sei in modalità RCM se:",
+                            "titleIcon": "bi-check-circle-fill",
+                            "contentList": [
+                                "✅ Lo schermo rimane <strong>completamente nero</strong>",
+                                "✅ Non appare il logo Nintendo",
+                                "✅ Non si sente alcun suono",
+                                "✅ La console sembra spenta, ma è in RCM"
+                            ]
+                        },
+                        {
+                            "type": "infobox",
+                            "variant": "info",
+                            "titleIcon": "bi-question-circle-fill",
+                            "content": "<strong>È normale che lo schermo sia nero?</strong> Assolutamente sì! La modalità RCM non mostra nulla sullo schermo. È tutto normale."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "inject-payload",
+            "title": "Iniezione Payload Hekate",
+            "icon": "bi-send-fill",
+            "blocks": [
+                {
+                    "type": "step",
+                    "number": 1,
+                    "title": "Collega la Switch al PC",
+                    "blocks": [
+                        {
+                            "type": "list",
+                            "items": [
+                                { "icon": "bi-arrow-right-circle-fill", "iconColor": "#60a5fa", "html": "<strong>Un'estremità</strong> alla porta USB-C della <strong>Switch</strong> (in basso)" },
+                                { "icon": "bi-arrow-right-circle-fill", "iconColor": "#60a5fa", "html": "<strong>L'altra estremità</strong> a una porta USB del <strong>PC</strong> (preferibilmente USB 3.0 — blu)" }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 2,
+                    "title": "Verifica riconoscimento in TegraRCMGui",
+                    "blocks": [
+                        {
+                            "type": "image",
+                            "src": "/assets/guide/switch/modifica/sezione4/settimo.webp",
+                            "alt": "TegraRCMGui con Switch connessa",
+                            "caption": "TegraRCMGui rileva la Switch in modalità RCM (sfondo verde)"
+                        },
+                        {
+                            "type": "infobox",
+                            "variant": "success",
+                            "title": "Segnali di successo:",
+                            "titleIcon": "bi-check-circle-fill",
+                            "contentList": [
+                                "✅ Lo sfondo di TegraRCMGui diventa <strong>VERDE</strong>",
+                                "✅ Appare il testo \"RCM OK\" o \"Device detected\""
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 3,
+                    "title": "Inietta il payload Hekate",
+                    "blocks": [
+                        {
+                            "type": "list",
+                            "items": [
+                                { "icon": "bi-1-circle-fill", "iconColor": "#4ade80", "html": "Verifica che il payload selezionato sia <strong>hekate_ctcaer_6.3.1.bin</strong>" },
+                                { "icon": "bi-2-circle-fill", "iconColor": "#4ade80", "html": "Clicca sul pulsante <strong>\"Inject payload\"</strong>" },
+                                { "icon": "bi-3-circle-fill", "iconColor": "#4ade80", "html": "Attendi qualche secondo..." }
+                            ]
+                        },
+                        {
+                            "type": "image",
+                            "src": "/assets/guide/switch/modifica/sezione4/ottavo.webp",
+                            "alt": "Pulsante Inject Payload evidenziato",
+                            "caption": "Clicca su \"Inject payload\" per avviare l'iniezione"
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 4,
+                    "title": "Hekate si avvia sulla Switch!",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Dopo pochi secondi, lo schermo della Switch si accenderà mostrando il menu di Hekate:"
+                        },
+                        {
+                            "type": "image",
+                            "src": "/assets/guide/switch/modifica/sezione4/nono.webp",
+                            "alt": "Menu principale di Hekate",
+                            "caption": "Menu principale di Hekate — CFW avviato con successo!"
+                        },
+                        {
+                            "type": "infobox",
+                            "variant": "success",
+                            "title": "Congratulazioni! Sei in Hekate!",
+                            "titleIcon": "bi-trophy-fill",
+                            "content": "Se Hekate ti chiede di impostare data e ora, <strong>fallo subito</strong> (è importante per il corretto funzionamento del CFW)."
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 5,
+                    "title": "Rimuovi Jig e cavo USB",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Ora puoi <strong>rimuovere il RCM Jig</strong> dal rail Joy-Con e <strong>scollegare il cavo USB-C</strong>. Per ora non ti servono più (li userai ogni volta che vorrai avviare il CFW)."
+                        },
+                        {
+                            "type": "infobox",
+                            "variant": "warning",
+                            "titleIcon": "bi-lightbulb-fill",
+                            "content": "<strong>Conserva il RCM Jig in un posto sicuro!</strong>"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "troubleshooting",
+            "title": "Risoluzione Problemi",
+            "icon": "bi-tools",
+            "blocks": [
+                {
+                    "type": "brick-list",
+                    "title": "Problemi Comuni",
+                    "items": [
+                        {
+                            "title": "TegraRCMGui non rileva la Switch (sfondo rosso)",
+                            "desc": "Driver Tegra non installati, console non in RCM, cavo USB-C difettoso o solo per ricarica, porta USB non funzionante. Soluzione: reinstalla driver (Settings → Install Driver), riprova la combinazione Volume+ e Power, usa un altro cavo o un'altra porta USB (preferisci USB 3.0)."
+                        },
+                        {
+                            "title": "La Switch si accende normalmente invece di entrare in RCM",
+                            "desc": "Combinazione di tasti eseguita male o RCM Jig non inserito correttamente. Spegni completamente, verifica che il Jig sia inserito a fondo nel rail DESTRO, e riprova: Tieni Volume+ → Premi Power 1 volta → Rilascia tutto. Lo schermo deve rimanere nero!"
+                        },
+                        {
+                            "title": "Errore \"Failed to inject payload\" in TegraRCMGui",
+                            "desc": "Payload corrotto, connessione USB instabile o antivirus che blocca TegraRCMGui. Soluzione: riscarica il Pack 22.1.0, usa un'altra porta USB, disattiva temporaneamente l'antivirus o esegui TegraRCMGui come amministratore."
+                        },
+                        {
+                            "title": "Hekate non si avvia / schermo nero dopo inject",
+                            "desc": "File sulla SD corrotti o mancanti, SD non formattata correttamente. Verifica che la SD contenga atmosphere, bootloader, switch (Sezione 3) e che sia in FAT32 (Sezione 2). Tieni premuto Power per 12 secondi per forzare lo spegnimento e riprova."
+                        },
+                        {
+                            "title": "Il RCM Jig non entra o è troppo forzato",
+                            "desc": "Non forzare mai il jig! Verifica di inserirlo nel rail DESTRO (non sinistro), orientato correttamente (pin verso il basso). Pulisci delicatamente i contatti del rail con un panno asciutto."
+                        }
+                    ]
+                },
+                {
+                    "type": "infobox",
+                    "variant": "info",
+                    "title": "Problemi non risolti?",
+                    "titleIcon": "bi-telegram",
+                    "content": "Il nostro team è disponibile su Telegram per aiutarti in tempo reale!",
+                    "cta": {
+                        "label": "Chiedi supporto su Telegram",
+                        "href": "https://t.me/NintendoROMsGruppo",
+                        "icon": "bi-telegram"
+                    }
+                },
+                {
+                    "type": "infobox",
+                    "variant": "info",
+                    "title": "Nota importante per il futuro:",
+                    "titleIcon": "bi-lightbulb-fill",
+                    "content": "Ogni volta che vorrai avviare il CFW su questa console, dovrai <strong>ripetere questa procedura</strong>: inserire il jig, entrare in RCM, collegare al PC e iniettare il payload. È normale e fa parte del funzionamento delle Switch non patched!"
+                }
+            ]
+        }
+    ],
+    "navigation": {
+        "prev": {
+            "label": "Sezione 3 — Preparazione SD",
+            "href": "/guide/switch/sw-3"
+        },
+        "next": {
+            "label": "Sezione 5 — Partizionamento",
+            "href": "/guide/switch/sw-5"
+        }
+    }
+}

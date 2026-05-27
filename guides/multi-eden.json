@@ -1,0 +1,631 @@
+{
+    "id": "multi-eden",
+    "title": "Emulatore Switch - Eden",
+    "subtitle": "Installazione e configurazione completa per PC",
+    "icon": "bi-display",
+    "meta": {
+        "tempo": "15-20 minuti",
+        "difficolta": "Media",
+        "tipo": "TOP"
+    },
+    "breadcrumb": [
+        {
+            "label": "Home",
+            "href": "/",
+            "icon": "bi-house-fill"
+        },
+        {
+            "label": "Guide",
+            "href": "/guide"
+        },
+        {
+            "label": "Multi-Platform",
+            "href": "/guide/multi"
+        },
+        {
+            "label": "Emulatore Eden"
+        }
+    ],
+    "toc": [
+        {
+            "id": "introduzione",
+            "label": "Introduzione"
+        },
+        {
+            "id": "requisiti",
+            "label": "Requisiti e Download"
+        },
+        {
+            "id": "sezione-1",
+            "label": "Sezione 1 - Installazione Eden"
+        },
+        {
+            "id": "sezione-2",
+            "label": "Sezione 2 - Cambio Lingua"
+        },
+        {
+            "id": "sezione-3",
+            "label": "Sezione 3 - Installazione Update/DLC"
+        },
+        {
+            "id": "conclusione",
+            "label": "Conclusione"
+        }
+    ],
+    "sections": [
+        {
+            "id": "introduzione",
+            "title": "Introduzione",
+            "icon": "bi-info-circle-fill",
+            "blocks": [
+                {
+                    "type": "text",
+                    "content": "<strong>Vi do il benvenuto!</strong> In questa guida completa, vedremo come <strong>installare e giocare ai titoli Nintendo Switch</strong> sull'emulatore <strong>Eden</strong> (gratuitamente) su PC Windows o Linux."
+                },
+                {
+                    "type": "infobox",
+                    "variant": "info",
+                    "title": "Cos'è Eden?",
+                    "titleIcon": "bi-lightbulb-fill",
+                    "content": "<strong>Eden</strong> è un emulatore Nintendo Switch open-source basato su <strong>Yuzu</strong> (ex emulatore più popolare). Permette di giocare a titoli Switch su PC con prestazioni eccellenti, supporto per risoluzione 4K, mod grafiche e molto altro. È completamente <strong>gratuito</strong> e viene aggiornato regolarmente dalla community."
+                }
+            ]
+        },
+        {
+            "id": "requisiti",
+            "title": "Requisiti e Download",
+            "icon": "bi-download",
+            "blocks": [
+                {
+                    "type": "infobox",
+                    "variant": "warning",
+                    "title": "Requisiti di sistema:",
+                    "titleIcon": "bi-exclamation-triangle-fill",
+                    "contentList": [
+                        "<strong>Sistema Operativo:</strong> Windows 10/11 (64-bit) o Linux (Ubuntu, Fedora, Arch)",
+                        "<strong>CPU:</strong> Intel Core i5-8400 / AMD Ryzen 5 2600 o superiore",
+                        "<strong>GPU:</strong> NVIDIA GTX 1060 / AMD RX 580 o superiore (con driver aggiornati)",
+                        "<strong>RAM:</strong> 8GB minimo, 16GB consigliati",
+                        "<strong>Spazio:</strong> 2GB per l'emulatore + spazio per giochi (5-20GB per gioco)"
+                    ]
+                },
+                {
+                    "type": "download-list",
+                    "title": "File da Scaricare",
+                    "titleIcon": "bi-folder-fill",
+                    "items": [
+                        {
+                            "icon": "bi-windows",
+                            "iconColor": "#60a5fa",
+                            "label": "Eden (versione Windows)",
+                            "desc": "Emulatore per Windows 10/11",
+                            "href": "https://git.eden-emu.dev/eden-emu/eden/releases/tag/v0.2.0-rc1"
+                        },
+                        {
+                            "icon": "bi-ubuntu",
+                            "iconColor": "#fb923c",
+                            "label": "Eden (versione Linux)",
+                            "desc": "Emulatore per Ubuntu/Fedora/Arch",
+                            "href": "https://git.eden-emu.dev/eden-emu/eden/releases/tag/v0.2.0-rc1"
+                        },
+                        {
+                            "icon": "bi-android2",
+                            "iconColor": "#4ade80",
+                            "label": "Eden (versione Android)",
+                            "desc": "Emulatore per dispositivi Android potenti",
+                            "href": "https://git.eden-emu.dev/eden-emu/eden/releases/tag/v0.2.0-rc1"
+                        },
+                        {
+                            "icon": "bi-cpu-fill",
+                            "iconColor": "#facc15",
+                            "label": "Firmware 21.2.0",
+                            "desc": "Sistema operativo Switch (OBBLIGATORIO)",
+                            "href": "https://t.me/NintendoROMsFiles/108",
+                            "highlight": "yellow"
+                        },
+                        {
+                            "icon": "bi-key-fill",
+                            "iconColor": "#c084fc",
+                            "label": "prod.keys",
+                            "desc": "Chiavi di crittografia Switch (OBBLIGATORIO)",
+                            "href": "https://t.me/NintendoRomsFiles/76",
+                            "highlight": "purple"
+                        }
+                    ]
+                },
+                {
+                    "type": "infobox",
+                    "variant": "error",
+                    "title": "IMPORTANTE",
+                    "titleIcon": "bi-exclamation-octagon-fill",
+                    "content": "Per far funzionare Eden, sono <strong>OBBLIGATORI</strong> sia il file <strong>Firmware 21.2.0</strong> che il file <strong>prod.keys</strong>. Senza questi, l'emulatore non potrà avviare nessun gioco!"
+                }
+            ]
+        },
+        {
+            "id": "sezione-1",
+            "title": "Sezione 1 - Installazione Eden",
+            "icon": "bi-gear-fill",
+            "blocks": [
+                {
+                    "type": "text",
+                    "content": "Iniziamo installando l'emulatore Eden sul nostro PC. In questa guida useremo la <strong>versione Windows</strong>, ma i passaggi sono simili anche su Linux."
+                },
+                {
+                    "type": "step",
+                    "number": 1,
+                    "title": "Scarica Eden per il tuo sistema operativo",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Dai link nella sezione <a href=\"#requisiti\">Requisiti</a>, scarica la versione di Eden che si addice al tuo sistema operativo. Nel caso di questa guida, useremo <strong>Windows</strong>."
+                        },
+                        {
+                            "type": "infobox",
+                            "variant": "info",
+                            "titleIcon": "bi-info-circle-fill",
+                            "content": "Il file scaricato sarà un archivio compresso (.7z o .zip) di circa 50-100MB."
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 2,
+                    "title": "Estrai l'archivio in una cartella",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Usa <strong>7-Zip</strong> (o WinRAR) per estrarre l'archivio Eden in una cartella a tua scelta (consiglio: <code>C:\\Emulatori\\Eden\\</code>)."
+                        },
+                        {
+                            "type": "image",
+                            "src": "/assets/guide/multi/pc/emulatore-eden/screen_dimostrazione_estr_7zip.webp",
+                            "alt": "Estrazione Eden con 7-Zip",
+                            "caption": "Estraiamo Eden usando 7-Zip"
+                        },
+                        {
+                            "type": "text",
+                            "content": "Se non sai come estrarre archivi compressi, consulta la guida <a href=\"/guide/multi/parti\" data-route>Estrazione Parti Divise</a>."
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 3,
+                    "title": "Avvia Eden per la prima volta",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Apri la cartella estratta e avvia il file <strong>eden.exe</strong>."
+                        },
+                        {
+                            "type": "image",
+                            "src": "/assets/guide/multi/pc/emulatore-eden/screen_eden_exe_evidenziato.webp",
+                            "alt": "File eden.exe evidenziato",
+                            "caption": "Avviamo eden.exe dalla cartella estratta"
+                        },
+                        {
+                            "type": "infobox",
+                            "variant": "info",
+                            "title": "Nota:",
+                            "titleIcon": "bi-info-circle-fill",
+                            "content": "Se non vedi le estensioni file (come <code>.exe</code>), l'applicazione si chiamerà semplicemente <strong>\"eden\"</strong>."
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 4,
+                    "title": "Alert \"Encryption keys missing\"",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "All'avvio comparirà un alert che avvisa della mancanza delle chiavi di crittografia. Premi <strong>\"OK\"</strong>."
+                        },
+                        {
+                            "type": "image",
+                            "src": "/assets/guide/multi/pc/emulatore-eden/screen_eden_encryption_keys_missing.webp",
+                            "alt": "Alert encryption keys missing",
+                            "caption": "Alert che avvisa della mancanza del file prod.keys"
+                        },
+                        {
+                            "type": "text",
+                            "content": "Dopo aver premuto OK, <strong>chiudi Eden</strong>. Ora dobbiamo installare le chiavi."
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 5,
+                    "title": "Accedi alla cartella AppData di Eden",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Ora dobbiamo navigare nella cartella di configurazione di Eden per inserire il file <code>prod.keys</code>. Apri <strong>Esplora File</strong> (Windows Explorer)."
+                        },
+                        {
+                            "type": "image",
+                            "src": "/assets/guide/multi/pc/emulatore-eden/screen_esplorafile_percorsofile_indicato.webp",
+                            "alt": "Esplora File - Barra percorso",
+                            "caption": "Clicchiamo sulla barra del percorso in Esplora File"
+                        },
+                        {
+                            "type": "text",
+                            "content": "Clicca sulla <strong>barra del percorso</strong> (dove c'è scritto il percorso del file, in alto) e scrivi: <strong><code>%appdata%</code></strong>"
+                        },
+                        {
+                            "type": "image",
+                            "src": "/assets/guide/multi/pc/emulatore-eden/screen_indicazione_scrittura_appdata.webp",
+                            "alt": "Digitazione %appdata%",
+                            "caption": "Scriviamo %appdata% e premiamo INVIO"
+                        },
+                        {
+                            "type": "text",
+                            "content": "Premi <strong>INVIO</strong> sulla tastiera."
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 6,
+                    "title": "Trova la cartella \"eden\"",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Dopo aver premuto INVIO, si aprirà la cartella <code>AppData\\Roaming</code>. Scorri verso il basso fino a trovare la cartella <strong>\"eden\"</strong> e aprila."
+                        },
+                        {
+                            "type": "image",
+                            "src": "/assets/guide/multi/pc/emulatore-eden/screen_cartella_eden_evidenziata.webp",
+                            "alt": "Cartella eden evidenziata",
+                            "caption": "Entriamo nella cartella \"eden\""
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 7,
+                    "title": "Entra nella cartella \"keys\"",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "All'interno della cartella <code>eden</code>, troverai una sottocartella chiamata <strong>\"keys\"</strong>. Aprila."
+                        },
+                        {
+                            "type": "image",
+                            "src": "/assets/guide/multi/pc/emulatore-eden/screen_cartella_keys_evidenziata.webp",
+                            "alt": "Cartella keys evidenziata",
+                            "caption": "Entriamo nella cartella \"keys\""
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 8,
+                    "title": "Copia il file prod.keys",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Ora prendi il file <strong>prod.keys</strong> che hai scaricato inizialmente (dai Requisiti) e <strong>copialo/incollalo dentro questa cartella keys</strong>."
+                        },
+                        {
+                            "type": "image",
+                            "src": "/assets/guide/multi/pc/emulatore-eden/screen_prodkeys_evidenziato.webp",
+                            "alt": "File prod.keys nella cartella keys",
+                            "caption": "Il file prod.keys copiato nella cartella keys"
+                        },
+                        {
+                            "type": "infobox",
+                            "variant": "success",
+                            "content": "<strong>Perfetto!</strong> Ora Eden ha le chiavi necessarie per decrittografare i giochi Switch."
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 9,
+                    "title": "Riapri Eden e aggiungi la cartella giochi",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Torna nella cartella dove hai estratto Eden inizialmente e <strong>riapri eden.exe</strong>. Questa volta non dovrebbe comparire l'alert delle chiavi mancanti."
+                        },
+                        {
+                            "type": "text",
+                            "content": "Ora dobbiamo dire a Eden dove si trovano i nostri giochi. Fai <strong>doppio click sulla Home</strong> (la zona centrale vuota di Eden) per selezionare una cartella."
+                        },
+                        {
+                            "type": "image",
+                            "src": "/assets/guide/multi/pc/emulatore-eden/screen_home_eden_cartella_aggiunta.webp",
+                            "alt": "Aggiunta cartella giochi in Eden",
+                            "caption": "Facciamo doppio click sulla Home per aggiungere una cartella"
+                        },
+                        {
+                            "type": "text",
+                            "content": "Seleziona la cartella dove hai salvato i tuoi giochi Switch (file <code>.nsp</code>, <code>.xci</code>)."
+                        },
+                        {
+                            "type": "image",
+                            "src": "/assets/guide/multi/pc/emulatore-eden/screen_home_eden_giochi_caricati_da_cartella.webp",
+                            "alt": "Giochi caricati in Eden",
+                            "caption": "Eden ha caricato automaticamente i giochi dalla cartella"
+                        },
+                        {
+                            "type": "infobox",
+                            "variant": "success",
+                            "content": "<strong>Ottimo!</strong> Ora Eden rileverà automaticamente tutti i giochi presenti in quella cartella."
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 10,
+                    "title": "Installa il Firmware 21.2.0",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Ultimo passaggio obbligatorio: installare il <strong>Firmware Switch</strong>. Vai su <strong>Tools → Install Firmware → From ZIP</strong>."
+                        },
+                        {
+                            "type": "image",
+                            "src": "/assets/guide/multi/pc/emulatore-eden/screen_eden_tools_instfw_fromzip_evidenz.webp",
+                            "alt": "Eden - Install Firmware From ZIP",
+                            "caption": "Tools → Install Firmware → From ZIP"
+                        },
+                        {
+                            "type": "text",
+                            "content": "Ti verrà chiesto di selezionare un file. Scegli il file <strong>Firmware 21.2.0.zip</strong> che hai scaricato dai Requisiti."
+                        },
+                        {
+                            "type": "infobox",
+                            "variant": "info",
+                            "title": "From ZIP vs From Folder",
+                            "titleIcon": "bi-info-circle-fill",
+                            "content": "Puoi scegliere se installare il firmware da un file ZIP compresso (<strong>From ZIP</strong> - più veloce) o da una cartella estratta (<strong>From Folder</strong>). Per semplicità, usiamo <strong>From ZIP</strong>."
+                        },
+                        {
+                            "type": "text",
+                            "content": "Dopo aver selezionato il file, Eden inizierà l'installazione del firmware. Attendi che completi (richiede 1-3 minuti)."
+                        },
+                        {
+                            "type": "infobox",
+                            "variant": "success",
+                            "content": "<strong>Installazione terminata!</strong> Eden è ora completamente configurato e pronto per giocare."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "sezione-2",
+            "title": "Sezione 2 - Cambio Lingua",
+            "icon": "bi-translate",
+            "blocks": [
+                {
+                    "type": "text",
+                    "content": "Può capitare che aprendo una ROM europea (che include l'italiano tra le lingue disponibili), essa si apra di default in <strong>inglese</strong> invece che in italiano. Per risolvere questo problema, modificheremo le impostazioni di sistema dell'emulatore."
+                },
+                {
+                    "type": "step",
+                    "number": 1,
+                    "title": "Apri le impostazioni di Eden",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Con Eden aperto, vai su <strong>Emulation → Configure</strong> (o premi <kbd>F1</kbd> sulla tastiera)."
+                        },
+                        {
+                            "type": "image",
+                            "src": "/assets/guide/multi/pc/emulatore-eden/screen_eden_emulat_configure.webp",
+                            "alt": "Eden - Emulation Configure",
+                            "caption": "Emulation → Configure"
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 2,
+                    "title": "Modifica Language e Region",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Si aprirà la finestra di configurazione. Vai sulla voce laterale <strong>\"System\"</strong> e modifica le seguenti opzioni:"
+                        },
+                        {
+                            "type": "image",
+                            "src": "/assets/guide/multi/pc/emulatore-eden/screen_eden_language.webp",
+                            "alt": "Configurazione lingua Eden",
+                            "caption": "Impostiamo Language e Region come in foto"
+                        },
+                        {
+                            "type": "settings-box",
+                            "title": "Impostazioni consigliate:",
+                            "titleIcon": "bi-gear-fill",
+                            "items": [
+                                {
+                                    "label": "Language:",
+                                    "value": "Italian (Italiano)"
+                                },
+                                {
+                                    "label": "Region:",
+                                    "value": "Europe"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "content": "Dopo aver modificato, premi <strong>\"OK\"</strong> per salvare le modifiche."
+                        },
+                        {
+                            "type": "infobox",
+                            "variant": "success",
+                            "titleIcon": "bi-check-circle-fill",
+                            "content": "Da ora in poi, i giochi che supportano l'italiano si avvieranno automaticamente in questa lingua!"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "sezione-3",
+            "title": "Sezione 3 - Installazione Update/DLC (FACOLTATIVA)",
+            "icon": "bi-puzzle-fill",
+            "blocks": [
+                {
+                    "type": "text",
+                    "content": "Questa sezione è <strong>facoltativa</strong> e serve solo per i titoli che hanno <strong>aggiornamenti (updates)</strong> o <strong>contenuti scaricabili (DLC)</strong> da applicare al gioco base."
+                },
+                {
+                    "type": "infobox",
+                    "variant": "info",
+                    "title": "Quando serve questa sezione?",
+                    "titleIcon": "bi-info-circle-fill",
+                    "contentList": [
+                        "✅ Hai scaricato un file <code>.nsp</code> di tipo <strong>Update</strong> o <strong>DLC</strong>",
+                        "✅ Vuoi applicare patch, aggiornamenti o espansioni a un gioco già installato",
+                        "❌ Se hai solo il gioco base, <strong>puoi saltare questa parte</strong>"
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 1,
+                    "title": "Apri il menu di installazione",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Con Eden aperto, vai su <strong>File → Install Files to NAND...</strong>"
+                        },
+                        {
+                            "type": "image",
+                            "src": "/assets/guide/multi/pc/emulatore-eden/screen_eden_files_installtonand.webp",
+                            "alt": "Eden - Install Files to NAND",
+                            "caption": "File → Install Files to NAND..."
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 2,
+                    "title": "Seleziona i file Update/DLC",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Si aprirà una finestra di selezione file. Naviga fino alla cartella dove hai salvato i file <strong>Update</strong> o <strong>DLC</strong> (file <code>.nsp</code>)."
+                        },
+                        {
+                            "type": "image",
+                            "src": "/assets/guide/multi/pc/emulatore-eden/screen_update_file_evidenziato.webp",
+                            "alt": "Selezione file Update",
+                            "caption": "Selezioniamo il file Update o DLC"
+                        },
+                        {
+                            "type": "text",
+                            "content": "Puoi selezionare <strong>più file contemporaneamente</strong> (tieni premuto <kbd>Ctrl</kbd> mentre clicchi sui file)."
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 3,
+                    "title": "Conferma l'installazione",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Dopo aver selezionato i file, clicca su <strong>\"Installa\"</strong> (o \"Install\")."
+                        },
+                        {
+                            "type": "image",
+                            "src": "/assets/guide/multi/pc/emulatore-eden/screen_eden_alert_install.webp",
+                            "alt": "Alert installazione Eden",
+                            "caption": "Clicchiamo su \"Installa\" per confermare"
+                        },
+                        {
+                            "type": "text",
+                            "content": "Eden inizierà l'installazione. Il tempo dipende dalla dimensione dei file (da pochi secondi a 2-3 minuti)."
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 4,
+                    "title": "Installazione completata!",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Al termine vedrai un messaggio di conferma. Gli update/DLC sono ora installati!"
+                        },
+                        {
+                            "type": "image",
+                            "src": "/assets/guide/multi/pc/emulatore-eden/screen_eden_dimostrazione_installazione.webp",
+                            "alt": "Installazione completata",
+                            "caption": "Ed ecco qua installato l'update (nel mio caso)"
+                        },
+                        {
+                            "type": "infobox",
+                            "variant": "success",
+                            "content": "<strong>Perfetto!</strong> Il gioco è ora aggiornato all'ultima versione con tutti i DLC installati."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "conclusione",
+            "title": "Conclusione",
+            "icon": "bi-flag-fill",
+            "blocks": [
+                {
+                    "type": "text",
+                    "content": "Complimenti! Hai installato e configurato con successo <strong>Eden</strong>, l'emulatore Nintendo Switch per PC. Ora sei pronto per giocare ai tuoi titoli preferiti!"
+                },
+                {
+                    "type": "two-columns",
+                    "columns": [
+                        {
+                            "title": "Consigli Utili",
+                            "icon": "bi-lightbulb-fill",
+                            "color": "#60a5fa",
+                            "borderColor": "rgba(96,165,250,0.3)",
+                            "items": [
+                                "Tieni sempre Eden e i driver GPU aggiornati",
+                                "Usa giochi in formato .nsp o .xci",
+                                "Se un gioco è lento, abbassa la risoluzione nelle impostazioni",
+                                "Configura i controlli in Emulation → Configure → Controls"
+                            ]
+                        },
+                        {
+                            "title": "Problemi Comuni",
+                            "icon": "bi-x-circle-fill",
+                            "color": "#f87171",
+                            "borderColor": "rgba(248,113,113,0.3)",
+                            "items": [
+                                "Gioco non si avvia: Verifica prod.keys e firmware",
+                                "Crash random: Aggiorna driver GPU",
+                                "Lag/FPS bassi: PC non abbastanza potente o settaggi troppo alti",
+                                "Shader lag: Normale al primo avvio, migliorerà"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "infobox",
+                    "variant": "info",
+                    "title": "Hai problemi o domande?",
+                    "titleIcon": "bi-telegram",
+                    "content": "Il nostro team è disponibile su Telegram per supportarti!",
+                    "cta": {
+                        "label": "Chiedi supporto su Telegram",
+                        "href": "https://t.me/NintendoROMsGruppo",
+                        "icon": "bi-telegram"
+                    }
+                }
+            ]
+        }
+    ],
+    "navigation": {
+        "prev": {
+            "label": "Guide Multi-Platform",
+            "href": "/guide/multi"
+        }
+    }
+}

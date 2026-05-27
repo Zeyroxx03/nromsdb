@@ -1,0 +1,560 @@
+{
+    "id": "multi-azahar",
+    "title": "Emulatore 3DS - Azahar",
+    "subtitle": "Gioca ai titoli Nintendo 3DS e 2DS sul tuo PC Windows",
+    "icon": "bi-display",
+    "meta": {
+        "tempo": "10-15 minuti",
+        "difficolta": "Facile",
+        "tipo": "Windows/Linux"
+    },
+    "breadcrumb": [
+        { "label": "Home",           "href": "/",            "icon": "bi-house-fill" },
+        { "label": "Guide",          "href": "/guide" },
+        { "label": "Multi-Platform", "href": "/guide/multi" },
+        { "label": "Emulatore Azahar" }
+    ],
+    "toc": [
+        { "id": "introduzione",  "label": "Introduzione" },
+        { "id": "requisiti",     "label": "Requisiti" },
+        { "id": "installazione", "label": "Installazione Azahar" },
+        { "id": "primo-avvio",   "label": "Primo Avvio e Caricamento Giochi" },
+        { "id": "cambio-lingua", "label": "Modifica Lingua e Regione" },
+        { "id": "update-dlc",    "label": "Installazione Update e DLC" },
+        { "id": "conclusione",   "label": "Conclusione" }
+    ],
+    "sections": [
+        {
+            "id": "introduzione",
+            "title": "Introduzione",
+            "icon": "bi-info-circle-fill",
+            "blocks": [
+                {
+                    "type": "hero-image",
+                    "src": "/assets/guide/multi/pc/emulatore-azahar/azahar.webp",
+                    "alt": "Azahar - Emulatore Nintendo 3DS",
+                    "caption": "Azahar - L'emulatore Nintendo 3DS/2DS per PC (fork di Citra)"
+                },
+                {
+                    "type": "text",
+                    "content": "<strong>Benvenuti!</strong> In questa guida vedremo come <strong>giocare ai titoli Nintendo 3DS e 2DS</strong> direttamente dal computer, tramite l'emulatore <strong>Azahar</strong>!"
+                },
+                {
+                    "type": "infobox",
+                    "variant": "info",
+                    "title": "Cos'è Azahar?",
+                    "titleIcon": "bi-lightbulb-fill",
+                    "content": "<strong>Azahar</strong> è un emulatore <strong>open-source e gratuito</strong> per Nintendo 3DS e 2DS, basato su <strong>Citra</strong> (il famoso emulatore che è stato chiuso). Permette di giocare a titoli 3DS (file <code>.cci</code>) su PC Windows e Linux con eccellente compatibilità, supporto per risoluzione aumentata, texture pack HD, controller e molto altro."
+                },
+                {
+                    "type": "infobox",
+                    "variant": "info",
+                    "title": "Perché Azahar e non Citra?",
+                    "titleIcon": "bi-info-circle-fill",
+                    "content": "<strong>Citra</strong> è stato il primo emulatore 3DS, ma è stato chiuso ufficialmente. <strong>Azahar</strong> è una <strong>fork (copia continuativa)</strong> mantenuta attivamente dalla community, con tutti i miglioramenti e le funzionalità di Citra originale. È completamente compatibile e sicuro da usare!"
+                }
+            ]
+        },
+        {
+            "id": "requisiti",
+            "title": "Requisiti",
+            "icon": "bi-clipboard-check-fill",
+            "blocks": [
+                {
+                    "type": "infobox",
+                    "variant": "warning",
+                    "title": "Requisiti necessari:",
+                    "titleIcon": "bi-exclamation-triangle-fill",
+                    "contentList": [
+                        "<strong>Sistema Operativo:</strong> Windows 10/11 (64-bit) o Linux",
+                        "<strong>CPU:</strong> Intel Core i5 / AMD Ryzen 5 o superiore (con supporto SSE4.1)",
+                        "<strong>GPU:</strong> Qualsiasi GPU moderna (Intel HD, NVIDIA, AMD)",
+                        "<strong>RAM:</strong> 4GB minimo, 8GB consigliati",
+                        "<strong>Spazio:</strong> 500MB per l'emulatore + spazio per giochi (1-4GB per gioco)",
+                        "<strong>Roms .cci</strong> dei giochi che possiedi (formato fornito dal nostro canale)"
+                    ]
+                },
+                {
+                    "type": "download-list",
+                    "title": "Download Azahar",
+                    "titleIcon": "bi-download",
+                    "items": [
+                        {
+                            "icon": "bi-github",
+                            "iconColor": "#22d3ee",
+                            "label": "Azahar (GitHub Official)",
+                            "desc": "Ultima versione stabile - Windows/Linux",
+                            "href": "https://github.com/azahar-emu/azahar/releases/tag/2125.1.1"
+                        }
+                    ]
+                },
+                {
+                    "type": "infobox",
+                    "variant": "success",
+                    "content": "Azahar è <strong>completamente gratuito</strong> e non richiede installazione! Basta estrarre e avviare l'eseguibile."
+                }
+            ]
+        },
+        {
+            "id": "installazione",
+            "title": "Installazione Azahar",
+            "icon": "bi-gear-fill",
+            "blocks": [
+                {
+                    "type": "text",
+                    "content": "Vediamo come scaricare, estrarre e avviare Azahar per la prima volta."
+                },
+                {
+                    "type": "step",
+                    "number": 1,
+                    "title": "Scarica Azahar da GitHub",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Vai alla <a href=\"https://github.com/azahar-emu/azahar/releases/tag/2123.3\" target=\"_blank\" rel=\"noopener\">pagina di download ufficiale</a> di Azahar su GitHub."
+                        },
+                        {
+                            "type": "text",
+                            "content": "Nella sezione <strong>\"Assets\"</strong> in fondo alla pagina, scarica il file corretto per il tuo sistema:"
+                        },
+                        {
+                            "type": "version-select",
+                            "title": "Scegli la versione giusta:",
+                            "titleIcon": "bi-download",
+                            "items": [
+                                {
+                                    "label": "Windows 64-bit:",
+                                    "labelColor": "#60a5fa",
+                                    "value": "azahar-windows-msvc-20250127-xxxxxxx.7z"
+                                },
+                                {
+                                    "label": "Linux:",
+                                    "labelColor": "#fb923c",
+                                    "value": "azahar-linux-20250127-xxxxxxx.tar.gz"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "infobox",
+                            "variant": "info",
+                            "titleIcon": "bi-info-circle-fill",
+                            "content": "Il file sarà un archivio compresso (.7z o .tar.gz) di circa 20-30MB."
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 2,
+                    "title": "Estrai l'archivio",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Una volta scaricato, estrai l'archivio in una cartella a tua scelta (consiglio: <code>C:\\Emulatori\\Azahar\\</code>)."
+                        },
+                        {
+                            "type": "list-simple",
+                            "items": [
+                                "<strong>Windows:</strong> Usa <strong>7-Zip</strong> o <strong>WinRAR</strong> (tasto destro → Estrai qui)",
+                                "<strong>Linux:</strong> Usa il comando: <code>tar -xzf azahar-linux-*.tar.gz</code>"
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "content": "Se non sai come estrarre archivi, consulta la guida <a href=\"/guide/multi/parti\" data-route>Estrazione Parti Divise</a>."
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 3,
+                    "title": "Avvia Azahar",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Apri la cartella estratta e avvia il file:"
+                        },
+                        {
+                            "type": "file-listing",
+                            "files": [
+                                "Windows: azahar.exe",
+                                "Linux: ./azahar"
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "content": "Fai <strong>doppio click</strong> sull'eseguibile per avviare l'emulatore."
+                        },
+                        {
+                            "type": "infobox",
+                            "titleIcon": "bi-check-circle-fill",
+                            "content": "Se l'emulatore si apre correttamente e vedi l'interfaccia principale, l'installazione è riuscita!"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "primo-avvio",
+            "title": "Primo Avvio e Caricamento Giochi",
+            "icon": "bi-rocket-takeoff-fill",
+            "blocks": [
+                {
+                    "type": "text",
+                    "content": "Al primo avvio, Azahar mostrerà un'interfaccia vuota. Vediamo come caricare i nostri giochi."
+                },
+                {
+                    "type": "step",
+                    "number": 1,
+                    "title": "Metodo 1: Carica un singolo gioco",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Il modo più semplice per avviare un gioco è caricarlo direttamente:"
+                        },
+                        {
+                            "type": "text",
+                            "content": "Vai su <strong>File → Carica file...</strong>"
+                        },
+                        {
+                            "type": "text",
+                            "content": "Si aprirà una finestra di selezione. Naviga fino al file <strong>.cci</strong> del tuo gioco e selezionalo. Il gioco si avvierà immediatamente!"
+                        },
+                        {
+                            "type": "infobox",
+                            "variant": "success",
+                            "content": "Questo metodo è perfetto per testare rapidamente un gioco."
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 2,
+                    "title": "Metodo 2: Aggiungi una cartella giochi (consigliato)",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Se hai molti giochi, è più comodo aggiungerli tutti in una lista. Dalla schermata principale di Azahar, clicca sul pulsante <strong>\"Aggiungi una nuova cartella delle applicazioni\"</strong> e seleziona la cartella dove hai salvato i tuoi giochi <code>.cci</code>."
+                        },
+                        {
+                            "type": "infobox",
+                            "variant": "info",
+                            "titleIcon": "bi-folder-fill",
+                            "content": "Azahar scannerizzerà automaticamente tutti i file <strong>.cci</strong> presenti nella cartella e li mostrerà nella lista con copertina, titolo e informazioni."
+                        },
+                        {
+                            "type": "text",
+                            "content": "Per avviare un gioco dalla lista, fai semplicemente <strong>doppio click</strong> sulla sua icona!"
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 3,
+                    "title": "Controlli tastiera predefiniti",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Una volta avviato il gioco, puoi giocare subito con la tastiera. Ecco i controlli predefiniti di Azahar:"
+                        },
+                        {
+                            "type": "controls-multi",
+                            "title": "Mappa Controlli Tastiera:",
+                            "titleIcon": "bi-keyboard-fill",
+                            "groups": [
+                                {
+                                    "label": "Tasti Azione",
+                                    "labelColor": "#4ade80",
+                                    "controls": [
+                                        { "key": "A", "action": "Tasto A" },
+                                        { "key": "S", "action": "Tasto B" },
+                                        { "key": "Z", "action": "Tasto X" },
+                                        { "key": "X", "action": "Tasto Y" }
+                                    ]
+                                },
+                                {
+                                    "label": "D-Pad",
+                                    "labelColor": "#facc15",
+                                    "controls": [
+                                        { "key": "F",  "action": "Sinistra" },
+                                        { "key": "H",  "action": "Destra" },
+                                        { "key": "T",  "action": "Su" },
+                                        { "key": "G",  "action": "Giù" }
+                                    ]
+                                },
+                                {
+                                    "label": "Circle Pad",
+                                    "labelColor": "#c084fc",
+                                    "controls": [
+                                        { "key": "←", "action": "Sinistra" },
+                                        { "key": "→", "action": "Destra" },
+                                        { "key": "↑", "action": "Su" },
+                                        { "key": "↓", "action": "Giù" }
+                                    ]
+                                },
+                                {
+                                    "label": "C-Stick",
+                                    "labelColor": "#22d3ee",
+                                    "controls": [
+                                        { "key": "J", "action": "Sinistra" },
+                                        { "key": "L", "action": "Destra" },
+                                        { "key": "I", "action": "Su" },
+                                        { "key": "K", "action": "Giù" }
+                                    ]
+                                }
+                            ],
+                            "note": "Puoi personalizzare i controlli in <strong>Emulazione → Configura... → Comandi</strong>"
+                        },
+                        {
+                            "type": "infobox",
+                            "variant": "success",
+                            "title": "Perfetto!",
+                            "content": "Ora puoi giocare ai tuoi titoli 3DS! Usa <kbd>F11</kbd> per passare a schermo intero."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "cambio-lingua",
+            "title": "Modifica Lingua e Regione",
+            "icon": "bi-translate",
+            "blocks": [
+                {
+                    "type": "text",
+                    "content": "Se i giochi europei si avviano in inglese invece che in italiano, devi cambiare la lingua e regione di sistema emulata."
+                },
+                {
+                    "type": "step",
+                    "number": 1,
+                    "title": "Apri le impostazioni di sistema",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Con Azahar aperto, vai su <strong>Emulazione → Sistema</strong>."
+                        },
+                        {
+                            "type": "infobox",
+                            "variant": "info",
+                            "content": "Si aprirà la finestra delle impostazioni di sistema del 3DS emulato."
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 2,
+                    "title": "Configura Regione e Lingua",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Nella finestra che si apre, troverai due menu a tendina importanti:"
+                        },
+                        {
+                            "type": "settings-box",
+                            "title": "Impostazioni consigliate:",
+                            "titleIcon": "bi-gear-fill",
+                            "items": [
+                                { "label": "Regione (Region):", "value": "EUR" },
+                                { "label": "Lingua (Language):", "value": "Italian (Italiano)" }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "content": "Dopo aver modificato entrambe le impostazioni, clicca su <strong>\"OK\"</strong> per salvare le modifiche."
+                        },
+                        {
+                            "type": "infobox",
+                            "variant": "success",
+                            "title": "Fatto!",
+                            "titleIcon": "bi-check-circle-fill",
+                            "content": "Da ora in poi, i giochi che supportano l'italiano si avvieranno automaticamente in questa lingua."
+                        },
+                        {
+                            "type": "infobox",
+                            "variant": "warning",
+                            "title": "Importante:",
+                            "titleIcon": "bi-exclamation-triangle-fill",
+                            "content": "Se hai già un gioco aperto, <strong>chiudilo e riaprilo</strong> affinché le modifiche abbiano effetto."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "update-dlc",
+            "title": "Installazione Update e DLC",
+            "icon": "bi-puzzle-fill",
+            "blocks": [
+                {
+                    "type": "text",
+                    "content": "Alcuni giochi hanno aggiornamenti (update) o contenuti scaricabili (DLC) disponibili. Questi file sono in formato <strong>.cia</strong> e vanno installati separatamente."
+                },
+                {
+                    "type": "infobox",
+                    "variant": "info",
+                    "title": "Quando serve questa sezione?",
+                    "titleIcon": "bi-info-circle-fill",
+                    "contentList": [
+                        "✅ Hai scaricato file <strong>.cia</strong> di tipo Update o DLC dal canale",
+                        "✅ Vuoi applicare patch o espansioni a un gioco già presente",
+                        "❌ Se hai solo il gioco base (.cci), <strong>puoi saltare questa parte</strong>"
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 1,
+                    "title": "Apri il menu di installazione CIA",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Con Azahar aperto, vai su <strong>File → Installa CIA...</strong>"
+                        },
+                        {
+                            "type": "infobox",
+                            "variant": "info",
+                            "content": "Si aprirà una finestra di selezione file."
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 2,
+                    "title": "Seleziona i file CIA",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Naviga fino alla cartella dove hai salvato i file <strong>.cia</strong> degli update o DLC e selezionali."
+                        },
+                        {
+                            "type": "cia-types",
+                            "title": "Tipi di file CIA:",
+                            "titleIcon": "bi-info-circle-fill",
+                            "items": [
+                                {
+                                    "label": "Update:",
+                                    "labelColor": "#60a5fa",
+                                    "desc": "Aggiornamenti del gioco base (patch, correzioni bug, nuove funzionalità)"
+                                },
+                                {
+                                    "label": "DLC:",
+                                    "labelColor": "#c084fc",
+                                    "desc": "Contenuti scaricabili aggiuntivi (espansioni, livelli extra, personaggi)"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "content": "Puoi selezionare <strong>più file .cia contemporaneamente</strong> tenendo premuto <kbd>Ctrl</kbd> mentre clicchi sui file."
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 3,
+                    "title": "Attendi l'installazione",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Dopo aver selezionato i file, Azahar inizierà automaticamente l'installazione. Vedrai una barra di progressione."
+                        },
+                        {
+                            "type": "infobox",
+                            "variant": "success",
+                            "title": "Installazione completata!",
+                            "titleIcon": "bi-check-circle-fill",
+                            "content": "Gli update e DLC sono ora applicati al gioco. Riavvia il gioco per vedere le modifiche."
+                        },
+                        {
+                            "type": "infobox",
+                            "variant": "info",
+                            "title": "Suggerimento:",
+                            "titleIcon": "bi-lightbulb-fill",
+                            "content": "Installa sempre prima gli <strong>Update</strong> e poi i <strong>DLC</strong>. Alcuni DLC potrebbero non funzionare se il gioco non è aggiornato all'ultima versione."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "conclusione",
+            "title": "Conclusione",
+            "icon": "bi-flag-fill",
+            "blocks": [
+                {
+                    "type": "text",
+                    "content": "Complimenti! Hai installato e configurato con successo <strong>Azahar</strong>, l'emulatore Nintendo 3DS per PC. Ora sei pronto per giocare a tutti i tuoi titoli 3DS e 2DS preferiti!"
+                },
+               
+                {
+                    "type": "two-columns",
+                    "columns": [
+                        {
+                            "title": "Consigli Utili",
+                            "icon": "bi-lightbulb-fill",
+                            "color": "#60a5fa",
+                            "borderColor": "rgba(96,165,250,0.3)",
+                            "items": [
+                                "Salva frequentemente: File → Salva Stato",
+                                "Aumenta risoluzione: Emulazione → Configura... → Grafica",
+                                "Schermo intero: F11",
+                                "Screenshot: CTRL + P"
+                            ]
+                        },
+                        {
+                            "title": "Funzionalità Extra",
+                            "color": "#c084fc",
+                            "borderColor": "rgba(192,132,252,0.3)",
+                            "items": [
+                                "Risoluzione aumentata: Fino a 10x nativa!",
+                                "Controller: Xbox, PS4/5, Switch Pro supportati",
+                                "Save States: Salva e riprendi in qualsiasi momento",
+                                "Cheat codes: Emulazione → Cheats"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "infobox",
+                    "variant": "error",
+                    "title": "Problemi Comuni",
+                    "titleIcon": "bi-exclamation-triangle-fill",
+                    "contentList": [
+                        "<strong>Gioco non si avvia:</strong> Verifica che il file sia in formato <strong>.cci</strong> e non corrotto",
+                        "<strong>Crash improvvisi:</strong> Vai in Emulazione → Configura... → Grafica e cambia renderer (OpenGL/Vulkan/Software)",
+                        "<strong>Lag/FPS bassi:</strong> Abbassa la risoluzione interna o disabilita gli shader nelle impostazioni grafiche",
+                        "<strong>Update non funziona:</strong> Assicurati di aver installato prima l'update e poi i DLC"
+                    ]
+                },
+                {
+                    "type": "infobox",
+                    "variant": "info",
+                    "title": "Dove trovo i giochi 3DS?",
+                    "titleIcon": "bi-joystick",
+                    "content": "Puoi scaricare roms Nintendo 3DS in formato <strong>.cci</strong> (e update/DLC in <strong>.cia</strong>) dal nostro canale Telegram ufficiale.",
+                    "cta": {
+                        "label": "Vai al Canale roms",
+                        "href": "https://t.me/+VhTgmHwgmNk1NjY0",
+                        "icon": "bi-telegram"
+                    }
+                },
+                {
+                    "type": "infobox",
+                    "variant": "info",
+                    "title": "Hai problemi o domande?",
+                    "titleIcon": "bi-telegram",
+                    "content": "Il nostro team è disponibile su Telegram per supportarti!",
+                    "cta": {
+                        "label": "Chiedi supporto su Telegram",
+                        "href": "https://t.me/NintendoROMsGruppo",
+                        "icon": "bi-telegram"
+                    }
+                }
+            ]
+        }
+    ],
+    "navigation": {
+        "prev": {
+            "label": "Guide Multi-Platform",
+            "href": "/guide/multi"
+        }
+    }
+}

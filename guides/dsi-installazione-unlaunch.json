@@ -1,0 +1,514 @@
+{
+    "id": "dsi-installazione-unlaunch",
+    "title": "Installazione Unlaunch",
+    "subtitle": "Custom Firmware permanente per DSi",
+    "icon": "bi-unlock-fill",
+    "meta": {
+        "tempo": "15-20 minuti",
+        "difficolta": "Media",
+        "tipo": "CFW Permanente"
+    },
+    "breadcrumb": [
+        { "label": "Home", "href": "/", "icon": "bi-house-fill" },
+        { "label": "Guide", "href": "/guide" },
+        { "label": "Nintendo DSi", "href": "/guide/dsi" },
+        { "label": "TWiLight Menu++", "href": "/guide/dsi/twilight" },
+        { "label": "Installazione Unlaunch" }
+    ],
+    "toc": [
+        { "id": "introduzione", "label": "Introduzione e Warning" },
+        { "id": "setup-sd", "label": "Sezione I — Setup SD Card" },
+        { "id": "update-dsi", "label": "Sezione II — Aggiornamento DSi" },
+        { "id": "installazione", "label": "Sezione III — Installazione Unlaunch" },
+        { "id": "configurazione", "label": "Sezione IV — Configurazione Post-Install" },
+        { "id": "pulizia", "label": "Sezione V — Pulizia SD (Opzionale)" },
+        { "id": "conclusione", "label": "Conclusione" }
+    ],
+    "sections": [
+        {
+            "id": "introduzione",
+            "title": "Introduzione e Warning",
+            "icon": "bi-info-circle-fill",
+            "blocks": [
+                {
+                    "type": "text",
+                    "content": "Stai per installare <strong>Unlaunch</strong>, un <strong>exploit bootcode permanente</strong> che viene installato direttamente sulla console DSi. Una volta installato, Unlaunch prende il controllo completo della console all'avvio."
+                },
+                {
+                    "type": "infobox",
+                    "variant": "error",
+                    "title": "BACKUP NAND OBBLIGATORIO!",
+                    "titleIcon": "bi-shield-fill-exclamation",
+                    "content": "Se <strong>NON hai ancora fatto il backup NAND</strong>, <strong>FERMATI ORA</strong> e segui prima la guida <a href=\"/guide/dsi/backup-nand\" data-route>Backup NAND</a>. Un backup NAND ti permetterebbe di ripristinare la console in caso di brick dopo l'installazione/disinstallazione di Unlaunch."
+                },
+                {
+                    "type": "two-columns",
+                    "columns": [
+                        {
+                            "title": "Vantaggi di Unlaunch",
+                            "icon": "bi-unlock-fill",
+                            "color": "#f472b6",
+                            "borderColor": "rgba(244,114,182,0.3)",
+                            "items": [
+                                "Avvio automatico personalizzato",
+                                "Protezione anti-brick migliorata",
+                                "Accesso hardware completo",
+                                "Boot rapido in TWiLight Menu++"
+                            ]
+                        },
+                        {
+                            "title": "Da sapere",
+                            "icon": "bi-exclamation-triangle-fill",
+                            "color": "#fb923c",
+                            "borderColor": "rgba(251,146,60,0.3)",
+                            "items": [
+                                "Modifica permanente alla NAND",
+                                "Piccolo rischio di brick",
+                                "Richiede PC (no ChromeOS)",
+                                "Opzionale ma consigliato"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "infobox",
+                    "variant": "warning",
+                    "title": "Scrittura NAND",
+                    "titleIcon": "bi-exclamation-triangle-fill",
+                    "content": "Installare o disinstallare Unlaunch, pur essendo sicuro, <strong>scrive sulla NAND</strong> della console. C'è quindi una <strong>piccola possibilità di brick</strong>!"
+                },
+                {
+                    "type": "infobox",
+                    "variant": "error",
+                    "title": "PC Richiesto",
+                    "titleIcon": "bi-laptop-fill",
+                    "content": "Se NON hai accesso a un PC, o se il tuo PC usa <strong>ChromeOS</strong>, <strong>NON installare Unlaunch</strong>. Serve un PC (Windows/Linux/macOS) per formattare correttamente la SD."
+                },
+                {
+                    "type": "infobox",
+                    "variant": "info",
+                    "titleIcon": "bi-info-circle-fill",
+                    "content": "Unlaunch NON è compatibile con le <strong>console DSi development</strong> (kit sviluppatori)."
+                }
+            ]
+        },
+        {
+            "id": "setup-sd",
+            "title": "Sezione I — Setup SD Card",
+            "icon": "bi-1-circle-fill",
+            "blocks": [
+                {
+                    "type": "step",
+                    "number": 1,
+                    "title": "Scarica Safe Unlaunch Installer",
+                    "blocks": [
+                        {
+                            "type": "download-list",
+                            "title": "Download Safe Unlaunch Installer",
+                            "titleIcon": "bi-download",
+                            "items": [
+                                {
+                                    "icon": "bi-unlock-fill",
+                                    "iconColor": "#f472b6",
+                                    "label": "Safe Unlaunch Installer",
+                                    "desc": "Installer sicuro per Unlaunch DSi",
+                                    "href": "/assets/guide/dsi/modifica/installazione-unlaunch/unlaunch-installer.dsi"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 2,
+                    "title": "Copia sulla SD card",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Copia il file <code>unlaunch-installer.dsi</code> in <strong>qualsiasi punto</strong> della SD card (anche nella root va bene)."
+                        },
+                        {
+                            "type": "file-tree",
+                            "title": "Esempio posizione",
+                            "items": [
+                                { "name": "SD Card", "type": "drive", "depth": 0 },
+                                { "name": "unlaunch-installer.dsi", "depth": 1, "highlight": true, "comment": "← Puoi metterlo qui" },
+                                { "name": "_nds", "type": "folder", "depth": 1 },
+                                { "name": "BOOT.NDS", "depth": 1 },
+                                { "name": "...", "depth": 1, "dim": true, "last": true }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "update-dsi",
+            "title": "Sezione II — Aggiornamento DSi",
+            "icon": "bi-2-circle-fill",
+            "blocks": [
+                {
+                    "type": "infobox",
+                    "variant": "info",
+                    "title": "Puoi saltare questa sezione se...",
+                    "titleIcon": "bi-skip-forward-fill",
+                    "contentList": [
+                        "Unlaunch è già installato e vuoi aggiornarlo/disinstallarlo → Vai alla Sezione III",
+                        "Il tuo DSi è già alla versione <strong>1.4.2</strong> → Vai alla Sezione III"
+                    ]
+                },
+                {
+                    "type": "text",
+                    "content": "Unlaunch richiede che il DSi sia alla <strong>versione 1.4.2</strong> del firmware. Verifichiamo e aggiorniamo se necessario."
+                },
+                {
+                    "type": "step",
+                    "number": 1,
+                    "title": "Verifica versione sistema",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Nel menu DSi, apri l'applicazione <strong>Impostazioni di sistema</strong> (icona grigia con chiave inglese bianca). La versione è mostrata in <strong>basso a destra</strong> dello schermo superiore."
+                        },
+                        {
+                            "type": "two-columns",
+                            "columns": [
+                                {
+                                    "title": "Ver 1.4.2",
+                                    "icon": "bi-check-circle-fill",
+                                    "color": "#4ade80",
+                                    "borderColor": "rgba(74,222,128,0.5)",
+                                    "items": [
+                                        "Sei già alla versione corretta!",
+                                        "Salta direttamente alla Sezione III."
+                                    ]
+                                },
+                                {
+                                    "title": "Altra versione",
+                                    "icon": "bi-arrow-repeat",
+                                    "color": "#60a5fa",
+                                    "borderColor": "rgba(96,165,250,0.5)",
+                                    "items": [
+                                        "Se vedi una versione diversa (es: 1.4, 1.4.1).",
+                                        "Continua con gli step seguenti per aggiornare."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 2,
+                    "title": "Avvia aggiornamento sistema",
+                    "blocks": [
+                        {
+                            "type": "list",
+                            "items": [
+                                { "icon": "bi-1-circle-fill", "iconColor": "#60a5fa", "html": "Tocca il numero <strong>4</strong> per andare alla quarta pagina" },
+                                { "icon": "bi-2-circle-fill", "iconColor": "#60a5fa", "html": "Tocca <strong>Aggiornamento di sistema</strong> (terza opzione)" },
+                                { "icon": "bi-3-circle-fill", "iconColor": "#60a5fa", "html": "Tocca <strong>Sì</strong> quando richiesto di connettersi a Internet e aggiornare" }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "content": "Segui i prompt: tocca <strong>Avanti</strong> → <strong>Accetto</strong> → <strong>OK</strong>. Attendi che il sistema si aggiorni e si riavvii."
+                        },
+                        {
+                            "type": "infobox",
+                            "variant": "success",
+                            "titleIcon": "bi-check-circle-fill",
+                            "content": "Aggiornamento completato! Ora sei alla versione 1.4.2."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "installazione",
+            "title": "Sezione III — Installazione/Aggiornamento Unlaunch",
+            "icon": "bi-3-circle-fill",
+            "blocks": [
+                {
+                    "type": "step",
+                    "number": 1,
+                    "title": "Avvia il menu installato",
+                    "blocks": [
+                        {
+                            "type": "two-columns",
+                            "columns": [
+                                {
+                                    "title": "Prima installazione Unlaunch",
+                                    "icon": "bi-1-circle-fill",
+                                    "color": "#60a5fa",
+                                    "borderColor": "rgba(96,165,250,0.3)",
+                                    "items": [
+                                        "Riavvia il menu tramite l'exploit che hai usato (Memory Pit via DSi Camera)"
+                                    ]
+                                },
+                                {
+                                    "title": "Unlaunch già installato (aggiornamento)",
+                                    "icon": "bi-2-circle-fill",
+                                    "color": "#c084fc",
+                                    "borderColor": "rgba(192,132,252,0.3)",
+                                    "items": [
+                                        "Tieni premuto A + B durante l'avvio"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 2,
+                    "title": "Avvia Safe Unlaunch Installer",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Nel menu dove sono elencate le icone, avvia <strong>Safe Unlaunch installer</strong> (potrebbe essere mostrato come <code>unlaunch-installer.dsi</code>)."
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 3,
+                    "title": "Conferma WARNING",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Premi il pulsante <kbd>A</kbd> dopo che appare il messaggio di <strong>WARNING</strong>."
+                        },
+                        {
+                            "type": "infobox",
+                            "variant": "warning",
+                            "title": "LED batteria rosso?",
+                            "titleIcon": "bi-battery-charging",
+                            "content": "Se il LED della batteria è rosso, ti dirà di collegare il caricatore. Seleziona <strong>Yes</strong> per continuare dopo averlo collegato."
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 4,
+                    "title": "Sfondo personalizzato (opzionale)",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Se vuoi cambiare lo sfondo predefinito, seleziona <strong>[Custom background]</strong> e premi <kbd>A</kbd> per selezionare quello che vuoi usare."
+                        },
+                        {
+                            "type": "infobox",
+                            "variant": "info",
+                            "title": "Sfondi personalizzati",
+                            "titleIcon": "bi-image-fill",
+                            "contentList": [
+                                "Sono inclusi 3 sfondi custom",
+                                "Puoi aggiungerne altri: crea una cartella <code>backgrounds</code> nella root della SD e metti lì i tuoi sfondi"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 5,
+                    "title": "Installa Unlaunch",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Seleziona l'opzione <strong>Install unlaunch</strong> e premi il pulsante <kbd>A</kbd>."
+                        },
+                        {
+                            "type": "infobox",
+                            "variant": "error",
+                            "title": "Durante l'installazione:",
+                            "titleIcon": "bi-hourglass-split",
+                            "contentList": [
+                                "✗ <strong>NON spegnere</strong> la console",
+                                "✗ <strong>NON chiudere</strong> il programma",
+                                "✓ Lascia che completi naturalmente"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 6,
+                    "title": "Completa e riavvia",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Premi <kbd>A</kbd> quando l'installazione è completata. Premi <kbd>POWER</kbd> per riavviare il sistema."
+                        },
+                        {
+                            "type": "infobox",
+                            "variant": "success",
+                            "title": "Successo!",
+                            "titleIcon": "bi-check-circle-fill",
+                            "content": "Se vedi la schermata <strong>Unlaunch Filemenu</strong>, hai modificato con successo il tuo Nintendo DSi! Il DSi si avvierà ora in Unlaunch invece che nel menu DSi standard."
+                        },
+                        {
+                            "type": "infobox",
+                            "variant": "error",
+                            "title": "Schermo nero?",
+                            "titleIcon": "bi-exclamation-octagon-fill",
+                            "content": "Se vedi uno schermo nero, contatta il supporto sul nostro gruppo Telegram per assistenza."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "configurazione",
+            "title": "Sezione IV — Configurazione Post-Unlaunch",
+            "icon": "bi-4-circle-fill",
+            "blocks": [
+                {
+                    "type": "text",
+                    "content": "Ora configuriamo Unlaunch per avviare automaticamente ciò che vogliamo all'accensione del DSi."
+                },
+                {
+                    "type": "step",
+                    "number": 1,
+                    "title": "Accedi al menu Unlaunch",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Accendi la console tenendo premuti <kbd>A</kbd> + <kbd>B</kbd>. Questo avvierà il <strong>Unlaunch Filemenu</strong>."
+                        },
+                        {
+                            "type": "infobox",
+                            "variant": "warning",
+                            "title": "Nulla elencato?",
+                            "titleIcon": "bi-exclamation-triangle-fill",
+                            "content": "Se non è elencato nulla, o sono elencati solo i contenuti NAND (anche dopo aver scrollato), dovrai <strong>riformattare la SD card</strong>."
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 2,
+                    "title": "Accedi alle OPTIONS",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Naviga fino a <strong>OPTIONS</strong>. Ecco le opzioni disponibili:"
+                        },
+                        {
+                            "type": "table",
+                            "title": "Opzioni Unlaunch",
+                            "titleIcon": "bi-gear-fill",
+                            "headers": ["Opzione", "Funzione"],
+                            "rows": [
+                                { "cells": ["A + B", "Hardcoded per avviare il menu Unlaunch — non può essere cambiato"], "color": "#f472b6" },
+                                { "cells": ["NO BUTTON", "Cosa avviare quando nessun pulsante è premuto all'accensione (avvio normale)"], "color": "#4ade80" },
+                                { "cells": ["BUTTON A/B/X/Y", "Cosa avviare quando tieni premuto quel pulsante specifico all'accensione"], "color": "#60a5fa" },
+                                { "cells": ["LOAD ERROR", "Cosa caricare se il caricamento di ciò che hai impostato fallisce (es: SD non inserita)"], "color": "#facc15" }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 3,
+                    "title": "Configurazione consigliata",
+                    "blocks": [
+                        {
+                            "type": "settings-box",
+                            "title": "Setup consigliato:",
+                            "titleIcon": "bi-check-circle-fill",
+                            "items": [
+                                { "label": "NO BUTTON:", "value": "TWiLight Menu++ (avvio rapido al menu homebrew)" },
+                                { "label": "BUTTON A:", "value": "Launcher (menu DSi originale)" },
+                                { "label": "LOAD ERROR:", "value": "Launcher (se SD non presente)" }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 4,
+                    "title": "Salva ed esci",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Seleziona <strong>SAVE & EXIT</strong> per salvare le tue impostazioni, poi spegni il DSi."
+                        },
+                        {
+                            "type": "infobox",
+                            "variant": "success",
+                            "titleIcon": "bi-check-circle-fill",
+                            "content": "Configurazione completata! Ora il DSi si avvierà come hai configurato."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "pulizia",
+            "title": "Sezione V — Pulizia SD Card (Opzionale)",
+            "icon": "bi-5-circle-fill",
+            "blocks": [
+                {
+                    "type": "text",
+                    "content": "Questa sezione è <strong>opzionale</strong> e serve solo per mantenere la SD ordinata rimuovendo file che non ti servono più."
+                },
+                {
+                    "type": "list",
+                    "items": [
+                        { "icon": "bi-1-circle-fill", "iconColor": "#60a5fa", "html": "Elimina <code>sd:/private/ds/app/484E494A/pit.bin</code> (file Memory Pit)" },
+                        { "icon": "bi-2-circle-fill", "iconColor": "#60a5fa", "html": "Rinomina <code>tip.bin</code> di nuovo in <code>pit.bin</code> (ripristina file originale)" },
+                        { "icon": "bi-3-circle-fill", "iconColor": "#60a5fa", "html": "Ripristina la cartella <code>DCIM</code> (foto) se l'avevi rimossa" },
+                        { "icon": "bi-4-circle-fill", "iconColor": "#60a5fa", "html": "Elimina <code>unlaunch-installer.dsi</code> dalla SD — non ti serve più" }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "conclusione",
+            "title": "Conclusione",
+            "icon": "bi-trophy-fill",
+            "blocks": [
+                {
+                    "type": "text",
+                    "content": "Hai completato con successo la <strong>modifica completa del Nintendo DSi</strong>!"
+                },
+                {
+                    "type": "infobox",
+                    "variant": "info",
+                    "title": "Cosa puoi fare ora:",
+                    "titleIcon": "bi-controller",
+                    "contentList": [
+                        "Installare ROM DS/DSi nella cartella <code>roms/nds</code>",
+                        "Installare ROM GBA nella cartella <code>roms/gba</code>",
+                        "Personalizzare TWiLight Menu++ con temi",
+                        "Installare homebrew e emulatori",
+                        "Giocare a tutti i tuoi giochi preferiti!"
+                    ]
+                },
+                {
+                    "type": "infobox",
+                    "variant": "info",
+                    "title": "Hai problemi o domande?",
+                    "titleIcon": "bi-telegram",
+                    "content": "Il nostro team è disponibile su Telegram per supportarti!",
+                    "cta": {
+                        "label": "Chiedi supporto su Telegram",
+                        "href": "https://t.me/NintendoROMsGruppo",
+                        "icon": "bi-telegram"
+                    }
+                }
+            ]
+        }
+    ],
+    "navigation": {
+        "prev": {
+            "label": "TWiLight Menu++",
+            "href": "/guide/dsi/twilight"
+        },
+        "next": {
+            "label": "Guide DSi",
+            "href": "/guide/dsi"
+        }
+    }
+}

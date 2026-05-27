@@ -1,0 +1,549 @@
+{
+    "id": "switch-sw-5",
+    "title": "Sezione 5 — Partizionamento SD",
+    "subtitle": "Creazione emuMMC e configurazione NAND virtuale",
+    "icon": "bi-hdd-fill",
+    "meta": {
+        "tempo": "10-30 minuti",
+        "difficolta": "Media",
+        "tipo": "29GB richiesti"
+    },
+    "breadcrumb": [
+        { "label": "Home", "href": "/", "icon": "bi-house-fill" },
+        { "label": "Guide", "href": "/guide" },
+        { "label": "Nintendo Switch", "href": "/guide/switch" },
+        { "label": "Requisiti", "href": "/guide/switch/requisiti" },
+        { "label": "Sezione 5" }
+    ],
+    "toc": [
+        { "id": "introduzione", "label": "Introduzione" },
+        { "id": "cos-e-emummc", "label": "Cos'è l'emuMMC?" },
+        { "id": "requisiti", "label": "Requisiti e Avvertenze" },
+        { "id": "parte-1", "label": "Parte 1 — Partizionamento SD" },
+        { "id": "parte-2", "label": "Parte 2 — Creazione emuMMC" },
+        { "id": "verifica", "label": "Verifica Completamento" },
+        { "id": "troubleshooting", "label": "Risoluzione Problemi" }
+    ],
+    "sections": [
+        {
+            "id": "introduzione",
+            "title": "Introduzione",
+            "icon": "bi-info-circle-fill",
+            "blocks": [
+                {
+                    "type": "infobox",
+                    "variant": "info",
+                    "title": "💡 Per utenti con Modchip",
+                    "titleIcon": "bi-cpu-fill",
+                    "content": "Se hai una console <strong>modificata via hardware (modchip)</strong>, basterà <strong>accendere normalmente la console</strong> e ti ritroverai automaticamente nel menu di Hekate. Da lì, dirigiti in <strong>Tools</strong> e segui questa guida."
+                },
+                {
+                    "type": "text",
+                    "content": "In questa sezione vedremo come <strong>partizionare la microSD</strong> in modo da creare una <strong>emuMMC (NAND virtuale)</strong> su cui verrà avviato il Custom Firmware. Questo è uno step <strong>fondamentale</strong> per proteggere la tua console e separare completamente il sistema originale da quello modificato."
+                }
+            ]
+        },
+        {
+            "id": "cos-e-emummc",
+            "title": "Cos'è l'emuMMC?",
+            "icon": "bi-question-circle-fill",
+            "blocks": [
+                {
+                    "type": "text",
+                    "content": "<strong>emuMMC (emulated MultiMediaCard)</strong> è una <strong>copia virtuale della memoria interna della Switch</strong> (chiamata sysNAND) che viene salvata su una partizione nascosta della microSD. Quando avvii il CFW tramite emuMMC, la console legge e scrive <strong>solo sulla SD</strong>, lasciando la memoria interna completamente <strong>intatta e pulita</strong>."
+                },
+                {
+                    "type": "two-columns",
+                    "columns": [
+                        {
+                            "title": "sysNAND — Memoria Interna",
+                            "icon": "bi-hdd-fill",
+                            "color": "#f87171",
+                            "borderColor": "rgba(248,113,113,0.3)",
+                            "items": [
+                                "❌ Memoria originale della Switch",
+                                "❌ Se modificata, rischio ban permanente",
+                                "❌ Traccia tutte le attività",
+                                "✅ Perfetta per giochi originali online"
+                            ]
+                        },
+                        {
+                            "title": "emuMMC — SD Virtuale",
+                            "icon": "bi-sd-card-fill",
+                            "color": "#4ade80",
+                            "borderColor": "rgba(74,222,128,0.3)",
+                            "items": [
+                                "✅ Copia virtuale sulla microSD",
+                                "✅ Completamente isolata da sysNAND",
+                                "✅ Per giochi piratati e homebrew",
+                                "✅ Protezione totale dal ban (se offline)"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "infobox",
+                    "variant": "success",
+                    "title": "Perché usare emuMMC?",
+                    "titleIcon": "bi-shield-check-fill",
+                    "contentList": [
+                        "✅ <strong>Sicurezza:</strong> La memoria interna resta pulita e Nintendo non rileva modifiche",
+                        "✅ <strong>Doppio sistema:</strong> Puoi avere sysNAND per giochi originali + emuMMC per piratati",
+                        "✅ <strong>Reversibilità:</strong> Puoi sempre tornare al sistema originale spegnendo e riaccendendo normalmente",
+                        "✅ <strong>Backup facile:</strong> Tutta la NAND modificata è sulla SD, facilmente salvabile"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "requisiti",
+            "title": "Requisiti e Avvertenze",
+            "icon": "bi-exclamation-triangle-fill",
+            "blocks": [
+                {
+                    "type": "infobox",
+                    "variant": "error",
+                    "title": "⚠️ ATTENZIONE — Backup obbligatorio!",
+                    "titleIcon": "bi-exclamation-octagon-fill",
+                    "content": "Il partizionamento <strong>cancellerà TUTTI i dati presenti sulla microSD</strong>! Se hai file importanti, giochi già installati o salvataggi sulla SD, <strong>fai un backup completo sul PC</strong> prima di procedere! I salvataggi dei giochi Switch sono nella memoria interna, quindi non andranno persi. Ma screenshot, video o homebrew sulla SD verranno cancellati!"
+                },
+                {
+                    "type": "spec-box",
+                    "title": "Requisiti per il Partizionamento",
+                    "titleIcon": "bi-clipboard-check-fill",
+                    "color": "#facc15",
+                    "borderColor": "rgba(250,204,21,0.3)",
+                    "items": [
+                        {
+                            "icon": "bi-check-circle-fill",
+                            "iconColor": "#4ade80",
+                            "label": "MicroSD Card minimo 64GB",
+                            "desc": "Consigliata 128GB o superiore (Samsung EVO, SanDisk Ultra, Amazon Basics)"
+                        },
+                        {
+                            "icon": "bi-check-circle-fill",
+                            "iconColor": "#4ade80",
+                            "label": "Console in Hekate",
+                            "desc": "Se hai modchip accendi normalmente; se RCM segui Sezione 4"
+                        },
+                        {
+                            "icon": "bi-check-circle-fill",
+                            "iconColor": "#4ade80",
+                            "label": "Almeno 40% di batteria",
+                            "desc": "O console collegata al caricatore"
+                        }
+                    ]
+                },
+                {
+                    "type": "infobox",
+                    "variant": "info",
+                    "title": "Dimensioni Partizionamento",
+                    "titleIcon": "bi-sd-card-fill",
+                    "content": "L'emuMMC richiede <strong>29GB fissi</strong> di spazio sulla SD (dimensione esatta della NAND Switch). Questo spazio verrà nascosto e dedicato esclusivamente alla NAND virtuale. Esempio SD da 128GB: 🟦 <strong>29 GB</strong> → emuMMC (partizione nascosta) | 🟩 <strong>~96 GB</strong> → FAT32 (spazio per giochi e homebrew)"
+                }
+            ]
+        },
+        {
+            "id": "parte-1",
+            "title": "Parte 1 — Partizionamento SD Card",
+            "icon": "bi-tools",
+            "blocks": [
+                {
+                    "type": "step",
+                    "number": 1,
+                    "title": "Accedi a Hekate",
+                    "blocks": [
+                        {
+                            "type": "list",
+                            "items": [
+                                { "icon": "bi-arrow-right-circle-fill", "iconColor": "#60a5fa", "html": "<strong>Con modchip:</strong> Accendi normalmente la console" },
+                                { "icon": "bi-arrow-right-circle-fill", "iconColor": "#60a5fa", "html": "<strong>Senza modchip:</strong> Entra in RCM e inietta il payload Hekate (vedi Sezione 4)" }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 2,
+                    "title": "Vai in Tools → Partition SD Card",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Dal menu principale di Hekate, tocca <strong>\"Tools\"</strong> per aprire il menu strumenti."
+                        },
+                        {
+                            "type": "image",
+                            "src": "/assets/guide/switch/modifica/sezione5/screenshot_tools_hekate.webp",
+                            "alt": "Menu Tools di Hekate",
+                            "caption": "Dirigiamoci in \"Tools\" → \"Partition SD Card\""
+                        },
+                        {
+                            "type": "text",
+                            "content": "All'interno del menu Tools, seleziona <strong>\"Partition SD Card\"</strong>."
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 3,
+                    "title": "Conferma l'avviso di cancellazione",
+                    "blocks": [
+                        {
+                            "type": "image",
+                            "src": "/assets/guide/switch/modifica/sezione5/screenshot_alert_sdcard_will_wiped.webp",
+                            "alt": "Alert SD card will be wiped",
+                            "caption": "Clicca \"OK\" per procedere (assicurati di aver fatto il backup!)"
+                        },
+                        {
+                            "type": "infobox",
+                            "variant": "error",
+                            "title": "Ultima possibilità!",
+                            "titleIcon": "bi-exclamation-triangle-fill",
+                            "content": "Se non hai fatto il backup e hai file importanti sulla SD, <strong>premi BACK</strong> e torna indietro! Altrimenti, tocca <strong>\"OK\"</strong> per continuare."
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 4,
+                    "title": "Imposta dimensione emuMMC (RAW) a 29GB",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Vedrai una schermata con uno slider per impostare la dimensione della partizione emuMMC."
+                        },
+                        {
+                            "type": "image",
+                            "src": "/assets/guide/switch/modifica/sezione5/screenshot_emummc_raw_29gb.webp",
+                            "alt": "Impostazione emuMMC RAW a 29 FULL",
+                            "caption": "Sposta la levetta di \"emuMMC (RAW)\" fino a \"29 FULL\""
+                        },
+                        {
+                            "type": "spec-box",
+                            "title": "Come impostare:",
+                            "titleIcon": "bi-hand-index-thumb-fill",
+                            "color": "#c084fc",
+                            "borderColor": "rgba(192,132,252,0.3)",
+                            "items": [
+                                { "icon": "bi-1-circle-fill", "iconColor": "#c084fc", "label": "Trova lo slider", "desc": "Troverai lo slider \"emuMMC (RAW)\" nella parte superiore" },
+                                { "icon": "bi-2-circle-fill", "iconColor": "#c084fc", "label": "Trascina", "desc": "Tocca e trascina la levetta verso DESTRA" },
+                                { "icon": "bi-3-circle-fill", "iconColor": "#c084fc", "label": "Valore finale", "desc": "Fermati quando leggi \"29 FULL\" (o \"29GB\")" },
+                                { "icon": "bi-4-circle-fill", "iconColor": "#c084fc", "label": "Spazio rimanente", "desc": "La sezione FAT32 si adatterà automaticamente" }
+                            ]
+                        },
+                        {
+                            "type": "infobox",
+                            "variant": "info",
+                            "titleIcon": "bi-lightbulb-fill",
+                            "content": "<strong>Nota:</strong> NON modificare gli altri slider (es: Android). Lascia solo <strong>emuMMC (RAW) = 29GB</strong> e il resto come FAT32."
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 5,
+                    "title": "Avvia il partizionamento",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Una volta impostato correttamente lo slider, clicca sul pulsante <strong>\"Start\"</strong>."
+                        },
+                        {
+                            "type": "image",
+                            "src": "/assets/guide/switch/modifica/sezione5/screenshot_start_partition_manager.webp",
+                            "alt": "Avvio partition manager",
+                            "caption": "Clicca \"Start\" per avviare il partizionamento"
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 6,
+                    "title": "Conferma con il tasto POWER",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Hekate ti chiederà una conferma finale con messaggio <strong>\"Press POWER to continue\"</strong>."
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                { "icon": "bi-1-circle-fill", "iconColor": "#4ade80", "html": "Attendi <strong>5 secondi</strong> (countdown automatico)" },
+                                { "icon": "bi-2-circle-fill", "iconColor": "#4ade80", "html": "Premi il pulsante <strong>POWER</strong> per avviare il processo" },
+                                { "icon": "bi-3-circle-fill", "iconColor": "#4ade80", "html": "Il partizionamento inizierà immediatamente" }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 7,
+                    "title": "Attendi il completamento",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Il partizionamento richiede <strong>1-3 minuti</strong> circa. Vedrai una barra di progressione."
+                        },
+                        {
+                            "type": "infobox",
+                            "variant": "error",
+                            "title": "Durante il processo:",
+                            "titleIcon": "bi-info-circle-fill",
+                            "contentList": [
+                                "✅ <strong>NON</strong> spegnere la console",
+                                "✅ <strong>NON</strong> rimuovere la microSD",
+                                "✅ Attendi che appaia il messaggio \"Done!\" o \"Partition complete\""
+                            ]
+                        },
+                        {
+                            "type": "infobox",
+                            "variant": "success",
+                            "titleIcon": "bi-check-circle-fill",
+                            "content": "Quando vedi il messaggio di completamento, la partizione è pronta! Tocca qualsiasi punto dello schermo per tornare al menu principale."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "parte-2",
+            "title": "Parte 2 — Creazione emuMMC",
+            "icon": "bi-hdd-rack-fill",
+            "blocks": [
+                {
+                    "type": "step",
+                    "number": 1,
+                    "title": "Vai alla Home di Hekate → emuMMC",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Premi <strong>BACK</strong> o <strong>Close</strong> fino a tornare al menu principale di Hekate, poi tocca <strong>\"emuMMC\"</strong>."
+                        },
+                        {
+                            "type": "image",
+                            "src": "/assets/guide/switch/modifica/sezione5/screenshot_hekate_home_emummc.webp",
+                            "alt": "Home Hekate con opzione emuMMC",
+                            "caption": "Dirigiamoci in \"emuMMC\""
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 2,
+                    "title": "Seleziona \"Create emuMMC\"",
+                    "blocks": [
+                        {
+                            "type": "image",
+                            "src": "/assets/guide/switch/modifica/sezione5/screenshot_create_emummc.webp",
+                            "alt": "Opzione Create emuMMC",
+                            "caption": "Selezioniamo \"Create emuMMC\""
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 3,
+                    "title": "Scegli \"SD Partition\"",
+                    "blocks": [
+                        {
+                            "type": "image",
+                            "src": "/assets/guide/switch/modifica/sezione5/screenshot_alert_sdpartition.webp",
+                            "alt": "Selezione SD Partition",
+                            "caption": "Clicca su \"SD Partition\""
+                        },
+                        {
+                            "type": "two-columns",
+                            "columns": [
+                                {
+                                    "title": "✅ SD Partition (RAW) — Consigliato",
+                                    "icon": "bi-check-circle-fill",
+                                    "color": "#4ade80",
+                                    "borderColor": "rgba(74,222,128,0.3)",
+                                    "items": [
+                                        "Usa la partizione nascosta creata prima",
+                                        "Più veloce e stabile"
+                                    ]
+                                },
+                                {
+                                    "title": "⚠️ SD File — Non consigliato",
+                                    "icon": "bi-exclamation-triangle-fill",
+                                    "color": "#facc15",
+                                    "borderColor": "rgba(250,204,21,0.3)",
+                                    "items": [
+                                        "Crea un file da 29GB nella FAT32",
+                                        "Più lento e può dare problemi"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 4,
+                    "title": "Seleziona \"Part 1\"",
+                    "blocks": [
+                        {
+                            "type": "image",
+                            "src": "/assets/guide/switch/modifica/sezione5/screenshot_part1_select.webp",
+                            "alt": "Selezione Part 1",
+                            "caption": "Clicca su \"Part 1\""
+                        },
+                        {
+                            "type": "infobox",
+                            "variant": "info",
+                            "titleIcon": "bi-info-circle-fill",
+                            "content": "<strong>Part 1</strong> è la partizione emuMMC da 29GB che abbiamo creato prima. Dovrebbe essere rilevata automaticamente da Hekate."
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 5,
+                    "title": "Avvio creazione emuMMC — Attendi",
+                    "blocks": [
+                        {
+                            "type": "spec-box",
+                            "title": "Tempo di completamento",
+                            "titleIcon": "bi-clock-history",
+                            "color": "#c084fc",
+                            "borderColor": "rgba(192,132,252,0.3)",
+                            "items": [
+                                { "icon": "bi-lightning-charge-fill", "iconColor": "#facc15", "label": "SD UHS-I U3 / A2 (Samsung EVO, SanDisk Extreme)", "desc": "5-10 minuti" },
+                                { "icon": "bi-speedometer2", "iconColor": "#60a5fa", "label": "SD UHS-I U1 (SanDisk Ultra, Amazon Basics)", "desc": "10-20 minuti" },
+                                { "icon": "bi-hourglass-split", "iconColor": "#fb923c", "label": "SD Class 10 generica", "desc": "20-30 minuti" }
+                            ]
+                        },
+                        {
+                            "type": "infobox",
+                            "variant": "error",
+                            "title": "Durante la creazione:",
+                            "titleIcon": "bi-exclamation-triangle-fill",
+                            "contentList": [
+                                "❌ <strong>NON</strong> spegnere la console",
+                                "❌ <strong>NON</strong> rimuovere la microSD",
+                                "❌ <strong>NON</strong> toccare lo schermo",
+                                "✅ Tieni la console collegata al caricatore (se sotto il 50%)",
+                                "✅ Attendi pazientemente — vedrai una barra di progressione"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 6,
+                    "title": "Completamento creazione",
+                    "blocks": [
+                        {
+                            "type": "infobox",
+                            "variant": "success",
+                            "title": "emuMMC creata con successo!",
+                            "titleIcon": "bi-trophy-fill",
+                            "content": "La tua NAND virtuale è stata creata sulla partizione della microSD. Ora hai una copia completa del sistema Switch isolata e pronta per il CFW! Premi un tasto qualsiasi o tocca lo schermo per tornare al menu emuMMC."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "verifica",
+            "title": "Verifica Completamento",
+            "icon": "bi-check-circle-fill",
+            "blocks": [
+                {
+                    "type": "step",
+                    "number": 1,
+                    "title": "Controlla stato emuMMC",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Nel menu <strong>emuMMC</strong>, dovresti vedere:"
+                        },
+                        {
+                            "type": "file-listing",
+                            "files": [
+                                "✅ Status: Enabled",
+                                "Type: SD RAW Partition",
+                                "Sector: 0x2 (o altro valore)",
+                                "Size: ~29 GB"
+                            ]
+                        },
+                        {
+                            "type": "infobox",
+                            "variant": "success",
+                            "titleIcon": "bi-check-circle-fill",
+                            "content": "Se vedi <strong>\"Status: Enabled\"</strong> e <strong>\"Type: SD RAW Partition\"</strong>, tutto è configurato correttamente! ✅"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "troubleshooting",
+            "title": "Risoluzione Problemi",
+            "icon": "bi-tools",
+            "blocks": [
+                {
+                    "type": "brick-list",
+                    "title": "Problemi Comuni",
+                    "items": [
+                        {
+                            "title": "Errore \"Failed to create partition\" durante partizionamento",
+                            "desc": "SD card difettosa, non formattata correttamente o protezione da scrittura attiva. Soluzione: formatta la SD in FAT32 sul PC (Sezione 2) e riprova. Verifica che l'interruttore laterale non sia su Lock."
+                        },
+                        {
+                            "title": "emuMMC creation bloccata al 0% o si ferma a metà",
+                            "desc": "SD troppo lenta, difettosa o con settori corrotti. Attendi almeno 30 minuti. Se ancora bloccata, tieni premuto POWER per 12 secondi, riformatta la SD con GuiFormat e riparti dalla Parte 1."
+                        },
+                        {
+                            "title": "Non vedo l'opzione \"Part 1\" quando creo emuMMC",
+                            "desc": "Il partizionamento non è andato a buon fine. Torna in Tools → Partition SD Card, verifica di aver impostato emuMMC (RAW) a 29 FULL e riavvia il partizionamento. Attendi il messaggio \"Done!\" prima di procedere."
+                        },
+                        {
+                            "title": "Errore \"Not enough space\" anche con SD da 64GB+",
+                            "desc": "SD non formattata in FAT32 o con partizioni esistenti. Usa GuiFormat sul PC per formattare completamente in FAT32. Verifica che la SD sia realmente della dimensione dichiarata (alcune SD contraffatte mostrano capacità fake)."
+                        },
+                        {
+                            "title": "emuMMC Status mostra \"Disabled\" dopo la creazione",
+                            "desc": "emuMMC non attivata automaticamente. Nel menu emuMMC, tocca \"Change emuMMC\" → seleziona \"SD RAW 1\" → tocca \"OK\". Lo status dovrebbe cambiare in \"Enabled\"."
+                        }
+                    ]
+                },
+                {
+                    "type": "infobox",
+                    "variant": "info",
+                    "title": "Hai ancora problemi?",
+                    "titleIcon": "bi-telegram",
+                    "content": "Il nostro team è disponibile su Telegram per aiutarti!",
+                    "cta": {
+                        "label": "Chiedi supporto su Telegram",
+                        "href": "https://t.me/NintendoROMsGruppo",
+                        "icon": "bi-telegram"
+                    }
+                },
+                {
+                    "type": "infobox",
+                    "variant": "success",
+                    "title": "Cosa abbiamo fatto in questa sezione?",
+                    "titleIcon": "bi-lightbulb-fill",
+                    "contentList": [
+                        "✅ Creato una <strong>partizione nascosta da 29GB</strong> sulla microSD",
+                        "✅ Generato una <strong>copia virtuale della NAND</strong> (emuMMC) isolata dal sistema originale",
+                        "✅ Preparato l'ambiente per avviare <strong>Atmosphere CFW in modo sicuro</strong>",
+                        "✅ Protetto la console da ban mantenendo la sysNAND originale pulita"
+                    ]
+                }
+            ]
+        }
+    ],
+    "navigation": {
+        "prev": {
+            "label": "Sezione 4 — Inizializzazione RCM",
+            "href": "/guide/switch/sw-4"
+        },
+        "next": {
+            "label": "Sezione 6 — Backup NAND",
+            "href": "/guide/switch/sw-6"
+        }
+    }
+}
