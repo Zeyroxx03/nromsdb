@@ -1,0 +1,448 @@
+{
+    "id": "wii-wilbrand",
+    "title": "Wilbrand - Exploit via SD Card",
+    "subtitle": "Modifica la Wii tramite la Bacheca Messaggi con una SD Card",
+    "icon": "bi-sd-card-fill",
+    "meta": {
+        "tempo": "15-20 minuti",
+        "difficolta": "Facile",
+        "tipo": "SD Card"
+    },
+    "breadcrumb": [
+        { "label": "Home", "href": "/", "icon": "bi-house-fill" },
+        { "label": "Guide", "href": "/guide" },
+        { "label": "Wii", "href": "/guide/wii" },
+        { "label": "Wilbrand" }
+    ],
+    "toc": [
+        { "id": "introduzione", "label": "Introduzione" },
+        { "id": "requisiti", "label": "Requisiti" },
+        { "id": "istruzioni", "label": "Istruzioni" },
+        { "id": "troubleshooting", "label": "Risoluzione Problemi" },
+        { "id": "proseguimento", "label": "Proseguimento" }
+    ],
+    "sections": [
+        {
+            "id": "introduzione",
+            "title": "Introduzione",
+            "icon": "bi-info-circle-fill",
+            "blocks": [
+                {
+                    "type": "text",
+                    "content": "<strong>Wilbrand</strong> è un exploit per Wii che viene attivato tramite la <strong>Wii Message Board</strong> (Bacheca messaggi Wii). È compatibile con le versioni del menu Wii dalla <strong>3.0 alla 4.3</strong> in tutte le regioni."
+                },
+                {
+                    "type": "spec-box",
+                    "title": "Caratteristiche di Wilbrand",
+                    "titleIcon": "bi-check-circle-fill",
+                    "color": "#c084fc",
+                    "borderColor": "rgba(192,132,252,0.3)",
+                    "items": [
+                        {
+                            "icon": "bi-check-circle-fill",
+                            "iconColor": "#4ade80",
+                            "label": "Compatibilità completa",
+                            "desc": "Funziona con tutte le versioni Wii dalla 3.0 alla 4.3 e tutte le regioni (PAL, NTSC-U, NTSC-J, KOR)"
+                        },
+                        {
+                            "icon": "bi-check-circle-fill",
+                            "iconColor": "#4ade80",
+                            "label": "Richiede solo una SD card",
+                            "desc": "Non serve PC Windows — funziona con qualsiasi sistema operativo per scaricare i file"
+                        },
+                        {
+                            "icon": "bi-check-circle-fill",
+                            "iconColor": "#4ade80",
+                            "label": "Setup manuale ma semplice",
+                            "desc": "Procedura guidata passo-passo, facile da seguire"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "requisiti",
+            "title": "Requisiti",
+            "icon": "bi-clipboard-check-fill",
+            "blocks": [
+                {
+                    "type": "two-columns",
+                    "columns": [
+                        {
+                            "title": "Hardware Necessario",
+                            "icon": "bi-hdd-fill",
+                            "color": "#c084fc",
+                            "borderColor": "rgba(192,132,252,0.3)",
+                            "items": [
+                                "Nintendo Wii con versione 3.0 o superiore",
+                                "SD Card formattata FAT32/MS-DOS",
+                                "PC (per scaricare file e copiare sulla SD)"
+                            ]
+                        },
+                        {
+                            "title": "Informazioni da raccogliere",
+                            "icon": "bi-info-circle-fill",
+                            "color": "#60a5fa",
+                            "borderColor": "rgba(96,165,250,0.3)",
+                            "items": [
+                                "Versione menu Wii (es: 4.3E)",
+                                "Indirizzo MAC completo della Wii",
+                                "Regione della tua console"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "infobox",
+                    "variant": "warning",
+                    "title": "Limitazione SD Card",
+                    "titleIcon": "bi-exclamation-triangle-fill",
+                    "content": "SD card <strong>maggiori di 2GB</strong> non funzioneranno su menu Wii <strong>precedenti alla versione 4.0</strong>."
+                },
+                {
+                    "type": "infobox",
+                    "variant": "info",
+                    "titleIcon": "bi-lightbulb-fill",
+                    "content": "Tutti i dati necessari (versione, MAC, regione) verranno trovati seguendo i passaggi della guida!"
+                }
+            ]
+        },
+        {
+            "id": "istruzioni",
+            "title": "Istruzioni",
+            "icon": "bi-list-ol",
+            "blocks": [
+                {
+                    "type": "step",
+                    "number": 1,
+                    "title": "Accendi la console",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Accendi la tua Nintendo Wii e attendi che carichi il menu principale."
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 2,
+                    "title": "Vai nelle Impostazioni Wii",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Dal menu HOME, clicca sull'icona <strong>\"Opzioni Wii\"</strong> in basso a sinistra, poi seleziona <strong>\"Impostazioni console Wii\"</strong>."
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 3,
+                    "title": "Annota la versione del sistema",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Nella schermata delle impostazioni, in <strong>alto a destra</strong> vedrai la versione del sistema. Prendi nota della <strong>lettera finale</strong> accanto al numero di versione."
+                        },
+                        {
+                            "type": "image",
+                            "src": "/assets/guide/wii/modifica/wilbrand/screen_settings_version_evidenziata.webp",
+                            "alt": "Versione sistema Wii evidenziata",
+                            "caption": "Versione del sistema (es: 4.3E) — La lettera finale indica la regione"
+                        },
+                        {
+                            "type": "table",
+                            "title": "Corrispondenza Regioni",
+                            "titleIcon": "bi-globe",
+                            "headers": ["Lettera", "Regione"],
+                            "rows": [
+                                { "cells": ["E", "PAL (Europa)"], "color": "#60a5fa" },
+                                { "cells": ["U", "NTSC-U (USA)"], "color": "#4ade80" },
+                                { "cells": ["J", "NTSC-J (Giappone)"], "color": "#c084fc" },
+                                { "cells": ["K", "KOR (Corea)"], "color": "#fb923c" }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 4,
+                    "title": "Trova l'indirizzo MAC",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Sempre nelle Impostazioni, vai su <strong>Internet → Informazioni console</strong>."
+                        },
+                        {
+                            "type": "image",
+                            "src": "/assets/guide/wii/modifica/wilbrand/screen_console_info_mac.webp",
+                            "alt": "Indirizzo MAC Wii",
+                            "caption": "Indirizzo MAC completo — Annotalo per il prossimo step"
+                        },
+                        {
+                            "type": "infobox",
+                            "variant": "warning",
+                            "title": "Annota TUTTO l'indirizzo MAC!",
+                            "titleIcon": "bi-exclamation-triangle-fill",
+                            "content": "Ti servirà il MAC address <strong>completo</strong> (formato: <code>XX:XX:XX:XX:XX:XX</code>). Scrivilo correttamente, sarà necessario nel prossimo passaggio."
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 5,
+                    "title": "Vai sul sito Wilbrand",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Sul tuo <strong>PC</strong>, apri il browser e vai sul sito di Wilbrand:"
+                        },
+                        {
+                            "type": "download-list",
+                            "title": "Sito Wilbrand",
+                            "titleIcon": "bi-globe",
+                            "items": [
+                                {
+                                    "icon": "bi-globe2",
+                                    "iconColor": "#c084fc",
+                                    "label": "wilbrand.donut.eu.org",
+                                    "desc": "Generatore exploit Wilbrand online",
+                                    "href": "https://wilbrand.donut.eu.org"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 6,
+                    "title": "Compila il form sul sito",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Inserisci i dati della tua Wii nel form:"
+                        },
+                        {
+                            "type": "image",
+                            "src": "/assets/guide/wii/modifica/wilbrand/screen_wilbrand_letterbomb.webp",
+                            "alt": "Sito Wilbrand - Form compilazione",
+                            "caption": "Compila il form con MAC, versione e regione della tua Wii"
+                        },
+                        {
+                            "type": "spec-box",
+                            "title": "Campi da compilare",
+                            "titleIcon": "bi-pencil-fill",
+                            "color": "#c084fc",
+                            "borderColor": "rgba(192,132,252,0.3)",
+                            "items": [
+                                {
+                                    "icon": "bi-1-circle-fill",
+                                    "iconColor": "#c084fc",
+                                    "label": "Wii MAC Address",
+                                    "desc": "Inserisci il MAC che hai annotato prima (es: 00:11:22:33:44:55)"
+                                },
+                                {
+                                    "icon": "bi-2-circle-fill",
+                                    "iconColor": "#c084fc",
+                                    "label": "Version",
+                                    "desc": "Seleziona la versione del tuo menu Wii (es: 4.3)"
+                                },
+                                {
+                                    "icon": "bi-3-circle-fill",
+                                    "iconColor": "#c084fc",
+                                    "label": "Region",
+                                    "desc": "Seleziona la regione (E=Europa, U=USA, J=Giappone, K=Corea)"
+                                },
+                                {
+                                    "icon": "bi-check-square-fill",
+                                    "iconColor": "#4ade80",
+                                    "label": "Bundle the HackMii Installer for me!",
+                                    "desc": "Assicurati che questa casella sia SELEZIONATA ✓"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "infobox",
+                            "variant": "success",
+                            "titleIcon": "bi-lightbulb-fill",
+                            "content": "La voce \"Cut either wire\" è solo estetica — puoi scegliere quello che preferisci!"
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 7,
+                    "title": "Scarica il file .zip",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Clicca sul pulsante <strong>\"Download your .zip\"</strong> e salva il file sul PC."
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 8,
+                    "title": "Copia i file sulla SD",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Inserisci la SD card nel PC, estrai il file .zip scaricato e copia sulla <strong>radice della SD card</strong>:"
+                        },
+                        {
+                            "type": "file-tree",
+                            "title": "Struttura SD Card",
+                            "items": [
+                                { "name": "SD Card", "type": "drive", "depth": 0 },
+                                { "name": "private", "type": "folder", "depth": 1 },
+                                { "name": "wii", "type": "folder", "depth": 2 },
+                                { "name": "title", "type": "folder", "depth": 3 },
+                                { "name": "...", "depth": 4, "dim": true, "last": true },
+                                { "name": "boot.elf", "depth": 1, "highlight": true, "last": true }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 9,
+                    "title": "Reinserisci la SD nella Wii",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Rimuovi la SD dal PC e inseriscila nella <strong>Wii</strong>."
+                        },
+                        {
+                            "type": "infobox",
+                            "variant": "error",
+                            "title": "IMPORTANTE — Slot SD corretto!",
+                            "titleIcon": "bi-exclamation-octagon-fill",
+                            "content": "La SD card deve essere inserita nello <strong>slot SD frontale</strong> della Wii. Usare un adattatore USB → SD <strong>NON funzionerà</strong>!"
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 10,
+                    "title": "Apri la Bacheca Wii",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Sulla Wii, torna al menu HOME principale. Clicca sull'icona della <strong>Bacheca Wii</strong> (Wii Message Board) in basso a destra."
+                        },
+                        {
+                            "type": "infobox",
+                            "variant": "warning",
+                            "title": "Verifica la data!",
+                            "titleIcon": "bi-calendar-check",
+                            "content": "Assicurati che la <strong>data sulla Wii sia corretta</strong>, altrimenti potresti non trovare la lettera. In alcuni casi potrebbe essere necessario controllare i messaggi di <strong>ieri o domani</strong>."
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 11,
+                    "title": "Apri la lettera verde con la bomba",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Nella Bacheca Wii vedrai una <strong>lettera verde con icona bomba</strong>. Cliccala per aprirla!"
+                        },
+                        {
+                            "type": "image",
+                            "src": "/assets/guide/wii/modifica/wilbrand/screen_wii_posta_letterbomb_verde.webp",
+                            "alt": "Lettera verde con bomba nella Wii Message Board",
+                            "caption": "Lettera verde con bomba — Aprila per avviare l'exploit"
+                        },
+                        {
+                            "type": "brick-list",
+                            "title": "Non vedi la lettera verde?",
+                            "items": [
+                                {
+                                    "title": "Errori nella sezione SD",
+                                    "desc": "Controlla se ci sono errori nella sezione SD di Gestione dati (nelle Impostazioni Wii)"
+                                },
+                                {
+                                    "title": "Formato SD errato",
+                                    "desc": "La SD card deve essere formattata in FAT32"
+                                },
+                                {
+                                    "title": "Lettore SD difettoso",
+                                    "desc": "Il lettore SD della Wii potrebbe essere difettoso — prova a pulire i contatti"
+                                },
+                                {
+                                    "title": "MAC address errato",
+                                    "desc": "Verifica di aver inserito il MAC address corretto sul sito Wilbrand"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 12,
+                    "title": "HackMii Installer caricato!",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Se l'exploit ha funzionato, la Wii caricherà automaticamente <strong>HackMii Installer</strong>!"
+                        },
+                        {
+                            "type": "infobox",
+                            "variant": "success",
+                            "title": "Exploit riuscito!",
+                            "titleIcon": "bi-trophy-fill",
+                            "content": "Se vedi la schermata di HackMii Installer, l'exploit è andato a buon fine. Procedi con l'installazione dell'Homebrew Channel!"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "troubleshooting",
+            "title": "Risoluzione Problemi",
+            "icon": "bi-tools",
+            "blocks": [
+                {
+                    "type": "brick-list",
+                    "title": "Problemi Comuni",
+                    "items": [
+                        {
+                            "title": "La Wii si blocca su schermo nero",
+                            "desc": "Spegni la Wii tenendo premuto POWER per 5 secondi. Riaccendi e riprova. Assicurati che i file siano stati copiati correttamente sulla SD."
+                        },
+                        {
+                            "title": "Vengo riportato al menu Wii dopo aver aperto la lettera",
+                            "desc": "Controlla che l'interruttore di blocco sulla SD card sia in posizione sbloccata. Prova a riformattare la SD in FAT32 e ricopia i file. Verifica di aver scaricato il file .zip con i dati corretti (MAC, versione, regione)."
+                        },
+                        {
+                            "title": "Non vedo la lettera verde nella Bacheca",
+                            "desc": "Verifica che la data della Wii sia corretta — controlla ieri/domani nella bacheca. La SD deve essere FAT32 e i file nella radice. Controlla il MAC address e assicurati che la SD sia nello slot frontale (non via USB)."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "proseguimento",
+            "title": "Proseguimento",
+            "icon": "bi-arrow-right-circle-fill",
+            "blocks": [
+                {
+                    "type": "text",
+                    "content": "Ora che hai caricato HackMii Installer, prosegui con l'installazione dell'Homebrew Channel e BootMii. I passaggi successivi sono <strong>identici</strong> indipendentemente dall'exploit utilizzato."
+                }
+                
+            ]
+        }
+    ],
+    "navigation": {
+        "prev": {
+            "label": "Inizia la Modifica",
+            "href": "/guide/wii/get-started"
+        },
+        "next": {
+            "label": "Homebrew Channel e BootMii",
+            "href": "/guide/wii/str2hax/hbc-bootmii"
+        }
+    }
+}
