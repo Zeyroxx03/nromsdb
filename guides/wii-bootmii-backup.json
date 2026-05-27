@@ -1,0 +1,437 @@
+{
+    "id": "wii-bootmii-backup",
+    "title": "Backup NAND con BootMii",
+    "subtitle": "Proteggi la tua Wii creando un backup completo della memoria di sistema",
+    "icon": "bi-floppy-fill",
+    "meta": {
+        "tempo": "5-10 minuti",
+        "difficolta": "Facile",
+        "tipo": "FONDAMENTALE"
+    },
+    "breadcrumb": [
+        { "label": "Home", "href": "/", "icon": "bi-house-fill" },
+        { "label": "Guide", "href": "/guide" },
+        { "label": "Wii", "href": "/guide/wii" },
+        { "label": "str2hax", "href": "/guide/wii/str2hax" },
+        { "label": "HBC & BootMii", "href": "/guide/wii/str2hax/hbc-bootmii" },
+        { "label": "Backup NAND" }
+    ],
+    "toc": [
+        { "id": "introduzione", "label": "Introduzione" },
+        { "id": "requisiti", "label": "Requisiti" },
+        { "id": "istruzioni", "label": "Istruzioni" },
+        { "id": "file-creati", "label": "File Creati sulla SD" },
+        { "id": "autobooting", "label": "Autobooting (Opzionale)" },
+        { "id": "prossimi-passi", "label": "Prossimi Passi" }
+    ],
+    "sections": [
+        {
+            "id": "introduzione",
+            "title": "Introduzione",
+            "icon": "bi-info-circle-fill",
+            "blocks": [
+                {
+                    "type": "text",
+                    "content": "<strong>BootMii</strong> permette di eseguire <strong>backup e ripristino</strong> della memoria NAND della tua Wii. Questa pagina ti guiderà nel creare un backup della NAND su una scheda SD, che potrai poi utilizzare per recuperare la console in caso di brick."
+                },
+                {
+                    "type": "infobox",
+                    "variant": "error",
+                    "title": "SD Card Obbligatoria",
+                    "titleIcon": "bi-sd-card-fill",
+                    "content": "Hai bisogno di una <strong>scheda SD</strong> per utilizzare BootMii, specialmente per creare un backup NAND. Se <strong>NON hai una SD card</strong> in questo momento, puoi saltare questa pagina, ma è <strong>ALTAMENTE RACCOMANDATO</strong> tornarci successivamente per eseguire il backup della NAND."
+                },
+                {
+                    "type": "spec-box",
+                    "title": "Perché il backup NAND è importante?",
+                    "titleIcon": "bi-shield-check",
+                    "color": "#60a5fa",
+                    "borderColor": "rgba(96,165,250,0.3)",
+                    "items": [
+                        {
+                            "icon": "bi-check-circle-fill",
+                            "iconColor": "#4ade80",
+                            "label": "Protezione da brick",
+                            "desc": "Se la console si bricka, puoi ripristinare il backup e tornare operativo"
+                        },
+                        {
+                            "icon": "bi-check-circle-fill",
+                            "iconColor": "#4ade80",
+                            "label": "Salvataggio dati",
+                            "desc": "Conserva tutti i tuoi salvataggi, canali e impostazioni"
+                        },
+                        {
+                            "icon": "bi-check-circle-fill",
+                            "iconColor": "#4ade80",
+                            "label": "Unico per la tua console",
+                            "desc": "Il backup NAND è specifico per la tua Wii — conservalo al sicuro"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "requisiti",
+            "title": "Requisiti",
+            "icon": "bi-list-check",
+            "blocks": [
+                {
+                    "type": "infobox",
+                    "variant": "warning",
+                    "title": "Cosa ti serve:",
+                    "titleIcon": "bi-basket-fill",
+                    "contentList": [
+                        "✅ Una <strong>scheda SD</strong> con almeno <strong>512MB di spazio libero</strong> (1GB o più consigliato)",
+                        "✅ <strong>BootMii</strong> installato (dalla parte precedente della guida)",
+                        "✅ Un <strong>controller GameCube</strong> oppure i pulsanti <strong>POWER/RESET</strong> sulla console"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "istruzioni",
+            "title": "Istruzioni",
+            "icon": "bi-gear-fill",
+            "blocks": [
+                {
+                    "type": "infobox",
+                    "variant": "info",
+                    "title": "Nota per utenti BootMii come boot2:",
+                    "titleIcon": "bi-lightbulb-fill",
+                    "content": "Se hai BootMii installato come <strong>boot2</strong>, dovrai avviare BootMii <strong>riavviando la console</strong>. In questo caso, salta gli step 1, 2 e 3."
+                },
+                {
+                    "type": "step",
+                    "number": 1,
+                    "title": "Accendi la console",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Accendi la tua Nintendo Wii."
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 2,
+                    "title": "Avvia l'Homebrew Channel",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Dal Menu Wii, avvia l'<strong>Homebrew Channel</strong>."
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 3,
+                    "title": "Lancia BootMii",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Premi il pulsante <strong>HOME</strong> sul Wiimote, quindi seleziona <strong>\"Launch BootMii\"</strong>."
+                        },
+                        {
+                            "type": "image",
+                            "src": "/assets/guide/wii/modifica/steps/bootmii-backup/screen_hbchannel_launch_bootmii.webp",
+                            "alt": "Homebrew Channel - Launch BootMii",
+                            "caption": "Premi HOME e seleziona \"Launch BootMii\""
+                        },
+                        {
+                            "type": "brick-list",
+                            "title": "Risoluzione problemi:",
+                            "items": [
+                                {
+                                    "title": "Il pulsante \"Launch BootMii\" non appare",
+                                    "desc": "Riavvia l'installer HackMii e installa BootMii. Torna alla guida di installazione HBC & BootMii."
+                                },
+                                {
+                                    "title": "Schermo nero e luce blu del lettore disco lampeggia",
+                                    "desc": "Mancano i file di BootMii sulla tua SD card. Scarica i file BootMii SD, estrai il contenuto dello ZIP nella radice della SD card e riprova."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 4,
+                    "title": "Schermata principale BootMii",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Dovresti vedere ora la schermata principale di BootMii sullo schermo."
+                        },
+                        {
+                            "type": "image",
+                            "src": "/assets/guide/wii/modifica/steps/bootmii-backup/screen_bootmii_home.webp",
+                            "alt": "BootMii - Schermata principale",
+                            "caption": "Menu principale di BootMii"
+                        },
+                        {
+                            "type": "infobox",
+                            "variant": "warning",
+                            "title": "Navigazione in BootMii",
+                            "titleIcon": "bi-controller",
+                            "content": "<strong>NON è possibile</strong> navigare in BootMii usando il Wiimote. Devi usare un <strong>controller GameCube</strong> collegato alla porta 1, oppure i <strong>pulsanti POWER e RESET</strong> sulla console Wii: premi <strong>POWER</strong> per navigare tra le opzioni, premi <strong>RESET</strong> per selezionare un'opzione."
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 5,
+                    "title": "Seleziona Options",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Seleziona il pulsante <strong>Options</strong> (l'icona con gli ingranaggi)."
+                        },
+                        {
+                            "type": "image",
+                            "src": "/assets/guide/wii/modifica/steps/bootmii-backup/screen_bootmii_options_select.webp",
+                            "alt": "BootMii - Seleziona Options",
+                            "caption": "Seleziona l'icona \"Options\" (ingranaggi)"
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 6,
+                    "title": "Avvia backup NAND",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Seleziona il <strong>primo pulsante a sinistra</strong> (icona freccia verso SD card)."
+                        },
+                        {
+                            "type": "image",
+                            "src": "/assets/guide/wii/modifica/steps/bootmii-backup/screen_bootmii_firstoption_green.webp",
+                            "alt": "BootMii - Primo pulsante backup",
+                            "caption": "Seleziona il primo pulsante a sinistra (backup su SD)"
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 7,
+                    "title": "Backup NAND in corso",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Il backup NAND inizierà automaticamente. Puoi osservare il progresso sullo schermo."
+                        },
+                        {
+                            "type": "image",
+                            "src": "/assets/guide/wii/modifica/steps/bootmii-backup/screen_nand_process.webp",
+                            "alt": "Backup NAND in corso",
+                            "caption": "Backup NAND in esecuzione — attendi il completamento"
+                        },
+                        {
+                            "type": "infobox",
+                            "variant": "info",
+                            "title": "I \"Bad Blocks\" sono normali!",
+                            "titleIcon": "bi-info-circle-fill",
+                            "content": "I <strong>Bad Blocks</strong> sono normali e provengono principalmente dalla fabbrica a causa del processo di produzione NAND (binning). <strong>Non preoccuparti</strong> se ne vedi alcuni durante il backup NAND."
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 8,
+                    "title": "Verifica del backup",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Dopo il completamento, BootMii <strong>verificherà il backup</strong>. Idealmente, tutti i blocchi dovrebbero essere <strong>verdi</strong> dopo il processo di verifica."
+                        },
+                        {
+                            "type": "image",
+                            "src": "/assets/guide/wii/modifica/steps/bootmii-backup/screen_nand_end.webp",
+                            "alt": "Backup NAND completato e verificato",
+                            "caption": "Backup completato e verificato con successo"
+                        },
+                        {
+                            "type": "infobox",
+                            "variant": "warning",
+                            "titleIcon": "bi-exclamation-triangle-fill",
+                            "content": "Se hai bad blocks di fabbrica con pagine non correggibili, questi blocchi potrebbero fallire la verifica. Finché tutti i blocchi <strong>non-bad</strong> vengono verificati con successo, non ci sono problemi."
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 9,
+                    "title": "Esci da BootMii",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Premi il pulsante <strong>Back</strong> (quello con la freccia indietro), quindi premi il pulsante <strong>Wii Menu</strong> o il pulsante <strong>Homebrew Channel</strong> per uscire da BootMii."
+                        },
+                        {
+                            "type": "image",
+                            "src": "/assets/guide/wii/modifica/steps/bootmii-backup/screen_bootmii_exit.webp",
+                            "alt": "BootMii - Esci",
+                            "caption": "Premi Back e poi scegli dove uscire"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "file-creati",
+            "title": "File creati sulla SD",
+            "icon": "bi-folder-fill",
+            "blocks": [
+                {
+                    "type": "text",
+                    "content": "Due file saranno stati creati nella <strong>radice della tua scheda SD</strong>:"
+                },
+                {
+                    "type": "two-columns",
+                    "columns": [
+                        {
+                            "title": "nand.bin",
+                            "icon": "bi-file-earmark-binary",
+                            "color": "#60a5fa",
+                            "borderColor": "rgba(96,165,250,0.3)",
+                            "items": [
+                                "Backup completo della memoria interna della tua console (NAND)",
+                                "Dimensione: circa 512MB",
+                                "Necessario per ripristinare la console in caso di brick"
+                            ]
+                        },
+                        {
+                            "title": "keys.bin",
+                            "icon": "bi-key-fill",
+                            "color": "#c084fc",
+                            "borderColor": "rgba(192,132,252,0.3)",
+                            "items": [
+                                "Le chiavi univoche della tua console",
+                                "Necessarie per ripristinare il backup",
+                                "UNICHE per ogni Wii — non sono intercambiabili"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "infobox",
+                    "variant": "error",
+                    "title": "IMPORTANTE — Conserva questi file al sicuro!",
+                    "titleIcon": "bi-shield-fill-exclamation",
+                    "contentList": [
+                        "<strong>Copia questi file sul tuo PC</strong> o su un altro dispositivo sicuro",
+                        "<strong>NON condividere</strong> questi file con nessuno — sono specifici per la tua console",
+                        "<strong>Conservali per sempre</strong> — potrebbero salvarti da un brick futuro",
+                        "Fai <strong>backup multipli</strong> in luoghi diversi (cloud, hard disk esterno, ecc.)"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "autobooting",
+            "title": "Autobooting (Opzionale)",
+            "icon": "bi-lightning-fill",
+            "blocks": [
+                {
+                    "type": "text",
+                    "content": "Se sei riuscito a installare BootMii come <strong>boot2</strong>, ma non vuoi caricare la schermata di BootMii ogni volta che accendi la Wii, puoi impostarlo per l'<strong>avvio automatico</strong> al menu di sistema. In questo modo non noterai nemmeno di avere BootMii installato come boot2."
+                },
+                {
+                    "type": "infobox",
+                    "variant": "info",
+                    "titleIcon": "bi-info-circle-fill",
+                    "content": "Questa sezione è <strong>solo per chi ha BootMii come boot2</strong>. Se hai BootMii come IOS (la maggior parte delle persone), puoi saltare questa sezione."
+                },
+                {
+                    "type": "step",
+                    "number": 1,
+                    "title": "Apri il file di configurazione",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Apri il file <code>SD:/bootmii/bootmii.ini</code> con un editor di testo (come Blocco Note su Windows)."
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 2,
+                    "title": "Abilita AUTOBOOT",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Cambia <code>#AUTOBOOT=SYSMENU</code> in <code>AUTOBOOT=SYSMENU</code> eliminando il simbolo <code>#</code>."
+                        },
+                        {
+                            "type": "file-listing",
+                            "files": [
+                                "Prima:  #AUTOBOOT=SYSMENU",
+                                "Dopo:   AUTOBOOT=SYSMENU"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 3,
+                    "title": "Riduci il ritardo di avvio",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Cambia <code>#BOOTDELAY=5</code> in <code>BOOTDELAY=1</code> eliminando il <code>#</code> e cambiando il <code>5</code> in <code>1</code>."
+                        },
+                        {
+                            "type": "file-listing",
+                            "files": [
+                                "Prima:  #BOOTDELAY=5",
+                                "Dopo:   BOOTDELAY=1"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 4,
+                    "title": "Salva ed esci",
+                    "blocks": [
+                        {
+                            "type": "text",
+                            "content": "Salva il file e chiudi l'editor di testo. Al prossimo avvio, la Wii si avvierà direttamente nel Menu Wii."
+                        },
+                        {
+                            "type": "infobox",
+                            "variant": "success",
+                            "titleIcon": "bi-lightbulb-fill",
+                            "content": "Anche con l'autoboot abilitato, puoi sempre accedere a BootMii tenendo premuto il pulsante <strong>START</strong> su un controller GameCube all'avvio (se BootMii è come boot2)."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "prossimi-passi",
+            "title": "Prossimi Passi",
+            "icon": "bi-arrow-right-circle-fill",
+            "blocks": [
+                {
+                    "type": "infobox",
+                    "variant": "success",
+                    "title": "Backup completato!",
+                    "titleIcon": "bi-check-circle-fill",
+                    "content": "Hai creato con successo un backup completo della NAND della tua Wii. Questo backup ti proteggerà in caso di brick futuro. Ricorda di conservare i file <strong>nand.bin</strong> e <strong>keys.bin</strong> al sicuro!"
+                }
+                
+            ]
+        }
+    ],
+    "navigation": {
+        "prev": {
+            "label": "HBC & BootMii",
+            "href": "/guide/wii/str2hax/hbc-bootmii"
+        },
+        "next": {
+            "label": "Installazione Priiloader",
+            "href": "/guide/wii/str2hax/priiloader"
+        }
+    }
+}
