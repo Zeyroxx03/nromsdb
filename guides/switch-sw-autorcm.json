@@ -1,0 +1,226 @@
+{
+    "id": "switch-sw-autorcm",
+    "title": "AutoRCM",
+    "subtitle": "Avvio automatico in RCM senza jig: vantaggi, rischi e procedura da Hekate",
+    "icon": "bi-power",
+    "meta": {
+        "tempo": "5-10 minuti",
+        "difficolta": "Media",
+        "tipo": "Hekate"
+    },
+    "breadcrumb": [
+        { "label": "Home", "href": "/", "icon": "bi-house-fill" },
+        { "label": "Guide", "href": "/guide" },
+        { "label": "Nintendo Switch", "href": "/guide/switch" },
+        { "label": "AutoRCM" }
+    ],
+    "toc": [
+        { "id": "introduzione", "label": "Cos'e AutoRCM" },
+        { "id": "backup", "label": "Backup BOOT0/1" },
+        { "id": "svantaggi", "label": "Svantaggi" },
+        { "id": "vantaggi", "label": "Vantaggi" },
+        { "id": "info", "label": "Altre Informazioni" },
+        { "id": "procedura", "label": "Attiva o Disattiva AutoRCM" }
+    ],
+    "sections": [
+        {
+            "id": "introduzione",
+            "title": "Cos'e AutoRCM",
+            "icon": "bi-info-circle-fill",
+            "blocks": [
+                {
+                    "type": "infobox",
+                    "variant": "error",
+                    "title": "Leggi prima di procedere",
+                    "titleIcon": "bi-exclamation-octagon-fill",
+                    "content": "AutoRCM fa credere alla console di essere in uno stato di brick e la porta automaticamente in <strong>RCM</strong> all'accensione, senza usare il jig. Se usato male puo causare problemi reali, soprattutto su unita che non possono iniettare payload RCM custom, come hardware Mariko o console patchate."
+                },
+                {
+                    "type": "text",
+                    "content": "RCM e una modalita di recupero pensata per assistenza e riparazione. AutoRCM sfrutta questo comportamento per evitare l'ingresso manuale in RCM, ma la console non potra piu avviarsi completamente da sola dopo uno spegnimento totale."
+                },
+                {
+                    "type": "infobox",
+                    "variant": "warning",
+                    "title": "Schermo nero dopo POWER?",
+                    "titleIcon": "bi-moon-fill",
+                    "content": "Se dopo aver attivato AutoRCM premi POWER e lo schermo resta nero, la console non e necessariamente rotta: molto probabilmente e in <strong>RCM</strong>. Da li serve iniettare un payload con PC, telefono o payload injector."
+                },
+                {
+                    "type": "two-columns",
+                    "columns": [
+                        {
+                            "title": "Cosa serve",
+                            "icon": "bi-usb-symbol",
+                            "color": "#60a5fa",
+                            "borderColor": "rgba(96,165,250,0.35)",
+                            "items": [
+                                "Nintendo Switch compatibile con payload RCM custom",
+                                "Hekate avviabile",
+                                "PC, telefono o payload injector per avviare la console dopo coldboot"
+                            ]
+                        },
+                        {
+                            "title": "Cosa cambia",
+                            "icon": "bi-arrow-repeat",
+                            "color": "#facc15",
+                            "borderColor": "rgba(250,204,21,0.35)",
+                            "items": [
+                                "Non serve piu il jig per entrare in RCM",
+                                "Dopo uno spegnimento completo dovrai sempre iniettare un payload",
+                                "La modalita riposo continua a funzionare normalmente"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "backup",
+            "title": "Backup BOOT0/1",
+            "icon": "bi-shield-check",
+            "blocks": [
+                {
+                    "type": "infobox",
+                    "variant": "info",
+                    "title": "Backup consigliato",
+                    "titleIcon": "bi-save-fill",
+                    "content": "Se non hai ancora un backup di <strong>BOOT0</strong> e <strong>BOOT1</strong>, fallo prima di attivare AutoRCM. AutoRCM modifica queste partizioni, quindi avere una copia pulita e una precauzione importante."
+                },
+                {
+                    "type": "step",
+                    "number": 1,
+                    "title": "Avvia Hekate",
+                    "blocks": [
+                        { "type": "text", "content": "Entra in RCM e inietta il payload di <strong>Hekate</strong>." }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 2,
+                    "title": "Apri il backup eMMC",
+                    "blocks": [
+                        { "type": "text", "content": "Dal menu principale vai su <strong>Tools</strong>, poi seleziona <strong>Backup eMMC</strong>." }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 3,
+                    "title": "Esegui BOOT0 & BOOT1",
+                    "blocks": [
+                        { "type": "text", "content": "Premi <strong>eMMC BOOT0 & BOOT1</strong> e attendi il completamento del processo." }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "svantaggi",
+            "title": "Svantaggi",
+            "icon": "bi-exclamation-triangle-fill",
+            "blocks": [
+                {
+                    "type": "list",
+                    "items": [
+                        { "icon": "bi-plug-fill", "iconColor": "#f87171", "html": "La console non puo piu avviarsi da sola dopo uno spegnimento completo: serve sempre un PC, telefono o payload injector. AutoRCM, da solo, e quindi un avvio <strong>tethered</strong>." },
+                        { "icon": "bi-moon-stars-fill", "iconColor": "#60a5fa", "html": "La <strong>modalita riposo</strong> non conta come spegnimento completo: continuera a funzionare normalmente." },
+                        { "icon": "bi-battery-charging", "iconColor": "#facc15", "html": "Se la Switch si scarica completamente, in RCM puo impiegare molto tempo a ricaricarsi. In quel caso lasciala in carica circa <strong>20 minuti</strong>, poi avvia Hekate e seleziona una voce di boot." },
+                        { "icon": "bi-arrow-repeat", "iconColor": "#fb7185", "html": "Un aggiornamento di sistema completato da firmware stock puo disattivare AutoRCM. Per preservarlo, aggiorna mentre il CFW e attivo." }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "vantaggi",
+            "title": "Vantaggi",
+            "icon": "bi-check-circle-fill",
+            "blocks": [
+                {
+                    "type": "list",
+                    "items": [
+                        { "icon": "bi-controller", "iconColor": "#4ade80", "html": "Se avevi difficolta a entrare in RCM manualmente, AutoRCM evita l'uso del jig." },
+                        { "icon": "bi-fire", "iconColor": "#f97316", "html": "Aiuta a mantenere i <strong>fuse non bruciati</strong>, perche la Switch non passa dai bootloader Nintendo che li bruciano." },
+                        { "icon": "bi-usb-symbol", "iconColor": "#22d3ee", "html": "Con un payload injector diventa piu rapido avviare Hekate o Atmosphere, senza dover ripetere ogni volta la procedura con jig." }
+                    ]
+                },
+                {
+                    "type": "infobox",
+                    "variant": "warning",
+                    "title": "Aggiornamenti stock",
+                    "titleIcon": "bi-exclamation-triangle-fill",
+                    "content": "Se aggiorni usando la configurazione <strong>stock</strong> di Hekate, AutoRCM puo essere rimosso al riavvio successivo. Aggiorna da custom firmware oppure preparati a usare nuovamente il jig dopo il reboot."
+                }
+            ]
+        },
+        {
+            "id": "info",
+            "title": "Altre Informazioni",
+            "icon": "bi-journal-text",
+            "blocks": [
+                {
+                    "type": "list",
+                    "items": [
+                        { "icon": "bi-pencil-fill", "iconColor": "#c084fc", "html": "Questo metodo modifica un singolo byte sia nella partizione <strong>BOOT0</strong> sia nella partizione <strong>BOOT1</strong>. Per questo il backup e consigliato." },
+                        { "icon": "bi-arrow-counterclockwise", "iconColor": "#4ade80", "html": "La versione software di AutoRCM puo quasi sempre essere annullata: se non fa per te, puoi disattivarla da Hekate." }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "procedura",
+            "title": "Attiva o Disattiva AutoRCM",
+            "icon": "bi-power",
+            "blocks": [
+                {
+                    "type": "infobox",
+                    "variant": "error",
+                    "title": "Procedi solo se hai capito i rischi",
+                    "titleIcon": "bi-shield-exclamation",
+                    "content": "Attiva AutoRCM solo se sai come iniettare payload RCM e hai un modo affidabile per avviare Hekate dopo uno spegnimento completo."
+                },
+                {
+                    "type": "step",
+                    "number": 1,
+                    "title": "Avvia Hekate",
+                    "blocks": [
+                        { "type": "text", "content": "Entra in RCM e inietta <strong>Hekate</strong>." }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 2,
+                    "title": "Apri Tools",
+                    "blocks": [
+                        { "type": "text", "content": "Dal menu principale di Hekate entra in <strong>Tools</strong>." }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 3,
+                    "title": "Apri il menu AutoRCM",
+                    "blocks": [
+                        { "type": "text", "content": "In fondo alla pagina premi <strong>Arch Bit - AutoRCM - Touch - Pkg1/2</strong>." }
+                    ]
+                },
+                {
+                    "type": "step",
+                    "number": 4,
+                    "title": "Attiva o disattiva AutoRCM",
+                    "blocks": [
+                        { "type": "text", "content": "Premi <strong>AutoRCM</strong>. Quando e attivo vedrai la voce impostata su <strong>ON</strong>." },
+                        { "type": "infobox", "variant": "info", "title": "Vuoi disattivarlo?", "titleIcon": "bi-toggle-off", "content": "Segui gli stessi passaggi e assicurati che l'opzione <strong>AutoRCM</strong> sia impostata su <strong>OFF</strong>." }
+                    ]
+                }
+            ]
+        }
+    ],
+    "navigation": {
+        "prev": {
+            "label": "Cambio microSD",
+            "href": "/guide/switch/sw-cambio-sd"
+        },
+        "next": {
+            "label": "FTPD",
+            "href": "/guide/switch/ftpd"
+        }
+    }
+}
