@@ -15595,5 +15595,33 @@
     "testo_completo": "Nome: Quartet\nFormato: NSP\nPeso: 914MB\nRegione: 🇺🇸\nLingue: En\nVersione: 1.4.0\n⚙️ FIRMWARE RICHIESTO\nBase: 22.0.0\nUpdate: 22.1.0\nPrezzo: €19,99\nUscita: 12/05/2026\nGenere: Role playing\nProduttore: Somet",
     "cover_local": "nromsdb/covers/switch_Quartet_12081.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Quartet_12081.webp"
+  },
+  {
+    "nome": "Nickelodeon Extreme Tennis: Next!",
+    "formato": "NSP",
+    "peso": "3GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Nl,Pr,Ru,Zh",
+    "link": "https://t.me/c/2332511567/12093",
+    "message_id": 12093,
+    "data": "2026-05-28 19:43:27",
+    "edit_date": "2026-05-28 19:43:30",
+    "testo_completo": "Nome: Nickelodeon Extreme Tennis: Next!\nFormato: NSP\nPeso: 3GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Nl,Pr,Ru,Zh\nVersione: 1.0.1\n⚙️ FIRMWARE RICHIESTO\nBase: 21.2.0\nUpdate: 21.2.0\nPrezzo: €29,99\nUsc",
+    "cover_local": "nromsdb/covers/switch_Nickelodeon Extreme Tennis Next!_12093.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Nickelodeon%20Extreme%20Tennis%20Next%21_12093.webp"
+  },
+  {
+    "nome": "LumenTale: Memories of Trey",
+    "formato": "NSP",
+    "peso": "4.2GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Pr,Zh",
+    "link": "https://t.me/c/2332511567/12088",
+    "message_id": 12088,
+    "data": "2026-05-28 19:36:48",
+    "edit_date": "2026-05-28 19:36:51",
+    "testo_completo": "Nome: LumenTale: Memories of Trey\nFormato: NSP\nPeso: 4.2GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Pr,Zh\nVersione: 1.0.0.1\n⚙️ FIRMWARE RICHIESTO\nBase: 22.0.0\nUpdate: 22.1.0\nPrezzo: €24,99\nUscita: 26/05/",
+    "cover_local": "nromsdb/covers/switch_LumenTale Memories of Trey_12088.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_LumenTale%20Memories%20of%20Trey_12088.webp"
   }
 ]
