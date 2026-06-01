@@ -15623,5 +15623,61 @@
     "testo_completo": "Nome: LumenTale: Memories of Trey\nFormato: NSP\nPeso: 4.2GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Pr,Zh\nVersione: 1.0.0.1\n⚙️ FIRMWARE RICHIESTO\nBase: 22.0.0\nUpdate: 22.1.0\nPrezzo: €24,99\nUscita: 26/05/",
     "cover_local": "nromsdb/covers/switch_LumenTale Memories of Trey_12088.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_LumenTale%20Memories%20of%20Trey_12088.webp"
+  },
+  {
+    "nome": "GEX Trilogy",
+    "formato": "NSP",
+    "peso": "3.1GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It",
+    "link": "https://t.me/c/2332511567/12124",
+    "message_id": 12124,
+    "data": "2026-06-01 15:07:55",
+    "edit_date": "2026-06-01 15:07:58",
+    "testo_completo": "Nome: GEX Trilogy\nFormato: NSP\nPeso: 3.1GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It\nVersione: 1.0.2\n⚙️ FIRMWARE RICHIESTO\nBase: 20.0.1\nUpdate: 20.1.5\nPrezzo: €28,99\nUscita: 16/06/2025\nGenere: Azione, Platfo",
+    "cover_local": "nromsdb/covers/switch_GEX Trilogy_12124.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_GEX%20Trilogy_12124.webp"
+  },
+  {
+    "nome": "GRID Autosport",
+    "formato": "NSP",
+    "peso": "9.6GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Pr,Ru,Zh",
+    "link": "https://t.me/c/2332511567/12118",
+    "message_id": 12118,
+    "data": "2026-06-01 15:07:34",
+    "edit_date": "2026-06-01 15:07:37",
+    "testo_completo": "Nome: GRID Autosport\nFormato: NSP\nPeso: 9.6GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Pr,Ru,Zh\nVersione: 1.10.1_70328\n⚙️ FIRMWARE RICHIESTO\nBase: 8.1.0\nUpdate: 17.0.1\nPrezzo: €21,99\nUscita: 19/09/201",
+    "cover_local": "nromsdb/covers/switch_GRID Autosport_12118.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_GRID%20Autosport_12118.webp"
+  },
+  {
+    "nome": "Gear.Club Unlimited 2 - Definitive Edition",
+    "formato": "NSP",
+    "peso": "4.9GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Nl,Pr,Ru",
+    "link": "https://t.me/c/2332511567/12113",
+    "message_id": 12113,
+    "data": "2026-06-01 15:07:11",
+    "edit_date": "2026-06-01 15:07:14",
+    "testo_completo": "Nome: Gear.Club Unlimited 2 - Definitive Edition\nFormato: NSP\nPeso: 4.9GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Nl,Pr,Ru\nVersione: 1.7.2\n⚙️ FIRMWARE RICHIESTO\nBase: 6.0.0\nUpdate: 12.0.2\nPrezzo: €39,99\nUs",
+    "cover_local": "nromsdb/covers/switch_Gear.Club Unlimited 2 - Definitive Edition_12113.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Gear.Club%20Unlimited%202%20-%20Definitive%20Edition_12113.webp"
+  },
+  {
+    "nome": "Poppy Playtime: Capitolo 5",
+    "formato": "NSP",
+    "peso": "7.7GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Pr,Ru,Zh",
+    "link": "https://t.me/c/2332511567/12107",
+    "message_id": 12107,
+    "data": "2026-06-01 15:06:56",
+    "edit_date": "2026-06-01 15:06:59",
+    "testo_completo": "Nome: Poppy Playtime: Capitolo 5\nFormato: NSP\nPeso: 7.7GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Pr,Ru,Zh\nVersione: 1.0.0\n⚙️ FIRMWARE RICHIESTO\nBase: 22.0.0\nPrezzo: €17,73\nUscita: 27/05/2026\nGenere:",
+    "cover_local": "nromsdb/covers/switch_Poppy Playtime Capitolo 5_12107.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Poppy%20Playtime%20Capitolo%205_12107.webp"
   }
 ]
