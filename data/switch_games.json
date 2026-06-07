@@ -15679,5 +15679,61 @@
     "testo_completo": "Nome: Poppy Playtime: Capitolo 5\nFormato: NSP\nPeso: 7.7GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Pr,Ru,Zh\nVersione: 1.0.0\n⚙️ FIRMWARE RICHIESTO\nBase: 22.0.0\nPrezzo: €17,73\nUscita: 27/05/2026\nGenere:",
     "cover_local": "nromsdb/covers/switch_Poppy Playtime Capitolo 5_12107.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Poppy%20Playtime%20Capitolo%205_12107.webp"
+  },
+  {
+    "nome": "SpiderHeck",
+    "formato": "NSP",
+    "peso": "1.3GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Pr,Ru,Zh",
+    "link": "https://t.me/c/2332511567/12152",
+    "message_id": 12152,
+    "data": "2026-06-07 16:45:21",
+    "edit_date": "2026-06-07 16:45:24",
+    "testo_completo": "Nome: SpiderHeck\nFormato: NSP\nPeso: 1.3GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Pr,Ru,Zh\nVersione: 1.0.0\n⚙️ FIRMWARE RICHIESTO\nBase: 14.1.2\nUpdate: 17.0.1\nPrezzo: €14,99\nUscita: 22/09/2022\nGenere:",
+    "cover_local": "nromsdb/covers/switch_SpiderHeck_12152.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_SpiderHeck_12152.webp"
+  },
+  {
+    "nome": "Five Nights at Freddy",
+    "formato": "NSP",
+    "peso": "6.2GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Pr,Zh",
+    "link": "https://t.me/c/2332511567/12146",
+    "message_id": 12146,
+    "data": "2026-06-07 16:43:54",
+    "edit_date": "2026-06-07 16:43:57",
+    "testo_completo": "Nome: Five Nights at Freddy\nFormato: NSP\nPeso: 6.2GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Pr,Zh\nVersione: 1.0.0\n⚙️ FIRMWARE RICHIESTO\nBase: 20.5.0\nPrezzo: €39,99\nUscita: 12/01/2026\nGenere: Altro\nP",
+    "cover_local": "nromsdb/covers/switch_Five Nights at Freddy_12146.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Five%20Nights%20at%20Freddy_12146.webp"
+  },
+  {
+    "nome": "Darksiders III",
+    "formato": "NSP",
+    "peso": "7.6GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Pr,Ru,Zh",
+    "link": "https://t.me/c/2332511567/12140",
+    "message_id": 12140,
+    "data": "2026-06-07 16:34:37",
+    "edit_date": "2026-06-07 16:36:14",
+    "testo_completo": "Nome: Darksiders III\nFormato: NSP\nPeso: 7.6GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Pr,Ru,Zh\nVersione: 1.0.1\n⚙️ FIRMWARE RICHIESTO\nBase: 11.0.0\nUpdate: 12.1.0\nPrezzo: €39,99\nUscita: 30/09/2021\nGene",
+    "cover_local": "nromsdb/covers/switch_Darksiders III_12140.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Darksiders%20III_12140.webp"
+  },
+  {
+    "nome": "Darksiders II Deathinitive Edition",
+    "formato": "NSP",
+    "peso": "14.6GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Nl,Pr,Ru,Zh",
+    "link": "https://t.me/c/2332511567/12132",
+    "message_id": 12132,
+    "data": "2026-06-07 16:30:14",
+    "edit_date": "2026-06-07 16:36:09",
+    "testo_completo": "Nome: Darksiders II Deathinitive Edition\nFormato: NSP\nPeso: 14.6GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Nl,Pr,Ru,Zh\nVersione: 1.0.0\n⚙️ FIRMWARE RICHIESTO\nBase: 8.0.0\nPrezzo: €29,99\nUscita: 26/09/2",
+    "cover_local": "nromsdb/covers/switch_Darksiders II Deathinitive Edition_12132.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Darksiders%20II%20Deathinitive%20Edition_12132.webp"
   }
 ]
