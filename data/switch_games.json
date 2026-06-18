@@ -15777,5 +15777,33 @@
     "testo_completo": "Nome: Metro 2033 Redux\nFormato: NSP\nPeso: 6.4GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Nl,Ru\nVersione: 1.0.0\n⚙️ FIRMWARE RICHIESTO\nBase: 8.0.0\nPrezzo: €19,99\nUscita: 28/02/2020\nGenere: Azione, FPS\nProdutt",
     "cover_local": "nromsdb/covers/switch_Metro 2033 Redux_12185.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Metro%202033%20Redux_12185.webp"
+  },
+  {
+    "nome": "Minishoot Adventures",
+    "formato": "NSP",
+    "peso": "432MB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Pr,Ru,Zh",
+    "link": "https://t.me/c/2332511567/12202",
+    "message_id": 12202,
+    "data": "2026-06-18 18:49:46",
+    "edit_date": "2026-06-18 18:49:49",
+    "testo_completo": "Nome: Minishoot Adventures\nFormato: NSP\nPeso: 432MB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Pr,Ru,Zh\nVersione: 1.0.6\n⚙️ FIRMWARE RICHIESTO\nBase: 20.5.0\nUpdate: 22.1.0\nPrezzo: €14,99\nUscita: 03/03/202",
+    "cover_local": "nromsdb/covers/switch_Minishoot Adventures_12202.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Minishoot%20Adventures_12202.webp"
+  },
+  {
+    "nome": "Mad Bullets",
+    "formato": "NSP",
+    "peso": "415MB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It",
+    "link": "https://t.me/c/2332511567/12197",
+    "message_id": 12197,
+    "data": "2026-06-18 18:46:18",
+    "edit_date": "2026-06-18 18:46:21",
+    "testo_completo": "Nome: Mad Bullets\nFormato: NSP\nPeso: 415MB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It\nVersione: 1.0.5\n⚙️ FIRMWARE RICHIESTO\nBase: 8.0.1\nUpdate: 16.0.3\nPrezzo: €14,99\nUscita: 12/07/2019\nGenere: Azione, Arcade",
+    "cover_local": "nromsdb/covers/switch_Mad Bullets_12197.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Mad%20Bullets_12197.webp"
   }
 ]
