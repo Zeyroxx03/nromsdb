@@ -1495,19 +1495,6 @@
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Moonlighter_9184.webp"
   },
   {
-    "nome": "DELTARUNE",
-    "formato": ".nsp",
-    "peso": "665MB",
-    "regione": "🇺🇸",
-    "lingue": "En,Jp",
-    "link": "https://t.me/c/2332511567/9180",
-    "message_id": 9180,
-    "data": "2025-06-05 12:39:54",
-    "testo_completo": "Nome: DELTARUNE\nFormato: .nsp\nPeso: 665MB\nRegione: 🇺🇸\nLingue: En,Jp\nVersione: 1.03\nFW-Base: 19.0.1\nFW-Update: 20.1.5\nPrezzo: €23,99\nUscita: 04/06/2025\nGenere: RPG\nProduttore: 8-4\n#SWITCH #GAME #UPDATE",
-    "cover_local": "game_covers/switch_DELTARUNE_9180.jpg",
-    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_DELTARUNE_9180.webp"
-  },
-  {
     "nome": "NBA 2K24",
     "formato": ".xci",
     "peso": "58.8GB",
