@@ -15890,5 +15890,32 @@
     "testo_completo": "Nome: Slay the Princess - The Pristine Cut\nFormato: NSP\nPeso: 11.5GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Pr,Ru,Zh\nVersione: 1.0.8\n⚙️ FIRMWARE RICHIESTO\nBase: 19.0.0\nUpdate: 20.5.0\nPrezzo: €17,99",
     "cover_local": "nromsdb/covers/switch_Slay the Princess - The Pristine Cut_12230.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Slay%20the%20Princess%20-%20The%20Pristine%20Cut_12230.webp"
+  },
+  {
+    "nome": "DELTARUNE",
+    "formato": ".nsp",
+    "peso": "665MB",
+    "regione": "🇺🇸",
+    "lingue": "En,Jp",
+    "link": "https://t.me/c/2332511567/9180",
+    "message_id": 9180,
+    "data": "2025-06-05 12:39:54",
+    "testo_completo": "Nome: DELTARUNE\nFormato: .nsp\nPeso: 665MB\nRegione: 🇺🇸\nLingue: En,Jp\nVersione: 1.03\nFW-Base: 19.0.1\nFW-Update: 20.1.5\nPrezzo: €23,99\nUscita: 04/06/2025\nGenere: RPG\nProduttore: 8-4\n#SWITCH #GAME #UPDATE",
+    "cover_local": "game_covers/switch_DELTARUNE_9180.jpg",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_DELTARUNE_9180.webp"
+  },
+  {
+    "nome": "DELTARUNE",
+    "formato": "NSP",
+    "peso": "958MB",
+    "regione": "🇺🇸",
+    "lingue": "En,Jp",
+    "link": "https://t.me/c/2332511567/12247",
+    "message_id": 12247,
+    "data": "2026-06-27 08:52:27",
+    "edit_date": "2026-06-27 08:53:53",
+    "testo_completo": "Nome: DELTARUNE\nFormato: NSP\nPeso: 958MB\nRegione: 🇺🇸\nLingue: En,Jp\nVersione: 1.06\n⚙️ FIRMWARE RICHIESTO\nBase: 19.0.1\nUpdate: 22.1.0\nPrezzo: €23,99\nUscita: 04/06/2025\nGenere: RPG\nProduttore: 8-4\n#SWITC",
+    "cover_local": "nromsdb/covers/switch_DELTARUNE_12247.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_DELTARUNE_12247.webp"
   }
 ]
