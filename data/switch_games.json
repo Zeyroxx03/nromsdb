@@ -15917,5 +15917,61 @@
     "testo_completo": "Nome: DELTARUNE\nFormato: NSP\nPeso: 958MB\nRegione: 🇺🇸\nLingue: En,Jp\nVersione: 1.06\n⚙️ FIRMWARE RICHIESTO\nBase: 19.0.1\nUpdate: 22.1.0\nPrezzo: €23,99\nUscita: 04/06/2025\nGenere: RPG\nProduttore: 8-4\n#SWITC",
     "cover_local": "nromsdb/covers/switch_DELTARUNE_12247.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_DELTARUNE_12247.webp"
+  },
+  {
+    "nome": "Mina the Hollower",
+    "formato": "NSP",
+    "peso": "868MB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Pr,Ru,Zh",
+    "link": "https://t.me/c/2332511567/12305",
+    "message_id": 12305,
+    "data": "2026-07-11 11:53:13",
+    "edit_date": "2026-07-11 11:53:16",
+    "testo_completo": "Nome: Mina the Hollower\nFormato: NSP\nPeso: 868MB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Pr,Ru,Zh\nVersione: 1.0.5\n⚙️ FIRMWARE RICHIESTO\nBase: 22.1.0\nUpdate: 22.1.0\nPrezzo: €20,49\nUscita: 29/05/2026\nG",
+    "cover_local": "nromsdb/covers/switch_Mina the Hollower_12305.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Mina%20the%20Hollower_12305.webp"
+  },
+  {
+    "nome": "Blade Runner: Enhanced Edition",
+    "formato": "NSP",
+    "peso": "5.6GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It",
+    "link": "https://t.me/c/2332511567/12300",
+    "message_id": 12300,
+    "data": "2026-07-11 11:48:12",
+    "edit_date": "2026-07-11 11:48:15",
+    "testo_completo": "Nome: Blade Runner: Enhanced Edition\nFormato: NSP\nPeso: 5.6GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It\nVersione: 1.2.1075\n⚙️ FIRMWARE RICHIESTO\nBase: 14.1.1\nUpdate: 16.0.1\nPrezzo: €9,29\nUscita: 23/06/2022\nG",
+    "cover_local": "nromsdb/covers/switch_Blade Runner Enhanced Edition_12300.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Blade%20Runner%20Enhanced%20Edition_12300.webp"
+  },
+  {
+    "nome": "Rhythm Paradise Groove",
+    "formato": "XCI",
+    "peso": "3.6GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Nl,Zh",
+    "link": "https://t.me/c/2332511567/12295",
+    "message_id": 12295,
+    "data": "2026-07-11 11:47:10",
+    "edit_date": "2026-07-11 11:47:55",
+    "testo_completo": "Nome: Rhythm Paradise Groove\nFormato: XCI\nPeso: 3.6GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Nl,Zh\nVersione: 1.0.0\n⚙️ FIRMWARE RICHIESTO\nBase: 21.0.0\nPrezzo: €39,99\nUscita: 02/07/2026\nGenere: Musica",
+    "cover_local": "nromsdb/covers/switch_Rhythm Paradise Groove_12295.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Rhythm%20Paradise%20Groove_12295.webp"
+  },
+  {
+    "nome": "Digimon Story Time Stranger",
+    "formato": "NSP",
+    "peso": "12.7GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Pr,Zh",
+    "link": "https://t.me/c/2332511567/12288",
+    "message_id": 12288,
+    "data": "2026-07-11 11:44:54",
+    "edit_date": "2026-07-11 11:44:57",
+    "testo_completo": "Nome: Digimon Story Time Stranger\nFormato: NSP\nPeso: 12.7GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Pr,Zh\nVersione: 1.2.1\n⚙️ FIRMWARE RICHIESTO\nBase: 21.1.0\nUpdate: 22.5.0\nPrezzo: €69,99\nUscita: 10/0",
+    "cover_local": "nromsdb/covers/switch_Digimon Story Time Stranger_12288.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Digimon%20Story%20Time%20Stranger_12288.webp"
   }
 ]
