@@ -16043,5 +16043,47 @@
     "testo_completo": "Nome: The Rise of the Golden Idol\nFormato: NSP\nPeso: 4.9GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Pr,Zh\nVersione: 1.15.0\n⚙️ FIRMWARE RICHIESTO\nBase: 19.0.0\nUpdate: 20.5.0\nPrezzo: €19,5\nUscita: 12/11",
     "cover_local": "nromsdb/covers/switch_The Rise of the Golden Idol_12315.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_The%20Rise%20of%20the%20Golden%20Idol_12315.webp"
+  },
+  {
+    "nome": "Garten of Banban 8: Anti Devil",
+    "formato": "NSP",
+    "peso": "1.8GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Nl,Pr,Ru,Zh",
+    "link": "https://t.me/c/2332511567/12347",
+    "message_id": 12347,
+    "data": "2026-07-22 20:59:36",
+    "edit_date": "2026-07-22 20:59:39",
+    "testo_completo": "Nome: Garten of Banban 8: Anti Devil\nFormato: NSP\nPeso: 1.8GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Nl,Pr,Ru,Zh\nVersione: 1.0.3\n⚙️ FIRMWARE RICHIESTO\nBase: 20.5.0\nUpdate: 21.1.0\nPrezzo: €9,99\nUscit",
+    "cover_local": "nromsdb/covers/switch_Garten of Banban 8 Anti Devil_12347.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Garten%20of%20Banban%208%20Anti%20Devil_12347.webp"
+  },
+  {
+    "nome": "Garten of Banban 7",
+    "formato": "NSP",
+    "peso": "1GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Nl,Pr,Ru,Zh",
+    "link": "https://t.me/c/2332511567/12342",
+    "message_id": 12342,
+    "data": "2026-07-22 20:57:11",
+    "edit_date": "2026-07-22 20:57:14",
+    "testo_completo": "Nome: Garten of Banban 7\nFormato: NSP\nPeso: 1GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Nl,Pr,Ru,Zh\nVersione: 1.0.4\n⚙️ FIRMWARE RICHIESTO\nBase: 19.0.1\nUpdate: 19.0.1\nPrezzo: €9,99\nUscita: 16/01/2025",
+    "cover_local": "nromsdb/covers/switch_Garten of Banban 7_12342.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Garten%20of%20Banban%207_12342.webp"
+  },
+  {
+    "nome": "Fashion Dreamer",
+    "formato": "NSP",
+    "peso": "7.1GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Zh",
+    "link": "https://t.me/c/2332511567/12336",
+    "message_id": 12336,
+    "data": "2026-07-22 20:52:48",
+    "edit_date": "2026-07-22 20:52:51",
+    "testo_completo": "Nome: Fashion Dreamer\nFormato: NSP\nPeso: 7.1GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Zh\nVersione: 1.5.1\n⚙️ FIRMWARE RICHIESTO\nBase: 16.0.3\nUpdate: 18.0.1\nPrezzo: €49,99\nUscita: 03/11/2023\nGenere: C",
+    "cover_local": "nromsdb/covers/switch_Fashion Dreamer_12336.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Fashion%20Dreamer_12336.webp"
   }
 ]
