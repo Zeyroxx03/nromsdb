@@ -16071,5 +16071,33 @@
     "testo_completo": "Nome: Fashion Dreamer\nFormato: NSP\nPeso: 7.1GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Zh\nVersione: 1.5.1\n⚙️ FIRMWARE RICHIESTO\nBase: 16.0.3\nUpdate: 18.0.1\nPrezzo: €49,99\nUscita: 03/11/2023\nGenere: C",
     "cover_local": "nromsdb/covers/switch_Fashion Dreamer_12336.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Fashion%20Dreamer_12336.webp"
+  },
+  {
+    "nome": "DRAGON QUEST I & II HD-2D Remake",
+    "formato": "NSP",
+    "peso": "8.4GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Zh",
+    "link": "https://t.me/c/2332511567/10065",
+    "message_id": 10065,
+    "data": "2025-10-31 11:50:25",
+    "edit_date": "2025-10-31 11:50:29",
+    "testo_completo": "Nome: DRAGON QUEST I & II HD-2D Remake\nFormato: NSP\nPeso: 8.4GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Zh\nVersione: 1.0.1\n⚙ FIRMWARE RICHIESTO\nBase: 20.2.0\nUpdate: 20.4.0\nPrezzo: €69,99\nUscita: 30/1",
+    "cover_local": "../../nromsdb/covers/switch_DRAGON QUEST I & II HD-2D Remake_10065.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_DRAGON%20QUEST%20I%20%26%20II%20HD-2D%20Remake_10065.webp"
+  },
+  {
+    "nome": "DRAGON QUEST I & II HD-2D Remake",
+    "formato": "NSP",
+    "peso": "8.5GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Zh",
+    "link": "https://t.me/c/2332511567/12390",
+    "message_id": 12390,
+    "data": "2026-08-01 10:16:58",
+    "edit_date": "2026-08-01 10:17:01",
+    "testo_completo": "Nome: DRAGON QUEST I & II HD-2D Remake\nFormato: NSP\nPeso: 8.5GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Zh\nVersione: 1.0.2\n⚙️ FIRMWARE RICHIESTO\nBase: 20.2.0\nUpdate: 21.2.0\nPrezzo: €69,99\nUscita: 30/",
+    "cover_local": "nromsdb/covers/switch_DRAGON QUEST I & II HD-2D Remake_12390.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_DRAGON%20QUEST%20I%20%26%20II%20HD-2D%20Remake_12390.webp"
   }
 ]
