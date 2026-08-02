@@ -16099,5 +16099,47 @@
     "testo_completo": "Nome: DRAGON QUEST I & II HD-2D Remake\nFormato: NSP\nPeso: 8.5GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Zh\nVersione: 1.0.2\n⚙️ FIRMWARE RICHIESTO\nBase: 20.2.0\nUpdate: 21.2.0\nPrezzo: €69,99\nUscita: 30/",
     "cover_local": "nromsdb/covers/switch_DRAGON QUEST I & II HD-2D Remake_12390.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_DRAGON%20QUEST%20I%20%26%20II%20HD-2D%20Remake_12390.webp"
+  },
+  {
+    "nome": "SHUTEN ORDER",
+    "formato": "NSP",
+    "peso": "15.2GB",
+    "regione": "🇺🇸",
+    "lingue": "En,Jp,Zh",
+    "link": "https://t.me/c/2332511567/12411",
+    "message_id": 12411,
+    "data": "2026-08-02 20:22:49",
+    "edit_date": "2026-08-02 20:22:52",
+    "testo_completo": "Nome: SHUTEN ORDER\nFormato: NSP\nPeso: 15.2GB\nRegione: 🇺🇸\nLingue: En,Jp,Zh\nVersione: 1.1.2\n⚙️ FIRMWARE RICHIESTO\nBase: 19.0.1\nUpdate: 21.2.0\nPrezzo: €49,99\nUscita: 05/09/2025\nGenere: Puzzle, Avventura",
+    "cover_local": "nromsdb/covers/switch_SHUTEN ORDER_12411.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_SHUTEN%20ORDER_12411.webp"
+  },
+  {
+    "nome": "Bubsy 4D",
+    "formato": "NSP",
+    "peso": "2.4GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Zh",
+    "link": "https://t.me/c/2332511567/12406",
+    "message_id": 12406,
+    "data": "2026-08-02 17:17:34",
+    "edit_date": "2026-08-02 17:17:37",
+    "testo_completo": "Nome: Bubsy 4D\nFormato: NSP\nPeso: 2.4GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Zh\nVersione: 1.2.1\n⚙️ FIRMWARE RICHIESTO\nBase: 21.2.0\nUpdate: 22.1.0\nPrezzo: €19,99\nUscita: 22/05/2026\nGenere: Azione, Pla",
+    "cover_local": "nromsdb/covers/switch_Bubsy 4D_12406.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Bubsy%204D_12406.webp"
+  },
+  {
+    "nome": "Garten of Banban 0",
+    "formato": "NSP",
+    "peso": "445MB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Nl,Pr,Ru,Zh",
+    "link": "https://t.me/c/2332511567/12401",
+    "message_id": 12401,
+    "data": "2026-08-02 17:14:21",
+    "edit_date": "2026-08-02 17:20:59",
+    "testo_completo": "Nome: Garten of Banban 0\nFormato: NSP\nPeso: 445MB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Nl,Pr,Ru,Zh\nVersione: 1.0.4\n⚙️ FIRMWARE RICHIESTO\nBase: 18.0.1\nUpdate: 19.0.1\nPrezzo: €4,99\nUscita: 15/05/202",
+    "cover_local": "nromsdb/covers/switch_Garten of Banban 0_12401.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Garten%20of%20Banban%200_12401.webp"
   }
 ]
