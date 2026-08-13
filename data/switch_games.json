@@ -16212,5 +16212,19 @@
     "testo_completo": "Nome: Street Power Football\nFormato: NSP\nPeso: 6.5GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Nl,Pr,Ru,Th,Zh\nVersione: 1.0.2\n⚙️ FIRMWARE RICHIESTO\nBase: 10.0.3\nUpdate: 11.0.0\nPrezzo: €29,99\nUscita: 25",
     "cover_local": "nromsdb/covers/switch_Street Power Football_12446.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Street%20Power%20Football_12446.webp"
+  },
+  {
+    "nome": "Architect Life: A House Design Simulator",
+    "formato": "NSP",
+    "peso": "4.2GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Nl,Pr,Ru,Zh",
+    "link": "https://t.me/c/2332511567/12451",
+    "message_id": 12451,
+    "data": "2026-08-13 12:56:48",
+    "edit_date": "2026-08-13 12:56:51",
+    "testo_completo": "Nome: Architect Life: A House Design Simulator\nFormato: NSP\nPeso: 4.2GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Nl,Pr,Ru,Zh\nVersione: 1.3.0\n⚙️ FIRMWARE RICHIESTO\nBase: 18.0.0\nUpdate: 20.3.0\nPrezzo: €",
+    "cover_local": "nromsdb/covers/switch_Architect Life A House Design Simulator_12451.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Architect%20Life%20A%20House%20Design%20Simulator_12451.webp"
   }
 ]
