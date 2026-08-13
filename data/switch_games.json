@@ -16170,5 +16170,33 @@
     "testo_completo": "Nome: To the Moon\nFormato: NSP\nPeso: 813MB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Pr,Ru,Zh\nVersione: 1.8\n⚙️ FIRMWARE RICHIESTO\nBase: 9.0.1\nUpdate: 10.2.0\nPrezzo: €11,99\nUscita: 16/01/2020\nGenere: Pu",
     "cover_local": "nromsdb/covers/switch_To the Moon_12419.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_To%20the%20Moon_12419.webp"
+  },
+  {
+    "nome": "CONSCRIPT",
+    "formato": "NSP",
+    "peso": "1.7GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,Jp,Pr,Ru,Zh",
+    "link": "https://t.me/c/2332511567/12441",
+    "message_id": 12441,
+    "data": "2026-08-13 11:44:38",
+    "edit_date": "2026-08-13 11:44:41",
+    "testo_completo": "Nome: CONSCRIPT\nFormato: NSP\nPeso: 1.7GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,Jp,Pr,Ru,Zh\nVersione: 1.0.3\n⚙️ FIRMWARE RICHIESTO\nBase: 18.0.1\nUpdate: 18.1.0\nPrezzo: €21,99\nUscita: 23/07/2024\nGenere: Azione,",
+    "cover_local": "nromsdb/covers/switch_CONSCRIPT_12441.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_CONSCRIPT_12441.webp"
+  },
+  {
+    "nome": "Avatar Legends: The Fighting Game",
+    "formato": "NSP",
+    "peso": "8.3GB",
+    "regione": "🇺🇸",
+    "lingue": "En",
+    "link": "https://t.me/c/2332511567/12435",
+    "message_id": 12435,
+    "data": "2026-08-13 11:37:46",
+    "edit_date": "2026-08-13 11:37:49",
+    "testo_completo": "Nome: Avatar Legends: The Fighting Game\nFormato: NSP\nPeso: 8.3GB\nRegione: 🇺🇸\nLingue: En\nVersione: 1.0.1\n⚙️ FIRMWARE RICHIESTO\nBase: 22.5.0\nUpdate: 22.5.0\nPrezzo: €29,99\nUscita: 23/07/2026\nGenere: Azio",
+    "cover_local": "nromsdb/covers/switch_Avatar Legends The Fighting Game_12435.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Avatar%20Legends%20The%20Fighting%20Game_12435.webp"
   }
 ]
