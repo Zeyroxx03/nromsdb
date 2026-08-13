@@ -16198,5 +16198,19 @@
     "testo_completo": "Nome: Avatar Legends: The Fighting Game\nFormato: NSP\nPeso: 8.3GB\nRegione: 🇺🇸\nLingue: En\nVersione: 1.0.1\n⚙️ FIRMWARE RICHIESTO\nBase: 22.5.0\nUpdate: 22.5.0\nPrezzo: €29,99\nUscita: 23/07/2026\nGenere: Azio",
     "cover_local": "nromsdb/covers/switch_Avatar Legends The Fighting Game_12435.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Avatar%20Legends%20The%20Fighting%20Game_12435.webp"
+  },
+  {
+    "nome": "Street Power Football",
+    "formato": "NSP",
+    "peso": "6.5GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Nl,Pr,Ru,Th,Zh",
+    "link": "https://t.me/c/2332511567/12446",
+    "message_id": 12446,
+    "data": "2026-08-13 11:53:39",
+    "edit_date": "2026-08-13 11:53:57",
+    "testo_completo": "Nome: Street Power Football\nFormato: NSP\nPeso: 6.5GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Nl,Pr,Ru,Th,Zh\nVersione: 1.0.2\n⚙️ FIRMWARE RICHIESTO\nBase: 10.0.3\nUpdate: 11.0.0\nPrezzo: €29,99\nUscita: 25",
+    "cover_local": "nromsdb/covers/switch_Street Power Football_12446.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Street%20Power%20Football_12446.webp"
   }
 ]
