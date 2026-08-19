@@ -16226,5 +16226,33 @@
     "testo_completo": "Nome: Architect Life: A House Design Simulator\nFormato: NSP\nPeso: 4.2GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Nl,Pr,Ru,Zh\nVersione: 1.3.0\n⚙️ FIRMWARE RICHIESTO\nBase: 18.0.0\nUpdate: 20.3.0\nPrezzo: €",
     "cover_local": "nromsdb/covers/switch_Architect Life A House Design Simulator_12451.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Architect%20Life%20A%20House%20Design%20Simulator_12451.webp"
+  },
+  {
+    "nome": "The Lord of the Rings: War in the North - Legacy Edition",
+    "formato": "NSP",
+    "peso": "18GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Pr,Ru,Zh",
+    "link": "https://t.me/c/2332511567/12463",
+    "message_id": 12463,
+    "data": "2026-08-19 17:36:20",
+    "edit_date": "2026-08-19 17:39:52",
+    "testo_completo": "Nome: The Lord of the Rings: War in the North - Legacy Edition\nFormato: NSP\nPeso: 18GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Pr,Ru,Zh\nVersione: 1.0.1\n⚙️ FIRMWARE RICHIESTO\nBase: 22.1.0\nUpdate: 22.5.0\nPre",
+    "cover_local": "nromsdb/covers/switch_The Lord of the Rings War in the North - Legacy Edition_12463.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_The%20Lord%20of%20the%20Rings%20War%20in%20the%20North%20-%20Legacy%20Edition_12463.webp"
+  },
+  {
+    "nome": "My Universe - My Baby",
+    "formato": "NSP",
+    "peso": "2.3GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Nl",
+    "link": "https://t.me/c/2332511567/12456",
+    "message_id": 12456,
+    "data": "2026-08-18 11:26:28",
+    "edit_date": "2026-08-18 11:26:31",
+    "testo_completo": "Nome: My Universe - My Baby\nFormato: NSP\nPeso: 2.3GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Nl\nVersione: 1.2.0\n⚙️ FIRMWARE RICHIESTO\nBase: 10.2.0\nUpdate: 10.2.0\nPrezzo: €39,99\nUscita: 09/07/2020\nGenere: S",
+    "cover_local": "nromsdb/covers/switch_My Universe - My Baby_12456.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_My%20Universe%20-%20My%20Baby_12456.webp"
   }
 ]
