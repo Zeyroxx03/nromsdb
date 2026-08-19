@@ -16254,5 +16254,19 @@
     "testo_completo": "Nome: My Universe - My Baby\nFormato: NSP\nPeso: 2.3GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Nl\nVersione: 1.2.0\n⚙️ FIRMWARE RICHIESTO\nBase: 10.2.0\nUpdate: 10.2.0\nPrezzo: €39,99\nUscita: 09/07/2020\nGenere: S",
     "cover_local": "nromsdb/covers/switch_My Universe - My Baby_12456.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_My%20Universe%20-%20My%20Baby_12456.webp"
+  },
+  {
+    "nome": "BALL x PIT",
+    "formato": "NSP",
+    "peso": "804MB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Pr,Ru,Th,Zh",
+    "link": "https://t.me/c/2332511567/12472",
+    "message_id": 12472,
+    "data": "2026-08-19 19:49:08",
+    "edit_date": "2026-08-19 19:49:11",
+    "testo_completo": "Nome: BALL x PIT\nFormato: NSP\nPeso: 804MB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Pr,Ru,Th,Zh\nVersione: 1.301\n⚙️ FIRMWARE RICHIESTO\nBase: 20.3.0\nUpdate: 22.1.0\nPrezzo: €14,99\nUscita: 15/10/2025\nGener",
+    "cover_local": "nromsdb/covers/switch_BALL x PIT_12472.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_BALL%20x%20PIT_12472.webp"
   }
 ]
