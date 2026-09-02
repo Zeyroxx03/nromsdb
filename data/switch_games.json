@@ -16282,5 +16282,61 @@
     "testo_completo": "Nome: MARVEL Cosmic Invasion\nFormato: NSP\nPeso: 742MB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Pr,Ru\nVersione: 1.0.7\n⚙️ FIRMWARE RICHIESTO\nBase: 20.5.0\nUpdate: 22.1.0\nPrezzo: €29,99\nUscita: 01/12/2025\nGener",
     "cover_local": "nromsdb/covers/switch_MARVEL Cosmic Invasion_12477.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_MARVEL%20Cosmic%20Invasion_12477.webp"
+  },
+  {
+    "nome": "Orange Season",
+    "formato": "NSP",
+    "peso": "1.5GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Pr,Zh",
+    "link": "https://t.me/c/2332511567/12500",
+    "message_id": 12500,
+    "data": "2026-09-02 17:23:00",
+    "edit_date": "2026-09-02 17:23:03",
+    "testo_completo": "Nome: Orange Season\nFormato: NSP\nPeso: 1.5GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Pr,Zh\nVersione: 1.0.4\n⚙️ FIRMWARE RICHIESTO\nBase: 16.0.0\nUpdate: 22.1.0\nPrezzo: €19,99\nUscita: 24/10/2024\nGenere:",
+    "cover_local": "nromsdb/covers/switch_Orange Season_12500.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Orange%20Season_12500.webp"
+  },
+  {
+    "nome": "Garden Witch Life",
+    "formato": "NSP",
+    "peso": "981MB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Pr,Zh",
+    "link": "https://t.me/c/2332511567/12495",
+    "message_id": 12495,
+    "data": "2026-09-02 17:16:57",
+    "edit_date": "2026-09-02 17:17:00",
+    "testo_completo": "Nome: Garden Witch Life\nFormato: NSP\nPeso: 981MB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Pr,Zh\nVersione: 1.0.5\n⚙️ FIRMWARE RICHIESTO\nBase: 16.0.0\nUpdate: 19.0.1\nPrezzo: €19,99\nUscita: 12/09/2024\nGene",
+    "cover_local": "nromsdb/covers/switch_Garden Witch Life_12495.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Garden%20Witch%20Life_12495.webp"
+  },
+  {
+    "nome": "Pipistrello and the Cursed Yoyo",
+    "formato": "NSP",
+    "peso": "902MB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Pr",
+    "link": "https://t.me/c/2332511567/12490",
+    "message_id": 12490,
+    "data": "2026-09-02 17:14:08",
+    "edit_date": "2026-09-02 17:14:11",
+    "testo_completo": "Nome: Pipistrello and the Cursed Yoyo\nFormato: NSP\nPeso: 902MB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Pr\nVersione: 2.2\n⚙️ FIRMWARE RICHIESTO\nBase: 19.0.1\nUpdate: 22.1.0\nPrezzo: €19,99\nUscita: 28/05/202",
+    "cover_local": "nromsdb/covers/switch_Pipistrello and the Cursed Yoyo_12490.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Pipistrello%20and%20the%20Cursed%20Yoyo_12490.webp"
+  },
+  {
+    "nome": "Overcooked! All You Can Eat",
+    "formato": "NSP",
+    "peso": "15.9GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Ru,Zh",
+    "link": "https://t.me/c/2332511567/12482",
+    "message_id": 12482,
+    "data": "2026-09-02 17:12:10",
+    "edit_date": "2026-09-02 17:12:13",
+    "testo_completo": "Nome: Overcooked! All You Can Eat\nFormato: NSP\nPeso: 15.9GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Ru,Zh\nVersione: 1.0.12\n⚙️ FIRMWARE RICHIESTO\nBase: 10.0.0\nUpdate: 22.1.0\nPrezzo: €39,99\nUscita: 23/",
+    "cover_local": "nromsdb/covers/switch_Overcooked! All You Can Eat_12482.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Overcooked%21%20All%20You%20Can%20Eat_12482.webp"
   }
 ]
