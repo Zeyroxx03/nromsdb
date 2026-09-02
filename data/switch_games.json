@@ -16338,5 +16338,19 @@
     "testo_completo": "Nome: Overcooked! All You Can Eat\nFormato: NSP\nPeso: 15.9GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Ru,Zh\nVersione: 1.0.12\n⚙️ FIRMWARE RICHIESTO\nBase: 10.0.0\nUpdate: 22.1.0\nPrezzo: €39,99\nUscita: 23/",
     "cover_local": "nromsdb/covers/switch_Overcooked! All You Can Eat_12482.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Overcooked%21%20All%20You%20Can%20Eat_12482.webp"
+  },
+  {
+    "nome": "Grand Theft Auto V",
+    "formato": "NSP",
+    "peso": "50.1GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Nl,Pr,Ru,Zh",
+    "link": "https://t.me/c/2332511567/12505",
+    "message_id": 12505,
+    "data": "2026-09-02 20:35:20",
+    "edit_date": "2026-09-02 20:35:23",
+    "testo_completo": "Nome: Grand Theft Auto V\nFormato: NSP\nPeso: 50.1GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Nl,Pr,Ru,Zh\nVersione: 6.9.420\nGenere: Action-adventure, Open world, Sparatutto in terza persona, Sparatutto",
+    "cover_local": "nromsdb/covers/switch_Grand Theft Auto V_12505.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Grand%20Theft%20Auto%20V_12505.webp"
   }
 ]
