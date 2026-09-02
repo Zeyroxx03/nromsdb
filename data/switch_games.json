@@ -16268,5 +16268,19 @@
     "testo_completo": "Nome: BALL x PIT\nFormato: NSP\nPeso: 804MB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Pr,Ru,Th,Zh\nVersione: 1.301\n⚙️ FIRMWARE RICHIESTO\nBase: 20.3.0\nUpdate: 22.1.0\nPrezzo: €14,99\nUscita: 15/10/2025\nGener",
     "cover_local": "nromsdb/covers/switch_BALL x PIT_12472.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_BALL%20x%20PIT_12472.webp"
+  },
+  {
+    "nome": "MARVEL Cosmic Invasion",
+    "formato": "NSP",
+    "peso": "742MB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Pr,Ru",
+    "link": "https://t.me/c/2332511567/12477",
+    "message_id": 12477,
+    "data": "2026-09-02 16:46:24",
+    "edit_date": "2026-09-02 16:46:53",
+    "testo_completo": "Nome: MARVEL Cosmic Invasion\nFormato: NSP\nPeso: 742MB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Pr,Ru\nVersione: 1.0.7\n⚙️ FIRMWARE RICHIESTO\nBase: 20.5.0\nUpdate: 22.1.0\nPrezzo: €29,99\nUscita: 01/12/2025\nGener",
+    "cover_local": "nromsdb/covers/switch_MARVEL Cosmic Invasion_12477.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_MARVEL%20Cosmic%20Invasion_12477.webp"
   }
 ]
