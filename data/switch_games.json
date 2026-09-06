@@ -16381,5 +16381,33 @@
     "testo_completo": "Nome: Phoenix Wright: Ace Attorney Trilogy\nFormato: NSP\nPeso: 2.8GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,Jp,Ko,Pr,Zh\nVersione: 1.1.0\n⚙️ FIRMWARE RICHIESTO\nBase: 6.2.0\nUpdate: 20.4.0\nPrezzo: €29,99\nUscita:",
     "cover_local": "nromsdb/covers/switch_Phoenix Wright Ace Attorney Trilogy_12529.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Phoenix%20Wright%20Ace%20Attorney%20Trilogy_12529.webp"
+  },
+  {
+    "nome": "Mail Time",
+    "formato": "NSP",
+    "peso": "1.8GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,Jp,Ko,Pr,Zh",
+    "link": "https://t.me/c/2332511567/12544",
+    "message_id": 12544,
+    "data": "2026-09-06 14:16:04",
+    "edit_date": "2026-09-06 14:16:07",
+    "testo_completo": "Nome: Mail Time\nFormato: NSP\nPeso: 1.8GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,Jp,Ko,Pr,Zh\nVersione: 1.0.0\n⚙️ FIRMWARE RICHIESTO\nBase: 16.0.3\nPrezzo: €19,99\nUscita: 19/10/2023\nGenere: Avventura\nProduttore:",
+    "cover_local": "nromsdb/covers/switch_Mail Time_12544.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Mail%20Time_12544.webp"
+  },
+  {
+    "nome": "Strange Horticulture",
+    "formato": "NSP",
+    "peso": "1.2GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Nl,Pr,Ru,Zh",
+    "link": "https://t.me/c/2332511567/12539",
+    "message_id": 12539,
+    "data": "2026-09-06 14:09:38",
+    "edit_date": "2026-09-06 14:09:41",
+    "testo_completo": "Nome: Strange Horticulture\nFormato: NSP\nPeso: 1.2GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Nl,Pr,Ru,Zh\nVersione: 1.1.51\n⚙️ FIRMWARE RICHIESTO\nBase: 14.1.1\nUpdate: 22.0.0\nPrezzo: €15,49\nUscita: 28/07",
+    "cover_local": "nromsdb/covers/switch_Strange Horticulture_12539.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Strange%20Horticulture_12539.webp"
   }
 ]
