@@ -16352,5 +16352,19 @@
     "testo_completo": "Nome: Grand Theft Auto V\nFormato: NSP\nPeso: 50.1GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Nl,Pr,Ru,Zh\nVersione: 6.9.420\nGenere: Action-adventure, Open world, Sparatutto in terza persona, Sparatutto",
     "cover_local": "nromsdb/covers/switch_Grand Theft Auto V_12505.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Grand%20Theft%20Auto%20V_12505.webp"
+  },
+  {
+    "nome": "Piccoli amici: l'isola dei cuccioli",
+    "formato": "NSP",
+    "peso": "1.1GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Pr,Zh",
+    "link": "https://t.me/c/2332511567/12524",
+    "message_id": 12524,
+    "data": "2026-09-06 13:05:46",
+    "edit_date": "2026-09-06 13:05:49",
+    "testo_completo": "Nome: Piccoli amici: l'isola dei cuccioli\nFormato: NSP\nPeso: 1.1GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Pr,Zh\nVersione: 1.0.1.0\n⚙️ FIRMWARE RICHIESTO\nBase: 16.0.0\nUpdate: 16.0.3\nPrezzo: €39,99\nUsc",
+    "cover_local": "nromsdb/covers/switch_Piccoli amici l'isola dei cuccioli_12524.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Piccoli%20amici%20l%27isola%20dei%20cuccioli_12524.webp"
   }
 ]
