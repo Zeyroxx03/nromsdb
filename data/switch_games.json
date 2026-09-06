@@ -16353,5 +16353,33 @@
     "testo_completo": "Nome: Piccoli amici: l'isola dei cuccioli\nFormato: NSP\nPeso: 1.1GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Pr,Zh\nVersione: 1.0.1.0\n⚙️ FIRMWARE RICHIESTO\nBase: 16.0.0\nUpdate: 16.0.3\nPrezzo: €39,99\nUsc",
     "cover_local": "nromsdb/covers/switch_Piccoli amici l'isola dei cuccioli_12524.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Piccoli%20amici%20l%27isola%20dei%20cuccioli_12524.webp"
+  },
+  {
+    "nome": "Hokko Life",
+    "formato": "NSP",
+    "peso": "1.6GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Ko,Pr,Ru,Zh",
+    "link": "https://t.me/c/2332511567/12534",
+    "message_id": 12534,
+    "data": "2026-09-06 13:31:08",
+    "edit_date": "2026-09-06 13:31:11",
+    "testo_completo": "Nome: Hokko Life\nFormato: NSP\nPeso: 1.6GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Ko,Pr,Ru,Zh\nVersione: 1.0.5\n⚙️ FIRMWARE RICHIESTO\nBase: 14.1.2\nUpdate: 16.0.0\nPrezzo: €19,99\nUscita: 27/09/2022\nGenere: Avv",
+    "cover_local": "nromsdb/covers/switch_Hokko Life_12534.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Hokko%20Life_12534.webp"
+  },
+  {
+    "nome": "Phoenix Wright: Ace Attorney Trilogy",
+    "formato": "NSP",
+    "peso": "2.8GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,Jp,Ko,Pr,Zh",
+    "link": "https://t.me/c/2332511567/12529",
+    "message_id": 12529,
+    "data": "2026-09-06 13:24:07",
+    "edit_date": "2026-09-06 13:25:12",
+    "testo_completo": "Nome: Phoenix Wright: Ace Attorney Trilogy\nFormato: NSP\nPeso: 2.8GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,Jp,Ko,Pr,Zh\nVersione: 1.1.0\n⚙️ FIRMWARE RICHIESTO\nBase: 6.2.0\nUpdate: 20.4.0\nPrezzo: €29,99\nUscita:",
+    "cover_local": "nromsdb/covers/switch_Phoenix Wright Ace Attorney Trilogy_12529.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Phoenix%20Wright%20Ace%20Attorney%20Trilogy_12529.webp"
   }
 ]
