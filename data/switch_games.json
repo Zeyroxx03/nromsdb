@@ -16437,5 +16437,33 @@
     "testo_completo": "Nome: Tails Of Iron\nFormato: NSP\nPeso: 1.9GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Pr,Ru,Zh\nVersione: 1.0.0\n⚙️ FIRMWARE RICHIESTO\nBase: 12.0.2\nUpdate: 17.0.0\nPrezzo: €24,99\nUscita: 17/09/2021\nGener",
     "cover_local": "nromsdb/covers/switch_Tails Of Iron_12553.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Tails%20Of%20Iron_12553.webp"
+  },
+  {
+    "nome": "WORLD OF FINAL FANTASY MAXIMA",
+    "formato": "NSP",
+    "peso": "11GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Zh",
+    "link": "https://t.me/c/2332511567/12574",
+    "message_id": 12574,
+    "data": "2026-09-14 19:38:09",
+    "edit_date": "2026-09-14 19:38:12",
+    "testo_completo": "Nome: WORLD OF FINAL FANTASY MAXIMA\nFormato: NSP\nPeso: 11GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Zh\nVersione: 1.0.1\n⚙️ FIRMWARE RICHIESTO\nBase: 6.0.0\nUpdate: 6.2.0\nPrezzo: €39,99\nUscita: 06/11/201",
+    "cover_local": "nromsdb/covers/switch_WORLD OF FINAL FANTASY MAXIMA_12574.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_WORLD%20OF%20FINAL%20FANTASY%20MAXIMA_12574.webp"
+  },
+  {
+    "nome": "SnowRunner",
+    "formato": "NSP",
+    "peso": "14.9GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Ko,Pr,Ru,Zh",
+    "link": "https://t.me/c/2332511567/12567",
+    "message_id": 12567,
+    "data": "2026-09-14 19:21:48",
+    "edit_date": "2026-09-14 19:21:51",
+    "testo_completo": "Nome: SnowRunner\nFormato: NSP\nPeso: 14.9GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Ko,Pr,Ru,Zh\nVersione: 1.0.42\n⚙️ FIRMWARE RICHIESTO\nBase: 11.0.1\nUpdate: 20.5.0\nPrezzo: €39,99\nUscita: 18/05/2021\nGenere: S",
+    "cover_local": "nromsdb/covers/switch_SnowRunner_12567.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_SnowRunner_12567.webp"
   }
 ]
