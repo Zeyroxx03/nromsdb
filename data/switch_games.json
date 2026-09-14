@@ -16409,5 +16409,33 @@
     "testo_completo": "Nome: Strange Horticulture\nFormato: NSP\nPeso: 1.2GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Nl,Pr,Ru,Zh\nVersione: 1.1.51\n⚙️ FIRMWARE RICHIESTO\nBase: 14.1.1\nUpdate: 22.0.0\nPrezzo: €15,49\nUscita: 28/07",
     "cover_local": "nromsdb/covers/switch_Strange Horticulture_12539.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Strange%20Horticulture_12539.webp"
+  },
+  {
+    "nome": "Tails of Iron 2: Whiskers of Winter",
+    "formato": "NSP",
+    "peso": "3.8GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Pr,Ru,Zh",
+    "link": "https://t.me/c/2332511567/12562",
+    "message_id": 12562,
+    "data": "2026-09-14 19:12:28",
+    "edit_date": "2026-09-14 19:12:31",
+    "testo_completo": "Nome: Tails of Iron 2: Whiskers of Winter\nFormato: NSP\nPeso: 3.8GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Pr,Ru,Zh\nVersione: 2.5\n⚙️ FIRMWARE RICHIESTO\nBase: 19.0.0\nUpdate: 22.5.0\nPrezzo: €24,99\nUsci",
+    "cover_local": "nromsdb/covers/switch_Tails of Iron 2 Whiskers of Winter_12562.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Tails%20of%20Iron%202%20Whiskers%20of%20Winter_12562.webp"
+  },
+  {
+    "nome": "Tails Of Iron",
+    "formato": "NSP",
+    "peso": "1.9GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Pr,Ru,Zh",
+    "link": "https://t.me/c/2332511567/12553",
+    "message_id": 12553,
+    "data": "2026-09-14 19:11:51",
+    "edit_date": "2026-09-14 19:11:54",
+    "testo_completo": "Nome: Tails Of Iron\nFormato: NSP\nPeso: 1.9GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Pr,Ru,Zh\nVersione: 1.0.0\n⚙️ FIRMWARE RICHIESTO\nBase: 12.0.2\nUpdate: 17.0.0\nPrezzo: €24,99\nUscita: 17/09/2021\nGener",
+    "cover_local": "nromsdb/covers/switch_Tails Of Iron_12553.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Tails%20Of%20Iron_12553.webp"
   }
 ]
