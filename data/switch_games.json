@@ -16479,5 +16479,33 @@
     "testo_completo": "Nome: Ni no Kuni II: Revenant Kingdom - The Prince's Edition\nFormato: NSP\nPeso: 10.9GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Ru\nVersione: 1.10\n⚙️ FIRMWARE RICHIESTO\nBase: 11.0.0\nUpdate: 12.0.2\nPrezzo: €5",
     "cover_local": "nromsdb/covers/switch_Ni no Kuni II Revenant Kingdom - The Prince's Edition_12581.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Ni%20no%20Kuni%20II%20Revenant%20Kingdom%20-%20The%20Prince%27s%20Edition_12581.webp"
+  },
+  {
+    "nome": "BZZZT",
+    "formato": "NSP",
+    "peso": "200MB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Pr",
+    "link": "https://t.me/c/2332511567/12593",
+    "message_id": 12593,
+    "data": "2026-09-16 19:42:38",
+    "edit_date": "2026-09-16 19:42:41",
+    "testo_completo": "Nome: BZZZT\nFormato: NSP\nPeso: 200MB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Pr\nVersione: 1.0.0\n⚙️ FIRMWARE RICHIESTO\nBase: 18.1.0\nPrezzo: €14,99\nUscita: 19/09/2024\nGenere: Azione, Platform, Arcade\nProd",
+    "cover_local": "nromsdb/covers/switch_BZZZT_12593.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_BZZZT_12593.webp"
+  },
+  {
+    "nome": "Nobody Saves the World",
+    "formato": "NSP",
+    "peso": "972MB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Pr,Ru,Zh",
+    "link": "https://t.me/c/2332511567/12588",
+    "message_id": 12588,
+    "data": "2026-09-16 19:37:45",
+    "edit_date": "2026-09-16 19:41:48",
+    "testo_completo": "Nome: Nobody Saves the World\nFormato: NSP\nPeso: 972MB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Pr,Ru,Zh\nVersione: 1.0.3\n⚙️ FIRMWARE RICHIESTO\nBase: 13.2.1\nUpdate: 20.1.5\nPrezzo: €24,99\nUscita: 14/04/2",
+    "cover_local": "nromsdb/covers/switch_Nobody Saves the World_12588.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Nobody%20Saves%20the%20World_12588.webp"
   }
 ]
