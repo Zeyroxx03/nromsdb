@@ -16633,5 +16633,19 @@
     "testo_completo": "Nome: L'Enciclopedia di Piccolo Topo\nFormato: NSP\nPeso: 745MB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Nl,Pr,Ru,Zh\nVersione: 1.0.4\n⚙️ FIRMWARE RICHIESTO\nBase: 11.0.1\nUpdate: 19.0.1\nPrezzo: €12,99\nUscita:",
     "cover_local": "nromsdb/covers/switch_L'Enciclopedia di Piccolo Topo_12651.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_L%27Enciclopedia%20di%20Piccolo%20Topo_12651.webp"
+  },
+  {
+    "nome": "Garden Life: A Cozy Simulator",
+    "formato": "NSP",
+    "peso": "2.8GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Nl,Pr,Ru,Zh",
+    "link": "https://t.me/c/2332511567/12656",
+    "message_id": 12656,
+    "data": "2026-09-20 19:26:55",
+    "edit_date": "2026-09-20 19:26:58",
+    "testo_completo": "Nome: Garden Life: A Cozy Simulator\nFormato: NSP\nPeso: 2.8GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Nl,Pr,Ru,Zh\nVersione: 1.8.0\n⚙️ FIRMWARE RICHIESTO\nBase: 17.0.1\nUpdate: 18.1.0\nPrezzo: €39,99\nUscit",
+    "cover_local": "nromsdb/covers/switch_Garden Life A Cozy Simulator_12656.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Garden%20Life%20A%20Cozy%20Simulator_12656.webp"
   }
 ]
