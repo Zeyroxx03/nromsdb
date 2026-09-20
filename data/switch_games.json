@@ -16619,5 +16619,19 @@
     "testo_completo": "Nome: Trails in the Sky 2nd Chapter\nFormato: NSP\nPeso: 18.9GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr\nVersione: 1.0.0\n⚙️ FIRMWARE RICHIESTO\nBase: 21.0.0\nPrezzo: €59,99\nUscita: 17/09/2026\nGenere: Azione, Avven",
     "cover_local": "nromsdb/covers/switch_Trails in the Sky 2nd Chapter_12642.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Trails%20in%20the%20Sky%202nd%20Chapter_12642.webp"
+  },
+  {
+    "nome": "L'Enciclopedia di Piccolo Topo",
+    "formato": "NSP",
+    "peso": "745MB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Nl,Pr,Ru,Zh",
+    "link": "https://t.me/c/2332511567/12651",
+    "message_id": 12651,
+    "data": "2026-09-20 19:10:13",
+    "edit_date": "2026-09-20 19:11:50",
+    "testo_completo": "Nome: L'Enciclopedia di Piccolo Topo\nFormato: NSP\nPeso: 745MB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Nl,Pr,Ru,Zh\nVersione: 1.0.4\n⚙️ FIRMWARE RICHIESTO\nBase: 11.0.1\nUpdate: 19.0.1\nPrezzo: €12,99\nUscita:",
+    "cover_local": "nromsdb/covers/switch_L'Enciclopedia di Piccolo Topo_12651.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_L%27Enciclopedia%20di%20Piccolo%20Topo_12651.webp"
   }
 ]
