@@ -16591,5 +16591,19 @@
     "testo_completo": "Nome: 1000xRESIST\nFormato: NSP\nPeso: 14.6GB\nRegione: 🇪🇺\nLingue: En,Fr,Jp,Ko,Pr,Zh\nVersione: 1.0.5\n⚙️ FIRMWARE RICHIESTO\nBase: 17.0.1\nUpdate: 20.3.0\nPrezzo: €19,99\nUscita: 09/05/2024\nGenere: Avventura",
     "cover_local": "nromsdb/covers/switch_1000xRESIST_12619.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_1000xRESIST_12619.webp"
+  },
+  {
+    "nome": "COCOON",
+    "formato": "NSP",
+    "peso": "2.7GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Nl,Pr,Ru,Zh",
+    "link": "https://t.me/c/2332511567/12637",
+    "message_id": 12637,
+    "data": "2026-09-20 13:06:33",
+    "edit_date": "2026-09-20 13:06:36",
+    "testo_completo": "Nome: COCOON\nFormato: NSP\nPeso: 2.7GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Nl,Pr,Ru,Zh\nVersione: 1.0.3\n⚙️ FIRMWARE RICHIESTO\nBase: 16.1.0\nUpdate: 17.0.1\nPrezzo: €22,99\nUscita: 29/09/2023\nGenere: P",
+    "cover_local": "nromsdb/covers/switch_COCOON_12637.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_COCOON_12637.webp"
   }
 ]
