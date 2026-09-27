@@ -16647,5 +16647,33 @@
     "testo_completo": "Nome: Garden Life: A Cozy Simulator\nFormato: NSP\nPeso: 2.8GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Nl,Pr,Ru,Zh\nVersione: 1.8.0\n⚙️ FIRMWARE RICHIESTO\nBase: 17.0.1\nUpdate: 18.1.0\nPrezzo: €39,99\nUscit",
     "cover_local": "nromsdb/covers/switch_Garden Life A Cozy Simulator_12656.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Garden%20Life%20A%20Cozy%20Simulator_12656.webp"
+  },
+  {
+    "nome": "My Friend Pedro",
+    "formato": "NSP",
+    "peso": "6GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,Jp,Ko,Pr,Ru,Zh",
+    "link": "https://t.me/c/2332511567/12669",
+    "message_id": 12669,
+    "data": "2026-09-27 14:53:41",
+    "edit_date": "2026-09-27 14:53:44",
+    "testo_completo": "Nome: My Friend Pedro\nFormato: NSP\nPeso: 6GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,Jp,Ko,Pr,Ru,Zh\nVersione: 1.0.6\n⚙️ FIRMWARE RICHIESTO\nBase: 8.0.1\nUpdate: 15.0.1\nPrezzo: €19,99\nUscita: 20/06/2019\nGenere: A",
+    "cover_local": "nromsdb/covers/switch_My Friend Pedro_12669.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_My%20Friend%20Pedro_12669.webp"
+  },
+  {
+    "nome": "Blade Arcus Rebellion from Shining",
+    "formato": "NSP",
+    "peso": "5.4GB",
+    "regione": "🇯🇵",
+    "lingue": "Jp",
+    "link": "https://t.me/c/2332511567/12663",
+    "message_id": 12663,
+    "data": "2026-09-27 14:40:26",
+    "edit_date": "2026-09-27 14:49:26",
+    "testo_completo": "Nome: Blade Arcus Rebellion from Shining\nFormato: NSP\nPeso: 5.4GB\nRegione: 🇯🇵\nLingue: Jp\nVersione: 1.0.1\n⚙ FIRMWARE RICHIESTO\nBase: 7.0.1\nUpdate: 7.0.1\nPrezzo: €45\nUscita: 14/03/2019\nGenere: Picchiadu",
+    "cover_local": "nromsdb/covers/switch_Blade Arcus Rebellion from Shining_12663.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Blade%20Arcus%20Rebellion%20from%20Shining_12663.webp"
   }
 ]
