@@ -16703,5 +16703,47 @@
     "testo_completo": "Nome: Midnight Fight Express\nFormato: NSP\nPeso: 7.3GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,Jp,Pr,Ru,Zh\nVersione: 1.02\n⚙️ FIRMWARE RICHIESTO\nBase: 14.1.2\nUpdate: 15.0.1\nPrezzo: €19,99\nUscita: 20/09/2022\nGen",
     "cover_local": "nromsdb/covers/switch_Midnight Fight Express_12675.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Midnight%20Fight%20Express_12675.webp"
+  },
+  {
+    "nome": "Mini Metro",
+    "formato": "NSP",
+    "peso": "207MB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Nl,Pr,Ru,Zh",
+    "link": "https://t.me/c/2332511567/12717",
+    "message_id": 12717,
+    "data": "2026-10-02 19:25:02",
+    "edit_date": "2026-10-02 19:25:05",
+    "testo_completo": "Nome: Mini Metro\nFormato: NSP\nPeso: 207MB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Nl,Pr,Ru,Zh\nVersione: 1.12\n⚙️ FIRMWARE RICHIESTO\nBase: 5.1.0\nUpdate: 16.0.3\nPrezzo: €8,49\nUscita: 30/08/2018\nGenere:",
+    "cover_local": "nromsdb/covers/switch_Mini Metro_12717.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Mini%20Metro_12717.webp"
+  },
+  {
+    "nome": "Mini Motorways",
+    "formato": "NSP",
+    "peso": "334MB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Nl,Pr,Ru,Zh",
+    "link": "https://t.me/c/2332511567/12712",
+    "message_id": 12712,
+    "data": "2026-10-02 19:22:13",
+    "edit_date": "2026-10-02 19:22:16",
+    "testo_completo": "Nome: Mini Motorways\nFormato: NSP\nPeso: 334MB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Nl,Pr,Ru,Zh\nVersione: 1.21\n⚙️ FIRMWARE RICHIESTO\nBase: 14.0.0\nUpdate: 22.5.0\nPrezzo: €13,99\nUscita: 11/05/2022\nGe",
+    "cover_local": "nromsdb/covers/switch_Mini Motorways_12712.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Mini%20Motorways_12712.webp"
+  },
+  {
+    "nome": "Pocket Card Jockey: Ride On!",
+    "formato": "NSP",
+    "peso": "1.3GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Nl,Pr,Ru,Zh",
+    "link": "https://t.me/c/2332511567/12707",
+    "message_id": 12707,
+    "data": "2026-10-02 19:18:04",
+    "edit_date": "2026-10-02 19:18:07",
+    "testo_completo": "Nome: Pocket Card Jockey: Ride On!\nFormato: NSP\nPeso: 1.3GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Nl,Pr,Ru,Zh\nVersione: 1.0.1\n⚙️ FIRMWARE RICHIESTO\nBase: 17.0.1\nUpdate: 18.0.0\nPrezzo: €15\nUscita: 2",
+    "cover_local": "nromsdb/covers/switch_Pocket Card Jockey Ride On!_12707.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Pocket%20Card%20Jockey%20Ride%20On%21_12707.webp"
   }
 ]
