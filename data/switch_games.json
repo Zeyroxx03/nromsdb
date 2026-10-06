@@ -16829,5 +16829,33 @@
     "testo_completo": "Nome: Thronefall\nFormato: NSP\nPeso: 781MB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,Jp,Pr,Ru,Zh\nVersione: 1.94\n⚙️ FIRMWARE RICHIESTO\nBase: 18.1.0\nUpdate: 18.1.0\nPrezzo: €12,99\nUscita: 11/10/2024\nGenere: Azione,",
     "cover_local": "nromsdb/covers/switch_Thronefall_12727.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Thronefall_12727.webp"
+  },
+  {
+    "nome": "Truck and Logistics Simulator",
+    "formato": "NSP",
+    "peso": "471MB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Pr,Zh",
+    "link": "https://t.me/c/2332511567/12760",
+    "message_id": 12760,
+    "data": "2026-10-06 21:04:57",
+    "edit_date": "2026-10-06 21:05:00",
+    "testo_completo": "Nome: Truck and Logistics Simulator\nFormato: NSP\nPeso: 471MB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Pr,Zh\nVersione: 1.0.0\n⚙️ FIRMWARE RICHIESTO\nBase: 9.0.0\nPrezzo: €29,99\nUscita: 25/06/2020\nGenere: Sim",
+    "cover_local": "nromsdb/covers/switch_Truck and Logistics Simulator_12760.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Truck%20and%20Logistics%20Simulator_12760.webp"
+  },
+  {
+    "nome": "Big Helmet Heroes",
+    "formato": "NSP",
+    "peso": "5.2GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Pr,Ru,Zh",
+    "link": "https://t.me/c/2332511567/12754",
+    "message_id": 12754,
+    "data": "2026-10-06 21:00:16",
+    "edit_date": "2026-10-06 21:00:19",
+    "testo_completo": "Nome: Big Helmet Heroes\nFormato: NSP\nPeso: 5.2GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Pr,Ru,Zh\nVersione: 1.0.3\n⚙️ FIRMWARE RICHIESTO\nBase: 19.0.1\nUpdate: 19.0.1\nPrezzo: €24,99\nUscita: 06/02/2025\nG",
+    "cover_local": "nromsdb/covers/switch_Big Helmet Heroes_12754.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Big%20Helmet%20Heroes_12754.webp"
   }
 ]
