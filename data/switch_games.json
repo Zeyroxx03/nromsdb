@@ -16857,5 +16857,19 @@
     "testo_completo": "Nome: Big Helmet Heroes\nFormato: NSP\nPeso: 5.2GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Pr,Ru,Zh\nVersione: 1.0.3\n⚙️ FIRMWARE RICHIESTO\nBase: 19.0.1\nUpdate: 19.0.1\nPrezzo: €24,99\nUscita: 06/02/2025\nG",
     "cover_local": "nromsdb/covers/switch_Big Helmet Heroes_12754.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Big%20Helmet%20Heroes_12754.webp"
+  },
+  {
+    "nome": "The Hong Kong Massacre",
+    "formato": "NSP",
+    "peso": "4.2GB",
+    "regione": "🇪🇺",
+    "lingue": "En",
+    "link": "https://t.me/c/2332511567/12765",
+    "message_id": 12765,
+    "data": "2026-10-06 21:12:09",
+    "edit_date": "2026-10-06 21:12:12",
+    "testo_completo": "Nome: The Hong Kong Massacre\nFormato: NSP\nPeso: 4.2GB\nRegione: 🇪🇺\nLingue: En\nVersione: 1.0.1\n⚙️ FIRMWARE RICHIESTO\nBase: 10.2.0\nUpdate: 11.0.0\nPrezzo: €19,99\nUscita: 26/12/2020\nGenere: Azione, Picchia",
+    "cover_local": "nromsdb/covers/switch_The Hong Kong Massacre_12765.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_The%20Hong%20Kong%20Massacre_12765.webp"
   }
 ]
