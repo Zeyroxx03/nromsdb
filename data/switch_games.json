@@ -16871,5 +16871,33 @@
     "testo_completo": "Nome: The Hong Kong Massacre\nFormato: NSP\nPeso: 4.2GB\nRegione: 🇪🇺\nLingue: En\nVersione: 1.0.1\n⚙️ FIRMWARE RICHIESTO\nBase: 10.2.0\nUpdate: 11.0.0\nPrezzo: €19,99\nUscita: 26/12/2020\nGenere: Azione, Picchia",
     "cover_local": "nromsdb/covers/switch_The Hong Kong Massacre_12765.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_The%20Hong%20Kong%20Massacre_12765.webp"
+  },
+  {
+    "nome": "Cozy Grove",
+    "formato": "NSP",
+    "peso": "1.3GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Nl,Pr,Ru,Zh",
+    "link": "https://t.me/c/2332511567/12778",
+    "message_id": 12778,
+    "data": "2026-10-07 18:38:38",
+    "edit_date": "2026-10-07 18:38:41",
+    "testo_completo": "Nome: Cozy Grove\nFormato: NSP\nPeso: 1.3GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Nl,Pr,Ru,Zh\nVersione: 5.2.4\n⚙️ FIRMWARE RICHIESTO\nBase: 11.0.1\nUpdate: 22.1.0\nPrezzo: €13,99\nUscita: 08/04/2021\nGener",
+    "cover_local": "nromsdb/covers/switch_Cozy Grove_12778.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Cozy%20Grove_12778.webp"
+  },
+  {
+    "nome": "Caravan SandWitch",
+    "formato": "NSP",
+    "peso": "1.7GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,Jp,Ko,Pr,Zh",
+    "link": "https://t.me/c/2332511567/12773",
+    "message_id": 12773,
+    "data": "2026-10-07 18:35:43",
+    "edit_date": "2026-10-07 18:35:46",
+    "testo_completo": "Nome: Caravan SandWitch\nFormato: NSP\nPeso: 1.7GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,Jp,Ko,Pr,Zh\nVersione: 1.0.9\n⚙️ FIRMWARE RICHIESTO\nBase: 18.1.0\nUpdate: 22.5.0\nPrezzo: €24,99\nUscita: 12/09/2024\nGenere:",
+    "cover_local": "nromsdb/covers/switch_Caravan SandWitch_12773.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Caravan%20SandWitch_12773.webp"
   }
 ]
