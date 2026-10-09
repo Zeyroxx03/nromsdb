@@ -16899,5 +16899,19 @@
     "testo_completo": "Nome: Caravan SandWitch\nFormato: NSP\nPeso: 1.7GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,Jp,Ko,Pr,Zh\nVersione: 1.0.9\n⚙️ FIRMWARE RICHIESTO\nBase: 18.1.0\nUpdate: 22.5.0\nPrezzo: €24,99\nUscita: 12/09/2024\nGenere:",
     "cover_local": "nromsdb/covers/switch_Caravan SandWitch_12773.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Caravan%20SandWitch_12773.webp"
+  },
+  {
+    "nome": "KINGDOM HEARTS -HD 1.5+2.5 ReMIX-",
+    "formato": "NSP",
+    "peso": "55.1GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It",
+    "link": "https://t.me/c/2332511567/12783",
+    "message_id": 12783,
+    "data": "2026-10-09 20:22:18",
+    "edit_date": "2026-10-09 20:22:21",
+    "testo_completo": "Nome: KINGDOM HEARTS -HD 1.5+2.5 ReMIX-\nFormato: NSP\nPeso: 55.1GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It\nVersione: 1.0.0\n⚙️ FIRMWARE RICHIESTO\nBase: 22.0.0\nPrezzo: €39,99\nUscita: 08/10/2026\nGenere: Azione",
+    "cover_local": "nromsdb/covers/switch_KINGDOM HEARTS -HD 1.5+2.5 ReMIX-_12783.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_KINGDOM%20HEARTS%20-HD%201.5%2B2.5%20ReMIX-_12783.webp"
   }
 ]
