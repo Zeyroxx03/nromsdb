@@ -2458,6 +2458,19 @@
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Yu-Gi-Oh%21%20EARLY%20DAYS%20COLLECTION_5047.webp"
   },
   {
+    "nome": "Yo-kai Watch 1",
+    "formato": ".nsp",
+    "peso": "4.1GB",
+    "regione": "🇯🇵",
+    "lingue": "Jp",
+    "link": "https://t.me/c/2332511567/5042",
+    "message_id": 5042,
+    "data": "2025-03-14 10:49:32",
+    "testo_completo": "Nome: Yo-kai Watch 1\nFormato: .nsp\nPeso: 4.1GB\nRegione: 🇯🇵\nLingue: Jp\nVersione: 1.3.0\nFW-Base: 8.0.0\nFW-Update: 12.0.1\nUscita: 10/10/2019\nGenere: RPG\nProduttore: LEVEL-5\n#SWITCH #GAME #UPDATE\n\n⚙️ Guid",
+    "cover_local": "game_covers/switch_Yo-kai Watch 1_5042.jpg",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Yo-kai%20Watch%201_5042.webp"
+  },
+  {
     "nome": "The Wonderful 101: Remastered",
     "formato": ".nsp",
     "peso": "8.8GB",
@@ -16900,5 +16913,19 @@
     "testo_completo": "Nome: KINGDOM HEARTS -HD 1.5+2.5 ReMIX-\nFormato: NSP\nPeso: 55.1GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It\nVersione: 1.0.0\n⚙️ FIRMWARE RICHIESTO\nBase: 22.0.0\nPrezzo: €39,99\nUscita: 08/10/2026\nGenere: Azione",
     "cover_local": "nromsdb/covers/switch_KINGDOM HEARTS -HD 1.5+2.5 ReMIX-_12783.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_KINGDOM%20HEARTS%20-HD%201.5%2B2.5%20ReMIX-_12783.webp"
+  },
+  {
+    "nome": "Yo-kai Watch 1",
+    "formato": "NSP",
+    "peso": "4.1GB",
+    "regione": "🇯🇵",
+    "lingue": "Jp",
+    "link": "https://t.me/c/2332511567/12804",
+    "message_id": 12804,
+    "data": "2026-10-11 09:34:12",
+    "edit_date": "2026-10-11 09:34:15",
+    "testo_completo": "Nome: Yo-kai Watch 1\nFormato: NSP\nPeso: 4.1GB\nRegione: 🇯🇵\nLingue: Jp\nVersione: 1.4.0\n⚙️ FIRMWARE RICHIESTO\nBase: 8.0.0\nUpdate: 20.2.0\nUscita: 10/10/2019\nGenere: RPG\nProduttore: LEVEL-5\n#SWITCH #GAME #",
+    "cover_local": "nromsdb/covers/switch_Yo-kai Watch 1_12804.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Yo-kai%20Watch%201_12804.webp"
   }
 ]
