@@ -16941,5 +16941,33 @@
     "testo_completo": "Nome: Klonoa Phantasy Reverie Series\nFormato: NSP\nPeso: 8.2GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It\nVersione: 1.0.1\n⚙️ FIRMWARE RICHIESTO\nBase: 13.0.0\nUpdate: 14.1.1\nPrezzo: €49,99\nUscita: 08/07/2022\nGen",
     "cover_local": "nromsdb/covers/switch_Klonoa Phantasy Reverie Series_12810.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Klonoa%20Phantasy%20Reverie%20Series_12810.webp"
+  },
+  {
+    "nome": "Valfaris: Mecha Therion",
+    "formato": "NSP",
+    "peso": "827MB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Pr,Ru,Zh",
+    "link": "https://t.me/c/2332511567/12822",
+    "message_id": 12822,
+    "data": "2026-10-11 10:00:49",
+    "edit_date": "2026-10-11 10:00:52",
+    "testo_completo": "Nome: Valfaris: Mecha Therion\nFormato: NSP\nPeso: 827MB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Pr,Ru,Zh\nVersione: 1.2\n⚙️ FIRMWARE RICHIESTO\nBase: 18.1.0\nUpdate: 20.1.0\nPrezzo: €18,5\nUscita: 29/08/202",
+    "cover_local": "nromsdb/covers/switch_Valfaris Mecha Therion_12822.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Valfaris%20Mecha%20Therion_12822.webp"
+  },
+  {
+    "nome": "Valfaris",
+    "formato": "NSP",
+    "peso": "995MB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Pr,Ru,Zh",
+    "link": "https://t.me/c/2332511567/12817",
+    "message_id": 12817,
+    "data": "2026-10-11 09:56:21",
+    "edit_date": "2026-10-11 09:56:24",
+    "testo_completo": "Nome: Valfaris\nFormato: NSP\nPeso: 995MB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Pr,Ru,Zh\nVersione: 1.0.2\n⚙️ FIRMWARE RICHIESTO\nBase: 9.0.0\nUpdate: 9.1.0\nPrezzo: €24,99\nUscita: 10/10/2019\nGenere: Azio",
+    "cover_local": "nromsdb/covers/switch_Valfaris_12817.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Valfaris_12817.webp"
   }
 ]
