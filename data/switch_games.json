@@ -16927,5 +16927,19 @@
     "testo_completo": "Nome: Yo-kai Watch 1\nFormato: NSP\nPeso: 4.1GB\nRegione: 🇯🇵\nLingue: Jp\nVersione: 1.4.0\n⚙️ FIRMWARE RICHIESTO\nBase: 8.0.0\nUpdate: 20.2.0\nUscita: 10/10/2019\nGenere: RPG\nProduttore: LEVEL-5\n#SWITCH #GAME #",
     "cover_local": "nromsdb/covers/switch_Yo-kai Watch 1_12804.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Yo-kai%20Watch%201_12804.webp"
+  },
+  {
+    "nome": "Klonoa Phantasy Reverie Series",
+    "formato": "NSP",
+    "peso": "8.2GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It",
+    "link": "https://t.me/c/2332511567/12810",
+    "message_id": 12810,
+    "data": "2026-10-11 09:51:11",
+    "edit_date": "2026-10-11 09:51:14",
+    "testo_completo": "Nome: Klonoa Phantasy Reverie Series\nFormato: NSP\nPeso: 8.2GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It\nVersione: 1.0.1\n⚙️ FIRMWARE RICHIESTO\nBase: 13.0.0\nUpdate: 14.1.1\nPrezzo: €49,99\nUscita: 08/07/2022\nGen",
+    "cover_local": "nromsdb/covers/switch_Klonoa Phantasy Reverie Series_12810.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Klonoa%20Phantasy%20Reverie%20Series_12810.webp"
   }
 ]
