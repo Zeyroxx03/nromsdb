@@ -17974,5 +17974,19 @@
     "testo_completo": "Nome: Phoenix Wright: Ace Attorney Trilogy + (Patch ITA)\nFormato: NSP\nPeso: 2.8GB\nRegione: 🇪🇺🇮🇹\nLingue: De,En,Es,Fr,It,Jp,Ko,Pr,Zh\nVersione: 1.1.0\n⚙️ FIRMWARE RICHIESTO\nBase: 6.2.0\nUpdate: 20.4.0\nPrez",
     "cover_local": "nromsdb/covers/switch_Phoenix Wright Ace Attorney Trilogy + (Patch ITA)_12947.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Phoenix%20Wright%20Ace%20Attorney%20Trilogy%20%2B%20%28Patch%20ITA%29_12947.webp"
+  },
+  {
+    "nome": "True Fear: Forsaken Souls - Part 3",
+    "formato": "NSP",
+    "peso": "2.4GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Ko,Nl,Pr,Ru,Zh",
+    "link": "https://t.me/c/2332511567/12955",
+    "message_id": 12955,
+    "data": "2026-10-25 17:08:23",
+    "edit_date": "2026-10-25 17:08:26",
+    "testo_completo": "Nome: True Fear: Forsaken Souls - Part 3\nFormato: NSP\nPeso: 2.4GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Ko,Nl,Pr,Ru,Zh\nVersione: 1.0.0\n⚙️ FIRMWARE RICHIESTO\nBase: 21.2.0\nPrezzo: €9,99\nUscita: 16/02/2026",
+    "cover_local": "nromsdb/covers/switch_True Fear Forsaken Souls - Part 3_12955.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_True%20Fear%20Forsaken%20Souls%20-%20Part%203_12955.webp"
   }
 ]
