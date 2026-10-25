@@ -17974,5 +17974,19 @@
     "testo_completo": "Nome: Ancestors Legacy\nFormato: NSP\nPeso: 4.1GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Pr,Ru,Zh\nVersione: 1.1.0\n⚙️ FIRMWARE RICHIESTO\nBase: 9.2.0\nUpdate: 10.0.3\nPrezzo: €34,99\nUscita: 11/06/2020\nGenere",
     "cover_local": "nromsdb/covers/switch_Ancestors Legacy_12913.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Ancestors%20Legacy_12913.webp"
+  },
+  {
+    "nome": "Phoenix Wright: Ace Attorney Trilogy + (Patch ITA)",
+    "formato": "NSP",
+    "peso": "2.8GB",
+    "regione": "🇪🇺🇮🇹",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Pr,Zh",
+    "link": "https://t.me/c/2332511567/12947",
+    "message_id": 12947,
+    "data": "2026-10-25 16:49:45",
+    "edit_date": "2026-10-25 16:58:17",
+    "testo_completo": "Nome: Phoenix Wright: Ace Attorney Trilogy + (Patch ITA)\nFormato: NSP\nPeso: 2.8GB\nRegione: 🇪🇺🇮🇹\nLingue: De,En,Es,Fr,It,Jp,Ko,Pr,Zh\nVersione: 1.1.0\n⚙️ FIRMWARE RICHIESTO\nBase: 6.2.0\nUpdate: 20.4.0\nPrez",
+    "cover_local": "nromsdb/covers/switch_Phoenix Wright Ace Attorney Trilogy + (Patch ITA)_12947.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Phoenix%20Wright%20Ace%20Attorney%20Trilogy%20%2B%20%28Patch%20ITA%29_12947.webp"
   }
 ]
