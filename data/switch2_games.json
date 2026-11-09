@@ -1,0 +1,30 @@
+[
+  {
+    "nome": "Fire Emblem: Fortune's Weave",
+    "formato": "NUP",
+    "peso": "27.6GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Zh",
+    "link": "https://t.me/c/2332511567/13048",
+    "message_id": 13048,
+    "data": "2026-11-09 18:32:14",
+    "edit_date": "2026-11-09 18:33:07",
+    "testo_completo": "Nome: Fire Emblem: Fortune's Weave\nFormato: NUP\nPeso: 27.6GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Zh\nVersione: 1.1.1\nPrezzo: €69,99\nUscita: 17/09/2026\nGenere: Simulazione, RPG\nProduttore: Nintendo",
+    "cover_local": "nromsdb/covers/switch2_Fire Emblem Fortune's Weave_13048.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch2_Fire%20Emblem%20Fortune%27s%20Weave_13048.webp"
+  },
+  {
+    "nome": "The Legend of Zelda: Ocarina of Time",
+    "formato": "NUP",
+    "peso": "23.9GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Nl,Pr,Ru,Zh",
+    "link": "https://t.me/c/2332511567/13036",
+    "message_id": 13036,
+    "data": "2026-11-09 18:08:40",
+    "edit_date": "2026-11-09 18:09:17",
+    "testo_completo": "Nome: The Legend of Zelda: Ocarina of Time\nFormato: NUP\nPeso: 23.9GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Nl,Pr,Ru,Zh\nVersione: 1.1.1\nPrezzo: €59,99\nUscita: 05/11/2026\nGenere: Avventura\nProduttore",
+    "cover_local": "nromsdb/covers/switch2_The Legend of Zelda Ocarina of Time_13036.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch2_The%20Legend%20of%20Zelda%20Ocarina%20of%20Time_13036.webp"
+  }
+]
