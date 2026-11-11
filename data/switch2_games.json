@@ -68,5 +68,19 @@
     "testo_completo": "Nome: Super Mario Bros. Wonder - Nintendo Switch 2 Edition + Meetup in Bellabel Park\nFormato: NUP\nPeso: 8.5GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Nl,Pr,Ru,Th,Zh\nVersione: 1.2.0\nPrezzo: €79,99\nUsc",
     "cover_local": "nromsdb/covers/switch2_Super Mario Bros. Wonder - Nintendo Switch 2 Edition + Meetup in Bellabel Park_13076.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch2_Super%20Mario%20Bros.%20Wonder%20-%20Nintendo%20Switch%202%20Edition%20%2B%20Meetup%20in%20Bellabel%20Park_13076.webp"
+  },
+  {
+    "nome": "Hyrule Warriors: Age of Imprisonment",
+    "formato": "NUP",
+    "peso": "45.3GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Nl,Zh",
+    "link": "https://t.me/c/2332511567/13097",
+    "message_id": 13097,
+    "data": "2026-11-11 20:19:08",
+    "edit_date": "2026-11-11 20:19:27",
+    "testo_completo": "Nome: Hyrule Warriors: Age of Imprisonment\nFormato: NUP\nPeso: 45.3GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Nl,Zh\nVersione: 3.0.0\nPrezzo: €69,99\nUscita: 06/11/2025\nGenere: Azione, Avventura\nProdutto",
+    "cover_local": "nromsdb/covers/switch2_Hyrule Warriors Age of Imprisonment_13097.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch2_Hyrule%20Warriors%20Age%20of%20Imprisonment_13097.webp"
   }
 ]
