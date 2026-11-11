@@ -82,5 +82,19 @@
     "testo_completo": "Nome: Hyrule Warriors: Age of Imprisonment\nFormato: NUP\nPeso: 45.3GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Nl,Zh\nVersione: 3.0.0\nPrezzo: €69,99\nUscita: 06/11/2025\nGenere: Azione, Avventura\nProdutto",
     "cover_local": "nromsdb/covers/switch2_Hyrule Warriors Age of Imprisonment_13097.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch2_Hyrule%20Warriors%20Age%20of%20Imprisonment_13097.webp"
+  },
+  {
+    "nome": "Star Fox",
+    "formato": "NUP",
+    "peso": "28.8GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Nl,Pr,Zh",
+    "link": "https://t.me/c/2332511567/13113",
+    "message_id": 13113,
+    "data": "2026-11-11 21:03:30",
+    "edit_date": "2026-11-11 21:03:33",
+    "testo_completo": "Nome: Star Fox\nFormato: NUP\nPeso: 28.8GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Nl,Pr,Zh\nVersione: 2.0.0\nPrezzo: €49,99\nUscita: 25/06/2026\nGenere: Sparatutto\nProduttore: Nintendo\n#SWITCH2 #GAME\n\n➖➖➖",
+    "cover_local": "nromsdb/covers/switch2_Star Fox_13113.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch2_Star%20Fox_13113.webp"
   }
 ]
