@@ -96,5 +96,47 @@
     "testo_completo": "Nome: Star Fox\nFormato: NUP\nPeso: 28.8GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Nl,Pr,Zh\nVersione: 2.0.0\nPrezzo: €49,99\nUscita: 25/06/2026\nGenere: Sparatutto\nProduttore: Nintendo\n#SWITCH2 #GAME\n\n➖➖➖",
     "cover_local": "nromsdb/covers/switch2_Star Fox_13113.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch2_Star%20Fox_13113.webp"
+  },
+  {
+    "nome": "Splatoon Raiders",
+    "formato": "NUP",
+    "peso": "13.3GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Nl,Zh",
+    "link": "https://t.me/c/2332511567/13137",
+    "message_id": 13137,
+    "data": "2026-11-12 21:16:55",
+    "edit_date": "2026-11-12 21:16:58",
+    "testo_completo": "Nome: Splatoon Raiders\nFormato: NUP\nPeso: 13.3GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Nl,Zh\nVersione: 1.0.0\nPrezzo: €49,99\nUscita: 23/07/2026\nGenere: Azione, Sparatutto\nProduttore: Nintendo\n#SWITC",
+    "cover_local": "nromsdb/covers/switch2_Splatoon Raiders_13137.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch2_Splatoon%20Raiders_13137.webp"
+  },
+  {
+    "nome": "Nintendo Switch 2 Welcome Tour",
+    "formato": "NUP",
+    "peso": "2.3GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Nl,Pr,Zh",
+    "link": "https://t.me/c/2332511567/13132",
+    "message_id": 13132,
+    "data": "2026-11-12 20:32:37",
+    "edit_date": "2026-11-12 20:32:40",
+    "testo_completo": "Nome: Nintendo Switch 2 Welcome Tour\nFormato: NUP\nPeso: 2.3GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Nl,Pr,Zh\nVersione: 4.0.0\nPrezzo: €9,99\nUscita: 05/06/2025\nGenere: Azione, Educazione, Arcade\nProd",
+    "cover_local": "nromsdb/covers/switch2_Nintendo Switch 2 Welcome Tour_13132.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch2_Nintendo%20Switch%202%20Welcome%20Tour_13132.webp"
+  },
+  {
+    "nome": "Donkey Kong Bananza",
+    "formato": "NUP",
+    "peso": "8.9GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Nl,Pr,Ru,Th,Zh",
+    "link": "https://t.me/c/2332511567/13125",
+    "message_id": 13125,
+    "data": "2026-11-12 20:19:12",
+    "edit_date": "2026-11-12 20:32:09",
+    "testo_completo": "Nome: Donkey Kong Bananza\nFormato: NUP\nPeso: 8.9GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Nl,Pr,Ru,Th,Zh\nVersione: 3.2.0\nPrezzo: €69,99\nUscita: 17/07/2025\nGenere: Azione, Platform\nProduttore: Ninten",
+    "cover_local": "nromsdb/covers/switch2_Donkey Kong Bananza_13125.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch2_Donkey%20Kong%20Bananza_13125.webp"
   }
 ]
