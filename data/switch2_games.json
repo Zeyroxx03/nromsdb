@@ -138,5 +138,33 @@
     "testo_completo": "Nome: Donkey Kong Bananza\nFormato: NUP\nPeso: 8.9GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Nl,Pr,Ru,Th,Zh\nVersione: 3.2.0\nPrezzo: €69,99\nUscita: 17/07/2025\nGenere: Azione, Platform\nProduttore: Ninten",
     "cover_local": "nromsdb/covers/switch2_Donkey Kong Bananza_13125.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch2_Donkey%20Kong%20Bananza_13125.webp"
+  },
+  {
+    "nome": "Pokemon Pokopia",
+    "formato": "NUP",
+    "peso": "6.8GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Zh",
+    "link": "https://t.me/c/2332511567/13156",
+    "message_id": 13156,
+    "data": "2026-11-13 21:19:09",
+    "edit_date": "2026-11-13 21:19:12",
+    "testo_completo": "Nome: Pokemon Pokopia\nFormato: NUP\nPeso: 6.8GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Zh\nVersione: 2.0.1\nPrezzo: €69,99\nUscita: 09/06/2026\nGenere: Simulazione\nProduttore: Nintendo\n#SWITCH2 #GAME\n\n➖➖",
+    "cover_local": "nromsdb/covers/switch2_Pokemon Pokopia_13156.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch2_Pokemon%20Pokopia_13156.webp"
+  },
+  {
+    "nome": "Mario Kart World",
+    "formato": "NUP",
+    "peso": "22.3GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Nl,Pr,Ru,Th,Zh",
+    "link": "https://t.me/c/2332511567/13146",
+    "message_id": 13146,
+    "data": "2026-11-13 20:29:02",
+    "edit_date": "2026-11-13 20:29:05",
+    "testo_completo": "Nome: Mario Kart World\nFormato: NUP\nPeso: 22.3GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Nl,Pr,Ru,Th,Zh\nVersione: 1.8.0\nPrezzo: €79,99\nUscita: 05/06/2025\nGenere: Party, Corsa\nProduttore: Nintendo\n#SW",
+    "cover_local": "nromsdb/covers/switch2_Mario Kart World_13146.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch2_Mario%20Kart%20World_13146.webp"
   }
 ]
