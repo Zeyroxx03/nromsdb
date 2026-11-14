@@ -166,5 +166,19 @@
     "testo_completo": "Nome: Mario Kart World\nFormato: NUP\nPeso: 22.3GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Nl,Pr,Ru,Th,Zh\nVersione: 1.8.0\nPrezzo: €79,99\nUscita: 05/06/2025\nGenere: Party, Corsa\nProduttore: Nintendo\n#SW",
     "cover_local": "nromsdb/covers/switch2_Mario Kart World_13146.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch2_Mario%20Kart%20World_13146.webp"
+  },
+  {
+    "nome": "Nintendo Switch Sports Resort",
+    "formato": "NUP",
+    "peso": "10.2GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Nl,Pr,Ru,Th,Zh",
+    "link": "https://t.me/c/2332511567/13162",
+    "message_id": 13162,
+    "data": "2026-11-14 14:54:35",
+    "edit_date": "2026-11-14 14:54:38",
+    "testo_completo": "Nome: Nintendo Switch Sports Resort\nFormato: NUP\nPeso: 10.2GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Nl,Pr,Ru,Th,Zh\nVersione: 1.1.0\nPrezzo: €49,99\nUscita: 22/10/2026\nGenere: Party, Sport\nProduttore:",
+    "cover_local": "nromsdb/covers/switch2_Nintendo Switch Sports Resort_13162.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch2_Nintendo%20Switch%20Sports%20Resort_13162.webp"
   }
 ]
