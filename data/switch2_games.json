@@ -180,5 +180,33 @@
     "testo_completo": "Nome: Nintendo Switch Sports Resort\nFormato: NUP\nPeso: 10.2GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Nl,Pr,Ru,Th,Zh\nVersione: 1.1.0\nPrezzo: €49,99\nUscita: 22/10/2026\nGenere: Party, Sport\nProduttore:",
     "cover_local": "nromsdb/covers/switch2_Nintendo Switch Sports Resort_13162.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch2_Nintendo%20Switch%20Sports%20Resort_13162.webp"
+  },
+  {
+    "nome": "Leggende Pokémon: Z-A – Nintendo Switch 2 Edition",
+    "formato": "NUP",
+    "peso": "9GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Zh",
+    "link": "https://t.me/c/2332511567/13177",
+    "message_id": 13177,
+    "data": "2026-11-15 12:35:24",
+    "edit_date": "2026-11-15 12:35:27",
+    "testo_completo": "Nome: Leggende Pokémon: Z-A – Nintendo Switch 2 Edition\nFormato: NUP\nPeso: 9GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Zh\nVersione: 2.0.2\nPrezzo: €69,99\nUscita: 16/10/2025\nGenere: Azione, Avventura,",
+    "cover_local": "nromsdb/covers/switch2_Leggende Pokémon Z-A – Nintendo Switch 2 Edition_13177.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch2_Leggende%20Pok%C3%A9mon%20Z-A%20%E2%80%93%20Nintendo%20Switch%202%20Edition_13177.webp"
+  },
+  {
+    "nome": "Mario Tennis Fever",
+    "formato": "NUP",
+    "peso": "15.3GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Nl,Pr,Zh",
+    "link": "https://t.me/c/2332511567/13169",
+    "message_id": 13169,
+    "data": "2026-11-15 12:20:50",
+    "edit_date": "2026-11-15 12:20:53",
+    "testo_completo": "Nome: Mario Tennis Fever\nFormato: NUP\nPeso: 15.3GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Nl,Pr,Zh\nVersione: 1.1.1\nPrezzo: €69,99\nUscita: 12/02/2026\nGenere: Sport\nProduttore: Nintendo\n#SWITCH2 #GAME",
+    "cover_local": "nromsdb/covers/switch2_Mario Tennis Fever_13169.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch2_Mario%20Tennis%20Fever_13169.webp"
   }
 ]
