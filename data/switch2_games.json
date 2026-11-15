@@ -208,5 +208,19 @@
     "testo_completo": "Nome: Mario Tennis Fever\nFormato: NUP\nPeso: 15.3GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Nl,Pr,Zh\nVersione: 1.1.1\nPrezzo: €69,99\nUscita: 12/02/2026\nGenere: Sport\nProduttore: Nintendo\n#SWITCH2 #GAME",
     "cover_local": "nromsdb/covers/switch2_Mario Tennis Fever_13169.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch2_Mario%20Tennis%20Fever_13169.webp"
+  },
+  {
+    "nome": "Fast Fusion",
+    "formato": "NUP",
+    "peso": "3.5GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Fr,Jp",
+    "link": "https://t.me/c/2332511567/13184",
+    "message_id": 13184,
+    "data": "2026-11-15 14:06:33",
+    "edit_date": "2026-11-15 14:06:59",
+    "testo_completo": "Nome: Fast Fusion\nFormato: NUP\nPeso: 3.5GB\nRegione: 🇪🇺\nLingue: De,En,Fr,Jp\nVersione: 1.4\nPrezzo: €14,99\nUscita: 05/06/2025\nGenere: Corsa\nProduttore: Shin’en Multimedia\n#SWITCH2 #GAME\n\n➖➖➖➖➖➖➖➖➖\n🔒 PASS",
+    "cover_local": "nromsdb/covers/switch2_Fast Fusion_13184.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch2_Fast%20Fusion_13184.webp"
   }
 ]
