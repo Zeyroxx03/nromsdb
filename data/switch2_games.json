@@ -222,5 +222,19 @@
     "testo_completo": "Nome: Fast Fusion\nFormato: NUP\nPeso: 3.5GB\nRegione: 🇪🇺\nLingue: De,En,Fr,Jp\nVersione: 1.4\nPrezzo: €14,99\nUscita: 05/06/2025\nGenere: Corsa\nProduttore: Shin’en Multimedia\n#SWITCH2 #GAME\n\n➖➖➖➖➖➖➖➖➖\n🔒 PASS",
     "cover_local": "nromsdb/covers/switch2_Fast Fusion_13184.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch2_Fast%20Fusion_13184.webp"
+  },
+  {
+    "nome": "Orbitals",
+    "formato": "NUP",
+    "peso": "17.1GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Pr,Ru,Zh",
+    "link": "https://t.me/c/2332511567/13189",
+    "message_id": 13189,
+    "data": "2026-11-15 14:53:31",
+    "edit_date": "2026-11-15 14:53:34",
+    "testo_completo": "Nome: Orbitals\nFormato: NUP\nPeso: 17.1GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Pr,Ru,Zh\nVersione: 1.0.5\nPrezzo: €39,99\nUscita: 03/09/2026\nGenere: Azione, Puzzle, Avventura\nProduttore: Kepler Intera",
+    "cover_local": "nromsdb/covers/switch2_Orbitals_13189.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch2_Orbitals_13189.webp"
   }
 ]
