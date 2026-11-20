@@ -3302,5 +3302,47 @@
     "testo_completo": "Nome: Code Name: S.T.E.A.M.\nFormato: CIA/CCI\nPeso: 2.1GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It\nVersione: 2.2.0\n#3DS #EMULATORE\n#GAME #UPDATE\n\n➖➖➖➖➖➖➖➖➖\n🔒 PASSWORD PACCHETTO:\nDigita: nintendoroms",
     "cover_local": "nromsdb/covers/3ds_Code Name S.T.E.A.M._13226.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/3ds_Code%20Name%20S.T.E.A.M._13226.webp"
+  },
+  {
+    "nome": "Pokemon Link: Battle!",
+    "formato": "CIA/CCI",
+    "peso": "96MB",
+    "regione": "🌐",
+    "lingue": "De,En,Es,Fr,It,Nl,Pt,Ru",
+    "link": "https://t.me/c/2332511567/13244",
+    "message_id": 13244,
+    "data": "2026-11-20 21:57:44",
+    "edit_date": "2026-11-20 21:57:47",
+    "testo_completo": "Nome: Pokemon Link: Battle!\nFormato: CIA/CCI\nPeso: 96MB\nRegione: 🌐\nLingue: De,En,Es,Fr,It,Nl,Pt,Ru\nVersione: 1.0\n#3DS #EMULATORE\n#GAME\n\n➖➖➖➖➖➖➖➖➖\n🔒 PASSWORD PACCHETTO:\nDigita: nintendoroms",
+    "cover_local": "nromsdb/covers/3ds_Pokemon Link Battle!_13244.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/3ds_Pokemon%20Link%20Battle%21_13244.webp"
+  },
+  {
+    "nome": "Pokemon Picross",
+    "formato": "CIA/CCI",
+    "peso": "182MB",
+    "regione": "🌐",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Nl,Pt,Ru,Zh",
+    "link": "https://t.me/c/2332511567/13240",
+    "message_id": 13240,
+    "data": "2026-11-20 21:50:39",
+    "edit_date": "2026-11-20 21:50:43",
+    "testo_completo": "Nome: Pokemon Picross\nFormato: CIA/CCI\nPeso: 182MB\nRegione: 🌐\nLingue: De,En,Es,Fr,It,Jp,Ko,Nl,Pt,Ru,Zh\nVersione: 1.0\n#3DS #EMULATORE\n#GAME\n\n➖➖➖➖➖➖➖➖➖\n🔒 PASSWORD PACCHETTO:\nDigita: nintendoroms",
+    "cover_local": "nromsdb/covers/3ds_Pokemon Picross_13240.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/3ds_Pokemon%20Picross_13240.webp"
+  },
+  {
+    "nome": "Pokemon Art Academy",
+    "formato": "CIA/CCI",
+    "peso": "645MB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It",
+    "link": "https://t.me/c/2332511567/13235",
+    "message_id": 13235,
+    "data": "2026-11-20 21:44:21",
+    "edit_date": "2026-11-20 21:44:24",
+    "testo_completo": "Nome: Pokemon Art Academy\nFormato: CIA/CCI\nPeso: 645MB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It\nVersione: 1.2.0\n#3DS #EMULATORE\n#GAME #UPDATE\n\n➖➖➖➖➖➖➖➖➖\n🔒 PASSWORD PACCHETTO:\nDigita: nintendoroms",
+    "cover_local": "nromsdb/covers/3ds_Pokemon Art Academy_13235.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/3ds_Pokemon%20Art%20Academy_13235.webp"
   }
 ]
