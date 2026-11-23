@@ -18310,5 +18310,33 @@
     "testo_completo": "Nome: FRONT MISSION 1st: Remake\nFormato: NSP\nPeso: 7.4GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Pr,Zh\nVersione: 3.0.1\n⚙️ FIRMWARE RICHIESTO\nBase: 15.0.0\nUpdate: 19.0.1\nPrezzo: €34,99\nUscita: 30/11/2022",
     "cover_local": "nromsdb/covers/switch_FRONT MISSION 1st Remake_13250.webp",
     "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_FRONT%20MISSION%201st%20Remake_13250.webp"
+  },
+  {
+    "nome": "TRANSFORMERS: Galactic Trials",
+    "formato": "NSP",
+    "peso": "3.5GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Nl,Pr,Zh",
+    "link": "https://t.me/c/2332511567/13314",
+    "message_id": 13314,
+    "data": "2026-11-23 19:46:31",
+    "edit_date": "2026-11-23 19:46:35",
+    "testo_completo": "Nome: TRANSFORMERS: Galactic Trials\nFormato: NSP\nPeso: 3.5GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Nl,Pr,Zh\nVersione: 1.0.1\n⚙️ FIRMWARE RICHIESTO\nBase: 18.1.0\nUpdate: 18.1.0\nPrezzo: €39,99\nUscita: 11/",
+    "cover_local": "nromsdb/covers/switch_TRANSFORMERS Galactic Trials_13314.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_TRANSFORMERS%20Galactic%20Trials_13314.webp"
+  },
+  {
+    "nome": "Redemption Reapers",
+    "formato": "NSP",
+    "peso": "7.7GB",
+    "regione": "🇪🇺",
+    "lingue": "De,En,Es,Fr,It,Jp,Ko,Pr,Ru,Zh",
+    "link": "https://t.me/c/2332511567/13308",
+    "message_id": 13308,
+    "data": "2026-11-23 19:34:59",
+    "edit_date": "2026-11-23 19:35:02",
+    "testo_completo": "Nome: Redemption Reapers\nFormato: NSP\nPeso: 7.7GB\nRegione: 🇪🇺\nLingue: De,En,Es,Fr,It,Jp,Ko,Pr,Ru,Zh\nVersione: 1.4.0\n⚙️ FIRMWARE RICHIESTO\nBase: 15.0.1\nUpdate: 16.0.2\nPrezzo: €29,99\nUscita: 22/02/2023\n",
+    "cover_local": "nromsdb/covers/switch_Redemption Reapers_13308.webp",
+    "cover_url": "https://raw.githubusercontent.com/Zeyroxx03/nromsdb/main/covers/switch_Redemption%20Reapers_13308.webp"
   }
 ]
